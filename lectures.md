@@ -30,6 +30,7 @@ All Lectures are Wed/Fri 1:00-4:00 pm in TATA 2501 (<a href="https://goo.gl/maps
 |  18 | Fri 03/08/19 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine. <br> **N.B.** Find a gene assignment due before next class!                                                                              |
 |  19 | Wed 03/13/19 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due!**                                                                                                                                                                                                                                                                                                                            |
 |  20 | Fri 03/15/19 | [**Final exam!**](#20)                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|  21 | Fri 03/15/19 | [**Bonus: Bioinformatics & Genomics in industry**](#21) <br> Open ended discussion with leading industry based genomic scientists. Come prepared for networking and to have your questions about industry careers in Bioinformatics and Genomics answered!                                                                                                                                                                                                                                                                                               |
 
 Class material
 ==============
@@ -88,7 +89,7 @@ Some basic bioinformatics can be done online or with downloaded tools. However, 
 {:.message}  
 
 
-<hr>
+
 ------------------------------------------------------------------------
 
 <a name="2"></a>
@@ -292,7 +293,7 @@ Practical considerations and best practices for the analysis of high dimensional
 
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-8-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-8-bggn213_small.pdf){:.no-push-state}
-- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-8-bggn213/){:.no-push-state}  
+- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-8-bggn213.html){:.no-push-state}  
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}, [expression.csv]({{ site.baseurl }}/class-material/expression.csv){:.no-push-state}.   
 - [Introduction to PCA site](http://setosa.io/ev/principal-component-analysis/){:.no-push-state}. 
 - Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/iUxLViEUonI3zAzm1){:.no-push-state}.  
@@ -651,3 +652,12 @@ Please remember to:
 - No talking or communication (electronic to otherwise) with your fellow students once the exam has begun.
 - **Good luck!**  
 
+
+------------------------------------------------------------------------
+
+<a name="21"></a>
+
+21: Bonus: Bioinformatics & Genomics in industry
+---------------
+
+Friday March 15th at 1pm come and enjoy a set of short open ended guest lectures from leading genomic scientists at Illumina Inc., Synthetic Genomics Inc., Samumed and the La Jolla Institute for Allergy and Immunology. Come prepared for networking and to have your questions about industry careers in Bioinformatics and Genomics answered.  
