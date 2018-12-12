@@ -261,7 +261,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-7-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-7-bggn213_small.pdf){:.no-push-state}
-- **T0 UPDATE** [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1CDncv0mPBHoXpkQds0lD40sX32vM9EE_P01AG2MwzKo/edit?usp=sharing){:.no-push-state},    
+- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1siG99DgRaw15YS5zAAPftoCU0XwY8MrNXUL2joyfDyo/edit?usp=sharing){:.no-push-state},    
 - Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/LHI8L0QYVXChcNw02){:.no-push-state}.  
 
 
@@ -531,9 +531,6 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 **Topics**: Data summary statistics; Inferential statistics; Significance testing; Two sample T-test in R; Power analysis in R; Multiple testing correction; and almost everything you wanted to know about Principal Component Analysis (PCA) but were afraid to ask! Extensive R examples and applications.
 
-**Goals**:
-- To Be Updated
-
 
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-16-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-16-bggn213_small.pdf){:.no-push-state}
@@ -587,12 +584,6 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 **N.B.** Find a gene assignment due before next class!  
 
-
-**Goals**:
-- Update
-- Update
-- Update
-- Update
 
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-18-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-18-bggn213_small.pdf){:.no-push-state}
