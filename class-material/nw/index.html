@@ -1,0 +1,192 @@
+<html>
+<head>
+    <title>Interactive demo for Needleman–Wunsch algorithm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="HandheldFriendly" content="True">
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="GridBuilder.js"></script>
+</head>
+
+<script>
+function restart(){
+    clear();
+   GridBuilder.highlightOptimal();
+}
+
+function clear(){
+    var cont = $('#cont');
+    var resultContainer = $('#result');
+    var matchScore = parseInt($('#matchScore').val());
+    var mismatchScore = parseInt($('#mismatchScore').val());
+    var gapScore = parseInt($('#gapScore').val());
+    var seqSide = $('#seq_1').val();
+    var seqTop = $('#seq_2').val();
+    
+    GridBuilder.rebuildTable(cont, resultContainer, matchScore, mismatchScore, gapScore, seqSide, seqTop);
+}
+
+$(document).ready(function(){
+
+   
+   
+    restart();
+    /*
+    var ids = ["9_9", "9_8", "9_7", "8_6", "7_6", "6_5", "5_4", "5_3", "4_2", "3_2", "2_2", "1_1"];
+    var ids = ["9_10", "9_9", "8_8", "7_7", "6_6", "5_5", "4_4", "3_4", "2_3", "1_2"];
+    var ids = ["9_9", "9_8", "8_7", "7_6", "6_5", "5_4", "4_3", "3_3", "2_2", "1_1"];
+    for(idx in ids){
+        $('#' + ids[idx]).click();
+    }
+    */
+    
+    $('.seq').keyup(function(){
+        restart();
+    });
+   
+   $('.params').change(function(){
+        restart();
+    });
+    
+    $('.btn-clear').click(function(){
+        clear();
+    });
+
+    $('.btn-compute').click(function(){
+        restart();
+    });
+
+    $('.btn-custom').click(function(){
+        GridBuilder.startCustomPath();
+    });
+
+});
+
+</script>
+
+
+<style> 
+h1, .h1 {
+    margin-top: 50px;
+}
+h2, .h2, h3, .h3 {
+    margin-top: 30px;
+}
+body{
+  font-size: 12pt;
+   padding: 5px 5px 5px 15px;
+}
+.regular {
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+}
+.q_box { 
+  display: block;
+  border: 1px solid White; 
+  border-radius: 8px;
+    width: 100%;
+    left: 6px;
+    padding: 5px 5px 5px 15px;
+    color: Red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.image-left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+.image-right {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+details {
+    display: block;
+    color: Green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+}
+label {
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+}
+
+</style> 
+
+
+<div class="regular">
+<h2>Global Alignment App</h2>
+
+<p>
+Here we present an interactive example of the Needleman-Wunsch global alignment algorithm from <a href="http://thegrantlab.org/bggn213/">BGGN-213 <b>Class 2</b></a>. The purpose of this app is to visually illustrate how the <b>alignment matrix</b> is constructed and how the Needleman-Wunsch dynamic programing algorithm fills this matrix based on user defined <b>Match</b>, <b>Mismatch</b> and <b>Gap Scores</b>.  Note that for improving your understanding of this algorithm there is no substitute for working this out for yourself with pen and paper as we did on the white-board together in class!
+</p>
+
+<div class="q_box">
+<p>
+ Experiment by changing the various <b>Scores</b>, altering the two <b>Sequences</b> and noting how the alignment matrix values, <b>trace back alignment path</b> (in red), and overall <b>alignment score</b> change.  
+
+<details>
+  <summary><b>Details</b>:</summary>
+ Mousing over the matrix itself will show you how the individual values are calculated (based on the highlighted scores in the previous 3 cells of the matrix) and how different paths through the matrix translate into the final alignment. Finally, you can also construct a <b>'Custom Path'</b> through the matrix by selecting the 'Custom Path' button and clicking on a connected series individual matrix cells to see how your <b>trace back path</b> through the matrix translates into a particular alignment with various path dependent <b>matches</b>, <b>mismatches</b> and <b>gaps</b>.
+</details>
+
+</p>
+</div>
+
+</div>
+
+
+
+<table>
+  <tr>
+    <td><label>Sequence 1</label></td>
+    <td colspan="4"><input id="seq_1" class='seq' value="GATTACA" maxlength="20" /></label></td>
+    <td rowspan="10" id="result"></td>
+  </tr>
+  <tr>
+    <td><label>Sequence 2</label></td>
+    <td colspan="4"><input id="seq_2" class='seq' value="GTCGACGCA" maxlength="20" /></td>
+  </tr>
+<tr>
+    <td colspan="4">
+       <br />
+    </td></tr>
+
+  <tr colspan="4">
+    <th><label>Match Score</label></th>
+    <th><label>Mismatch Score</label></th>
+    <th><label>Gap Score</label></th>
+  </tr>
+  <tr>
+    <td><input class="params" id="matchScore" type="number" value="1" /></td>
+    <td><input class="params" id="mismatchScore" type="number" value="-1" /></td>
+    <td><input class="params" id="gapScore" type="number" value="-2" /></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <button class="btn-compute">Compute Optimal Alignment</button>
+      <button class="btn-clear">Clear Path</button>
+      <button class="btn-custom">Custom Path</button>
+
+  </tr>
+</table>
+
+<br \>
+<br \>
+
+<div id="cont"></div>
+
+
+<br \>
+
+<details>
+  <summary><b>Reference</b>:</summary>
+  See the lecture and hands-on session for class 2 for a full discussion of Global, Local, and various Heuristic approaches to biomolecular sequence alignment. <br \> <a href="http://thegrantlab.org/">Barry J Grant</a>.
+</details>
+
+<br \>
+
+</body>
+</html>
