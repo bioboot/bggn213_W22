@@ -41,7 +41,7 @@ Lectures are on Wednesday and Friday at 1:00 - 4:00 pm in TATA 2501 [Map](https:
 All announcements regarding the course will be by email to your UCSD address.  
 
 ## Office hours & location:  
-Office hours time and location will be determined by student polling during the first week of class. For now email and we will make it happen.          
+Office hours time and location will be determined by [student polling](https://doodle.com/poll/6zkgw3866rwbfpb4) during the first week of class. For other times email and we will make it happen.          
 
 From week 3 onward Barry will hold an additional informal office hour on Thursdays from 1-2pm at the Mandeville coffee cart (a.k.a. Art of Espresso) [Map](https://goo.gl/maps/ZecfgoF8qas){:.no-push-state}.  
 
