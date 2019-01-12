@@ -34,16 +34,17 @@ All students who receive a passing grade should be able to:
 | 7 | Use existing programs at the UNIX command line to analyze bioinformatics data. | 7, 10, 11, 13, 14, 15, 16 |
 | 8 | Use R to read and parse comma-separated (.csv) formatted files ready for subsequent analysis. | 8, 9, 10, 11, 13, 15, 16 |
 | 9 | Perform elementary statistical analysis on biomolecular and "omics" datasets with R and produce informative graphical displays and data summaries. | 9, 10, 11, 13, 15, 16 |
-| 10 | View and interpret the structural models in the PDB. | 10, 11 |
-| 11 | Explain the outputs from structure prediction algorithms and small molecule docking approaches. | 11 |
-| 12 | Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible. |  13, 14, 15 |
-| 13 | Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation. |  13 |
-| 14 | For a genomic region of interest (e.g. the neighborhood of a particular gene), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.| 14 |
-| 15 | Given an RNA-Seq data file, find the set of significantly differentially expressed genes and use online tools to interpret gene lists and annotate potential gene functions. | 15, 16 |
-| 16 | Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). | 16 |
-| 17 | Use the KEGG pathway database to look up interaction pathways. | 17 |
-| 18 | Use graph theory to represent biological data networks. | 17, 18 |
-| 19 | Understand the challenges in integrating and interpreting large heterogenous high throughput data sets into their functional context. | 19 |
-| 20 | Have an appreciation for the social impacts and ethical implications of how genomic sequence information is used in our society | 20 |
+| 10 | Be able to find, install and use R packages from CRAN, Bioconductor and GitHub. | 7, 11-17 |
+| 11 | View and interpret the structural models in the PDB. | 10, 11 |
+| 12 | Explain the outputs from structure prediction algorithms and small molecule docking approaches. | 11 |
+| 13 | Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible. |  13, 14, 15 |
+| 14 | Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation. |  13 |
+| 15 | For a genomic region of interest (e.g. the neighborhood of a particular gene), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.| 14 |
+| 16 | Given an RNA-Seq data file, find the set of significantly differentially expressed genes and use online tools to interpret gene lists and annotate potential gene functions. | 15, 16 |
+| 17 | Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). | 16 |
+| 18 | Use the KEGG pathway database to look up interaction pathways. | 17 |
+| 19 | Use graph theory to represent biological data networks. | 17, 18 |
+| 20 | Understand the challenges in integrating and interpreting large heterogenous high throughput data sets into their functional context. | 19 |
+| 21 | Have an appreciation for the social impacts and ethical implications of how genomic sequence information is used in our society | 20 |
 
 
