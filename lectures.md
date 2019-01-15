@@ -152,7 +152,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 
 **Homework**:   
-- DataCamp Sign Up: [See your UCSD email invite!](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/){:.no-push-state},  
+- DataCamp Sign Up: [See your UCSD email invite!](https://www.datacamp.com/enterprise/bioinformatics-bggn213){:.no-push-state},  
 - [RStudio and R download and setup]({{ site.baseurl }}/setup/).  
 
 
@@ -180,7 +180,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/0ZILA8Y4yb30LL1q2){:.no-push-state}
 
 **Homework**:   
-- DataCamp course: [Introduction to R](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state}.    
+- DataCamp course: [Introduction to R](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state}.    
 
 
 
@@ -211,9 +211,9 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 
 **Homework**:
-- This units homework is all [via **DataCamp** (see lecture 4 above)](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state},   
-- DataCamp course: [Working with the RStudio IDE](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state},    
-- DataCamp chapter: [Functions](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state}.    
+- This units homework is all [via **DataCamp** (see lecture 4 above)](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state},   
+- DataCamp course: [Working with the RStudio IDE](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state},    
+- DataCamp chapter: [Functions](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state}.    
 
 
 
@@ -240,9 +240,9 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 **Homework**:
 - See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **next week!**).    
-- DataCamp chapter: [Functions](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state},  
-- DataCamp chapter: [Conditionals and Control Flow](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state},  
-- DataCamp chapter: [Loops](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state}. 
+- DataCamp chapter: [Functions](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state},  
+- DataCamp chapter: [Conditionals and Control Flow](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state},  
+- DataCamp chapter: [Loops](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state}. 
 
 
 ------------------------------------------------------------------------
@@ -268,8 +268,8 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 **Homework**:
 - See **Q6** of the [hands-on lab sheet from the previous class]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **next class!**).    
-- DataCamp chapter: [The apply family](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state},  
-- DataCamp [chapter: Loops](https://www.datacamp.com/enterprise/bimm143_f18-bioinformatics/assignments){:.no-push-state}. 
+- DataCamp chapter: [The apply family](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state},  
+- DataCamp [chapter: Loops](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state}. 
  
 
 ------------------------------------------------------------------------
