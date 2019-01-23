@@ -180,7 +180,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/0ZILA8Y4yb30LL1q2){:.no-push-state}
 
 **Homework**:   
-- DataCamp course: [Introduction to R](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state}.    
+- DataCamp course: [Introduction to R](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state}.  
 
 
 
@@ -206,7 +206,8 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Rmarkdown documents for [plot session 1]({{ site.baseurl }}/class-material/lecture-5-bggn213-draw_circle_points/){:.no-push-state}, and [more advanced plots]({{ site.baseurl }}/class-material/lecture-5-bggn213-plots/){:.no-push-state},  
 - Lab: [Section 4 PDF suplement]({{ site.baseurl }}/class-material/lecture5-BGGN213_lab.pdf){:.no-push-state}, 
 - Example data for hands-on sections  [lecture-5-bggn213-rstats.zip]({{ site.baseurl }}/class-material/lecture-5-bggn213-rstats.zip){:.no-push-state}, 
-- SideNote: [Convincing with graphics](https://xkcd.com/833/){:.no-push-state},  
+- SideNote: [Convincing with graphics](https://xkcd.com/833/){:.no-push-state}, 
+- Check-out the new website: [Data-to-Viz](https://www.data-to-viz.com/){:.no-push-state},   
 - Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/qIW4O4PUoixTzy7J2){:.no-push-state}.  
 
 
