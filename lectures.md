@@ -204,7 +204,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-5-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-5-bggn213_small.pdf){:.no-push-state}
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-5-bggn213.html){:.no-push-state}
 - Rmarkdown documents for [plot session 1]({{ site.baseurl }}/class-material/lecture-5-bggn213-draw_circle_points/){:.no-push-state}, and [more advanced plots]({{ site.baseurl }}/class-material/lecture-5-bggn213-plots/){:.no-push-state},  
-- Lab: **T0 UPDATE** [PDF suplement]({{ site.baseurl }}/class-material/lecture5-BIMM143_lab.pdf){:.no-push-state}, 
+- Lab: [Section 4 PDF suplement]({{ site.baseurl }}/class-material/lecture5-BGGN213_lab.pdf){:.no-push-state}, 
 - Example data for hands-on sections  [lecture-5-bggn213-rstats.zip]({{ site.baseurl }}/class-material/lecture-5-bggn213-rstats.zip){:.no-push-state}, 
 - SideNote: [Convincing with graphics](https://xkcd.com/833/){:.no-push-state},  
 - Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/qIW4O4PUoixTzy7J2){:.no-push-state}.  
@@ -213,7 +213,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 **Homework**:
 - This units homework is all [via **DataCamp** (see lecture 4 above)](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state},   
 - DataCamp course: [Working with the RStudio IDE](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state},    
-- DataCamp chapter: [Functions](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state}.    
+- DataCamp chapters: [Loops, Functions, Conditionals and Control Flow](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state}.    
 
 
 
