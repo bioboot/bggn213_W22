@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}.ng-hide-add-active,.ng-hide-remove{display:block!important;}</style>
+    <meta name="viewport" content="width=1100">
+    <meta charset="utf-8">
+    <script src="pca_part1/d3.js" charset="utf-8"></script>
+    <script src="pca_part1/angular.js" charset="utf-8"></script>
+    <script src="pca_part1/common.js" charset="utf-8"></script>
+    <link href="pca_part1/css.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="pca_part1/style.css" type="text/css">
+    <title>PCA Introduction Part 1.</title>
+    <link rel="stylesheet" href="pca_part1/style_002.css" type="text/css">
+    <script type="text/javascript" async="" src="pca_part1/embed.js"></script>
+    <script charset="utf-8" src="pca_part1/button.js"></script>
+    <link rel="prefetch" as="style" href="pca_part1/a_data_002/lounge.css">
+    <link rel="prefetch" as="script" href="pca_part1/a_data_002/common.js">
+    <link rel="prefetch" as="script" href="pca_part1/a_data_002/lounge.js">
+    <link rel="prefetch" as="script" href="pca_part1/a_data_002/config.js">
+  </head>
+
+  <body ng-app="myApp" ng-controller="MainCtrl" class="ng-scope">
+    <section class="title">
+      <div class="title-region">
+        <h1 class="title"><a href="http://thegrantlab.org/bggn213/">BGGN213</a>: Introduction to Principal Component Analysis (Part 1)</h1>
+        <h3 class="by-line">By <a href="http://thegrantlab.org/">Barry Grant</a></h3>
+
+      </div>
+        <script type="text/javascript">
+          !function(d,s,id) {
+            var js
+              , fjs = d.getElementsByTagName(s)[0]
+              , p = /^http:/.test(d.location) ? 'http' : 'https';
+            if(!d.getElementById(id)) {
+              js = d.createElement(s);
+              js.id = id;
+              js.src = p + '://platform.twitter.com/widgets.js';
+              fjs.parentNode.insertBefore(js,fjs);
+            }
+          }(document, 'script', 'twitter-wjs');
+
+        </script>
+      </div>
+      <p>Principal component analysis (PCA) is a well established "multivariate statistical technique" used to reduce the dimensionality of a complex data set to a more manageable number (typically 2D or 3D).
+        This method is particularly useful for highlighting strong paterns and relationships in large datasets (i.e. revealing major similarities and diferences) that are otherwise hard to visualize.
+        As we will see again and again in this course PCA is often used to make all sorts of bioinformatics data easy to explore and visualize.</p>
+
+      <h1>2D example</h1>
+      <p>First, consider a dataset in only two dimensions, like (height,
+ weight). This dataset can be plotted as points in a plane. But if we
+want to tease out variation, PCA finds a new coordinate system in which
+every point has a new (x,y) value. The axes don't actually mean anything
+ physical; they're combinations of height and weight called "principal
+components" that are chosen to give one axes lots of variation.</p>
+      <p>Drag the points around in the following visualization to see how the PC coordinate system (our new axis) adjusts.</p>
+
+      <div style="text-align: center; width: 100%">
+        <pca-d2>
+        </pca-d2>
+      </div>
+      <div style="text-align: center; width: 100%">
+        <div style="width: 50%; float: left;padding: 0px 20px 0 20px; text-align: left"><p>PCA
+ is useful for eliminating dimensions. Below, we've plotted the data
+along a pair of lines: one composed of the x-values and another of the
+y-values.</p>
+
+        </div>
+        <div style="width: 50%; float: left;padding: 0px 20px 0 20px;text-align: left">
+          <p>If we're going to only see the data along one dimension,
+though, it might be better to make that dimension the principal
+component with most variation. We don't lose much by dropping <span style="color:#2ecc71">PC2 </span>since it contributes the least to the variation in the data set.</p>
+        </div>
+        <pca-d1>
+        </pca-d1>
+      </div>
+    </section>
+    <section>
+      <h1>3D example</h1>
+      <p>With more dimensions, PCA is more useful. Even with 3 dimensions it can be hard to
+ see through a "cloud" of data. In the example below, the original data
+are plotted in 3D, but you can project the data into 2D through a
+transformation no different than finding a camera angle: rotate the axes
+ to find the best angle. To see the "official" PCA transformation, click
+ the "Show PCA" button. The PCA transformation ensures that the
+horizontal axis PC1 has the most variation, the vertical axis PC2 the
+second-most, and a third axis PC3 the least. Obviously, PC3 is the one
+we drop.</p>
+      <pca-three-plot rot="rotXY" class="ng-isolate-scope" style="position: relative; display: block; width: 1000px; height: 350px;"><div style="margin-left: 0px; position: absolute; width: 333px; height: 333px; display: block;"><canvas width="333" height="333" style="width: 333px; height: 333px;"></canvas></div><div style="margin-left: 333px; position: absolute; width: 333px; height: 333px; display: block;"><canvas width="333" height="333" style="width: 333px; height: 333px; cursor: move;"></canvas><svg style="position: absolute; top: 0px; left: 0px; pointer-events: none;"><g transform="translate(0,293)" style="shape-rendering: crispedges; font-size: 12px;"><g class="tick" style="opacity: 1;" transform="translate(40,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">-10</text></g><g class="tick" style="opacity: 1;" transform="translate(103.25,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">-5</text></g><g class="tick" style="opacity: 1;" transform="translate(166.5,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">0</text></g><g class="tick" style="opacity: 1;" transform="translate(229.75,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">5</text></g><g class="tick" style="opacity: 1;" transform="translate(293,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">10</text></g><path class="domain" d="M40,6V0H293V6" style="fill: none; stroke: rgb(231, 76, 60);"></path><text transform="translate(166.5,35)" text-anchor="middle" style="fill: rgb(231, 76, 60);">pc1</text></g><g transform="translate(40,0)" style="shape-rendering: crispedges; font-size: 12px;"><g class="tick" style="opacity: 1;" transform="translate(0,293)"><line x2="-6" y2="0" style="fill: none; stroke: black;"></line><text x="-9" y="0" dy=".32em" style="text-anchor: end;">-10</text></g><g class="tick" style="opacity: 1;" transform="translate(0,229.75)"><line x2="-6" y2="0" style="fill: none; stroke: black;"></line><text x="-9" y="0" dy=".32em" style="text-anchor: end;">-5</text></g><g class="tick" style="opacity: 1;" transform="translate(0,166.5)"><line x2="-6" y2="0" style="fill: none; stroke: black;"></line><text x="-9" y="0" dy=".32em" style="text-anchor: end;">0</text></g><g class="tick" style="opacity: 1;" transform="translate(0,103.25)"><line x2="-6" y2="0" style="fill: none; stroke: black;"></line><text x="-9" y="0" dy=".32em" style="text-anchor: end;">5</text></g><g class="tick" style="opacity: 1;" transform="translate(0,40)"><line x2="-6" y2="0" style="fill: none; stroke: black;"></line><text x="-9" y="0" dy=".32em" style="text-anchor: end;">10</text></g><path class="domain" d="M-6,40H0V293H-6" style="fill: none; stroke: rgb(46, 204, 113);"></path><text transform="translate(-30,166.5)" style="text-anchor: middle; fill: rgb(46, 204, 113);">pc2</text></g><g><line x1="40" y1="40" x2="40" y2="293" style="stroke-width: 1; stroke: rgba(0, 0, 0, 0.1); shape-rendering: crispedges;"></line><line x1="103.25" y1="40" x2="103.25" y2="293" style="stroke-width: 1; stroke: rgba(0, 0, 0, 0.1); shape-rendering: crispedges;"></line><line x1="166.5" y1="40" x2="166.5" y2="293" style="stroke-width: 1; stroke: rgba(0, 0, 0, 0.1); shape-rendering: crispedges;"></line><line x1="229.75" y1="40" x2="229.75" y2="293" style="stroke-width: 1; stroke: rgba(0, 0, 0, 0.1); shape-rendering: crispedges;"></line><line x1="293" y1="40" x2="293" y2="293" style="stroke-width: 1; stroke: rgba(0, 0, 0, 0.1); shape-rendering: crispedges;"></line></g><g><line x1="40" y1="293" x2="293" y2="293" style="stroke-width: 1; stroke: rgba(0, 0, 0, 0.1); shape-rendering: crispedges;"></line><line x1="40" y1="229.75" x2="293" y2="229.75" style="stroke-width: 1; stroke: rgba(0, 0, 0, 0.1); shape-rendering: crispedges;"></line><line x1="40" y1="166.5" x2="293" y2="166.5" style="stroke-width: 1; stroke: rgba(0, 0, 0, 0.1); shape-rendering: crispedges;"></line><line x1="40" y1="103.25" x2="293" y2="103.25" style="stroke-width: 1; stroke: rgba(0, 0, 0, 0.1); shape-rendering: crispedges;"></line><line x1="40" y1="40" x2="293" y2="40" style="stroke-width: 1; stroke: rgba(0, 0, 0, 0.1); shape-rendering: crispedges;"></line></g></svg></div><svg width="333" height="333" style="position: absolute; right: 0px; top: 0px;"><g><g transform="translate(0,27.75)" style="shape-rendering: crispedges; font-size: 12px;"><g class="tick" style="opacity: 1;" transform="translate(40,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">-10</text></g><g class="tick" style="opacity: 1;" transform="translate(103.25,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">-5</text></g><g class="tick" style="opacity: 1;" transform="translate(166.5,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">0</text></g><g class="tick" style="opacity: 1;" transform="translate(229.75,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">5</text></g><g class="tick" style="opacity: 1;" transform="translate(293,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">10</text></g><path class="domain" d="M40,6V0H293V6" style="fill: none; stroke: black;"></path><text style="text-anchor: end; fill: inherit;" transform="translate(30,5)">x</text></g><g transform="translate(0,74)" style="shape-rendering: crispedges; font-size: 12px;"><g class="tick" style="opacity: 1;" transform="translate(40,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">-10</text></g><g class="tick" style="opacity: 1;" transform="translate(103.25,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">-5</text></g><g class="tick" style="opacity: 1;" transform="translate(166.5,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">0</text></g><g class="tick" style="opacity: 1;" transform="translate(229.75,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">5</text></g><g class="tick" style="opacity: 1;" transform="translate(293,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">10</text></g><path class="domain" d="M40,6V0H293V6" style="fill: none; stroke: black;"></path><text style="text-anchor: end; fill: inherit;" transform="translate(30,5)">y</text></g><g transform="translate(0,120.25)" style="shape-rendering: crispedges; font-size: 12px;"><g class="tick" style="opacity: 1;" transform="translate(40,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">-10</text></g><g class="tick" style="opacity: 1;" transform="translate(103.25,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">-5</text></g><g class="tick" style="opacity: 1;" transform="translate(166.5,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">0</text></g><g class="tick" style="opacity: 1;" transform="translate(229.75,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">5</text></g><g class="tick" style="opacity: 1;" transform="translate(293,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">10</text></g><path class="domain" d="M40,6V0H293V6" style="fill: none; stroke: black;"></path><text style="text-anchor: end; fill: inherit;" transform="translate(30,5)">z</text></g><g transform="translate(0,212.75)" style="shape-rendering: crispedges; font-size: 12px;"><g class="tick" style="opacity: 1;" transform="translate(40,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">-10</text></g><g class="tick" style="opacity: 1;" transform="translate(103.25,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">-5</text></g><g class="tick" style="opacity: 1;" transform="translate(166.5,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">0</text></g><g class="tick" style="opacity: 1;" transform="translate(229.75,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">5</text></g><g class="tick" style="opacity: 1;" transform="translate(293,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">10</text></g><path class="domain" d="M40,6V0H293V6" style="fill: none; stroke: rgb(231, 76, 60);"></path><text style="text-anchor: end; fill: rgb(231, 76, 60);" transform="translate(30,5)">pc1</text></g><g transform="translate(0,259)" style="shape-rendering: crispedges; font-size: 12px;"><g class="tick" style="opacity: 1;" transform="translate(40,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">-10</text></g><g class="tick" style="opacity: 1;" transform="translate(103.25,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">-5</text></g><g class="tick" style="opacity: 1;" transform="translate(166.5,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">0</text></g><g class="tick" style="opacity: 1;" transform="translate(229.75,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">5</text></g><g class="tick" style="opacity: 1;" transform="translate(293,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">10</text></g><path class="domain" d="M40,6V0H293V6" style="fill: none; stroke: rgb(46, 204, 113);"></path><text style="text-anchor: end; fill: rgb(46, 204, 113);" transform="translate(30,5)">pc2</text></g><g transform="translate(0,305.25)" style="shape-rendering: crispedges; font-size: 12px;"><g class="tick" style="opacity: 1;" transform="translate(40,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">-10</text></g><g class="tick" style="opacity: 1;" transform="translate(103.25,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">-5</text></g><g class="tick" style="opacity: 1;" transform="translate(166.5,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">0</text></g><g class="tick" style="opacity: 1;" transform="translate(229.75,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">5</text></g><g class="tick" style="opacity: 1;" transform="translate(293,0)"><line y2="6" x2="0" style="fill: none; stroke: black;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle;">10</text></g><path class="domain" d="M40,6V0H293V6" style="fill: none; stroke: rgb(52, 152, 219);"></path><text style="text-anchor: end; fill: rgb(52, 152, 219);" transform="translate(30,5)">pc3</text></g></g></svg><canvas width="333" height="333" style="position: absolute; top: 0px; right: 0px; pointer-events: none;"></canvas></pca-three-plot>
+      <div style="text-align: center">
+        <button ng-click="showPCAThree()" class="btn">show PCA</button>
+        <button ng-click="resetPCAThree()" class="btn">reset</button>
+      </div>
+    </section>
+    <section>
+      <h1>Eating in the UK (a 17D example)</h1>
+      <div style="text-align: left; width: 40%; display: block; float: left; clear: both"><small>Original example from Mark Richardson's class notes <a href="http://people.maths.ox.ac.uk/richardsonm/SignalProcPCA.pdf">Principal Component Analysis</a></small>
+        <p>What if our data have a few more dimensions? Like, <b>17</b>
+ dimensions?! In the table is the average consumption of 17 types of
+food in grams per person per week for every country in the UK. We will learn more about this data and analyze it ourselves in R in <a href="https://bioboot.github.io/bggn213_W19/class-material/lab-8-bggn213.html">Part 2</a>. </p>
+        <p>The table shows some interesting variations across different
+food types, but overall differences aren't so notable even for this relatively small 17 dimensional dataset. Let's see if PCA
+can eliminate dimensions to more clearly highlight how countries differ.</p>
+      </div>
+      <div style="text-align: center; width: 60%; display: block; float: left">
+        <defra-table>
+
+        </defra-table>
+      </div>
+      <div style="clear:both"></div>
+      <p>Here's the plot of the data along the first principal
+component. Already we can see something is different about Northern
+Ireland.</p>
+      <div style="text-align: center; width: 100%; display: block;">
+        <defra-d1 style="width: 500px; height: 75px;">
+        </defra-d1>
+      </div>
+      <p>Now, see the first and second principal components, we see
+Northern Ireland a major outlier. Once we go back and look at the data
+in the table, this makes sense: the Northern Irish eat way more grams of
+ fresh potatoes and way fewer of fresh fruits, cheese, fish and
+alcoholic drinks. It's a good sign that structure we've visualized
+reflects a big fact of real-world geography: Northern Ireland is the
+only of the four countries not on the island of Great Britain. (If
+you're confused about the differences among England, the UK and Great
+Britain, see: <a href="https://www.youtube.com/watch?v=rNu8XDBSn10">this video</a>.)</p><br><br>
+      <div style="text-align: center; width: 100%; display: block;">
+        <defra-d2 style="width: 500px; height: 300px;">
+        </defra-d2>
+      </div><br><br>
+    </section>
+
+    <p>This is the end of Part 1. Next we will continue our introduction to PCA
+      with some lecture material from Barry and then in <a href="https://bioboot.github.io/bggn213_W19/class-material/lab-8-bggn213.html">Part 2</a> we will examine some real life 
+      multivariate data in order to explain, in simple terms, what PCA achieves.
+      We will perform a principal component analysis of several different data sets
+      including RNA-Seq and proteomics data and examine the results.</p>
+      <br><br>
+
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-11200159-16', 'setosa.io');
+      ga('send', 'pageview');
+    </script>
+
+  <script type="x-shader/x-vertex" id="vertexshader">
+    // attribute vec3 color;
+    uniform float pointSize;
+    uniform vec3 color;
+    uniform float alpha;
+    uniform int shouldResize;
+    varying vec4 vColor;
+    void main() {
+      vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);
+      if (shouldResize == 1) {
+        gl_PointSize = pointSize * ( mvPosition.z + 30.0) / 10.0 + 10.0;
+        // gl_PointSize = pointSize;
+      } else {
+        gl_PointSize = pointSize;
+      }
+      gl_Position = projectionMatrix * mvPosition;
+      if (shouldResize == 1) {
+        vColor = vec4(color, ( mvPosition.z + 30.0) / 10.0 + 0.0);
+        // vColor = vec4(color, 0.8);
+      } else {
+        vColor = vec4(color, alpha);
+      }
+    }
+
+  </script>
+  <script type="x-shader/x-fragment" id="fragmentshader">
+    varying vec4 vColor;
+    void main() {
+      float f = 0.5;
+      // vec2 pos = mod(gl_FragCoord.xy, vec2(50.0)) - vec2(25.0);
+      float d = abs(distance(gl_PointCoord - f, vec2(0.0, 0.0) ) );
+      if(d < f) {
+        gl_FragColor = vColor;
+      } else {
+        discard;
+      }
+    }
+
+
+  </script>
+  <script src="pca_part1/three.js" charset="utf-8"></script>
+  <script src="pca_part1/OrthographicTrackballControls.js" charset="utf-8"></script>
+  <script src="pca_part1/numeric.js" charset="utf-8"></script>
+  <script src="pca_part1/script.js"></script>
+<iframe scrolling="no" allowtransparency="true" src="pca_part1/widget_iframe.html" title="Twitter settings iframe" style="display: none;" frameborder="0"></iframe><iframe style="display: none;"></iframe></body></html>

@@ -295,14 +295,12 @@ Practical considerations and best practices for the analysis of high dimensional
 
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-8-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-8-bggn213_small.pdf){:.no-push-state}
-- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-8-bggn213.html){:.no-push-state}  
+- WebApp: [Introduction to PCA]({{ site.baseurl }}/class-material/pca/){:.no-push-state},  
+- Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lab-8-bggn213.html){:.no-push-state},  
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}, [expression.csv]({{ site.baseurl }}/class-material/expression.csv){:.no-push-state}.   
-- [Introduction to PCA site](http://setosa.io/ev/principal-component-analysis/){:.no-push-state}. 
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/iUxLViEUonI3zAzm1){:.no-push-state}.  
+- Feedback: [Muddy point assessment](https://docs.google.com/forms/d/e/1FAIpQLSdiQn7n6XvvRGq5AfQWaRa7G22-twFCN4bYNANCWSK09DBYZg/viewform){:.no-push-state}.  
 
 
-**Homework**:
-- **TO UPDATE** [Questions](){:.no-push-state}
 
 
 ------------------------------------------------------------------------
