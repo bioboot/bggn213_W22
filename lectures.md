@@ -319,7 +319,7 @@ Practical considerations and best practices for the analysis of high dimensional
 
 
 **Material**:
-- Lecture Slides: **To Update** [Large PDF]({{ site.baseurl }}/class-material/lecture-9-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-9-bggn213_small.pdf){:.no-push-state}
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-9-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-9-bggn213_small.pdf){:.no-push-state}
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-9-bggn213.html){:.no-push-state}
 - Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}, [new_samples.csv]({{ site.baseurl }}/class-material/new_samples.csv){:.no-push-state}.     
 - Bio3D PCA App: [http://bio3d.ucsd.edu/pca-app/](http://bio3d.ucsd.edu/pca-app/){:.no-push-state}. 
