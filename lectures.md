@@ -403,7 +403,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-12-bggn213.pdf){:.no-push-state}
 - Software download links: [AutoDock Tools](http://mgltools.scripps.edu/downloads){:.no-push-state},  [AutoDock Vina](http://vina.scripps.edu/download.html){:.no-push-state},  [VMD](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}
 - Optional backup files: [config.txt]({{ site.baseurl }}/class-material/config.txt){:.no-push-state}, [1hsg_protein.pdbqt]({{ site.baseurl }}/class-material/1hsg_protein.pdbqt){:.no-push-state}, [ligand.pdbqt]({{ site.baseurl }}/class-material/ligand.pdbqt){:.no-push-state}, [log.txt]({{ site.baseurl }}/class-material/log.txt){:.no-push-state}, [all.pdbqt]({{ site.baseurl }}/class-material/all.pdbqt){:.no-push-state}
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/pFcCQlDVzIClxI8R2){:.no-push-state}
+- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/nHmtEwJB7xaEZHua2){:.no-push-state}
 
 
 
