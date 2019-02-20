@@ -429,7 +429,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-13-bggn213.pdf){:.no-push-state}
 - RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}, [Example R script]({{ site.baseurl }}/class-material/lecture13_plot.r){:.no-push-state}, [Example Rmd](https://github.com/bioboot/test_github/blob/master/lecture13_plot.md){:.no-push-state}.
 - [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}.  
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/cr9Nxn819FDbrNtU2){:.no-push-state}
+- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/uokTiQ3YStajFVIl1){:.no-push-state}
 
 
 ## IPs     
