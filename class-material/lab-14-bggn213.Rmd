@@ -57,14 +57,14 @@ Barry Grant &lt; <http://thegrantlab.org/bggn213/> &gt;
   
 
 
-# Overiview
-The data for this hands-on session comes from a published RNA-seq experiment where airway smooth muscle cells were treated with [dexamethasone](https://en.wikipedia.org/wiki/Dexamethasone), a synthetic glucocorticoid steroid with anti-inflammatory effects ([Himes et al. 2014](http://www.ncbi.nlm.nih.gov/pubmed/24926665)). 
+# Background
+The data for this hands-on session comes from a published RNA-seq experiment where airway smooth muscle cells were treated with [dexamethasone](https://en.wikipedia.org/wiki/Dexamethasone), a synthetic **glucocorticoid steroid** with anti-inflammatory effects ([Himes et al. 2014](http://www.ncbi.nlm.nih.gov/pubmed/24926665)). 
 
 Glucocorticoids are used, for example, by people with asthma to reduce inflammation of the airways. The anti-inflammatory effects on airway smooth muscle (ASM) cells has been known for some time but the underlying molecular mechanisms are unclear. 
 
-Himes et al. used RNA-seq to profile gene expression changes in four different ASM cell lines treated with dexamethasone glucocorticoid. They found a number of differentially expressed genes comparing dexamethasone-treated to control cells, but focus much of the discussion on a gene called CRISPLD2. This gene encodes a secreted protein known to be involved in lung development, and SNPs in this gene in previous GWAS studies are associated with inhaled corticosteroid resistance and bronchodilator response in asthma patients. They confirmed the upregulated CRISPLD2 mRNA expression with qPCR and increased protein expression using Western blotting.  
+Himes et al. used RNA-seq to profile gene expression changes in four different ASM cell lines treated with dexamethasone glucocorticoid. They found a number of differentially expressed genes comparing dexamethasone-treated to control cells, but focus much of the discussion on a single gene called CRISPLD2. This gene encodes a secreted protein known to be involved in lung development, and SNPs in this gene in previous GWAS studies are associated with inhaled corticosteroid resistance and bronchodilator response in asthma patients. They confirmed the upregulated CRISPLD2 mRNA expression with qPCR and increased protein expression using Western blotting.  
 
-In the experiment, four primary human ASM cell lines were treated with 1 micromolar dexamethasone for 18 hours. For each of the four cell lines, we have a treated and an untreated sample. They did their analysis using **Tophat** and **Cufflinks** similar to our Lecture 15 hands-on session. For a more detailed description of their analysis see the [PubMed entry 24926665](http://www.ncbi.nlm.nih.gov/pubmed/24926665) and for raw data see the [GEO entry GSE52778](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE52778).  
+In the experiment, four primary human ASM cell lines were treated with 1 micromolar dexamethasone for 18 hours. For each of the four cell lines, we have a treated and an untreated sample. They did their analysis using **Tophat** and **Cufflinks** similar to our work in the last hands-on session. For a more detailed description of their analysis see the [PubMed entry 24926665](http://www.ncbi.nlm.nih.gov/pubmed/24926665) and for raw data see the [GEO entry GSE52778](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE52778).  
 
 In this session we will read and explore the  gene expression data from this experiment using base R functions and then perform a detailed analysis with the **DESeq2** package from [Bioconductor](http://www.bioconductor.org).
 
@@ -73,7 +73,7 @@ In this session we will read and explore the  gene expression data from this exp
 
 As we already noted back in [Lecture 7](https://bioboot.github.io/bggn213_W19/lectures/#7) Bioconductor is a large repository and resource for R packages that focus on analysis of high-throughput genomic data.
 
-Bioconductor packages are installed differently than "regular"" R packages from CRAN. To install the core Bioconductor packages, copy and paste the following lines of code into your R console one at a time.
+Bioconductor packages are installed differently than "regular" R packages from CRAN. To install the core Bioconductor packages, copy and paste the following lines of code into your R console one at a time.
 
 ```{r, eval=FALSE}
 source("http://bioconductor.org/biocLite.R")
@@ -85,6 +85,14 @@ biocLite("DESeq2")
 
 The entire install process can take some time as there are many packages with dependencies on other packages. For some important notes on the install process please see our [Bioconductor setup notes](https://bioboot.github.io/bggn213_W19/class-material/bioconductor_setup/). Your install process may produce some notes or other output. Generally, as long as you don’t get an error message, you’re good to move on. If you do see error messages then again please see our [Bioconductor setup notes](https://bioboot.github.io/bggn213_W19/class-material/bioconductor_setup/) for debugging steps.
 
+Check that you have installed everything correctly by closing and reopening RStudio and entering the following two commands at the console window:
+
+```{r}
+library(BiocInstaller)
+library(DESeq2)
+```
+
+If you get a message that says something like: `Error in library(BiocInstaller) : there is no package called 'BiocInstaller'`, then the required packages did not install correctly. Please see our [Bioconductor setup notes](https://bioboot.github.io/bggn213_W19/class-material/bioconductor_setup/) and let us know so we can debug this together.  
 
 
 ## Side-note: Aligning reads to a reference genome
@@ -116,10 +124,10 @@ For the sample metadata (i.e. `colData` in DESeq2-speak) samples are in rows and
 > **Note from the DESeq2 vignette:** The values in the input contData object should be counts of sequencing reads/fragments. This is important for DESeq2’s statistical model to hold, as only counts allow assessing the measurement precision correctly. It is important to never provide counts that were pre-normalized for sequencing depth/library size, as the statistical model is most powerful when applied to un-normalized counts, and is designed to account for library size differences internally.  
 
 
-# 2. Import countData and colData into R
-First, create a new RStudio project (File > New Project > New Directory > New Project) and download the input [airway_scaledcounts.csv](https://bioboot.github.io/bimm143_W18/class-material/airway_scaledcounts.csv) and [airway_metadata.csv](https://bioboot.github.io/bimm143_W18/class-material/airway_metadata.csv) into a new `data` sub-directory of your project directory.
+# 2. Import countData and colData
+First, create a new RStudio project in your GitHub tracked directory (File > New Project > New Directory > New Project) and download the input [airway_scaledcounts.csv](https://bioboot.github.io/bimm143_W18/class-material/airway_scaledcounts.csv) and [airway_metadata.csv](https://bioboot.github.io/bimm143_W18/class-material/airway_metadata.csv) into a new `data` sub-directory of your project directory.
 
-Begin a new R script and use the **read.csv()** function to read these count data and metadata files.
+Begin a new Rmarkdown document and use the **read.csv()** function to read these count data and metadata files.
 
 ```{r}
 counts <- read.csv("data/airway_scaledcounts.csv", stringsAsFactors = FALSE)
@@ -153,10 +161,11 @@ control.mean <- rowSums( counts[ ,control$id] )/4
 names(control.mean) <- counts$ensgene
 ```
 
-
+<div class="q_box">
 > **Q1**. How would you make the above code more robust? What would happen if you were to add more samples. Would the values obtained with the excat code above be correct?
 
 > **Q2**. Follow the same procedure for the `treated` samples (i.e. calculate the mean per gene accross drug treated samples and assign to a labeled vector called `treated.mean`)
+</div>
 
 ```{r, echo=FALSE}
 ## ***Hide code***
@@ -177,7 +186,9 @@ Directly comparing the raw counts is going to be problematic if we just happened
 colSums(meancounts)
 ```
 
+<div class="q_box">
 > **Q3**. Create a scatter plot showing the mean of the treated samples against the mean of the control samples. Your plot should look something like the following.
+</div>
 
 ```{r, echo=FALSE}
 plot(meancounts[,1],meancounts[,2], xlab="Control", ylab="Treated")
@@ -210,7 +221,9 @@ mycounts <- meancounts[-to.rm,]
 head(mycounts)
 ```
 
+<div class="q_box">
 >**Q4**. What is the purpose of the `arr.ind` argument in the **which()** function call above? Why would we then take the first column of the output and need to call the **unique()** function?
+</div>
 
 A common threshold used for calling something differentially expressed is a log2(FoldChange) of greater than 2 or less than -2. Let’s filter the dataset both ways to see how many genes are up or down-regulated.
 
@@ -219,7 +232,9 @@ up.ind <- mycounts$log2fc > 2
 down.ind <- mycounts$log2fc < (-2)
 ```
 
+<div class="q_box">
 > **Q5**. Using the `up.ind` and `down.ind` vectors above can you determine how many up and down regulated genes we have at the greater than 2 fc level?
+</div>
 
 ```{r, echo=FALSE}
 paste("Up:", length(mycounts$log2fc[up.ind]) )
@@ -242,7 +257,9 @@ head(anno)
 
 Ideally we want this annotation data mapped (or merged) with our `mycounts` data. In a previous class on writing R functions we introduced the **merge()** function, which is one common way to do this.
 
+<div class="q_box">
 > **Q6**. From consulting the help page for the **merge()** function can you set the `by.x` and `by.y` arguments appropriately to annotate our `mycounts` data.frame with all the available annotation data in your `anno` data.frame?
+</div>
 
 Examine your results with the **View()** function. It should look something like the following:
 
@@ -279,7 +296,9 @@ mycounts$symbol <- mapIds(org.Hs.eg.db,
                      multiVals="first")
 ```
 
+<div class="q_box">
 > **Q7**. Run the **mapIds()** function two more times to add the Entrez ID and UniProt accession as new columns called `mycounts$entrez` and `mycounts$uniprot`. The **head()** of your results should look like the following:
+</div>
 
 ```{r, echo=FALSE}
 mycounts$entrez <- mapIds(org.Hs.eg.db,
@@ -297,7 +316,9 @@ mycounts$uniprot <- mapIds(org.Hs.eg.db,
 head(mycounts)
 ```
 
+<div class="q_box">
 > **Q8**. Examine your annotated results for those genes with a log2(FoldChange) of greater than 2 (or less than -2 if you prefer) with the **View()** function. What do you notice? Would you trust these results? Why or why not?
+</div>
 
 ```{r}
 head(mycounts[up.ind,])
@@ -407,10 +428,11 @@ resSig05 <- subset(as.data.frame(res), padj < 0.05)
 nrow(resSig05)
 ```
 
-
+<div class="q_box">
 > **Q9**. How many are significant with an adjusted p-value < 0.05? How about 0.01? Save this last set of results as `resSig01`. 
 
 > **Q10**. Using either the previously generated `anno` object (annotations from the file `annotables_grch38.csv` file) or the **mapIds()** function (from the AnnotationDbi package) add annotation to your `res01` results data.frame. 
+</div>
 
 ```{r, echo=FALSE}
 resSig01 <- subset(as.data.frame(res), padj < 0.01)
@@ -485,48 +507,51 @@ ggplot(d, aes(dex, count)) + geom_boxplot(aes(fill=dex)) + scale_y_log10() + ggt
 Which plot do you prefer? Maybe time to learn ggplot via the DataCamp course ;-)
 
 
-## MA & Volcano plots
+## Volcano plots
 
-Let's make some other commonly produced visualizations from this data. First, let's add a column called `sig` to our full `res` results that evaluates to TRUE if padj<0.05, and FALSE if not, and NA if padj is also NA.
+Let's make another commonly produced visualization from this data, namely so-called [Volcano plots](https://en.wikipedia.org/wiki/Volcano_plot_(statistics)). These summary figures are frequently used to highlight the proportion of genes that are both significantly regulated and display a high fold change. 
+
+First, let's add a column called `sig` to our full `res` results that evaluates to TRUE only if padj<0.05 and the absolute log2FoldChange>2, FALSE if not, and NA if padj is also NA.
 
 ```{r}
-res$sig <- res$padj<0.05
+res$sig <- res$padj<0.05 & abs(res$log2FoldChange)>2
 
 # How many of each?
 table(res$sig)
 sum(is.na(res$sig))
 ```
 
-Look up the Wikipedia articles on [MA plots](https://en.wikipedia.org/wiki/MA_plot) and [volcano plots](https://en.wikipedia.org/wiki/Volcano_plot_(statistics)). An MA plot shows the average expression on the X-axis and the log fold change on the y-axis. A volcano plot shows the log fold change on the X-axis, and the $-log_{10}$ of the p-value on the Y-axis (the more significant the p-value, the larger the $-log_{10}$ of that value will be).
+A volcano plot shows the log fold change on the X-axis, and the $-log_{10}$ of the p-value on the Y-axis (the more significant the p-value, the larger the $-log_{10}$ of that value will be).
 
-```{r maplot, echo=FALSE}
-ggplot(as.data.frame(res), aes(baseMean, log2FoldChange, col=sig)) + 
-  geom_point() + 
-  scale_x_log10() + 
-  ggtitle("MA plot")
-```
-
-## In built MA-plot
-In DESeq2, the function **plotMA()** shows the log2 fold changes attributable to a given variable over the mean of normalized counts for all the samples in the DESeqDataSet. Points will be colored red if the adjusted p value is less than 0.1. Points which fall out of the window are plotted as open triangles pointing either up or down.
+Here we first make a volcano plot with base graphics and color by our `res$sig+1` (we add 1 so we dont have 0 as a color and end up with white points): 
 
 ```{r}
-plotMA(res, ylim=c(-2,2))
+# Set the color palette for our plot
+palette( c("gray","blue") )
+
+plot( res$log2FoldChange,  -log(res$padj), 
+ col=res$sig+1, ylab="-Log(P-value)", xlab="Log2(FoldChange)")
+
+# Add some cut-off lines
+abline(v=c(-2,2), col="darkgray", lty=2)
+abline(h=-log(0.1), col="darkgray", lty=2)
+
+# Reset the color palette
+palette("default")      
 ```
 
-## Volcano plot
-Make a volcano plot. Similarly, color-code by whether it's significant or not.
+We could also setup a custom color vector indicating transcripts with large fold change and significant differences between conditions:
 
-With base graphics and a custom color vector:
 
 ```{r}
-#Setup  your point color vector 
+# Setup our custom point color vector 
 mycols <- rep("gray", nrow(res))
 mycols[ abs(res$log2FoldChange) > 2 ]  <- "red" 
 
 inds <- (res$padj < 0.01) & (abs(res$log2FoldChange) > 2 )
 mycols[ inds ] <- "blue"
 
-#Volcano plot  with custom colors 
+#Volcano plot with custom colors 
 plot( res$log2FoldChange,  -log(res$padj), 
  col=mycols, ylab="-Log(P-value)", xlab="Log2(FoldChange)" )
 
@@ -535,17 +560,38 @@ abline(h=-log(0.1), col="gray", lty=2)
 
 ```
 
-and with **ggplot**...
+
+
+and do the same plot with **ggplot**...
 
 ```{r}
-ggplot(as.data.frame(res), aes(log2FoldChange, -1*log10(pvalue), col=sig)) + 
+ggplot(as.data.frame(res), aes(log2FoldChange, -log10(pvalue), col=sig)) + 
     geom_point() + 
     ggtitle("Volcano plot")
 ```
 
+For even more customization you might find the **EnhancedVolcano** bioconductor package useful (Note. It uses ggplot under the hood): 
+
+```{r, eval=FALSE}
+biocLite("EnhancedVolcano")
+```
+
+```{r, warning=FALSE, message=FALSE}
+library(EnhancedVolcano)
+```
+
+```{r}
+EnhancedVolcano(res,
+    lab = rownames(res),
+    x = 'log2FoldChange',
+    y = 'pvalue')
+```
+
+In the next class we will find out how to derive biological (and hopefully) mechanistic insight from the subset of our most intresting genes highlighted in these types of plots.
+
 
 # Session Information
-The `sessionInfo()` prints version information about R and any attached packages. It's a good practice to always run this command at the end of your R session and record it for the sake of reproducibility in the future.
+The `sessionInfo()` function prints version information about R and any attached packages. It is good practice to always run this command at the end of your R session and record it for the sake of reproducibility in the future.
 
 ```{r sessionInfo}
 sessionInfo()
