@@ -481,11 +481,9 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-14-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-14-bggn213_small.pdf){:.no-push-state}
 - Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/bioconductor_setup/){:.no-push-state} instructions.
-- Lab: **TO UPDATE** [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-14-bggn213/){:.no-push-state}
-
-- Lab: **T0 UPDATE** [Hands-on section worksheet]({{ site.baseurl }}/class-material/lecture15-BIMM143_F18-lab/){:.no-push-state}
+- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-14-bggn213.html){:.no-push-state},  
 - Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}, [annotables_grch38.csv]({{ site.baseurl }}/class-material/annotables_grch38.csv){:.no-push-state}.
-- Feedback: [Muddy-Point-Assesment](){:.no-push-state}
+- Feedback: **To Update** [Muddy-Point-Assesment](){:.no-push-state}
 
 
 **Readings**:
