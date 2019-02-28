@@ -513,7 +513,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 - Feedback: [Muddy-Point-Assesment](){:.no-push-state}
 
 **R Knowledge Check**:
-[**Quiz Assessment**](https://docs.google.com/forms/d/e/1FAIpQLSecDj4bcWmVqXqyTI4nsL3gqaVDPogSQmdCiiN-ShIc1M2hJQ/viewform){:.no-push-state} 
+[**Quiz Assessment**](https://goo.gl/forms/YxtTiQaVlsmHtekp1){:.no-push-state} 
 
 
 **Readings**:    
