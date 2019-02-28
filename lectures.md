@@ -507,8 +507,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-15-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-15-bggn213_small.pdf){:.no-push-state}
-- Lab: **T0 UPDATE** [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-15-bggn213.pdf){:.no-push-state}
-- Lab: **T0 UPDATE** [Hands-on section worksheet Part 1]({{ site.baseurl }}/class-material/lecture16_BIMM143_F18.html){:.no-push-state}  
+- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-15-bggn213.html){:.no-push-state}
 - Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/GSE37704_featurecounts.csv){:.no-push-state}, [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/GSE37704_metadata.csv){:.no-push-state}.   
 - Feedback: [Muddy-Point-Assesment](){:.no-push-state}
 
