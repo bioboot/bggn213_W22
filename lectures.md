@@ -556,8 +556,8 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 **Material**:
 - Software Download: [Cytoscape](https://cytoscape.org/download.html){:.no-push-state},  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-17-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-17-bggn213_small.pdf){:.no-push-state},  
-- Lab: [Hands-on section worksheet Part 1 (**Networks**).]({{ site.baseurl }}/class-material/lecture17_BIMM143_F18_lab1.pdf){:.no-push-state}  
-- Lab: [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18/){:.no-push-state}  
+- Lab: [Hands-on section worksheet Part 1 (**Networks**).]({{ site.baseurl }}/class-material/lecture17_BGGN213_S18_lab1.pdf){:.no-push-state}  
+- Lab: [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture17_BGGN213_S18/){:.no-push-state}  
 - Data files:  
   - [galFiltered.sif]({{ site.baseurl }}/class-material/galFiltered.sif){:.no-push-state},  
   - [galExpData.csv]({{ site.baseurl }}/class-material/galExpData.csv){:.no-push-state},  
