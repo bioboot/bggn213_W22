@@ -554,11 +554,10 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 - Appreciate that the igraph R package has extensive network analysis functionality beyond that in Cytoscape and that the R bioconductor package RCy3 package allows us to bring networks and associated data from R to Cytoscape so we can have the best of both worlds. 
 
 **Material**:
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-17-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-17-bggn213_small.pdf){:.no-push-state}
-- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-17-bggn213.pdf){:.no-push-state}
-
-- Lab: **T0 UPDATE** [Hands-on section worksheet Part 1 (**Networks**).]({{ site.baseurl }}/class-material/lecture17_BIMM143_F18_lab1.pdf){:.no-push-state}  
-- Lab: **T0 UPDATE** [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18/){:.no-push-state}  
+- Software Download: [Cytoscape](https://cytoscape.org/download.html){:.no-push-state},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-17-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-17-bggn213_small.pdf){:.no-push-state},  
+- Lab: [Hands-on section worksheet Part 1 (**Networks**).]({{ site.baseurl }}/class-material/lecture17_BIMM143_F18_lab1.pdf){:.no-push-state}  
+- Lab: [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture17_BIMM143_W18/){:.no-push-state}  
 - Data files:  
   - [galFiltered.sif]({{ site.baseurl }}/class-material/galFiltered.sif){:.no-push-state},  
   - [galExpData.csv]({{ site.baseurl }}/class-material/galExpData.csv){:.no-push-state},  
