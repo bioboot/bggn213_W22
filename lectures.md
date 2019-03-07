@@ -583,7 +583,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-18-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-18-bggn213_small.pdf){:.no-push-state}
-- Lab: **T0 UPDATE** [Hands-on Worksheet Part 1.]({{ site.baseurl }}/class-material/lecture18_part1_BIMM143_W18.html){:.no-push-state}  
+- Lab: **T0 UPDATE** [Hands-on Worksheet Part 1.]({{ site.baseurl }}/class-material/lecture18_part1_BGGN213_W19.html){:.no-push-state}  
 - Lab: **T0 UPDATE** [Hands-on Worksheet Part 2.]({{ site.baseurl }}/class-material/lecture18_part2_BIMM143_W18/){:.no-push-state}  
 - Data files:  
   - [lecture18_sequences.fa]({{ site.baseurl }}/class-material/lecture18_sequences.fa){:.no-push-state},  
