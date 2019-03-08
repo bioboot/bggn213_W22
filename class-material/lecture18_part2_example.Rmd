@@ -7,10 +7,10 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This is a complement to the hands-on session for [lecture 18 of BIMM-143 ](https://bioboot.github.io/bggn143_W17/lectures/#18). You can find the Rmarkdown document that generated this page [here](https://bioboot.github.io/bggn213_f17/class-material/lecture16_Q1_example.Rmd). In the following sections we walk through the analysis steps providing periodic output examples.
+This is a complement to the hands-on session for [lecture 18](https://bioboot.github.io/bggn213_W19/lectures/#18). You can find the Rmarkdown document that generated this page [here](https://bioboot.github.io/bggn213_W19/class-material/lecture18_part2_example.Rmd). In the following sections we walk through the analysis steps providing periodic output examples.
 
 ## Q1. Identifing sites of mutation 
-We start by **1.** reading the provided sequences ([lecture18_sequences.fa](https://bioboot.github.io/bimm143_W18/class-material/lecture18_sequences.fa)) into R, then **2.** aligning, **3.** looking for sites of cancer specific mutation (i.e. differences between the two sequences), and finally **4.** outputing all 9-mer contaning subsequences encompasing these mutant sites.   
+We start by **1.** reading the provided sequences ([lecture18_sequences.fa](https://bioboot.github.io/bggn213_W19/class-material/lecture18_sequences.fa)) into R, then **2.** aligning, **3.** looking for sites of cancer specific mutation (i.e. differences between the two sequences), and finally **4.** outputing all 9-mer contaning subsequences encompasing these mutant sites.   
 
 
 
@@ -73,6 +73,9 @@ store.seqs
 Finally lets output all these sequences to a FASTA file for further analysis with the IEDB HLA binding prediction website [http://tools.iedb.org/mhci/](http://tools.iedb.org/mhci/).  
 
 ```{r}
+## First blank out the gap positions 
+store.seqs[store.seqs == "-"] <- ""
+
 ## Output a FASTA file for further analysis
 write.fasta(seqs=store.seqs, ids=mutant.names, file="subsequences.fa")
 
