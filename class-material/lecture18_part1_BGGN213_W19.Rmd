@@ -139,7 +139,7 @@ library(maftools)
 Now lets check on GDC status:
 
 ```{r}
-GenomicDataCommons::status()
+status()
 ```
 
 If this statement results in an error such as `SSL connect error`, then please see the [troubleshooting section here](https://bioconductor.org/packages/release/bioc/vignettes/GenomicDataCommons/inst/doc/overview.html#ssl-connection-errors).  
@@ -152,7 +152,16 @@ We will typically start our interaction with the GDC by searching the resource t
 > **For example**: Our query might be '**find how many patients were studied for each major project**' or '**find and download all gene expression quantification data files for all pancreatic cancer patients**'.  We will answer both of these questions below.
 
 
-The are four main sets of metadata that we can query with this package, namely `cases()`, `projects()`, `files()`, and `annotations()`. We will start with `cases()` and use an example from the package associated [publication](https://www.biorxiv.org/content/biorxiv/early/2017/04/04/117200.full.pdf) to answer our first question above (i.e. find the number of cases/patients across different projects within the GDC): 
+The are four main sets of metadata that we can query, namely `projects()`, `cases()`, `files()`, and `annotations()`. We will start with `projects()`
+
+```{r}
+projects <- getGDCprojects()
+head(projects)
+```
+
+If you use the `View(projects)` function call you can see all the project names (such as Neuroblastoma, Pancreatic Adenocarcinoma, etc.) along with their project IDs (such as TARGET-NBL, TCGA-PAAD, etc.) and associated information.   
+
+Moving onto `cases()` we can use an example from the package associated [publication](https://www.biorxiv.org/content/biorxiv/early/2017/04/04/117200.full.pdf) to answer our first from question above (i.e. find the number of cases/patients across different projects within the GDC): 
 
 ```{r}
 cases_by_project <- cases() %>%
@@ -195,7 +204,16 @@ barplot(x[,2], names.arg=x[,1], log="y", col=colvec, las=2)
 
 </div>
 
-Lets explore some functions from the related `TCGAbiolinks` package. In particular we can use the **GDCquery()** function from this package to answer our second question from above - namely '*find all gene expression data files for all pancreatic cancer patients*':
+Lets explore some other functions from the related `TCGAbiolinks` package. 
+
+We can use the **getSampleFilesSummary()** function to determine for a given project how many cases and what type of data we have available for each case:
+
+```{r}
+samp <- getSampleFilesSummary("TCGA-PAAD")
+head(samp)
+```
+
+Now we can use **GDCquery()** function to focus in on a particular data type that we are interested in. For example, to answer our second question from above - namely '*find all gene expression data files for all pancreatic cancer patients*':
 
 ```{r message=FALSE}
 query <- GDCquery(project="TCGA-PAAD",
@@ -216,7 +234,7 @@ In RStudio we can now use the **View()** function to get a feel for the data org
 View(ans)
 ```
 
-We should see that `file_records$results` contains a row for every RNA-Seq data file from the 'TCGA-PAAD' project. At the time of writing this was `r nrow(ans)` RNA-Seq data files.
+We should see that `ans` contains a row for every RNA-Seq data file from the 'TCGA-PAAD' project. At the time of writing this was `r nrow(ans)` RNA-Seq data files.
 
 ```{r}
 nrow(ans)
@@ -236,7 +254,7 @@ After some exploration of the website I came up with the following query: "`case
 > **Q9**. How many MAF files for the TCGA-PAAD project were found from this advanced web search? 
 </div>
 
-Lets do the same search in R with the help of the `TCGAbiolinks` package function **GDCquery_Maf()**. For brevity we will focus on only one of the MAF files for this project in GDC, namely the MuTect2 workflow variant calls.
+Lets do the same search in R with the help of the `TCGAbiolinks` package function **GDCquery_Maf()**. For brevity we will focus on only one of the MAF files for this project, namely the MuTect2 workflow variant calls.
 
 ```{r maf_query, message=FALSE, warning=FALSE}
 maf.file <- GDCquery_Maf(tumor="PAAD", pipelines = "mutect")
