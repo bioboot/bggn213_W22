@@ -604,16 +604,14 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 19: Course summary
 ------------------
 
-**Topics**: Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due!**
-
 **Topics**: Summary of learning goals, Student course evaluation time and exam preparation; Find a gene assignment due.  Open study.  
   
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-19-bggn213_large.pdf){:.no-push-state},
 
-- Hand-out: **T0 UPDATE** [**Exam guidelines, topics, and example questions**]({{ site.baseurl }}/class-material/BIMM143_exam_guidlines_F18.pdf){:.no-push-state},  
+- Hand-out: [**Exam guidelines, topics, and example questions**]({{ site.baseurl }}/class-material/BGGN213_exam_guidlines.pdf){:.no-push-state},  
 
-- Ether-pad: **T0 UPDATE** [**Feedback**](https://etherpad.net/p/bimm143_f18){:.no-push-state}.  
+- Ether-pad: [**Feedback**](https://etherpad.net/p/bimm143_w19){:.no-push-state}.  
   
 
 
