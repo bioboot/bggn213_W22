@@ -615,6 +615,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
   
 - DataCamp: [**Bioinformatics Extension Track**](https://www.datacamp.com/tracks/custom-bioinformatics-extension){:.no-push-state}.
 
+- Other Resources: [Advanced R book](http://adv-r.had.co.nz), [R for Data Science](https://r4ds.had.co.nz);
 
 ------------------------------------------------------------------------
 
