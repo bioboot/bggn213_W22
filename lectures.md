@@ -53,16 +53,16 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 
 
 **Material**:
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-1-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-1-bggn213_small.pdf){:.no-push-state}
-- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-1-bggn213.pdf){:.no-push-state}
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/PYTTPPEb8ek5I1OG3){:.no-push-state}
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-1-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-1-bggn213_small.pdf){:.no-push-state}{:target="_blank"}
+- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-1-bggn213.pdf){:.no-push-state}{:target="_blank"}
+- Feedback: [Muddy-Point-Assesment](https://forms.gle/ekALVLS8hC84nDj19){:.no-push-state}{:target="_blank"}
 
 **Homework**:
-- [Questions](https://goo.gl/forms/pzLBfdM7ksRzyZgu1){:.no-push-state}
+- [Questions](https://forms.gle/p1RcEgrqRrbagQiv9){:.no-push-state}{:target="_blank"}
 - Complete the [pre-course survey](https://forms.gle/4PnSjgFd9dx1dx7K8).  
 - Setup your [laptop computer]({{ site.baseurl }}/setup/) for this course.  
-- Get a copy of the course [syllabus]({{ site.baseurl }}/class-material/BGGN213_W19_syllabus.pdf){:.no-push-state},  
-- Complete the **UPDATED** [Office Hours Sign Up Sheet](https://doodle.com/poll/6zkgw3866rwbfpb4){:.no-push-state}.  
+- Get a copy of the course [syllabus]({{ site.baseurl }}/class-material/BGGN213_S19_syllabus.pdf){:.no-push-state},  
+- Complete the [Office Hours Sign Up Sheet](https://doodle.com/poll/6zkgw3866rwbfpb4){:.no-push-state}.  
 
 **Readings**: 
   - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  

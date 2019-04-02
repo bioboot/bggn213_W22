@@ -1,6 +1,6 @@
 ---
 layout: welcome
-title: Bioinformatics <br> (BGGN 213, Winter 2019)
+title: Bioinformatics <br> (BGGN 213, Spring 2019)
 selected_projects:
   - _projects/welcome-screencast.md
   - _projects/using-jetstream-for-bioinformatics.md
