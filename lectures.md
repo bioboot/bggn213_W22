@@ -116,14 +116,14 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 
 **Material**:
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_small.pdf){:.no-push-state}
-- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-2-bggn213.pdf){:.no-push-state}
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/R6vkC1VJovO1lDAx2){:.no-push-state}.  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_small.pdf){:.no-push-state}{:target="_blank"}
+- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-2-bggn213.pdf){:.no-push-state}{:target="_blank"}
+- Feedback: [Muddy-Point-Assesment](https://forms.gle/Rp7vFfjXqNysmFe27){:.no-push-state}{:target="_blank"}.  
 
 
 **Homework**:
-- [Questions](https://goo.gl/forms/4MejYnW0KUWqz7no2){:.no-push-state},  
-- [Alignment Problem]({{ site.baseurl }}/class-material/lecture-2-bggn213_homework.pdf){:.no-push-state},  
+- [Questions](https://forms.gle/r9XagCH9HiyL5cFY9){:.no-push-state}{:target="_blank"},  
+- [Alignment Problem]({{ site.baseurl }}/class-material/lecture-2-bggn213_homework.pdf){:.no-push-state}{:target="_blank"},  
 
 
 **Readings**:    
