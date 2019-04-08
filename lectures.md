@@ -148,13 +148,13 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 
 **Material**:
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-3-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-3-bggn213_small.pdf){:.no-push-state}
-- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-3-bggn213.pdf){:.no-push-state}
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/Dq0T8SxyagXryhap2){:.no-push-state}
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-3-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-3-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
+- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-3-bggn213.pdf){:.no-push-state}{:target="_blank"},
+- Feedback: [Muddy-Point-Assesment](https://forms.gle/NNwje57RUJy8AQ5g7){:.no-push-state}
 
 
 **Homework**:   
-- DataCamp Sign Up: [See your UCSD email invite!](https://www.datacamp.com/enterprise/bioinformatics-bggn213){:.no-push-state},  
+- DataCamp Sign Up & Homework: [See your UCSD email invite!](https://www.datacamp.com){:.no-push-state},  
 - [RStudio and R download and setup]({{ site.baseurl }}/setup/).  
 
 
