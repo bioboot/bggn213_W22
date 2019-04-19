@@ -236,16 +236,14 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Be able to follow a step by step process of going from a working code snippet to a more robust function.  
 
 **Material**:
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-6-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-6-bggn213_small.pdf){:.no-push-state}
-- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-6-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-6-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
+- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}{:target="_blank"},
 - Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/GrFc3oDfAwCCj2BA2){:.no-push-state}
+- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/GrFc3oDfAwCCj2BA2){:.no-push-state}{:target="_blank"}.
 
 **Homework**:
-- See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **next week!**).    
-- DataCamp chapter: [Functions](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state},  
-- DataCamp chapter: [Conditionals and Control Flow](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state},  
-- DataCamp chapter: [Loops](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state}. 
+- See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}{:target="_blank"}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 1pm **next week!**).    
+- The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/){:.no-push-state}.   
 
 
 ------------------------------------------------------------------------
@@ -329,7 +327,7 @@ Practical considerations and best practices for the analysis of high dimensional
 
 **Reading**:
 - Bonus: [StackExchange discussion on PCA](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa){:.no-push-state}.   
-
+- 2019 Genome Biology review article [Machine learning and complex biological data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1689-0){:.no-push-state}.
 
 
 ------------------------------------------------------------------------
