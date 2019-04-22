@@ -263,14 +263,13 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-7-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-7-bggn213_small.pdf){:.no-push-state}
-- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1siG99DgRaw15YS5zAAPftoCU0XwY8MrNXUL2joyfDyo/edit?usp=sharing){:.no-push-state},    
+- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1xuMgYhMh3Ncqc1Nw-g-L06gjAhkidNSlmk4-TIv6wvI/edit?usp=sharing){:.no-push-state},    
 - Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/LHI8L0QYVXChcNw02){:.no-push-state}.  
 
 
 **Homework**:
-- See **Q6** of the [hands-on lab sheet from the previous class]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 9am **next class!**).    
-- DataCamp chapter: [The apply family](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state},  
-- DataCamp [chapter: Loops](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state}. 
+- See **Q6** of the [hands-on lab sheet from the previous class]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 1pm **next class!**).    
+- DataCamp [homework](https://www.datacamp.com/){:.no-push-state}. 
  
 
 ------------------------------------------------------------------------
