@@ -319,15 +319,15 @@ Practical considerations and best practices for the analysis of high dimensional
 
 
 **Material**:
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-9-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-9-bggn213_small.pdf){:.no-push-state}
-- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-9-bggn213.html){:.no-push-state}
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-9-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-9-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
+- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-9-bggn213-WEBX.html){:.no-push-state}{:target="_blank"}
 - Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}, [new_samples.csv]({{ site.baseurl }}/class-material/new_samples.csv){:.no-push-state}.     
-- Bio3D PCA App: [http://bio3d.ucsd.edu/pca-app/](http://bio3d.ucsd.edu/pca-app/){:.no-push-state}. 
+- Bio3D PCA App: [http://bio3d.ucsd.edu/pca-app/](http://bio3d.ucsd.edu/pca-app/){:.no-push-state}{:target="_blank"}. 
 - Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/vHYEbuAmV2uMZEom2){:.no-push-state}
 
 **Reading**:
 - Bonus: [StackExchange discussion on PCA](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa){:.no-push-state}.   
-- 2019 Genome Biology review article [Machine learning and complex biological data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1689-0){:.no-push-state}.
+- 2019 Genome Biology review article [Machine learning and complex biological data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1689-0){:.no-push-state}{:target="_blank"}.
 
 
 ------------------------------------------------------------------------
