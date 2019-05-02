@@ -337,13 +337,13 @@ Practical considerations and best practices for the analysis of high dimensional
 10: **Project:** Find a gene assignment (Part 1)
 ------------------------------------------------
 
-The [**find-a-gene project**]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:.no-push-state} is a required assignment for BIMM-143. The objective with this assignment is for you to demonstrate your grasp of database searching, sequence analysis, structure analysis and the R environment that we have covered to date in class.
+The [**find-a-gene project**]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:.no-push-state}{:target="_blank"} is a required assignment for BIMM-143. The objective with this assignment is for you to demonstrate your grasp of database searching, sequence analysis, structure analysis and the R environment that we have covered to date in class.
 
-You may wish to consult the scoring rubric at the end of the above linked project description and the [**example report**]({{ site.baseurl }}/class-material/Find_A_Gene_Project_Example.pdf){:.no-push-state} for format and content guidance.  
+You may wish to consult the scoring rubric at the end of the above linked project description and the [**example report**]({{ site.baseurl }}/class-material/Find_A_Gene_Project_Example.pdf){:.no-push-state}{:target="_blank"} for format and content guidance.  
  
-Your responses to questions Q1-Q4 are due at the beginning of class **Fri Feb 22nd** (02/22/19).   
+Your responses to questions Q1-Q4 are due at the beginning of class **Fri May 17th** (05/17/19).   
 
-The complete assignment, including responses to all questions, is due at the beginning of class **Wed March 13th** (03/13/19).  
+The complete assignment, including responses to all questions, is due at the beginning of class **Wed June 5th** (06/05/19).  
 
 Late responses will not be accepted under any circumstances.  
 
@@ -351,8 +351,9 @@ Late responses will not be accepted under any circumstances.
 Today’s lecture and hands-on sessions introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover the popular social code-hosting platforms GitHub and BitBucket. 
 
 
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213_small.pdf){:.no-push-state}
-- Lab: [Hands-on with Git](http://tinyurl.com/rclass-github){:.no-push-state}  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
+- Lab: [Hands-on with Git](http://tinyurl.com/rclass-github){:.no-push-state}{:target="_blank"},
+- Jenny's *Namming Things* Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture10-naming-slides.pdf){:.no-push-state}{:target="_blank"},  
 - Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/gMxIBT5jLbjXHQPE2){:.no-push-state}
 
 
