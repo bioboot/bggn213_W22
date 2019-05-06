@@ -375,14 +375,12 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 
 **Material**:
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-11-bggn213_large.pdf){:.no-push-state}, [Small PDF]({{ site.baseurl }}/class-material/lecture-11-bggn213_small.pdf){:.no-push-state}
-- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-11-bggn213.pdf){:.no-push-state}
-- Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state},  
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/5eM3qYOhc2trBdUZ2){:.no-push-state}
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-11-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-11-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
+- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-11-bggn213.pdf){:.no-push-state}{:target="_blank"}
+- Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state}{:target="_blank"},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}{:target="_blank"},  
+- Feedback: [Muddy-Point-Assesment](https://forms.gle/epVKGejGRectHEdp8){:.no-push-state}
 
-**Homework**:
-- [Questions](){:.no-push-state}
-- Update
+
 
 ------------------------------------------------------------------------
 
