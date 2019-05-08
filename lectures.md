@@ -368,8 +368,9 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 **Topics**: Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure, Homology modeling, Predicting functional dynamics, Inferring protein function from structure.
 
 **Goal**: 
-- View and interpret the structural models in the PDB,
-- Understand the classic `Sequence>Structure>Function` via energetics and dynamics paradigm,
+- View and interpret the structural models in the PDB,  
+- Understand the classic `Sequence>Structure>Function` via energetics and dynamics paradigm,  
+- Be able to use VMD for biomolecular visualization and analysis,  
 - Appreciate the role of bioinformatics in mapping the ENERGY LANDSCAPE of biomolecules,
 - Be able to use the Bio3D package for exploratory analysis of protein sequence-structure-function-dynamics relationships.  
 
@@ -396,6 +397,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 **Goals**:    
 - Appreciate how bioinformatics can predict functional dynamics & further aid drug discovery,  
 - Be able to apply open-source *In silico* docking and virtual screening strategies for drug discovery,
+- Appreciate how bioinformatics can predict the functional dynamics of biomolecules,  
 - Be able to use Bio3D for the analysis and prediction of protein flexibility,
 - Understand the increasing role of bioinformatics in pharma and the drug discovery process in particular.  
 
