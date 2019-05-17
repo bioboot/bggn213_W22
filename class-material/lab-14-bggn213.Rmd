@@ -1,8 +1,8 @@
 ---
 title: "BGGN-213, Lecture 14"
 subtitle: 'Transcriptomics and the analysis of RNA-Seq data'
-output:
-    html_document:
+output: 
+    webex::webex_default:
         keep_md: true
         theme: cosmo
         highlight: pygments
@@ -12,7 +12,11 @@ output:
         number_sections: false
         code_folding: show
         df_print: paged
+params:
+  class.name: bggn213 # bimm143
+  quarter: S19
 ---
+
 
 
 <style> 
@@ -51,53 +55,90 @@ body{
 </style> 
 
 
-
-Barry Grant &lt; <http://thegrantlab.org/bggn213/> &gt;  
-2019-02-26   (15:54:06 PST on Tue, Feb 26)  
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"psyteachr/webex\")")
+} else {
+  library("labsheet")
   
+  # Lab 7 URL
+  l7.url <- paste0("https://bioboot.github.io/",
+                   params$class.name,
+                   "_", params$quarter,
+                   "/lectures/#7")
+  l8.url <- paste0("https://bioboot.github.io/",
+                   params$class.name,
+                   "_", params$quarter,
+                   "/lectures/#8")
+  # Setup url
+  bioc.url <- paste0("https://bioboot.github.io/",
+                   params$class.name,
+                   "_", params$quarter,
+                   "/class-material/bioconductor_setup/")
+  # SAM/BAM url
+  bam.url <- paste0("https://bioboot.github.io/",
+                   params$class.name,
+                   "_", params$quarter,
+                   "/class-material/sam_format/")
+  
+}
+```
 
 
-# Background
-The data for this hands-on session comes from a published RNA-seq experiment where airway smooth muscle cells were treated with [dexamethasone](https://en.wikipedia.org/wiki/Dexamethasone), a synthetic **glucocorticoid steroid** with anti-inflammatory effects ([Himes et al. 2014](http://www.ncbi.nlm.nih.gov/pubmed/24926665)). 
+Barry Grant &lt; `r paste0("<http://thegrantlab.org/", params$class.name,"/>")`  &gt;   
+`r format(Sys.time(), "%Y-%m-%d  (%H:%M:%S on %a, %b %d)")`    
+
+
+# Background  
+The data for this hands-on session comes from a published RNA-seq experiment where airway smooth muscle cells were treated with [dexamethasone](https://en.wikipedia.org/wiki/Dexamethasone), a synthetic glucocorticoid steroid with anti-inflammatory effects ([Himes et al. 2014](http://www.ncbi.nlm.nih.gov/pubmed/24926665)). 
 
 Glucocorticoids are used, for example, by people with asthma to reduce inflammation of the airways. The anti-inflammatory effects on airway smooth muscle (ASM) cells has been known for some time but the underlying molecular mechanisms are unclear. 
 
-Himes et al. used RNA-seq to profile gene expression changes in four different ASM cell lines treated with dexamethasone glucocorticoid. They found a number of differentially expressed genes comparing dexamethasone-treated to control cells, but focus much of the discussion on a single gene called CRISPLD2. This gene encodes a secreted protein known to be involved in lung development, and SNPs in this gene in previous GWAS studies are associated with inhaled corticosteroid resistance and bronchodilator response in asthma patients. They confirmed the upregulated CRISPLD2 mRNA expression with qPCR and increased protein expression using Western blotting.  
+<div style="float: right">
+![](Asthma_attack-illustration_NIH.jpg)
+</div>
 
-In the experiment, four primary human ASM cell lines were treated with 1 micromolar dexamethasone for 18 hours. For each of the four cell lines, we have a treated and an untreated sample. They did their analysis using **Tophat** and **Cufflinks** similar to our work in the last hands-on session. For a more detailed description of their analysis see the [PubMed entry 24926665](http://www.ncbi.nlm.nih.gov/pubmed/24926665) and for raw data see the [GEO entry GSE52778](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE52778).  
+Himes et al. used RNA-seq to profile gene expression changes in four different ASM cell lines treated with dexamethasone glucocorticoid. They found a number of differentially expressed genes comparing dexamethasone-treated to control cells, but focus much of the discussion on a gene called CRISPLD2. This gene encodes a secreted protein known to be involved in lung development, and SNPs in this gene in previous GWAS studies are associated with inhaled corticosteroid resistance and bronchodilator response in asthma patients. They confirmed the upregulated CRISPLD2 mRNA expression with qPCR and increased protein expression using Western blotting.  
 
-In this session we will read and explore the  gene expression data from this experiment using base R functions and then perform a detailed analysis with the **DESeq2** package from [Bioconductor](http://www.bioconductor.org).
+In the experiment, four primary human ASM cell lines were treated with 1 micromolar dexamethasone for 18 hours. For each of the four cell lines, we have a treated and an untreated sample. They did their analysis using **Tophat** and **Cufflinks** similar to our last days's hands-on session. For a more detailed description of their analysis see the [PubMed entry 24926665](http://www.ncbi.nlm.nih.gov/pubmed/24926665) and for raw data see the [GEO entry GSE52778](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE52778).  
+
+In this session we will read and explore thegene expression data from this experiment using base R functions and then perform a detailed analysis with the **DESeq2** package from [Bioconductor](http://www.bioconductor.org).
 
 
 # 1. Bioconductor and DESeq2 setup
 
-As we already noted back in [Lecture 7](https://bioboot.github.io/bggn213_W19/lectures/#7) Bioconductor is a large repository and resource for R packages that focus on analysis of high-throughput genomic data.
+As we already noted back in [Lecture 7](https://bioboot.github.io/bimm143_S19/lectures/#7) Bioconductor is a large repository and resource for R packages that focus on analysis of high-throughput genomic data.
 
-Bioconductor packages are installed differently than "regular" R packages from CRAN. To install the core Bioconductor packages, copy and paste the following lines of code into your R console one at a time.
+Bioconductor packages are installed differently than "regular"" R packages from CRAN. To install the core Bioconductor packages, copy and paste the following two lines of code into your R console one at a time.
 
 ```{r, eval=FALSE}
-source("http://bioconductor.org/biocLite.R")
-biocLite()
-
-# For this class, you'll also need DESeq2:
-biocLite("DESeq2")
+install.packages("BiocManager")
+BiocManager::install()
 ```
 
-The entire install process can take some time as there are many packages with dependencies on other packages. For some important notes on the install process please see our [Bioconductor setup notes](https://bioboot.github.io/bggn213_W19/class-material/bioconductor_setup/). Your install process may produce some notes or other output. Generally, as long as you don’t get an error message, you’re good to move on. If you do see error messages then again please see our [Bioconductor setup notes](https://bioboot.github.io/bggn213_W19/class-material/bioconductor_setup/) for debugging steps.
+If this finished without yielding obvious error messages we can install the **DESeq2** bioconductor package that we will use in this class:
 
-Check that you have installed everything correctly by closing and reopening RStudio and entering the following two commands at the console window:
+```{r, eval=FALSE}
+# For this class, you'll also need DESeq2:
+BiocManager::install("DESeq2")
+```
 
-```{r}
-library(BiocInstaller)
+The entire install process can take some time as there are many packages with dependencies on other packages. For some important notes on the install process please see our [Bioconductor setup notes](`r bioc.url`). Your install process may produce some notes or other output. Generally, as long as you don’t get an error message, you’re good to move on. If you do see error messages then again please see our [Bioconductor setup notes](`r bioc.url`) for debugging steps.  
+
+Finally, check that you have installed everything correctly by closing and reopening RStudio and entering the following two commands at the console window:
+
+```{r, message=FALSE, warning=FALSE}
+library(BiocManager)
 library(DESeq2)
 ```
 
-If you get a message that says something like: `Error in library(BiocInstaller) : there is no package called 'BiocInstaller'`, then the required packages did not install correctly. Please see our [Bioconductor setup notes](https://bioboot.github.io/bggn213_W19/class-material/bioconductor_setup/) and let us know so we can debug this together.  
+If you get a message that says something like: `Error in library(DESeq2) : there is no package called 'DESeq2'`, then the required packages did not install correctly. Please see our [Bioconductor setup notes](`r bioc.url`) and let us know so we can debug this together.  
 
 
 ## Side-note: Aligning reads to a reference genome
 
-The computational analysis of an RNA-seq experiment begins from the [FASTQ files](https://en.wikipedia.org/wiki/FASTQ_format) that contain the nucleotide sequence of each read and a quality score at each position. These reads must first be aligned to a reference genome or transcriptome. The output of this alignment step is commonly stored in a file format called [SAM/BAM](https://bioboot.github.io/bimm143_W18/class-material/sam_format/). This is the workflow we followed last day.
+The computational analysis of an RNA-seq experiment begins from the [FASTQ files](https://en.wikipedia.org/wiki/FASTQ_format) that contain the nucleotide sequence of each read and a quality score at each position. These reads must first be aligned to a reference genome or transcriptome. The output of this alignment step is commonly stored in a file format called [SAM/BAM](`r bam.url`). This is the workflow we followed last day.
 
 Once the reads have been aligned, there are a number of tools that can be used to count the number of reads/fragments that can be assigned to genomic features for each sample. These often take as input SAM/BAM alignment files and a file specifying the genomic features, e.g. a GFF3 or GTF file specifying the gene models as obtained from ENSEMBLE or UCSC.
 
@@ -110,10 +151,11 @@ In the workflow we’ll use here, the abundance of each transcript was quantifie
 1. Griffith, Malachi, et al. "Informatics for RNA sequencing: a web resource for analysis on the cloud." [_PLoS Comput Biol_ 11.8: e1004393](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004393) (2015).
 
 
-## DESeq2 Required Inputs
+### DESeq2 Required Inputs
 As input, the DESeq2 package expects (**1**) a data.frame of **count data** (as obtained from RNA-seq or another high-throughput sequencing experiment) and (**2**) a second data.frame with information about the samples - often called sample metadata (or `colData` in DESeq2-speak because it supplies metadata/information about the columns of the countData matrix). 
 
 ![](https://bioboot.github.io/bimm143_W18/class-material/countdatacoldata.png)
+
 
 The "count matrix" (called the `countData` in DESeq2-speak) the value in the *i-th* row and the *j-th* column of the data.frame tells us how many reads can be assigned to *gene i* in *sample j*. Analogously, for other types of assays, the rows of this matrix might correspond e.g. to binding regions (with ChIP-Seq) or peptide sequences (with quantitative mass spectrometry). 
 
@@ -125,13 +167,13 @@ For the sample metadata (i.e. `colData` in DESeq2-speak) samples are in rows and
 
 
 # 2. Import countData and colData
-First, create a new RStudio project in your GitHub tracked directory (File > New Project > New Directory > New Project) and download the input [airway_scaledcounts.csv](https://bioboot.github.io/bimm143_W18/class-material/airway_scaledcounts.csv) and [airway_metadata.csv](https://bioboot.github.io/bimm143_W18/class-material/airway_metadata.csv) into a new `data` sub-directory of your project directory.
+First, create a new RStudio project (File > New Project > New Directory > New Project) and download the input [airway_scaledcounts.csv](https://bioboot.github.io/bimm143_W18/class-material/airway_scaledcounts.csv) and [airway_metadata.csv](https://bioboot.github.io/bimm143_W18/class-material/airway_metadata.csv) into a new `data` sub-directory of your project directory.
 
-Begin a new Rmarkdown document and use the **read.csv()** function to read these count data and metadata files.
+Begin a new R script and use the **read.csv()** function to read these count data and metadata files.
 
 ```{r}
-counts <- read.csv("data/airway_scaledcounts.csv", stringsAsFactors = FALSE)
-metadata <-  read.csv("data/airway_metadata.csv", stringsAsFactors = FALSE)
+counts <- read.csv("airway_scaledcounts.csv", stringsAsFactors = FALSE)
+metadata <-  read.csv("airway_metadata.csv", stringsAsFactors = FALSE)
 ```
 
 Now, take a look at each.
@@ -144,16 +186,22 @@ head(metadata)
 You can also use the **View()** function to view the entire object. Notice something here. The sample IDs in the metadata sheet (SRR1039508, SRR1039509, etc.) exactly match the column names of the countdata, except for the first column, which contains the Ensembl gene ID. This is important, and we'll get more strict about it later on.
 
 
+<div class="q_box">
+- **Q1.** How many genes are in this dataset?  `r fitb( nrow(counts) )`
+- **Q2.** How many 'control' cell lines do we have? `r fitb("4")`
+
+`r hide("I need a hint")`
+The functions `dim()`, `nrow()` and `View()` may be useful for answering these questions.  
+`r unhide()`
+</div>
+
+
 # 3. Toy differential gene expression
 Lets perform some exploratory differential gene expression analysis. **Note: this analysis is for demonstration only. NEVER do differential expression analysis this way!**  
 
 Look at the metadata object again to see which samples are `control` and which are drug `treated`
 
-```{r, eval=FALSE}
-View(metadata)
-```
-
-If we look at our metadata, we see that the control samples are SRR1039508, SRR1039512, SRR1039516, and SRR1039520. This bit of code will first find the sample `id` for those labeled control. Then calculate the mean counts per gene across these samples:
+If we look at our metadata, (e.g. with the command `View(metadata)`) we see that the control samples are SRR1039508, SRR1039512, SRR1039516, and SRR1039520. This bit of code will first find the sample `id` for those labeled control. Then calculate the mean counts per gene across these samples:
 
 ```{r}
 control <- metadata[metadata[,"dex"]=="control",]
@@ -162,10 +210,23 @@ names(control.mean) <- counts$ensgene
 ```
 
 <div class="q_box">
-> **Q1**. How would you make the above code more robust? What would happen if you were to add more samples. Would the values obtained with the excat code above be correct?
+- **Q3.** How would you make the above code more robust? 
+- **Q4.** Follow the same procedure for the `treated` samples (i.e. calculate the mean per gene accross drug treated samples and assign to a labeled vector called `treated.mean`)
 
-> **Q2**. Follow the same procedure for the `treated` samples (i.e. calculate the mean per gene accross drug treated samples and assign to a labeled vector called `treated.mean`)
+`r hide("I need a hint")`
+For Q3 consider what would happen if you were to add more samples. Would the values obtained with the excat code above be correct?
+
+For Q4 you can adapt the above code being sure to substitute `"treated"` for `"control"`. For example:
+
+```{r, eval-FALSE}
+treated <- metadata[metadata[,"dex"]=="treated",]
+treated.mean <- rowSums( counts[ ,treated$id] )/4 
+names(treated.mean) <- counts$ensgene
+```
+
+`r unhide()`
 </div>
+
 
 ```{r, echo=FALSE}
 ## ***Hide code***
@@ -187,18 +248,28 @@ colSums(meancounts)
 ```
 
 <div class="q_box">
-> **Q3**. Create a scatter plot showing the mean of the treated samples against the mean of the control samples. Your plot should look something like the following.
-</div>
+- **Q5.**  Create a scatter plot showing the mean of the treated samples against the mean of the control samples. Your plot should look something like the following.
 
 ```{r, echo=FALSE}
 plot(meancounts[,1],meancounts[,2], xlab="Control", ylab="Treated")
 ```
 
-Wait a sec. There are 60,000-some rows in this data, but I'm only seeing a few dozen dots at most outside of the big clump around the origin. Try plotting both axes on a log scale (hint: see the help for **?plot.default** to see how to set log axis. 
+</div>
+
+Wait a sec. There are 60,000-some rows in this data, but I'm only seeing a few dozen dots at most outside of the big clump around the origin. 
+
+<div class="q_box">
+- **Q6.** Try plotting both axes on a log scale. What is the argument to **plot()** that allows you to do this? `r fitb(c("log", " \"log=xy\" ", " \"log=\"xy\"\" "), ignore_case = TRUE, width = "10", regex = TRUE)`  
+
+`r hide("I need a hint")`
+See the help for **?plot.default** to see how to set log axis. 
+`r unhide()`
 
 ```{r, echo=FALSE, warning=FALSE}
 plot(meancounts[,1],meancounts[,2], xlab="log Control", ylab="log Treated", log="xy")
 ```
+
+</div>
 
 We can find candidate differentially expressed genes by looking for genes with a large change between control and dex-treated samples. We usually look at the log2 of the fold change, because this has better mathematical properties. 
 
@@ -209,7 +280,7 @@ meancounts$log2fc <- log2(meancounts[,"treated.mean"]/meancounts[,"control.mean"
 head(meancounts)
 ```
 
-There are a couple of “weird” results. Namely, the NaN ("not a number"") and -Inf (negative infinity) results. 
+There are a couple of “weird” results. Namely, the NaN ("not a number") and -Inf (negative infinity) results. 
 
 The NaN is returned when you divide by zero and try to take the log. The -Inf is returned when you try to take the log of zero. It turns out that there are a lot of genes with zero expression. Let’s filter our data to remove these genes. Again inspect your result (and the intermediate steps) to see if things make sense to you 
 
@@ -222,7 +293,11 @@ head(mycounts)
 ```
 
 <div class="q_box">
->**Q4**. What is the purpose of the `arr.ind` argument in the **which()** function call above? Why would we then take the first column of the output and need to call the **unique()** function?
+- **Q7.** What is the purpose of the `arr.ind` argument in the **which()** function call above? Why would we then take the first column of the output and need to call the **unique()** function?
+
+`r hide("I need a hint")`
+Ask Barry to discuss this ;-) 
+`r unhide()`
 </div>
 
 A common threshold used for calling something differentially expressed is a log2(FoldChange) of greater than 2 or less than -2. Let’s filter the dataset both ways to see how many genes are up or down-regulated.
@@ -233,13 +308,21 @@ down.ind <- mycounts$log2fc < (-2)
 ```
 
 <div class="q_box">
-> **Q5**. Using the `up.ind` and `down.ind` vectors above can you determine how many up and down regulated genes we have at the greater than 2 fc level?
-</div>
+- **Q8.**  Using the `up.ind` vector above can you determine how many up  regulated genes we have at the greater than 2 fc level?  `r fitb( length(mycounts$log2fc[up.ind]) )`
 
+- **Q9.**  Using the `down.ind` vector above can you determine how many down regulated genes we have at the greater than 2 fc level? `r fitb( length(mycounts$log2fc[down.ind]) )`
+
+`r hide("I need a hint")` 
+What type of vectors are `up.ind` and `down.ind`? How could you count the number of TRUE elements? Your answers should look like: 
 ```{r, echo=FALSE}
 paste("Up:", length(mycounts$log2fc[up.ind]) )
 paste("Down:", length(mycounts$log2fc[down.ind]) )
 ```
+
+`r unhide()`
+
+</div>
+
 
 In total, you should of reported 617 differentially expressed genes, in either direction.
 
@@ -258,7 +341,11 @@ head(anno)
 Ideally we want this annotation data mapped (or merged) with our `mycounts` data. In a previous class on writing R functions we introduced the **merge()** function, which is one common way to do this.
 
 <div class="q_box">
-> **Q6**. From consulting the help page for the **merge()** function can you set the `by.x` and `by.y` arguments appropriately to annotate our `mycounts` data.frame with all the available annotation data in your `anno` data.frame?
+- **Q10.**   From consulting the help page for the **merge()** function can you set the `by.x` and `by.y` arguments appropriately to annotate our `mycounts` data.frame with all the available annotation data in your `anno` data.frame?
+
+`r hide("I need a hint")` 
+What should the `x` and `y` inputs to **merge()** be? Once you have this you need to set the `by.x` and `by.y` arguments. Ask Barry to discuss this as it requires you to read a bit futher down the help page ;-)
+`r unhide()`
 </div>
 
 Examine your results with the **View()** function. It should look something like the following:
@@ -270,14 +357,14 @@ head(mycounts.anno)
 
 In cases where you don't have a preferred annotation file at hand you can use other Bioconductor packages for annotation. 
 
-Bioconductor's annotation packages help with mapping various ID schemes to each other. Here we load the AnnotationDbi package and the annotation package org.Hs.eg.db.
+Bioconductor's annotation packages help with mapping various ID schemes to each other. Here we load the **AnnotationDbi** package and the annotation package **org.Hs.eg.db**.
 
 ```{r, warning=FALSE, results=FALSE, message=FALSE}
 library("AnnotationDbi")
 library("org.Hs.eg.db")
 ```
 
-> **Note**: You may have to install these with the `biocLite("AnnotationDbi")` function etc.
+> **Note**: You may have to install these with the `BiocManager::install("AnnotationDbi")` and `BiocManager::install("org.Hs.eg.db")` function calls.
 
 This is the organism annotation package ("org") for Homo sapiens ("Hs"), organized as an AnnotationDbi database package ("db"), using Entrez Gene IDs ("eg") as primary key. To get a list of all available key types, use:
 
@@ -288,19 +375,25 @@ columns(org.Hs.eg.db)
 
 We can use the **mapIds()** function to add individual columns to our results table. We provide the row names of our results table as a key, and specify that `keytype=ENSEMBL`. The `column` argument tells the mapIds() function which information we want, and the `multiVals` argument tells the function what to do if there are multiple possible values for a single input value. Here we ask to just give us back the first one that occurs in the database.
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 mycounts$symbol <- mapIds(org.Hs.eg.db,
-                     keys=row.names(mycounts),
-                     column="SYMBOL",
-                     keytype="ENSEMBL",
+                     keys=row.names(mycounts), # Our genenames
+                     keytype="ENSEMBL",        # The format of our genenames
+                     column="SYMBOL",          # The new format we want to add
                      multiVals="first")
 ```
 
-<div class="q_box">
-> **Q7**. Run the **mapIds()** function two more times to add the Entrez ID and UniProt accession as new columns called `mycounts$entrez` and `mycounts$uniprot`. The **head()** of your results should look like the following:
-</div>
+```{r}
+head(mycounts)
+```
 
-```{r, echo=FALSE}
+<div class="q_box">
+- **Q11.**    Run the **mapIds()** function two more times to add the Entrez ID and UniProt accession as new columns called `mycounts$entrez` and `mycounts$uniprot`. 
+
+`r hide("I need a hint")`
+Your code and results should look like the following:
+
+```{r, message=FALSE, warning=FALSE}
 mycounts$entrez <- mapIds(org.Hs.eg.db,
                      keys=row.names(mycounts),
                      column="ENTREZID",
@@ -316,14 +409,11 @@ mycounts$uniprot <- mapIds(org.Hs.eg.db,
 head(mycounts)
 ```
 
-<div class="q_box">
-> **Q8**. Examine your annotated results for those genes with a log2(FoldChange) of greater than 2 (or less than -2 if you prefer) with the **View()** function. What do you notice? Would you trust these results? Why or why not?
+`r unhide()`
+
+- **Q12.** Examine your annotated results for those genes with a log2(FoldChange) of greater than 2 (or less than -2 if you prefer) with the `View( mycounts[up.ind,] )` function. What do you notice? Would you trust these results? Why or why not?
+
 </div>
-
-```{r}
-head(mycounts[up.ind,])
-```
-
 
 # 5. DESeq2 analysis
 Let's do this the right way. DESeq2 is an R package for analyzing count-based NGS data like RNA-seq. It is available from [Bioconductor](http://www.bioconductor.org/). Bioconductor is a project to provide tools for analyzing high-throughput genomic data including RNA-seq, ChIP-seq and arrays. You can explore Bioconductor packages [here](http://www.bioconductor.org/packages/release/BiocViews.html#___Software).
@@ -343,7 +433,7 @@ citation("DESeq2")
 
 Take a second and read through all the stuff that flies by the screen when you load the DESeq2 package. When you first installed DESeq2 it may have taken a while, because DESeq2 _depends_ on a number of other R packages (S4Vectors, BiocGenerics, parallel, IRanges, etc.) Each of these, in turn, may depend on other packages. These are all loaded into your working environment when you load DESeq2. Also notice the lines that start with `The following objects are masked from 'package:...`.
 
-## Importing data
+### Importing data
 
 Bioconductor software packages often define and use custom class objects for storing data. This helps to ensure that all the needed data for analysis (and the results) are available. DESeq works on a particular type of object called a *DESeqDataSet*. The DESeqDataSet is a single object that contains input values, intermediate calculations like how things are normalized, and all results of a differential expression analysis. 
 
@@ -387,7 +477,7 @@ dds <- DESeq(dds)
 ```
 
 
-## Getting results
+### Getting results
 
 Since we've got a fairly simple design (single factor, two groups, treated versus control), we can get results out of the object simply by calling the `results()` function on the DESeqDataSet that has been run through the pipeline. The help page for `?results` and the vignette both have extensive documentation about how to pull out the results for more complicated models (multi-factor experiments, specific contrasts, interaction terms, time courses, etc.). 
 
@@ -397,7 +487,9 @@ res <- results(dds)
 res
 ```
 
-Either click on the `res` object in the environment pane or pass it to `View()` to bring it up in a data viewer. Why do you think so many of the adjusted p-values are missing (`NA`)? Try looking at the `baseMean` column, which tells you the average overall expression of this gene, and how that relates to whether or not the p-value was missing. Go to the [DESeq2 vignette](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.pdf) and read the section about "Independent filtering and multiple testing." 
+Convert the `res` object to a *data.frame* with the `as.data.frame()` function and then pass it to `View()` to bring it up in a data viewer. 
+
+Why do you think so many of the adjusted p-values are missing (`NA`)? Try looking at the `baseMean` column, which tells you the average overall expression of this gene, and how that relates to whether or not the p-value was missing. Go to the [DESeq2 vignette](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.pdf) and read the section about "Independent filtering and multiple testing." 
 
 > **Note**. The goal of independent filtering is to filter out those tests from the procedure that have no, or little chance of showing significant evidence, without even looking at the statistical result. Genes with very low counts are not likely to see significant differences typically due to high dispersion. This results in increased detection power at the same experiment-wide type I error [_i.e., better FDRs_].
 
@@ -429,23 +521,30 @@ nrow(resSig05)
 ```
 
 <div class="q_box">
-> **Q9**. How many are significant with an adjusted p-value < 0.05? How about 0.01? Save this last set of results as `resSig01`. 
+- **Q13.**  How many are significant with an adjusted p-value < 0.05? How about 0.01? Save this last set of results as `resSig01`. 
 
-> **Q10**. Using either the previously generated `anno` object (annotations from the file `annotables_grch38.csv` file) or the **mapIds()** function (from the AnnotationDbi package) add annotation to your `res01` results data.frame. 
-</div>
+- **Q14**. Using either the previously generated `anno` object (annotations from the file `annotables_grch38.csv` file) or the **mapIds()** function (from the AnnotationDbi package) add annotation to your `res01` results data.frame. 
+
+
+`r hide("I need a hint")`
+Your code should look like this:
 
 ```{r, echo=FALSE}
-resSig01 <- subset(as.data.frame(res), padj < 0.01)
+resSig01 <- as.data.frame( results(dds, alpha=0.01) )
 nrow(resSig01)
 ```
 
 ```{r, echo=FALSE}
 resSig01$symbol <- mapIds(org.Hs.eg.db,
                      keys=row.names(resSig01),
-                     column="SYMBOL",
                      keytype="ENSEMBL",
+                     column="SYMBOL",
                      multiVals="first")
 ```
+
+`r unhide()`
+</div>
+
 
 You can arrange and view the results by the adjusted p-value
 
@@ -466,50 +565,10 @@ write.csv(resSig01[ord,], "signif01_results.csv")
 
 # 6. Data Visualization
 
-## Plotting counts
-
-DESeq2 offers a function called `plotCounts()` that takes a DESeqDataSet that has been run through the pipeline, the name of a gene, and the name of the variable in the `colData` that you're interested in, and plots those values. See the help for `?plotCounts`. Let's first see what the gene ID is for the CRISPLD2 gene using:
-
-```{r}
-i <- grep("CRISPLD2", resSig01$symbol)
-resSig01[i,]
-rownames(resSig01[i,])
-```
-
-Now, with that gene ID in hand let's plot the counts, where our `intgroup`, or "interesting group" variable is the "dex" column.
-
-```{r plotCounts1}
-plotCounts(dds, gene="ENSG00000103196", intgroup="dex")
-```
-
-That's just okay. Keep looking at the help for `?plotCounts`. Notice that we could have actually returned the data instead of plotting. We could then pipe this to ggplot and make our own figure. Let's make a boxplot.
-
-```{r plotCounts2}
-# Return the data
-d <- plotCounts(dds, gene="ENSG00000103196", intgroup="dex", returnData=TRUE)
-head(d)
-```
-
-We can mow use this returned object to plot a boxplot with the base graphics function **boxplot()**
-
-```{r}
-boxplot(count ~ dex , data=d)
-```
-
-
-As the returned object is a data.frame it is also all setup for ggplot2 based plotting. For example: 
-
-```{r}
-library(ggplot2)
-ggplot(d, aes(dex, count)) + geom_boxplot(aes(fill=dex)) + scale_y_log10() + ggtitle("CRISPLD2")
-```
-
-Which plot do you prefer? Maybe time to learn ggplot via the DataCamp course ;-)
-
 
 ## Volcano plots
 
-Let's make another commonly produced visualization from this data, namely so-called [Volcano plots](https://en.wikipedia.org/wiki/Volcano_plot_(statistics)). These summary figures are frequently used to highlight the proportion of genes that are both significantly regulated and display a high fold change. 
+Let's make a commonly produced visualization from this data, namely so-called [Volcano plots](https://en.wikipedia.org/wiki/Volcano_plot_(statistics)). These summary figures are frequently used to highlight the proportion of genes that are both significantly regulated and display a high fold change. 
 
 First, let's add a column called `sig` to our full `res` results that evaluates to TRUE only if padj<0.05 and the absolute log2FoldChange>2, FALSE if not, and NA if padj is also NA.
 
@@ -564,7 +623,9 @@ abline(h=-log(0.1), col="gray", lty=2)
 
 and do the same plot with **ggplot**...
 
-```{r}
+```{r, warning=FALSE}
+library(ggplot2)
+
 ggplot(as.data.frame(res), aes(log2FoldChange, -log10(pvalue), col=sig)) + 
     geom_point() + 
     ggtitle("Volcano plot")
@@ -573,7 +634,7 @@ ggplot(as.data.frame(res), aes(log2FoldChange, -log10(pvalue), col=sig)) +
 For even more customization you might find the **EnhancedVolcano** bioconductor package useful (Note. It uses ggplot under the hood): 
 
 ```{r, eval=FALSE}
-biocLite("EnhancedVolcano")
+BiocInstaller::install("EnhancedVolcano")
 ```
 
 ```{r, warning=FALSE, message=FALSE}
@@ -590,10 +651,54 @@ EnhancedVolcano(res,
 In the next class we will find out how to derive biological (and hopefully) mechanistic insight from the subset of our most intresting genes highlighted in these types of plots.
 
 
+
+## OPTIONAL: Plotting counts
+
+DESeq2 offers a function called `plotCounts()` that takes a DESeqDataSet that has been run through the pipeline, the name of a gene, and the name of the variable in the `colData` that you're interested in, and plots those values. See the help for `?plotCounts`. Let's first see what the gene ID is for the CRISPLD2 gene using:
+
+```{r}
+i <- grep("CRISPLD2", resSig01$symbol)
+resSig01[i,]
+rownames(resSig01[i,])
+```
+
+Now, with that gene ID in hand let's plot the counts, where our `intgroup`, or "interesting group" variable is the "dex" column.
+
+```{r plotCounts1}
+plotCounts(dds, gene="ENSG00000103196", intgroup="dex")
+```
+
+That's just okay. Keep looking at the help for `?plotCounts`. Notice that we could have actually returned the data instead of plotting. We could then pipe this to ggplot and make our own figure. Let's make a boxplot.
+
+```{r plotCounts2}
+# Return the data
+d <- plotCounts(dds, gene="ENSG00000103196", intgroup="dex", returnData=TRUE)
+head(d)
+```
+
+We can mow use this returned object to plot a boxplot with the base graphics function **boxplot()**
+
+```{r}
+boxplot(count ~ dex , data=d)
+```
+
+
+As the returned object is a data.frame it is also all setup for ggplot2 based plotting. For example: 
+
+```{r}
+library(ggplot2)
+ggplot(d, aes(dex, count)) + geom_boxplot(aes(fill=dex)) + scale_y_log10() + ggtitle("CRISPLD2")
+```
+
+Which plot do you prefer? Maybe time to learn more about ggplot via the available DataCamp course ;-)
+
+
+
 # Session Information
-The `sessionInfo()` function prints version information about R and any attached packages. It is good practice to always run this command at the end of your R session and record it for the sake of reproducibility in the future.
+The `sessionInfo()` prints version information about R and any attached packages. It's a good practice to always run this command at the end of your R session and record it for the sake of reproducibility in the future.
 
 ```{r sessionInfo}
 sessionInfo()
 ```
+
 
