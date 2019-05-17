@@ -101,9 +101,9 @@ Glucocorticoids are used, for example, by people with asthma to reduce inflammat
 
 Himes et al. used RNA-seq to profile gene expression changes in four different ASM cell lines treated with dexamethasone glucocorticoid. They found a number of differentially expressed genes comparing dexamethasone-treated to control cells, but focus much of the discussion on a gene called CRISPLD2. This gene encodes a secreted protein known to be involved in lung development, and SNPs in this gene in previous GWAS studies are associated with inhaled corticosteroid resistance and bronchodilator response in asthma patients. They confirmed the upregulated CRISPLD2 mRNA expression with qPCR and increased protein expression using Western blotting.  
 
-In the experiment, four primary human ASM cell lines were treated with 1 micromolar dexamethasone for 18 hours. For each of the four cell lines, we have a treated and an untreated sample. They did their analysis using **Tophat** and **Cufflinks** similar to our last days's hands-on session. For a more detailed description of their analysis see the [PubMed entry 24926665](http://www.ncbi.nlm.nih.gov/pubmed/24926665) and for raw data see the [GEO entry GSE52778](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE52778).  
+In the experiment, four primary human ASM cell lines were treated with 1 micromolar dexamethasone for 18 hours. For each of the four cell lines, we have a treated and an untreated sample. They did their analysis using **Tophat** and **Cufflinks** similar to our last day's hands-on session. For a more detailed description of their analysis see the [PubMed entry 24926665](http://www.ncbi.nlm.nih.gov/pubmed/24926665) and for raw data see the [GEO entry GSE52778](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE52778).  
 
-In this session we will read and explore thegene expression data from this experiment using base R functions and then perform a detailed analysis with the **DESeq2** package from [Bioconductor](http://www.bioconductor.org).
+In this session we will read and explore the gene expression data from this experiment using base R functions and then perform a detailed analysis with the **DESeq2** package from [Bioconductor](http://www.bioconductor.org).
 
 
 # 1. Bioconductor and DESeq2 setup
@@ -154,7 +154,7 @@ In the workflow we’ll use here, the abundance of each transcript was quantifie
 ### DESeq2 Required Inputs
 As input, the DESeq2 package expects (**1**) a data.frame of **count data** (as obtained from RNA-seq or another high-throughput sequencing experiment) and (**2**) a second data.frame with information about the samples - often called sample metadata (or `colData` in DESeq2-speak because it supplies metadata/information about the columns of the countData matrix). 
 
-![](https://bioboot.github.io/bimm143_W18/class-material/countdatacoldata.png)
+![](image_coldata-countdata.png)
 
 
 The "count matrix" (called the `countData` in DESeq2-speak) the value in the *i-th* row and the *j-th* column of the data.frame tells us how many reads can be assigned to *gene i* in *sample j*. Analogously, for other types of assays, the rows of this matrix might correspond e.g. to binding regions (with ChIP-Seq) or peptide sequences (with quantitative mass spectrometry). 
@@ -211,10 +211,10 @@ names(control.mean) <- counts$ensgene
 
 <div class="q_box">
 - **Q3.** How would you make the above code more robust? 
-- **Q4.** Follow the same procedure for the `treated` samples (i.e. calculate the mean per gene accross drug treated samples and assign to a labeled vector called `treated.mean`)
+- **Q4.** Follow the same procedure for the `treated` samples (i.e. calculate the mean per gene across drug treated samples and assign to a labeled vector called `treated.mean`)
 
 `r hide("I need a hint")`
-For Q3 consider what would happen if you were to add more samples. Would the values obtained with the excat code above be correct?
+For Q3 consider what would happen if you were to add more samples. Would the values obtained with the exact code above be correct?
 
 For Q4 you can adapt the above code being sure to substitute `"treated"` for `"control"`. For example:
 
@@ -254,6 +254,15 @@ colSums(meancounts)
 plot(meancounts[,1],meancounts[,2], xlab="Control", ylab="Treated")
 ```
 
+
+`r hide("I need a hint")`
+Here you can call **plot()** with `x=meancounts[,1]` and `y=meancounts[,2]`. Or just call `plot(meancounts)` 
+
+```{r, eval=FALSE}
+plot(meancounts[,1],meancounts[,2], xlab="Control", ylab="Treated")
+```
+
+`r unhide()`
 </div>
 
 Wait a sec. There are 60,000-some rows in this data, but I'm only seeing a few dozen dots at most outside of the big clump around the origin. 
@@ -296,7 +305,7 @@ head(mycounts)
 - **Q7.** What is the purpose of the `arr.ind` argument in the **which()** function call above? Why would we then take the first column of the output and need to call the **unique()** function?
 
 `r hide("I need a hint")`
-Ask Barry to discuss this ;-) 
+The `arr.ind=TRUE` argument will clause **which()** to return both the row and column indices (i.e. positions) where there are TRUE values. In this case this will tell us which genes (rows) and samples (columns) have zero counts. We are going to ignore any genes that have zero counts in any sample so we just focus on the `row` answer. Calling **unique()** will ensure we dont count any row twice if it has zer entries in both samples. Ask Barry to discuss and demo this further;-) 
 `r unhide()`
 </div>
 
@@ -344,7 +353,7 @@ Ideally we want this annotation data mapped (or merged) with our `mycounts` data
 - **Q10.**   From consulting the help page for the **merge()** function can you set the `by.x` and `by.y` arguments appropriately to annotate our `mycounts` data.frame with all the available annotation data in your `anno` data.frame?
 
 `r hide("I need a hint")` 
-What should the `x` and `y` inputs to **merge()** be? Once you have this you need to set the `by.x` and `by.y` arguments. Ask Barry to discuss this as it requires you to read a bit futher down the help page ;-)
+What should the `x` and `y` inputs to **merge()** be? Once you have this you need to set the `by.x` and `by.y` arguments. Ask Barry to discuss this as it requires you to read a bit further down the help page ;-)
 `r unhide()`
 </div>
 
@@ -521,7 +530,7 @@ nrow(resSig05)
 ```
 
 <div class="q_box">
-- **Q13.**  How many are significant with an adjusted p-value < 0.05? How about 0.01? Save this last set of results as `resSig01`. 
+- **Q13.**  How many are significant with an adjusted p-value < 0.05? How about 0.01? Save this last set of results as `resSig01`. `r fitb( 38694 )`
 
 - **Q14**. Using either the previously generated `anno` object (annotations from the file `annotables_grch38.csv` file) or the **mapIds()** function (from the AnnotationDbi package) add annotation to your `res01` results data.frame. 
 
@@ -529,12 +538,12 @@ nrow(resSig05)
 `r hide("I need a hint")`
 Your code should look like this:
 
-```{r, echo=FALSE}
+```{r}
 resSig01 <- as.data.frame( results(dds, alpha=0.01) )
 nrow(resSig01)
 ```
 
-```{r, echo=FALSE}
+```{r}
 resSig01$symbol <- mapIds(org.Hs.eg.db,
                      keys=row.names(resSig01),
                      keytype="ENSEMBL",
@@ -568,38 +577,30 @@ write.csv(resSig01[ord,], "signif01_results.csv")
 
 ## Volcano plots
 
-Let's make a commonly produced visualization from this data, namely so-called [Volcano plots](https://en.wikipedia.org/wiki/Volcano_plot_(statistics)). These summary figures are frequently used to highlight the proportion of genes that are both significantly regulated and display a high fold change. 
+Let's make a commonly produced visualization from this data, namely a so-called [Volcano plot](https://en.wikipedia.org/wiki/Volcano_plot_(statistics)). These summary figures are frequently used to highlight the proportion of genes that are both significantly regulated and display a high fold change. 
 
-First, let's add a column called `sig` to our full `res` results that evaluates to TRUE only if padj<0.05 and the absolute log2FoldChange>2, FALSE if not, and NA if padj is also NA.
+Typically these plots shows the log fold change on the X-axis, and the $-log_{10}$ of the p-value on the Y-axis (the more significant the p-value, the larger the $-log_{10}$ of that value will be). A very dull (i.e. non colored and labeled) version can be created with a quick call to **plot()** like so:
 
-```{r}
-res$sig <- res$padj<0.05 & abs(res$log2FoldChange)>2
-
-# How many of each?
-table(res$sig)
-sum(is.na(res$sig))
+```{r volcano1}
+plot( res$log2FoldChange,  -log(res$padj), 
+      xlab="Log2(FoldChange)",
+      ylab="-Log(P-value)")
 ```
 
-A volcano plot shows the log fold change on the X-axis, and the $-log_{10}$ of the p-value on the Y-axis (the more significant the p-value, the larger the $-log_{10}$ of that value will be).
+To make this more useful we can add some guidelines (with the `abline()` function) and color (with a custom color vector) highlighting genes that have padj<0.05 and the absolute log2FoldChange>2.
 
-Here we first make a volcano plot with base graphics and color by our `res$sig+1` (we add 1 so we dont have 0 as a color and end up with white points): 
 
 ```{r}
-# Set the color palette for our plot
-palette( c("gray","blue") )
-
 plot( res$log2FoldChange,  -log(res$padj), 
- col=res$sig+1, ylab="-Log(P-value)", xlab="Log2(FoldChange)")
+ ylab="-Log(P-value)", xlab="Log2(FoldChange)")
 
 # Add some cut-off lines
 abline(v=c(-2,2), col="darkgray", lty=2)
-abline(h=-log(0.1), col="darkgray", lty=2)
-
-# Reset the color palette
-palette("default")      
+abline(h=-log(0.05), col="darkgray", lty=2)
+   
 ```
 
-We could also setup a custom color vector indicating transcripts with large fold change and significant differences between conditions:
+To color the points we will setup a custom color vector indicating transcripts with large fold change and significant differences between conditions:
 
 
 ```{r}
@@ -610,10 +611,11 @@ mycols[ abs(res$log2FoldChange) > 2 ]  <- "red"
 inds <- (res$padj < 0.01) & (abs(res$log2FoldChange) > 2 )
 mycols[ inds ] <- "blue"
 
-#Volcano plot with custom colors 
+# Volcano plot with custom colors 
 plot( res$log2FoldChange,  -log(res$padj), 
  col=mycols, ylab="-Log(P-value)", xlab="Log2(FoldChange)" )
 
+# Cut-off lines
 abline(v=c(-2,2), col="gray", lty=2)
 abline(h=-log(0.1), col="gray", lty=2)
 
@@ -621,17 +623,20 @@ abline(h=-log(0.1), col="gray", lty=2)
 
 
 
-and do the same plot with **ggplot**...
+For even more customization you might find the **EnhancedVolcano** bioconductor package useful (Note. It uses **ggplot** under the hood): 
 
-```{r, warning=FALSE}
-library(ggplot2)
+First we will add the more understandable gene *symbol* names to our full results object `res` as we will use this to label the most interesting genes in our final plot.
 
-ggplot(as.data.frame(res), aes(log2FoldChange, -log10(pvalue), col=sig)) + 
-    geom_point() + 
-    ggtitle("Volcano plot")
+```{r}
+x <- as.data.frame(res)
+x$symbol <- mapIds(org.Hs.eg.db, 
+                   keys=row.names(x),
+                   keytype="ENSEMBL",
+                   column="SYMBOL",
+                   multiVals="first")
+
 ```
 
-For even more customization you might find the **EnhancedVolcano** bioconductor package useful (Note. It uses ggplot under the hood): 
 
 ```{r, eval=FALSE}
 BiocInstaller::install("EnhancedVolcano")
@@ -641,14 +646,14 @@ BiocInstaller::install("EnhancedVolcano")
 library(EnhancedVolcano)
 ```
 
-```{r}
-EnhancedVolcano(res,
-    lab = rownames(res),
+```{r, warning=FALSE, message=FALSE}
+EnhancedVolcano(x,
+    lab = x$symbol,
     x = 'log2FoldChange',
     y = 'pvalue')
 ```
 
-In the next class we will find out how to derive biological (and hopefully) mechanistic insight from the subset of our most intresting genes highlighted in these types of plots.
+In the next class we will find out how to derive biological (and hopefully) mechanistic insight from the subset of our most interesting genes highlighted in these types of plots.
 
 
 
@@ -690,7 +695,10 @@ library(ggplot2)
 ggplot(d, aes(dex, count)) + geom_boxplot(aes(fill=dex)) + scale_y_log10() + ggtitle("CRISPLD2")
 ```
 
-Which plot do you prefer? Maybe time to learn more about ggplot via the available DataCamp course ;-)
+Which plot do you prefer? Maybe time to learn more about ggplot via the available DataCamp course ;-) 
+Of course there are many other interesting genes that our results have highlighted and you could now explore these further using the same approach outlined above. 
+
+> In the next class we will find out how to derive biological (and hopefully) mechanistic insight from the subset of our most interesting genes highlighted in these types of plots.
 
 
 
