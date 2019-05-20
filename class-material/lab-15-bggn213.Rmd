@@ -2,7 +2,7 @@
 title: "BGGN-213, Lecture 15"
 subtitle: "Pathway Analysis from RNA-Seq Results"
 output:
-    html_document:
+    webex::webex_default:
         keep_md: true
         theme: cosmo
         highlight: pygments
@@ -10,7 +10,11 @@ output:
         toc_float: true
         toc_depth: 2
         number_sections: false
+        code_folding: show
         df_print: paged
+params:
+  class.name: bggn213 # bimm143
+  quarter: S19
 ---
 
 
@@ -50,15 +54,20 @@ body{
 </style> 
 
 
-
-**BGGN-213 Lecture 15:**  
-Barry Grant &lt; <http://thegrantlab.org/bggn213/> &gt;  
-2018-11-26   (14:03:01 PST on Mon, Nov 26)  
-  
-
-```{r setup, include=FALSE}
+```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+if (!requireNamespace("webex")) {
+  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"psyteachr/webex\")")
+} else {
+  library("labsheet")
+}
 ```
+
+
+Barry Grant &lt; `r paste0("<http://thegrantlab.org/", params$class.name,"/>")`  &gt;   
+`r format(Sys.time(), "%Y-%m-%d  (%H:%M:%S on %a, %b %d)")`    
+
+
 
 # Overview
 Analysis of high-throughput biological data typically yields a list of genes or proteins requiring further interpretation - for example the ranked lists of differentially expressed genes we have been generating from our RNA-seq analysis to date. 
@@ -66,6 +75,10 @@ Analysis of high-throughput biological data typically yields a list of genes or 
 Our intention is typically to use such lists to gain novel insights about genes and proteins that may have roles in a given phenomenon, phenotype or disease progression. However, in many cases these 'raw' gene lists are challenging to interpret due to their large size and lack of useful annotations. Hence, our expensively assembled gene lists often fail to convey the full degree of possible insight about the condition being studied. 
 
 Pathway analysis (also known as gene set analysis or over-representation analysis), aims to reduce the complexity of interpreting gene lists via mapping the listed genes to known (i.e. annotated) biological pathways, processes and functions. 
+
+<div style="float: right">
+![](overview_image.png)
+</div>
 
 > **Side-note**: Pathway analysis can actually mean many different things to different people. This includes analysis of Gene Ontology (GO) terms, protein–protein interaction networks, flux-balance analysis from kinetic simulations of pathways, etc. However, pathway analysis most commonly focuses on methods that exploit existing pathway knowledge (e.g. in public repositories such as GO or KEGG), rather than on methods that infer pathways from molecular measurements. These more general approaches are nicely reviewed in this paper: 
 >
@@ -325,8 +338,12 @@ The **gageData** package has pre-compiled databases mapping genes to KEGG pathwa
 First we need to do our one time install of these required bioconductor packages:
 
 ```{r, eval=FALSE}
-source("http://bioconductor.org/biocLite.R")
-biocLite( c("pathview", "gage", "gageData") )
+# Run in your R console (i.e. not your Rmarkdown doc!)
+BiocManager::install( c("pathview", "gage", "gageData") )
+
+# For old vesrsions of R only (R < 3.5.0)!
+#source("http://bioconductor.org/biocLite.R")
+#biocLite( c("pathview", "gage", "gageData") )
 ```
 
 Now we can load the packages and setup the KEGG data-sets we need.
