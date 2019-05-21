@@ -183,7 +183,7 @@ dds
 Next, get results for the HoxA1 knockdown versus control siRNA (remember that these were labeled as "**hoxa1_kd**" and "**control_sirna**" in our original `colData` metaFile input to DESeq, you can check this above and by running `resultsNames(dds)` command). 
 
 ```{r}
-res = results(dds, contrast=c("condition", "hoxa1_kd", "control_sirna"))
+res = results(dds)
 ```
 
 <div class="q_box">

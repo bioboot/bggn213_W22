@@ -405,7 +405,7 @@ body{
 }
 </style>
 <p>Barry Grant &lt; <a href="http://thegrantlab.org/bggn213/" class="uri">http://thegrantlab.org/bggn213/</a> &gt;<br />
-2019-05-20 (12:00:40 on Mon, May 20)</p>
+2019-05-21 (13:41:01 on Tue, May 21)</p>
 <div id="overview" class="section level1">
 <h1>Overview</h1>
 <p>Analysis of high-throughput biological data typically yields a list of genes or proteins requiring further interpretation - for example the ranked lists of differentially expressed genes we have been generating from our RNA-seq analysis to date.</p>
@@ -534,7 +534,7 @@ dds =<span class="st"> </span><span class="kw">DESeq</span>(dds)</code></pre></d
 ## colnames(6): SRR493366 SRR493367 ... SRR493370 SRR493371
 ## colData names(2): condition sizeFactor</code></pre>
 <p>Next, get results for the HoxA1 knockdown versus control siRNA (remember that these were labeled as &quot;<strong>hoxa1_kd</strong>&quot; and &quot;<strong>control_sirna</strong>&quot; in our original <code>colData</code> metaFile input to DESeq, you can check this above and by running <code>resultsNames(dds)</code> command).</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">res =<span class="st"> </span><span class="kw">results</span>(dds, <span class="dt">contrast=</span><span class="kw">c</span>(<span class="st">&quot;condition&quot;</span>, <span class="st">&quot;hoxa1_kd&quot;</span>, <span class="st">&quot;control_sirna&quot;</span>))</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">res =<span class="st"> </span><span class="kw">results</span>(dds)</code></pre></div>
 <div class="q_box">
 <blockquote>
 <p><strong>Q</strong>. Call the <strong>summary()</strong> function on your results to get a sense of how many genes are up or down-regulated at the default 0.1 p-value cutoff.</p>
@@ -607,7 +607,7 @@ res<span class="op">$</span>name =<span class="st">   </span><span class="kw">ma
                     <span class="dt">multiVals=</span><span class="st">&quot;first&quot;</span>)
 
 <span class="kw">head</span>(res, <span class="dv">10</span>)</code></pre></div>
-<pre><code>## log2 fold change (MLE): condition hoxa1_kd vs control_sirna 
+<pre><code>## log2 fold change (MLE): condition hoxa1 kd vs control sirna 
 ## Wald test p-value: condition hoxa1 kd vs control sirna 
 ## DataFrame with 10 rows and 9 columns
 ##                         baseMean     log2FoldChange              lfcSE
