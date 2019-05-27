@@ -600,7 +600,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 - 149.165.170.13  
 - 149.165.170.169  
 
-- 129.114.16.101  
+- 129.114.16.101  (Hold!)
 - 149.165.171.149  
 
 - 149.165.168.15  
