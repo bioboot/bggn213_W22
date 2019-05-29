@@ -676,7 +676,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 
 **Material**:
-- Lecture Slides: [Pt1 PDF]({{ site.baseurl }}/class-material/Lecture18_BGGN213_W19_Barry-large.pdf){:.no-push-state}{:target="_blank"}, [Pt2 PDF]({{ site.baseurl }}/class-material/Lecture18_BGGN213_W19_Bjoern-large.pdf){:.no-push-state}{:target="_blank"},
+- Lecture Slides: [Pt1 PDF]({{ site.baseurl }}/class-material/lecture-18-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, 
 - Lab: [Hands-on Worksheet Part 1.]({{ site.baseurl }}/class-material/lecture18_part1_BGGN213_W19.html){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on Worksheet Part 2.]({{ site.baseurl }}/class-material/lecture18_part2_BGGN213_W19/){:.no-push-state}{:target="_blank"},  
 - Data files:  
@@ -687,7 +687,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
   - [Solutions.pdf]({{ site.baseurl }}/class-material/Solutions.pdf){:.no-push-state}.  
 - IEDB HLA binding prediction website [http://tools.iedb.org/mhci/](http://tools.iedb.org/mhci/){:.no-push-state}{:target="_blank"}.  
 
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/jfrqJHVq0SzCF4JC3){:.no-push-state}
+- Feedback: [Muddy-Point-Assesment](https://forms.gle/VgGfkeXrByypzWkj8){:.no-push-state}
 
 
 
