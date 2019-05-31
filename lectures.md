@@ -686,6 +686,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
   - [subsequences.fa]({{ site.baseurl }}/class-material/subsequences.fa){:.no-push-state},  
   - [Solutions.pdf]({{ site.baseurl }}/class-material/Solutions.pdf){:.no-push-state}.  
 - IEDB HLA binding prediction website [http://tools.iedb.org/mhci/](http://tools.iedb.org/mhci/){:.no-push-state}{:target="_blank"}.  
+- [GitHub Rmd](https://github.com/bioboot/bggn213_classwork_S19/blob/master/class18/class18.md){:.no-push-state}{:target="_blank"}. 
 
 - Feedback: [Muddy-Point-Assesment](https://forms.gle/VgGfkeXrByypzWkj8){:.no-push-state}
 
