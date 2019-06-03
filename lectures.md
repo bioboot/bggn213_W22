@@ -702,15 +702,15 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 **Topics**: Summary of learning goals, Student course evaluation time and exam preparation; Find a gene assignment due.  Open study.  
   
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-19-bggn213_large.pdf){:.no-push-state},
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-19-bggn213_large.pdf){:.no-push-state}{:target="_blank"},
 
-- Hand-out: [**Exam guidelines, topics, and example questions**]({{ site.baseurl }}/class-material/BGGN213_exam_guidlines.pdf){:.no-push-state},  
+- Hand-out: [**Exam guidelines, topics, and example questions**]({{ site.baseurl }}/class-material/BGGN213_exam_guidlines.pdf){:.no-push-state}{:target="_blank"},  
 
-- Ether-pad: [**Feedback**](https://etherpad.net/p/bggn213_w19){:.no-push-state},  
+- Ether-pad: [**Feedback**](https://etherpad.net/p/bggn213_s19){:.no-push-state}{:target="_blank"},  
   
-- DataCamp: [**Bioinformatics Extension Track**](https://www.datacamp.com/tracks/custom-bioinformatics-extension){:.no-push-state}.
+- DataCamp: [**Bioinformatics Extension Track**](https://www.datacamp.com/tracks/custom-bioinformatics-extension){:.no-push-state}{:target="_blank"}.
 
-- Other Resources: [Advanced R book](http://adv-r.had.co.nz), [R for Data Science](https://r4ds.had.co.nz);
+- Other Resources: [Advanced R book](http://adv-r.had.co.nz){:.no-push-state}{:target="_blank"}, [R for Data Science](https://r4ds.had.co.nz){:.no-push-state}{:target="_blank"};
 
 ------------------------------------------------------------------------
 
@@ -734,11 +734,3 @@ Please remember to:
 - **Good luck!**  
 
 
-------------------------------------------------------------------------
-
-<a name="21"></a>
-
-21: Bonus: Bioinformatics & Genomics in industry
----------------
-
-Friday March 15th at 1pm come and enjoy a set of short open ended guest lectures from leading genomic scientists at Illumina Inc., Synthetic Genomics Inc., Samumed and the La Jolla Institute for Allergy and Immunology. Come prepared for networking and to have your questions about industry careers in Bioinformatics and Genomics answered.  
