@@ -118,6 +118,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_small.pdf){:.no-push-state}{:target="_blank"}
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-2-bggn213.pdf){:.no-push-state}{:target="_blank"}
+- Major Databases: [Handout PDF]({{ site.baseurl }}/class-material/Major_Databases.pdf){:.no-push-state}{:target="_blank"},
 - Feedback: [Muddy-Point-Assesment](https://forms.gle/Rp7vFfjXqNysmFe27){:.no-push-state}{:target="_blank"}.  
 
 
