@@ -12,10 +12,10 @@ barry:
     : [Prof. Barry J. Grant](http://thegrantlab.org/) (Email: <bjgrant@ucsd.edu>)
 
     Instructional Assistant
-    : Kevin Chau (Email: <kkchau@ucsd.edu>)  
+    : Katherine Lee (Email: <k7lee@ucsd.edu>)  
 
     Course Syllabus
-    : [Spring 2019 (PDF)](https://bioboot.github.io/bggn213_S19/class-material/BGGN213_S19_syllabus.pdf){:.no-push-state}
+    : [Fall 2019 (PDF)](https://bioboot.github.io/bggn213_F19/class-material/BGGN213_F19_syllabus.pdf){:.no-push-state}
     {:.message}
 
 #    : [Ileena Mitra](https://bioboot.github.io/bggn213_f17/ileenamitra@eng.ucsd.edu) (Email: <ileenamitra@eng.ucsd.edu>)
@@ -26,7 +26,7 @@ barry:
 
   # This photo will be used in the about section
   picture:
-    src:             /bggn213_S19/assets/img/logo.png
+    src:             /bggn213_F19/assets/img/logo.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     #srcset:
     #  1x:            https://placehold.it/128x128
