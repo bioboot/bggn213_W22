@@ -33,7 +33,7 @@ material.
 | 15 | Wed 11/20/19 | [**Genome annotation and the interpretation of gene lists**](#15) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment                                                                                                                                                                                                                                                                               |
 | 16 | Fri 11/22/19 | [**Essential UNIX for bioinformatics**](#16) <br> Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects.                                                                                                                                                                                                                     |
 | 17 | Wed 11/27/19 | [**Biological network analysis**](#17) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in ‘omics’ data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages. |
-| 18 | Fri 11/29/19 | [**Happy Thanksgiving!**](#18) <br> **N.B.** No class today but please note that the find a gene assignment is due before next class\!                                                                             |
+| 18 | Fri 11/29/19 | [**Happy Thanksgiving!**](#18) <br> **N.B.** No class today but please note that the find a gene assignment is due before class next Friday \!                                                                             |
 | 19 | Wed 12/04/19 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine.                                                              |
 | 20 | Fri 12/06/19 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due\!**                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
@@ -348,9 +348,9 @@ The [**find-a-gene project**]({{ site.baseurl }}/class-material/Find_A_Gene_Proj
 
 You may wish to consult the scoring rubric at the end of the above linked project description and the [**example report**]({{ site.baseurl }}/class-material/Find_A_Gene_Project_Example.pdf){:.no-push-state}{:target="_blank"} for format and content guidance.  
  
-Your responses to questions Q1-Q4 are due at the beginning of class **Fri May 17th** (05/17/19).   
+Your responses to questions Q1-Q4 are due at the beginning of class **Fri Nov 15th** (11/15/19).   
 
-The complete assignment, including responses to all questions, is due at the beginning of class **Wed June 5th** (06/05/19).  
+The complete assignment, including responses to all questions, is due at the beginning of class **Fri Dec 6th** (12/06/19).  
 
 Late responses will not be accepted under any circumstances.  
 
