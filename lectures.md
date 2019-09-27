@@ -60,10 +60,10 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-1-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-1-bggn213_small.pdf){:.no-push-state}{:target="_blank"}
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-1-bggn213.pdf){:.no-push-state}{:target="_blank"}
-- Feedback: [Muddy-Point-Assesment](https://forms.gle/ekALVLS8hC84nDj19){:.no-push-state}{:target="_blank"}
+- Feedback: [Muddy-Point-Assesment](https://forms.gle/EtmEhEMieSwfw6n48){:.no-push-state}{:target="_blank"}
 
 **Homework**:
-- [Questions](https://forms.gle/p1RcEgrqRrbagQiv9){:.no-push-state}{:target="_blank"}
+- [Questions](https://forms.gle/8dRgeSSXif94Y2nNA){:.no-push-state}{:target="_blank"}
 - Complete the [pre-course survey](https://forms.gle/qM9PTRNie8S49nuTA).  
 - Setup your [laptop computer]({{ site.baseurl }}/setup/) for this course.  
 - Get a copy of the course [syllabus]({{ site.baseurl }}/class-material/BGGN213_S19_syllabus.pdf){:.no-push-state},  
@@ -124,11 +124,11 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_small.pdf){:.no-push-state}{:target="_blank"}
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-2-bggn213.pdf){:.no-push-state}{:target="_blank"}
 - Major Databases: [Handout PDF]({{ site.baseurl }}/class-material/Major_Databases.pdf){:.no-push-state}{:target="_blank"},
-- Feedback: [Muddy-Point-Assesment](https://forms.gle/Rp7vFfjXqNysmFe27){:.no-push-state}{:target="_blank"}.  
+- Feedback: [Muddy-Point-Assesment](https://forms.gle/LnQg4L7XJgUHnLXe7){:.no-push-state}{:target="_blank"}.  
 
 
 **Homework**:
-- [Questions](https://forms.gle/r9XagCH9HiyL5cFY9){:.no-push-state}{:target="_blank"},  
+- [Questions](https://forms.gle/WzGMiohM9xygceXPA){:.no-push-state}{:target="_blank"},  
 - [Alignment Problem]({{ site.baseurl }}/class-material/lecture-2-bggn213_homework.pdf){:.no-push-state}{:target="_blank"},  
 
 
@@ -161,6 +161,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 
 **Homework**:   
+- [Homework](https://docs.google.com/document/d/1C4hBJCqbk_rO2ImioCHTsXJSHgMNhqaUB2WS0De4HEs/copy){:.no-push-state}{:target="_blank"} click and select "make a copy" then follow instructions,  
 - DataCamp Sign Up & Homework: [See your UCSD email invite!](https://www.datacamp.com){:.no-push-state},  
 - [RStudio and R download and setup]({{ site.baseurl }}/setup/).  
 
