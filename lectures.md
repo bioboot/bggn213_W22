@@ -66,8 +66,7 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 - [Questions](https://forms.gle/F4HdutxEVSkLpShS6){:.no-push-state}{:target="_blank"}
 - Complete the [pre-course survey](https://forms.gle/qM9PTRNie8S49nuTA).  
 - Setup your [laptop computer]({{ site.baseurl }}/setup/) for this course.  
-- Get a copy of the course [syllabus]({{ site.baseurl }}/class-material/BGGN213_F19_syllabus.pdf){:.no-push-state},  
-- Complete the [Office Hours Sign Up Sheet](https://doodle.com/poll/6zkgw3866rwbfpb4) {:.no-push-state} **TO BE UPDATED**.  
+- Get a copy of the course [syllabus]({{ site.baseurl }}/class-material/BGGN213_F19_syllabus.pdf){:.no-push-state}.  
 
 **Readings**: 
   - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  
@@ -126,11 +125,11 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_small.pdf){:.no-push-state}{:target="_blank"}
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-2-bggn213.pdf){:.no-push-state}{:target="_blank"}
 - Major Databases: [Handout PDF]({{ site.baseurl }}/class-material/Major_Databases.pdf){:.no-push-state}{:target="_blank"},
-- Feedback: [Muddy-Point-Assesment](https://forms.gle/LnQg4L7XJgUHnLXe7){:.no-push-state}{:target="_blank"}.  
+- Feedback: [Muddy-Point-Assesment](https://forms.gle/DBjDKg5azytyJrv86){:.no-push-state}{:target="_blank"}.  
 
 
 **Homework**:
-- [Questions](https://forms.gle/WzGMiohM9xygceXPA){:.no-push-state}{:target="_blank"},  
+- [Questions](https://forms.gle/XCauTLKnNK7ikdou6){:.no-push-state}{:target="_blank"},  
 - [Alignment Problem]({{ site.baseurl }}/class-material/lecture-2-bggn213_homework.pdf){:.no-push-state}{:target="_blank"},  
 
 
