@@ -225,7 +225,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 
 **Homework**:
-- This unit's homework is all [via **DataCamp** (see lecture 4 above)](https://www.datacamp.com/){:.no-push-state}.   
+- This units homework is all [via **DataCamp** (Intro to R, Intermideate R)](https://www.datacamp.com/){:.no-push-state}{:target="_blank"}.   
 
 
 
