@@ -273,7 +273,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-7-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-7-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
 - Example input for **grade()** function: [student_homework.csv]({{ site.baseurl }}/class-material/student_homework.csv){:.no-push-state},
-- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1xuMgYhMh3Ncqc1Nw-g-L06gjAhkidNSlmk4-TIv6wvI/edit?usp=sharing){:.no-push-state}{:target="_blank"},    
+- [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1cbKOOcjTAbqr1E1qkbBbrXXpSkCe5K-aNOXB5EHHEv0/edit?usp=sharing){:.no-push-state}{:target="_blank"},    
 - Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/LHI8L0QYVXChcNw02){:.no-push-state}.  
 
 
