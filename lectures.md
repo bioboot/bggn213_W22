@@ -338,6 +338,7 @@ Practical considerations and best practices for the analysis of high dimensional
 - Bonus: [StackExchange discussion on PCA](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa){:.no-push-state}. 
 - Book: [Statistics for Modern Biology](http://web.stanford.edu/class/bios221/book/index.html)  
 - 2019 Genome Biology review article [Machine learning and complex biological data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1689-0){:.no-push-state}{:target="_blank"}.
+- 2019 Pre-print, [Accuracy, Robustness and Scalability of Dimensionality Reduction Methods for Single Cell RNAseq Analysis](https://www.biorxiv.org/content/10.1101/641142v2.full){:.no-push-state}{:target="_blank"}.
 
 
 ------------------------------------------------------------------------
