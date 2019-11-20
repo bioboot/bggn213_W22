@@ -565,8 +565,8 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 **Material**:
 - Software Download: [Cytoscape](https://cytoscape.org/download.html){:.no-push-state}{:target="_blank"},  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-16-bggn213_large.pdf){:.no-push-state}{:target="_blank"},, [Small PDF]({{ site.baseurl }}/class-material/lecture-16-bggn213_small.pdf){:.no-push-state}{:target="_blank"},  
-- Lab: [Hands-on section worksheet Part 1 (**Networks**).]({{ site.baseurl }}/class-material/lecture16_bggn213_lab1.pdf){:.no-push-state}{:target="_blank"}, 
-- Lab: [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture16_bggn213_lab2.html){:.no-push-state}{:target="_blank"},  
+- Lab: [Hands-on section worksheet Part 1 (**Networks Visualization**).]({{ site.baseurl }}/class-material/lecture16_bggn213_lab1.pdf){:.no-push-state}{:target="_blank"}, 
+- Lab: [Hands-on section worksheet Part 2 (**Networks Analysis**).]({{ site.baseurl }}/class-material/lecture16_bggn213_lab2.html){:.no-push-state}{:target="_blank"},  
 - Data files:  
   - [galFiltered.sif]({{ site.baseurl }}/class-material/galFiltered.sif){:.no-push-state},  
   - [galExpData.csv]({{ site.baseurl }}/class-material/galExpData.csv){:.no-push-state},  
@@ -599,7 +599,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture16_BGGN213-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture16_BGGN213-small.pdf){:.no-push-state}{:target="_blank"},,  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-small.pdf){:.no-push-state}{:target="_blank"},,  
 - Hands-on section worksheet
   * [Using remote UNIX machines (Part I)]({{ site.baseurl }}/class-material/16_blast-01/){:.no-push-state}{:target="_blank"},
   * [Using remote UNIX machines (Part II)]({{ site.baseurl }}/class-material/16_blast-02/){:.no-push-state},
