@@ -28,14 +28,15 @@ material.
 | 10 | Fri 11/01/19 | **Project:** [**Find a gene assignment (Part 1)**](#10) <br> Principles of database searching, sequence analysis, structure analysis along with [**Hands-on with Git**](#10) <br> How to perform common operations with the Git version control system. We will also cover the popular social code-hosting platforms GitHub and BitBucket.                                                                                                                                |
 | 11 | Wed 11/06/19 | [**Structural Bioinformatics (Part 1)**](#11) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure                                                                                                                                                                                                                                                                                    |
 | 12 | Fri 11/08/19 | [**Bioinformatics in drug discovery and design**](#12) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization                                                                                                                                                                                                                                            |
-| 13 | Wed 11/13/19 | [**Genome informatics and high throughput sequencing (Part 1)**](#13) <br> Genome sequencing technologies past, present and future; Biological applications of sequencing, Analysis of variation in the genome, and gene expression; The Galaxy platform along with resources from the EBI & UCSC; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2                                                                                                                 |
-| 14 | Fri 11/15/19 | [**Transcriptomics and the analysis of RNA-Seq data**](#14) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. <br> **N.B.** Find a gene assignment part 1 due today\!                                                                                                                                                                                     |
-| 15 | Wed 11/20/19 | [**Genome annotation and the interpretation of gene lists**](#15) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment                                                                                                                                                                                                                                                                               |
-| 16 | Fri 11/22/19 | [**Essential UNIX for bioinformatics**](#16) <br> Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects.                                                                                                                                                                                                                     |
-| 17 | Wed 11/27/19 | [**Biological network analysis**](#17) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in ‘omics’ data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages. |
-| 18 | Fri 11/29/19 | [**Happy Thanksgiving!**](#18) <br> **N.B.** No class today but please note that the find a gene assignment is due before class next Friday \!                                                                             |
-| 19 | Wed 12/04/19 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine.                                                              |
-| 20 | Fri 12/06/19 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due\!**                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 13* | Wed 11/13/19 | [**Genome informatics and high throughput sequencing (Part 1)**](#13) <br> Genome sequencing technologies past, present and future; Biological applications of sequencing, Analysis of variation in the genome, and gene expression; The Galaxy platform along with resources from the EBI & UCSC; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2                                                                                                                 |
+| 14 | Wed 11/13/19 | [**Transcriptomics and the analysis of RNA-Seq data**](#14) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. <br> **N.B.** Find a gene assignment part 1 due today\!                                                                                                                                                                                     |
+| 15 | Fri 11/15/19 | [**Genome annotation and the interpretation of gene lists**](#15) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment                                                                                                                                                                                                                                                                               |
+| 16 | Wed 11/20/19 | [**Biological network analysis**](#16) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in ‘omics’ data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages. |
+| 17 | Fri 11/22/19 | [**Essential UNIX for bioinformatics**](#17) <br> Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects.                                                                                                                                                                                                                     |
+| 18 | Wed 11/27/19 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine.                                                              |
+| 19 | Fri 11/29/19 | [**Happy Thanksgiving!**](#19) <br> **N.B.** No class today but please note that the find a gene assignment is due before class next Friday\!                                                                             |
+| 19 | Wed 12/04/19 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due before next class\!**                                                             |
+| 20 | Fri 12/06/19 | [**Final Exam\!**](#20)                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
 
 
@@ -550,7 +551,38 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 <a name="16"></a>
 
-16: Essential UNIX for bioinformatics
+16: Biological network analysis
+-------------------------------
+
+**Topics**: Network graph approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in 'omics' data; Network construction, manipulation, visualization and analysis; Graph theory; Major network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph R packages for network visualization and analysis.
+
+**Goals**:
+- Be able to describe the major goals of biological network analysis and the concepts underlying network visualization and analysis.   
+- Be able to use Cytoscape for network visualization and manipulation.
+- Be able to find and instal Cytoscape Apps to extend network analysis functionality.  
+- Appreciate that the igraph R package has extensive network analysis functionality beyond that in Cytoscape and that the R bioconductor package RCy3 package allows us to bring networks and associated data from R to Cytoscape so we can have the best of both worlds. 
+
+**Material**:
+- Software Download: [Cytoscape](https://cytoscape.org/download.html){:.no-push-state}{:target="_blank"},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-16-bggn213_large.pdf){:.no-push-state}{:target="_blank"},, [Small PDF]({{ site.baseurl }}/class-material/lecture-16-bggn213_small.pdf){:.no-push-state}{:target="_blank"},  
+- Lab: [Hands-on section worksheet Part 1 (**Networks**).]({{ site.baseurl }}/class-material/lecture16_bggn213_lab1.pdf){:.no-push-state}{:target="_blank"}, 
+- Lab: [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture16_bggn213_lab2.html){:.no-push-state}{:target="_blank"},  
+- Data files:  
+  - [galFiltered.sif]({{ site.baseurl }}/class-material/galFiltered.sif){:.no-push-state},  
+  - [galExpData.csv]({{ site.baseurl }}/class-material/galExpData.csv){:.no-push-state},  
+  - [CytoscapeDemo_01.cys]({{ site.baseurl }}/class-material/CytoscapeDemo_01.cys){:.no-push-state},  
+  - [virus_prok_cor_abundant.tsv]({{ site.baseurl }}/class-material/virus_prok_cor_abundant.tsv){:.no-push-state},  
+  - [phage_ids_with_affiliation.tsv]({{ site.baseurl }}/class-material/phage_ids_with_affiliation.tsv){:.no-push-state}, 
+  - [prok_tax_from_silva.tsv]({{ site.baseurl }}/class-material/prok_tax_from_silva.tsv){:.no-push-state}.  
+  
+- Feedback: [Muddy-Point-Assesment](){:.no-push-state}
+
+
+------------------------------------------------------------------------
+
+<a name="17"></a>
+
+17: Essential UNIX for bioinformatics
 -------------------------------------------
 
 **Topics**: Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects.
@@ -583,94 +615,6 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 - 129.114.104.86  
 - 129.114.16.59  
 
-- 149.165.168.203  
-- 129.114.16.111  
-
-- 149.165.168.213  
-- 149.165.171.57  
-
-- 129.114.16.123  
-- 149.165.171.92  
-
-- 149.165.168.101  
-- 129.114.16.169  
-
-- 149.165.170.49  
-- 149.165.169.177  
-
-- 149.165.169.213  
-- 149.165.168.84  
-
-- 149.165.168.123  
-- 129.114.16.154  
-
-- 149.165.171.9  
-- 149.165.171.141  
-
-- 149.165.170.13  
-- 149.165.170.169  
-
-- 129.114.16.101  (Hold!)
-- 149.165.171.149  
-
-- 149.165.168.15  
-- 129.114.16.166  
-
-- 129.114.16.200  
-- 149.165.169.171  
-
-- 129.114.16.94  
-- 149.165.171.156  
-
-- 149.165.169.117  
-- 149.165.168.122  
-
-- 149.165.169.231  
-- 149.165.170.201  
-
-- 149.165.170.130  
-- 149.165.170.75  
-
-- 129.114.16.67  
-- 149.165.171.97  
-
-- 149.165.171.19  
-- 149.165.171.133  
-
-- 149.165.171.168
-
-
-
-
-------------------------------------------------------------------------
-
-<a name="17"></a>
-
-17: Biological network analysis
--------------------------------
-
-**Topics**: Network graph approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in 'omics' data; Network construction, manipulation, visualization and analysis; Graph theory; Major network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph R packages for network visualization and analysis.
-
-**Goals**:
-- Be able to describe the major goals of biological network analysis and the concepts underlying network visualization and analysis.   
-- Be able to use Cytoscape for network visualization and manipulation.
-- Be able to find and instal Cytoscape Apps to extend network analysis functionality.  
-- Appreciate that the igraph R package has extensive network analysis functionality beyond that in Cytoscape and that the R bioconductor package RCy3 package allows us to bring networks and associated data from R to Cytoscape so we can have the best of both worlds. 
-
-**Material**:
-- Software Download: [Cytoscape](https://cytoscape.org/download.html){:.no-push-state}{:target="_blank"},  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-17-bggn213_large.pdf){:.no-push-state}{:target="_blank"},, [Small PDF]({{ site.baseurl }}/class-material/lecture-17-bggn213_small.pdf){:.no-push-state}{:target="_blank"},  
-- Lab: [Hands-on section worksheet Part 1 (**Networks**).]({{ site.baseurl }}/class-material/lecture17_bggn213_lab1.pdf){:.no-push-state}{:target="_blank"}, 
-- Lab: [Hands-on section worksheet Part 2.]({{ site.baseurl }}/class-material/lecture17_bggn213_lab2.html){:.no-push-state}{:target="_blank"},  
-- Data files:  
-  - [galFiltered.sif]({{ site.baseurl }}/class-material/galFiltered.sif){:.no-push-state},  
-  - [galExpData.csv]({{ site.baseurl }}/class-material/galExpData.csv){:.no-push-state},  
-  - [CytoscapeDemo_01.cys]({{ site.baseurl }}/class-material/CytoscapeDemo_01.cys){:.no-push-state},  
-  - [virus_prok_cor_abundant.tsv]({{ site.baseurl }}/class-material/virus_prok_cor_abundant.tsv){:.no-push-state},  
-  - [phage_ids_with_affiliation.tsv]({{ site.baseurl }}/class-material/phage_ids_with_affiliation.tsv){:.no-push-state}, 
-  - [prok_tax_from_silva.tsv]({{ site.baseurl }}/class-material/prok_tax_from_silva.tsv){:.no-push-state}.  
-  
-- Feedback: [Muddy-Point-Assesment](){:.no-push-state}
 
 
 ------------------------------------------------------------------------
