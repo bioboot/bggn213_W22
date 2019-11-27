@@ -7,6 +7,8 @@ selected_projects:
 more_projects: projects.md
 ---
 
+
+
 ## Overview
 Bioinformatics - the application of computational and analytical methods to biological problems - is a rapidly maturing field that is driving the collection, analysis, and interpretation of the avalanche of data in modern life sciences and medical research.  
 
