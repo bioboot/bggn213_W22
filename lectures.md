@@ -599,7 +599,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 
 **Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-small.pdf){:.no-push-state}{:target="_blank"},,  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-small.pdf){:.no-push-state}{:target="_blank"},  
 - Hands-on section worksheet
   * [Using remote UNIX machines (Part I, **REQUIRED**)]({{ site.baseurl }}/class-material/17_blast-01/){:.no-push-state}{:target="_blank"},
   * [Using remote UNIX machines (Part II, Optional)]({{ site.baseurl }}/class-material/16_blast-02/){:.no-push-state},
@@ -681,13 +681,13 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 18: Cancer genomics
 -------------------
 
-**Topics**: Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Large scale cancer sequencing projects; NCI Genomic Data Commons; What has been learned from genome sequencing of cancer? **Immunoinformatics, immunotherapy and cancer**; Using genomics and bioinformatics to harness a patient’s own immune system to fight cancer. Implications for the development of personalized medicine.  
+**Topics**: Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Large scale cancer sequencing projects; NCI Genomic Data Commons; What has been learned from genome sequencing of cancer? **Immunoinformatics, immunotherapy and cancer**; Guest lecture from Dr. Bjoern Peters (LAI): Using genomics and bioinformatics to harness a patient’s own immune system to fight cancer. Implications for the development of personalized medicine.  
 
 **N.B.** Find a gene assignment due before next class!  
 
 
 **Material**:
-- Lecture Slides: [Pt1 PDF]({{ site.baseurl }}/class-material/lecture-18-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, 
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-18-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture18_bggn213-small.pdf){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on Worksheet Part 1.]({{ site.baseurl }}/class-material/lecture18_part1_BGGN213_W19.html){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on Worksheet Part 2.]({{ site.baseurl }}/class-material/lecture18_part2_BGGN213_W19/){:.no-push-state}{:target="_blank"},  
 - Data files:  
