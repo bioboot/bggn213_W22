@@ -717,9 +717,9 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 - Hand-out: [**Exam guidelines, topics, and example questions**]({{ site.baseurl }}/class-material/BGGN213_exam_guidlines.pdf){:.no-push-state}{:target="_blank"},  
 
-- Ether-pad: [**Feedback**](https://etherpad.net/p/bggn213_s19){:.no-push-state}{:target="_blank"},  
+- Ether-pad: [**Feedback**](https://board.net/p/bggn213_f19){:.no-push-state}{:target="_blank"},  
   
-- DataCamp: [**Bioinformatics Extension Track**](https://www.datacamp.com/tracks/custom-bioinformatics-extension){:.no-push-state}{:target="_blank"}.
+- DataCamp: [**Bioinformatics Extension Track**]({{ site.baseurl }}/class-material/datacamp_extras.pdf){:.no-push-state}{:target="_blank"}.
 
 - Other Resources: [Advanced R book](http://adv-r.had.co.nz){:.no-push-state}{:target="_blank"}, [R for Data Science](https://r4ds.had.co.nz){:.no-push-state}{:target="_blank"};
 
