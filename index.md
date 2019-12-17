@@ -1,6 +1,6 @@
 ---
 layout: welcome
-title: Bioinformatics <br> (BGGN 213, Fall 2019)
+title: Bioinformatics <br> (BGGN 213, Winter 2020)
 selected_projects:
   - _projects/welcome-screencast.md
   - _projects/using-jetstream-for-bioinformatics.md
@@ -53,11 +53,11 @@ If you can't make either of these please email for a time and we will make it ha
 There is no textbook for the course. Lecture notes, homework assignments, grading criteria, pre-class screen casts and required reading material will be available from this public facing course website.  
 
 ## Syllabus:  
-A detailed [syllabus]({{ site.baseurl }}/class-material/BGGN213_F19_syllabus.pdf){:.no-push-state} with topic outlines and learning goals is available for download.
+A detailed [syllabus]({{ site.baseurl }}/class-material/BGGN213_W20_syllabus.pdf){:.no-push-state} with topic outlines and learning goals is available for download.
 
 ## Surveys:
 Please help us improve this course by completing by completing these surveys before and after the course. Thank you!
-* [Pre-course questionnaire](https://forms.gle/qM9PTRNie8S49nuTA)  
+* [Pre-course questionnaire](https://forms.gle/qeQL4BQNa71dCnLq7)  
 * [Post-course questionnaire]({{ site.baseurl }}/404/)  
 
 ## Acknowledgments:
