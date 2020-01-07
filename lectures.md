@@ -61,7 +61,7 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 - Feedback: [Muddy-Point-Assesment](https://forms.gle/2YGfHU4y7JVyH4bt5){:.no-push-state}{:target="_blank"}
 
 **Homework**:
-- [Questions](https://forms.gle/F4HdutxEVSkLpShS6){:.no-push-state}{:target="_blank"}
+- [Questions](https://forms.gle/83wFo4orukydNvDR7){:.no-push-state}{:target="_blank"}
 - Complete the [pre-course survey](https://forms.gle/qeQL4BQNa71dCnLq7).  
 - Setup your [laptop computer]({{ site.baseurl }}/setup/) for this course.  
 - Get a copy of the course [syllabus]({{ site.baseurl }}/class-material/BGGN213_F19_syllabus.pdf){:.no-push-state},  
