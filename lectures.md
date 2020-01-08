@@ -65,7 +65,7 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 - Complete the [pre-course survey](https://forms.gle/qeQL4BQNa71dCnLq7).  
 - Setup your [laptop computer]({{ site.baseurl }}/setup/) for this course.  
 - Get a copy of the course [syllabus]({{ site.baseurl }}/class-material/BGGN213_F19_syllabus.pdf){:.no-push-state},  
-- Complete the [Office Hours Sign Up Sheet](https://doodle.com/poll/y7k46gqtegcsahqn){:.no-push-state}{:target="_blank"}.  
+- Complete the [Office Hours Sign Up Sheet](https://doodle.com/poll/72hqd8ir3tv9ya38){:.no-push-state}{:target="_blank"}.  
 
 **Readings**: 
   - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  
