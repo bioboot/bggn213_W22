@@ -58,7 +58,7 @@ Course introduction, Leaning goals & expectations, Biology is an information sci
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-1-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-1-bggn213_small.pdf){:.no-push-state}{:target="_blank"}
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-1-bggn213.pdf){:.no-push-state}{:target="_blank"}
-- Feedback: [Muddy-Point-Assesment](https://forms.gle/2YGfHU4y7JVyH4bt5){:.no-push-state}{:target="_blank"}
+- Feedback: [Muddy-Point-Assessment](https://forms.gle/2YGfHU4y7JVyH4bt5){:.no-push-state}{:target="_blank"}
 
 **Homework**:
 - [Questions](https://forms.gle/83wFo4orukydNvDR7){:.no-push-state}{:target="_blank"}
@@ -124,7 +124,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_small.pdf){:.no-push-state}{:target="_blank"}
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-2-bggn213.pdf){:.no-push-state}{:target="_blank"}
 - Major Databases: [Handout PDF]({{ site.baseurl }}/class-material/Major_Databases.pdf){:.no-push-state}{:target="_blank"},
-- Feedback: [Muddy-Point-Assesment](https://forms.gle/DBjDKg5azytyJrv86){:.no-push-state}{:target="_blank"}.  
+- Feedback: [Muddy-Point-Assessment](https://forms.gle/DBjDKg5azytyJrv86){:.no-push-state}{:target="_blank"}.  
 
 
 **Homework**:
@@ -147,17 +147,19 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 **Topics**: Detecting remote sequence similarity, Database searching beyond BLAST, Substitution matrices, Using PSI-BLAST, Profiles and HMMs, Protein structure comparisons. Beginning with command line based database searches.
 
 **Goal**:  
-- Be able to calculate the alignment score between two nucleotide or protein sequences using a provided scoring matrix
-- Understand the limits of homology detection with tools such as BLAST 
-- Be able to perform PSI-BLAST, HMMER and protein structure based database searches and interpret the results in terms of the biological significance of an e-value.
-- Run our first bioinformatics tool from the command line.
+- Be able to calculate the alignment score between protein (or nucleotide) sequences using a provided scoring matrix such as BLOSUM62.  
+- Understand the limits of homology detection with tools such as BLAST.  
+- Know how to derive a PROSITE style regular expression for aligned motifs.  
+- Be able to calculate a PSSM profile and for aligned sequences and subsequently score new sequences using a PSSM.  
+- Be able to perform PSI-BLAST, HMMER and protein structure based database searches and interpret the results in terms of the biological significance of an e-value.  
+- Be familiar with the concepts of True Positives, False Positives, Sensitivity and Specificity.  
 
 
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-3-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-3-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-3-bggn213.pdf){:.no-push-state}{:target="_blank"},
-<!-- - Bonus: [Alignment App](https://bioboot.github.io/bggn213_S19/class-material/nw/){:.no-push-state}{:target="_blank"},  -->
-- Feedback: [Muddy-Point-Assesment](https://forms.gle/NNwje57RUJy8AQ5g7){:.no-push-state}
+- Bonus: [Alignment App](https://bioboot.github.io/bggn213_W20/class-material/nw/){:.no-push-state}{:target="_blank"},  
+- Feedback: [Muddy-Point-Assessment](https://forms.gle/NNwje57RUJy8AQ5g7){:.no-push-state}
 
 
 **Homework**:   
@@ -187,7 +189,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-4-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-4-bggn213_small.pdf){:.no-push-state}{:target="_blank"}
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-4-bggn213/){:.no-push-state}{:target="_blank"}
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/0ZILA8Y4yb30LL1q2){:.no-push-state}
+- Feedback: [Muddy-Point-Assessment](https://goo.gl/forms/0ZILA8Y4yb30LL1q2){:.no-push-state}
 
 **Homework**:   
 - DataCamp course: [Introduction to R](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state}{:target="_blank"}.  
@@ -219,7 +221,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
   - Example data for hands-on sections  [lecture-5-bggn213-rstats.zip]({{ site.baseurl }}/class-material/lecture-5-bggn213-rstats.zip){:.no-push-state}, 
 - SideNote: [Convincing with graphics](https://xkcd.com/833/){:.no-push-state}{:target="_blank"}, 
 - Check-out the new website: [Data-to-Viz](https://www.data-to-viz.com/){:.no-push-state}{:target="_blank"},   
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/qIW4O4PUoixTzy7J2){:.no-push-state}{:target="_blank"}.  
+- Feedback: [Muddy-Point-Assessment](https://goo.gl/forms/qIW4O4PUoixTzy7J2){:.no-push-state}{:target="_blank"}.  
 
 
 **Homework**:
@@ -246,7 +248,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-6-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-6-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}{:target="_blank"},
 - Flat files for importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/GrFc3oDfAwCCj2BA2){:.no-push-state}{:target="_blank"}.
+- Feedback: [Muddy-Point-Assessment](https://goo.gl/forms/GrFc3oDfAwCCj2BA2){:.no-push-state}{:target="_blank"}.
 
 **Homework**:
 - See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}{:target="_blank"}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 1pm **next week!**).    
@@ -272,7 +274,7 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-7-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-7-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
 - Example input for **grade()** function: [student_homework.csv]({{ site.baseurl }}/class-material/student_homework.csv){:.no-push-state},
 - [Collaborative Google Doc based notes on selected R packages](https://docs.google.com/document/d/1cbKOOcjTAbqr1E1qkbBbrXXpSkCe5K-aNOXB5EHHEv0/edit?usp=sharing){:.no-push-state}{:target="_blank"},    
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/LHI8L0QYVXChcNw02){:.no-push-state}.  
+- Feedback: [Muddy-Point-Assessment](https://goo.gl/forms/LHI8L0QYVXChcNw02){:.no-push-state}.  
 
 
 **Homework**:
@@ -330,7 +332,7 @@ Practical considerations and best practices for the analysis of high dimensional
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-9-bggn213-WEBX.html){:.no-push-state}{:target="_blank"}
 - Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}, [new_samples.csv]({{ site.baseurl }}/class-material/new_samples.csv){:.no-push-state}.     
 - Bio3D PCA App: [http://bio3d.ucsd.edu/pca-app/](http://bio3d.ucsd.edu/pca-app/){:.no-push-state}{:target="_blank"}. 
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/vHYEbuAmV2uMZEom2){:.no-push-state}
+- Feedback: [Muddy-Point-Assessment](https://goo.gl/forms/vHYEbuAmV2uMZEom2){:.no-push-state}
 
 **Reading**:
 - Bonus: [StackExchange discussion on PCA](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa){:.no-push-state}. 
@@ -363,7 +365,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
 - Lab: [Hands-on with Git](http://tinyurl.com/rclass-github){:.no-push-state}{:target="_blank"},
 - Jenny's *Namming Things* Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture10-naming-slides.pdf){:.no-push-state}{:target="_blank"},  
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/gMxIBT5jLbjXHQPE2){:.no-push-state}
+- Feedback: [Muddy-Point-Assessment](https://goo.gl/forms/gMxIBT5jLbjXHQPE2){:.no-push-state}
 
 
 ------------------------------------------------------------------------
@@ -387,7 +389,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-11-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-11-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-11-bggn213.pdf){:.no-push-state}{:target="_blank"},
 - Software link: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state}{:target="_blank"},    
-- Feedback: [Muddy-Point-Assesment](https://forms.gle/epVKGejGRectHEdp8){:.no-push-state}.
+- Feedback: [Muddy-Point-Assessment](https://forms.gle/epVKGejGRectHEdp8){:.no-push-state}.
 
 
 
@@ -414,7 +416,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Software download links: [AutoDock Tools](http://mgltools.scripps.edu/downloads){:.no-push-state}{:target="_blank"},  [AutoDock Vina](http://vina.scripps.edu/download.html){:.no-push-state}{:target="_blank"},  
 - For **Mac only** [Xquartz](https://www.xquartz.org){:.no-push-state}{:target="_blank"},  
 - Optional backup files: [config.txt]({{ site.baseurl }}/class-material/config.txt){:.no-push-state}, [1hsg_protein.pdbqt]({{ site.baseurl }}/class-material/1hsg_protein.pdbqt){:.no-push-state}, [ligand.pdbqt]({{ site.baseurl }}/class-material/ligand.pdbqt){:.no-push-state}, [log.txt]({{ site.baseurl }}/class-material/log.txt){:.no-push-state}, [all.pdbqt]({{ site.baseurl }}/class-material/all.pdbqt){:.no-push-state}
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/nHmtEwJB7xaEZHua2){:.no-push-state}
+- Feedback: [Muddy-Point-Assessment](https://goo.gl/forms/nHmtEwJB7xaEZHua2){:.no-push-state}
 
 
 
@@ -440,7 +442,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-13-bggn213.pdf){:.no-push-state}{:target="_blank"},
 - RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}, [Example R script]({{ site.baseurl }}/class-material/lecture13_plot.r){:.no-push-state}{:target="_blank"}, [Example Rmd](https://github.com/bioboot/test_github/blob/master/lecture13_plot.md){:.no-push-state}{:target="_blank"}.
 - [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}{:target="_blank"}.  
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/uokTiQ3YStajFVIl1){:.no-push-state}
+- Feedback: [Muddy-Point-Assessment](https://goo.gl/forms/uokTiQ3YStajFVIl1){:.no-push-state}
 
 
 ## IPs     
@@ -508,7 +510,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 - Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/bioconductor_setup/){:.no-push-state}{:target="_blank"} instructions.
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-14-bggn213.html){:.no-push-state}{:target="_blank"},  
 - Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}, [annotables_grch38.csv]({{ site.baseurl }}/class-material/annotables_grch38.csv){:.no-push-state}.
-- Feedback: **To Update** [Muddy-Point-Assesment](){:.no-push-state}
+- Feedback: **To Update** [Muddy-Point-Assessment](){:.no-push-state}
 
 
 **Readings**:
@@ -534,7 +536,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-15-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-15-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-15-bggn213.html){:.no-push-state}{:target="_blank"},
 - Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/GSE37704_featurecounts.csv){:.no-push-state}, [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/GSE37704_metadata.csv){:.no-push-state}.   
-- Feedback: [Muddy-Point-Assesment](){:.no-push-state}
+- Feedback: [Muddy-Point-Assessment](){:.no-push-state}
 
 **R Knowledge Check**:
 [**Quiz Assessment**](https://forms.gle/9bavpC1fP3VrviLw6){:.no-push-state}{:target="_blank"}, 
@@ -572,7 +574,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
   - [phage_ids_with_affiliation.tsv]({{ site.baseurl }}/class-material/phage_ids_with_affiliation.tsv){:.no-push-state}, 
   - [prok_tax_from_silva.tsv]({{ site.baseurl }}/class-material/prok_tax_from_silva.tsv){:.no-push-state}.  
   
-- Feedback: [Muddy-Point-Assesment](){:.no-push-state}
+- Feedback: [Muddy-Point-Assessment](){:.no-push-state}
 
 
 ------------------------------------------------------------------------
@@ -696,7 +698,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 - IEDB HLA binding prediction website [http://tools.iedb.org/mhci/](http://tools.iedb.org/mhci/){:.no-push-state}{:target="_blank"}.  
 - [GitHub Rmd](https://github.com/bioboot/bggn213_classwork_S19/blob/master/class18/class18.md){:.no-push-state}{:target="_blank"}. 
 
-- Feedback: [Muddy-Point-Assesment](https://forms.gle/VgGfkeXrByypzWkj8){:.no-push-state}
+- Feedback: [Muddy-Point-Assessment](https://forms.gle/VgGfkeXrByypzWkj8){:.no-push-state}
 
 
 
