@@ -1,0 +1,44 @@
+"Station_ID","Station.Name","SampleDate","SampleTime","parameter","qualifier","Result","unit","method","type","County","Description","Beach.Name","Latitude","Longitude"
+343,"EH-200",2020-01-09,"11:30:00","Enterococcus","E",2,"CFU/100ml","MF","Results","San Diego","Shelter Is shoreline park","San Diego Bay",32.71476765,-117.2241597
+456,"IB-020",2020-01-09,"7:58:00","Enterococcus","=",520,"CFU/100ml","MF","Results","San Diego","Monument Rd.","Border Field State Park",32.5433,-117.125
+330,"EH-070",2020-01-09,"10:15:00","Enterococcus","E",16,"CFU/100ml","MF","Results","San Diego","Tidelands Park","San Diego Bay",32.69012298,-117.1644037
+455,"IB-010",2020-01-09,"7:37:00","Enterococcus","=",500,"CFU/100ml","MF","Results","San Diego","Border Fence N side","Border Field State Park",32.5353,-117.125
+639,"PL-050",2020-01-08,"7:55:00","Enterococcus","<",2,"CFU/100ml","MF","Results","San Diego","Point Loma Treatment Plant","non-accessible or restricted access shoreline on Pt. Loma",32.68047562,-117.2488
+644,"PL-100",2020-01-08,"9:18:00","Enterococcus","<",2,"CFU/100ml","MF","Results","San Diego","Newport Ave","Ocean Beach",32.7491121,-117.2532714
+638,"PL-040",2020-01-08,"8:09:00","Enterococcus","E",100,"CFU/100ml","MF","Results","San Diego","north of lighthouse","non-accessible or restricted access shoreline on Pt. Loma",32.6653,-117.2432
+643,"PL-090",2020-01-08,"8:49:00","Enterococcus","<",2,"CFU/100ml","MF","Results","San Diego","O.B. pier @ Narrangaset","Ocean Beach",32.74673611,-117.2549425
+642,"PL-080",2020-01-08,"8:40:00","Enterococcus","E",6,"CFU/100ml","MF","Results","San Diego","Cable Street","Ocean Beach",32.739448,-117.254989
+646,"PL-120",2020-01-08,"10:07:00","Enterococcus","<",2,"CFU/100ml","MF","Results","San Diego","Belmont Park","Mission Beach",32.77131486,-117.2535588
+641,"PL-070",2020-01-08,"8:27:00","Enterococcus","<",2,"CFU/100ml","MF","Results","San Diego","Ladera Street","Sunset Cliffs Park",32.71932563,-117.2569444
+645,"PL-110",2020-01-08,"9:30:00","Enterococcus","<",2,"CFU/100ml","MF","Results","San Diego","Stub Jetty south side","Ocean Beach",32.75391191,-117.2530143
+456,"IB-020",2020-01-07,"8:20:00","Enterococcus","E",280,"CFU/100ml","MF","Results","San Diego","Monument Rd.","Border Field State Park",32.5433,-117.125
+460,"IB-060",2020-01-07,"9:30:00","Enterococcus","E",2,"CFU/100ml","MF","Results","San Diego","Carnation Ave.","north Imperial Beach",32.5857,-117.133
+181,"BC-030",2020-01-07,"11:45:00","Enterococcus","=",110,"CFU/100ml","MF","Results","San Diego","Playas De Tijuana MEX","Baja California, MEXICO",32.5257,-117.124
+461,"IB-070",2020-01-07,"9:48:00","Enterococcus","E",2,"CFU/100ml","MF","Results","San Diego","Silver Strand N end (ocean)","Silver Strand State Beach",32.6368,-117.144
+457,"IB-030",2020-01-07,"9:01:00","Enterococcus","E",36,"CFU/100ml","MF","Results","San Diego","Tijuana Estuary mouth","Tijuana Slough National Wildlife Refuge",32.5578,-117.131
+455,"IB-010",2020-01-07,"8:06:00","Enterococcus","=",420,"CFU/100ml","MF","Results","San Diego","Border Fence N side","Border Field State Park",32.5353,-117.125
+179,"BC-010",2020-01-07,"11:10:00","Enterococcus","E",2000,"CFU/100ml","MF","Results","San Diego","Playas Blanca MEX","Baja California, MEXICO",32.4191,-117.0973
+462,"IB-080",2020-01-07,"10:05:00","Enterococcus","<",2,"CFU/100ml","MF","Results","San Diego","Avd. del Sol","Coronado City beaches",32.677,-117.178
+459,"IB-050",2020-01-07,"9:24:00","Enterococcus","E",10,"CFU/100ml","MF","Results","San Diego","End of Seacoast Dr","Imperial Beach municipal beach, other",32.5663,-117.133
+180,"BC-020",2020-01-07,"12:30:00","Enterococcus","=",82,"CFU/100ml","MF","Results","San Diego","El Vigia MEX","Baja California, MEXICO",32.4987,-117.123
+458,"IB-040",2020-01-07,"9:12:00","Enterococcus","E",8,"CFU/100ml","MF","Results","San Diego","3/4 mi. N of TJ River","Tijuana Slough National Wildlife Refuge",32.5613,-117.132
+459,"IB-050",2020-01-05,"9:43:00","Enterococcus","E",120,"CFU/100ml","MF","Results","San Diego","End of Seacoast Dr","Imperial Beach municipal beach, other",32.5663,-117.133
+458,"IB-040",2020-01-05,"9:29:00","Enterococcus","E",40,"CFU/100ml","MF","Results","San Diego","3/4 mi. N of TJ River","Tijuana Slough National Wildlife Refuge",32.5613,-117.132
+457,"IB-030",2020-01-05,"9:15:00","Enterococcus",">",12000,"CFU/100ml","MF","Results","San Diego","Tijuana Estuary mouth","Tijuana Slough National Wildlife Refuge",32.5578,-117.131
+459,"IB-050",2020-01-03,"8:37:00","Enterococcus","E",360,"CFU/100ml","MF","Results","San Diego","End of Seacoast Dr","Imperial Beach municipal beach, other",32.5663,-117.133
+458,"IB-040",2020-01-03,"8:27:00","Enterococcus","E",300,"CFU/100ml","MF","Results","San Diego","3/4 mi. N of TJ River","Tijuana Slough National Wildlife Refuge",32.5613,-117.132
+457,"IB-030",2020-01-03,"8:17:00","Enterococcus",">",12000,"CFU/100ml","MF","Results","San Diego","Tijuana Estuary mouth","Tijuana Slough National Wildlife Refuge",32.5578,-117.131
+638,"PL-040",2020-01-02,"8:56:00","Enterococcus","<",2,"CFU/100ml","MF","Results","San Diego","north of lighthouse","non-accessible or restricted access shoreline on Pt. Loma",32.6653,-117.2432
+643,"PL-090",2020-01-02,"10:05:00","Enterococcus","E",4,"CFU/100ml","MF","Results","San Diego","O.B. pier @ Narrangaset","Ocean Beach",32.74673611,-117.2549425
+642,"PL-080",2020-01-02,"9:50:00","Enterococcus","E",18,"CFU/100ml","MF","Results","San Diego","Cable Street","Ocean Beach",32.739448,-117.254989
+646,"PL-120",2020-01-02,"11:40:00","Enterococcus","<",2,"CFU/100ml","MF","Results","San Diego","Belmont Park","Mission Beach",32.77131486,-117.2535588
+641,"PL-070",2020-01-02,"9:30:00","Enterococcus","<",2,"CFU/100ml","MF","Results","San Diego","Ladera Street","Sunset Cliffs Park",32.71932563,-117.2569444
+645,"PL-110",2020-01-02,"10:45:00","Enterococcus","E",8,"CFU/100ml","MF","Results","San Diego","Stub Jetty south side","Ocean Beach",32.75391191,-117.2530143
+343,"EH-200",2020-01-02,"14:50:00","Enterococcus","E",12,"CFU/100ml","MF","Results","San Diego","Shelter Is shoreline park","San Diego Bay",32.71476765,-117.2241597
+639,"PL-050",2020-01-02,"8:34:00","Enterococcus","E",4,"CFU/100ml","MF","Results","San Diego","Point Loma Treatment Plant","non-accessible or restricted access shoreline on Pt. Loma",32.68047562,-117.2488
+644,"PL-100",2020-01-02,"10:25:00","Enterococcus","E",6,"CFU/100ml","MF","Results","San Diego","Newport Ave","Ocean Beach",32.7491121,-117.2532714
+330,"EH-070",2020-01-02,"13:30:00","Enterococcus","E",6,"CFU/100ml","MF","Results","San Diego","Tidelands Park","San Diego Bay",32.69012298,-117.1644037
+455,"IB-010",2020-01-01,"8:44:00","Enterococcus","=",62,"CFU/100ml","MF","Results","San Diego","Border Fence N side","Border Field State Park",32.5353,-117.125
+457,"IB-030",2020-01-01,"9:07:00","Enterococcus","=",10000,"CFU/100ml","MF","Results","San Diego","Tijuana Estuary mouth","Tijuana Slough National Wildlife Refuge",32.5578,-117.131
+459,"IB-050",2020-01-01,"9:31:00","Enterococcus","E",200,"CFU/100ml","MF","Results","San Diego","End of Seacoast Dr","Imperial Beach municipal beach, other",32.5663,-117.133
+458,"IB-040",2020-01-01,"9:18:00","Enterococcus","E",220,"CFU/100ml","MF","Results","San Diego","3/4 mi. N of TJ River","Tijuana Slough National Wildlife Refuge",32.5613,-117.132
