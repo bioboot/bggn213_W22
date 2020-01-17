@@ -192,7 +192,8 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - Feedback: [Muddy-Point-Assessment](https://goo.gl/forms/0ZILA8Y4yb30LL1q2){:.no-push-state}
 
 **Homework**:   
-- DataCamp course: [Introduction to R](https://www.datacamp.com/enterprise/bioinformatics-bggn213/assignments){:.no-push-state}{:target="_blank"}.  
+- Due today: [DataCamp, Into to R!](https://www.datacamp.com/){:.no-push-state}{:target="_blank"}.  
+- Due next week: [DataCamp,  Intermediate R!](https://www.datacamp.com/){:.no-push-state}{:target="_blank"}.    
 
 
 
