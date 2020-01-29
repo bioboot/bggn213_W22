@@ -22,7 +22,8 @@ material.
 | 4  | Fri 01/17/20 | [**Bioinformatics data analysis with R**](#4) <br> Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major R data structures and functions, Using R interactively from the RStudio console                                                                                                                                                                                                                                                       |
 | 5  | Wed 01/22/20 | [**Data exploration and visualization in R**](#5) <br> The exploratory data analysis mindset, Data visualization best practices, Using and customizing base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot and rgl                                                                                                                                                                                                |
 | 6  | Fri 01/24/20 | [**Why, when and how of writing your own R functions**](#6) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use                                                                                                                                                                                                                                                                                     |
-| 7  | Wed 01/29/20 | [**Bioinformatics R packages from CRAN and BioConductor**](#7) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and BioConductor, Working with Bio3D for molecular data                                                                                                                                                                                                                                                           |
+| 7  | Wed 01/29/20 | [**Guest Lecture**: Epigenetics and 3D genome organization](#0) <br> Guest lecture from [Ferhat Ay (LJI)](https://www.lji.org/faculty-research/labs/ay/#overview) introducing epigenetics research and supporting bioinformatics methods and tools.                                                                                                                                                                                                                                                           |
+| -  | hold | [**Bioinformatics R packages from CRAN and BioConductor**](#7) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and BioConductor, Working with Bio3D for molecular data                                                                                                                                                                                                                                                           |
 | 8  | Fri 01/31/20 | [**Introduction to machine learning for Bioinformatics 1**](#8) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)                                                                                                                                                                                                                                            |
 | 9  | Wed 02/05/20 | [**Unsupervised learning mini-project**](#9) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets                                                                                                                                                                                                            |
 | 10 | Fri 02/07/20 | **Project:** [**Find a gene assignment (Part 1)**](#10) <br> Principles of database searching, sequence analysis, structure analysis along with [**Hands-on with Git**](#10) <br> How to perform common operations with the Git version control system. We will also cover the popular social code-hosting platforms GitHub and BitBucket.                                                                                                                                |
@@ -255,6 +256,21 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 - See **Q6** of the [hands-on lab sheet above]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}{:target="_blank"}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 1pm **next week!**).    
 - The remainder of this units homework is all [via **DataCamp**](https://www.datacamp.com/){:.no-push-state}.   
 
+
+------------------------------------------------------------------------
+
+<a name="0"></a>
+
+7: Epigenetics and threemensional genome organization
+-------------------------------------------------------
+
+**Topics**: Guest lecture from [Ferhat Ay (LJI)](https://www.lji.org/faculty-research/labs/ay/#overview){:.no-push-state}{:target="_blank"} introducing epigenetics research and supporting bioinformatics methods and tools. 
+
+
+**Material**:
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/LectureSlides-01-29-2020-FerhatAy.pdf){:.no-push-state}{:target="_blank"}
+- Supporting files: [simulateCpGmethylation.r]({{ site.baseurl }}/class-material/simulateCpGmethylation.r){:.no-push-state}, [ImmuneCell-ChIPseq-PCHiC.json]({{ site.baseurl }}/class-material/ImmuneCell-ChIPseq-PCHiC.json){:.no-push-state}.  
+ 
 
 ------------------------------------------------------------------------
 
