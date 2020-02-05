@@ -22,17 +22,16 @@ material.
 | 4  | Fri 01/17/20 | [**Bioinformatics data analysis with R**](#4) <br> Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major R data structures and functions, Using R interactively from the RStudio console                                                                                                                                                                                                                                                       |
 | 5  | Wed 01/22/20 | [**Data exploration and visualization in R**](#5) <br> The exploratory data analysis mindset, Data visualization best practices, Using and customizing base graphics (scatterplots, histograms, bar graphs and boxplots), Building more complex charts with ggplot and rgl                                                                                                                                                                                                |
 | 6  | Fri 01/24/20 | [**Why, when and how of writing your own R functions**](#6) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use                                                                                                                                                                                                                                                                                     |
-| 7  | Wed 01/29/20 | [**Guest Lecture**: Epigenetics and 3D genome organization](#0) <br> Guest lecture from [Ferhat Ay (LJI)](https://www.lji.org/faculty-research/labs/ay/#overview) introducing epigenetics research and supporting bioinformatics methods and tools.                                                                                                                                                                                                                                                           |
-| -  | hold | [**Bioinformatics R packages from CRAN and BioConductor**](#7) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and BioConductor, Working with Bio3D for molecular data                                                                                                                                                                                                                                                           |
-| 8  | Fri 01/31/20 | [**Introduction to machine learning for Bioinformatics 1**](#8) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)                                                                                                                                                                                                                                            |
-| 9  | Wed 02/05/20 | [**Unsupervised learning mini-project**](#9) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets                                                                                                                                                                                                            |
-| 10 | Fri 02/07/20 | **Project:** [**Find a gene assignment (Part 1)**](#10) <br> Principles of database searching, sequence analysis, structure analysis along with [**Hands-on with Git**](#10) <br> How to perform common operations with the Git version control system. We will also cover the popular social code-hosting platforms GitHub and BitBucket.                                                                                                                                |
-| 11 | Wed 02/12/20 | [**Structural Bioinformatics (Part 1)**](#11) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure                                                                                                                                                                                                                                                                                    |
-| 12 | Fri 02/14/20 | [**Bioinformatics in drug discovery and design**](#12) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization                                                                                                                                                                                                                                            |
-| 13 | Wed 02/19/20 | [**Genome informatics and high throughput sequencing (Part 1)**](#13) <br> Genome sequencing technologies past, present and future; Biological applications of sequencing, Analysis of variation in the genome, and gene expression; The Galaxy platform along with resources from the EBI & UCSC; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2                                                                                                                 |
-| 14 | Fri 02/21/20 | [**Transcriptomics and the analysis of RNA-Seq data**](#14) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. <br> **N.B.** Find a gene assignment part 1 due today\!                                                                                                                                                                                     |
-| 15 | Wed 02/26/20 | [**Genome annotation and the interpretation of gene lists**](#15) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment                                                                                                                                                                                                                                                                               |
-| 16 | Fri 02/28/20 | [**Essential statistics for bioinformatics**](#16) <br> Everything you wanted to know about statistics for bioinformatics but were afraid to ask. Extensive R examples and applications.                                                                                                                                                                                                                                                                                  |
+| 7  | Wed 01/29/20 | [**Guest Lecture**: Epigenetics and 3D genome organization](#7) <br> Guest lecture from [Ferhat Ay (LJI)](https://www.lji.org/faculty-research/labs/ay/#overview) introducing epigenetics research and supporting bioinformatics methods and tools.                                                                                                                                                                                                                                                           |
+| 8  | Fri 01/31/20 | [**Bioinformatics R packages from CRAN and BioConductor**](#8) <br> Extending functionality and utility with R packages, Obtaining R packages from CRAN and BioConductor, Working with Bio3D for molecular data                                                                                                                                                                                                                                                           |
+| 9  | Wed 02/05/20 | [**Introduction to machine learning for Bioinformatics 1**](#9) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)                                                                                                                                                                                                                                            |
+| 10  | Fri 02/07/20 | [**Unsupervised learning mini-project**](#10) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets                                                                                                                                                                                                            |
+| 11 | Wed 02/12/20 | **Project:** [**Find a gene assignment (Part 1)**](#11) <br> Principles of database searching, sequence analysis, structure analysis along with [**Hands-on with Git**](#10) <br> How to perform common operations with the Git version control system. We will also cover the popular social code-hosting platforms GitHub and BitBucket.                                                                                                                                |
+| 12 | Fri 02/14/20 | [**Structural Bioinformatics (Part 1)**](#12) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure                                                                                                                                                                                                                                                                                    |
+| 13 | Wed 02/19/20 | [**Bioinformatics in drug discovery and design**](#13) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization                                                                                                                                                                                                                                            |
+| 14 | Fri 02/21/20 | [**Genome informatics and high throughput sequencing (Part 1)**](#14) <br> Genome sequencing technologies past, present and future; Biological applications of sequencing, Analysis of variation in the genome, and gene expression; The Galaxy platform along with resources from the EBI & UCSC; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2                                                                                                                 |
+| 15 | Wed 02/26/20 | [**Transcriptomics and the analysis of RNA-Seq data**](#15) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. <br> **N.B.** Find a gene assignment part 1 due today\!                                                                                                                                                                                     |
+| 16 | Fri 02/28/20 | [**Genome annotation and the interpretation of gene lists**](#16) <br> Gene finding and functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment                                                                                                                                                                                                                                                                               |
 | 17 | Wed 03/04/20 | [**Biological network analysis**](#17) <br> Network based approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in ‘omics’ data; Network construction, manipulation, visualization and analysis; Major graph theory and network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph packages. |
 | 18 | Fri 03/06/20 | [**Cancer genomics**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Mining the NCI Genomic Data Commons; Immunoinformatics and immunotherapy; Using genomics and bioinformatics to design a personalized cancer vaccine. Implications for personalized medicine. <br> **N.B.** Find a gene assignment due before next class\!                                                                             |
 | 19 | Wed 03/11/20 | [**Course summary**](#19) <br> Summary of learning goals, Student course evaluation time and exam preparation; **Find a gene assignment due\!**                                                                                                                                                                                                                                                                                                                           |
@@ -259,9 +258,9 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 ------------------------------------------------------------------------
 
-<a name="0"></a>
+<a name="7"></a>
 
-7: Epigenetics and threemensional genome organization
+7: Epigenetics and 3D genome organization
 -------------------------------------------------------
 
 **Topics**: Guest lecture from [Ferhat Ay (LJI)](https://www.lji.org/faculty-research/labs/ay/#overview){:.no-push-state}{:target="_blank"} introducing epigenetics research and supporting bioinformatics methods and tools. 
@@ -274,9 +273,9 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 ------------------------------------------------------------------------
 
-<a name="7"></a>
+<a name="8"></a>
 
-7: Bioinformatics R packages from CRAN and BioConductor
+8: Bioinformatics R packages from CRAN and BioConductor
 -------------------------------------------------------
 
 **Topics**: More on how to write R functions with worked examples. Further extending functionality and utility with R packages, Obtaining R packages from CRAN and Bioconductor, Working with Bio3D for molecular data, Managing genome-scale data with bioconductor.
@@ -301,9 +300,9 @@ Homology, Sequence similarity, Local and global alignment, Heuristic approaches,
 
 ------------------------------------------------------------------------
 
-<a name="8"></a>
+<a name="9"></a>
 
-8: Introduction to machine learning for Bioinformatics (Part 1)
+9: Introduction to machine learning for Bioinformatics (Part 1)
 --------------------------------------------------------
 
 **Topics**: Unsupervised learning, supervised learning and reinforcement learning; Focus on unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, visualization and analysis, Principal Component Analysis (PCA)
@@ -331,9 +330,9 @@ Practical considerations and best practices for the analysis of high dimensional
 
 ------------------------------------------------------------------------
 
-<a name="9"></a>
+<a name="10"></a>
 
-9: Unsupervised learning mini-project
+10: Unsupervised learning mini-project
 -------------------------------------
 
 **Topics**: Longer hands-on session with unsupervised learning analysis of cancer cells, Practical considerations and best practices for the analysis and visualization of high dimensional datasets.  
@@ -360,9 +359,9 @@ Practical considerations and best practices for the analysis of high dimensional
 
 ------------------------------------------------------------------------
 
-<a name="10"></a>
+<a name="11"></a>
 
-10: **Project:** Find a gene assignment (Part 1)
+11: **Project:** Find a gene assignment (Part 1)
 ------------------------------------------------
 
 The [**find-a-gene project**]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:.no-push-state}{:target="_blank"} is a required assignment for BIMM-143. The objective with this assignment is for you to demonstrate your grasp of database searching, sequence analysis, structure analysis and the R environment that we have covered to date in class.
@@ -387,9 +386,9 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 ------------------------------------------------------------------------
 
-<a name="11"></a>
+<a name="12"></a>
 
-11: Structural Bioinformatics (Part 1)
+12: Structural Bioinformatics (Part 1)
 --------------------------------------
 
 **Topics**: Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure, Homology modeling, Predicting functional dynamics, Inferring protein function from structure.
@@ -412,9 +411,9 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 ------------------------------------------------------------------------
 
-<a name="12"></a>
+<a name="13"></a>
 
-12: Bioinformatics in drug discovery and design
+13: Bioinformatics in drug discovery and design
 -----------------------------------------------
 
 **Topics**: Bioinformatics approaches for drug discovery, Target & lead identification, Receptor/target-based approaches, Small molecule docking methods, Protein motion and conformational variants and functional dynamics; Molecular simulation and drug optimization.
@@ -439,9 +438,9 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 ------------------------------------------------------------------------
 
-<a name="13"></a>
+<a name="14"></a>
 
-13: Genome informatics and high throughput sequencing (Part 1)
+14: Genome informatics and high throughput sequencing (Part 1)
 --------------------------------------------------------------
 
 **Topics**: Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Variation in the genome, RNA-Sequencing for gene expression analysis; Major genomic databases, tools and visualization resources from the EBI & UCSC, The Galaxy platform for quality control and analysis; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2
@@ -507,9 +506,9 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 ------------------------------------------------------------------------
 
-<a name="14"></a>
+<a name="15"></a>
 
-14: Transcriptomics and the analysis of RNA-Seq data
+15: Transcriptomics and the analysis of RNA-Seq data
 ----------------------------------------------------
 
 **Topics**:  
@@ -539,9 +538,9 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 ------------------------------------------------------------------------
 
-<a name="15"></a>
+<a name="16"></a>
 
-15: Genome annotation and the interpretation of gene lists
+16: Genome annotation and the interpretation of gene lists
 ----------------------------------------------------------
 
 **Topics**: Gene finding and functional annotation from high throughput sequencing data, Functional databases KEGG, InterPro, GO ontologies and functional enrichment
@@ -565,9 +564,9 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 ------------------------------------------------------------------------
 
-<a name="16"></a>
+<a name="17"></a>
 
-16: Biological network analysis
+17: Biological network analysis
 -------------------------------
 
 **Topics**: Network graph approaches for integrating and interpreting large heterogeneous high throughput data sets; Discovering relationships in 'omics' data; Network construction, manipulation, visualization and analysis; Graph theory; Major network topology measures and concepts (Degree, Communities, Shortest Paths, Centralities, Betweenness, Random graphs vs scale free); Hands-on with Cytoscape and igraph R packages for network visualization and analysis.
@@ -596,9 +595,9 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 ------------------------------------------------------------------------
 
-<a name="17"></a>
+<a name="0"></a>
 
-17: Essential UNIX for bioinformatics
+Bonus: Essential UNIX for bioinformatics
 -------------------------------------------
 
 **Topics**: Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects.
