@@ -403,8 +403,12 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 **Material**:
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-11-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-11-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
-- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-11-bggn213.pdf){:.no-push-state}{:target="_blank"},
-- Software link: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state}{:target="_blank"},    
+- Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/pdb_pca_labclass.html){:.no-push-state}{:target="_blank"},  
+
+
+- Software link: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state}{:target="_blank"}, 
+- Guide to [VMD see section 2]({{ site.baseurl }}/class-material/lab-11-bggn213.pdf){:.no-push-state}{:target="_blank"},
+
 - Feedback: [Muddy-Point-Assessment](https://forms.gle/epVKGejGRectHEdp8){:.no-push-state}.
 
 
