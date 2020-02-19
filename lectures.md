@@ -434,6 +434,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-12-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-12-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
 - Lab: [Hands-on Worksheet]({{ site.baseurl }}/class-material/lab-12-bggn213.pdf){:.no-push-state}{:target="_blank"},
 - Software download links: [AutoDock Tools](http://mgltools.scripps.edu/downloads){:.no-push-state}{:target="_blank"},  [AutoDock Vina](http://vina.scripps.edu/download.html){:.no-push-state}{:target="_blank"},  
+- Optional: [PyMol](https://pymol.org/2/){:.no-push-state}{:target="_blank"},  [License]({{ site.baseurl }}/class-material/license.lic){:.no-push-state}{:target="_blank"}.  
 - For **Mac only** [Xquartz](https://www.xquartz.org){:.no-push-state}{:target="_blank"},  
 - Optional backup files: [config.txt]({{ site.baseurl }}/class-material/config.txt){:.no-push-state}, [1hsg_protein.pdbqt]({{ site.baseurl }}/class-material/1hsg_protein.pdbqt){:.no-push-state}, [ligand.pdbqt]({{ site.baseurl }}/class-material/ligand.pdbqt){:.no-push-state}, [log.txt]({{ site.baseurl }}/class-material/log.txt){:.no-push-state}, [all.pdbqt]({{ site.baseurl }}/class-material/all.pdbqt){:.no-push-state}
 - Feedback: [Muddy-Point-Assessment](https://goo.gl/forms/nHmtEwJB7xaEZHua2){:.no-push-state}
