@@ -730,7 +730,7 @@ Bonus: Essential UNIX for bioinformatics
 
 - Hand-out: [**Exam guidelines, topics, and example questions**]({{ site.baseurl }}/class-material/BGGN213_exam_guidlines.pdf){:.no-push-state}{:target="_blank"},  
 
-- Ether-pad: [**Feedback**](https://board.net/p/bggn213_f19){:.no-push-state}{:target="_blank"},  
+- Ether-pad: [**Feedback**](https://board.net/p/bggn213_w20){:.no-push-state}{:target="_blank"},  
   
 - DataCamp: [**Bioinformatics Extension Track**]({{ site.baseurl }}/class-material/datacamp_extras.pdf){:.no-push-state}{:target="_blank"}.
 
