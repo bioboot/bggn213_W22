@@ -27,7 +27,7 @@ Major topics include:
 - UNIX for bioinformatics, and 
 - Bioinformatics data analysis with R.  
 
-A detailed listing of all [lecture topics]({{ site.baseurl }}/lectures/) is available and includes a guest lecture from a genomic scientist at Illumina Inc., Synthetic Genomics Inc., Human Longevity Inc., or the La Jolla Institute for Allergy and Immunology subject to student voting preferences. 
+A detailed listing of all [course topics]({{ site.baseurl }}/schedule/) is available and includes a guest lecture from a genomic scientist at Illumina Inc., Synthetic Genomics Inc., Human Longevity Inc., or the La Jolla Institute for Allergy and Immunology subject to student voting preferences. 
 
 
 Students completing this course will be able to evaluate new genomic and biomolecular information using existing software and gain experience in combining bioinformatic approaches to answer specific biological questions. Our broader goal is to point towards perspectives that bioinformatics can expose for the integration and analysis of complex biological information. For further details please see our complete list of [course objectives and specific learning goals]({{ site.baseurl }}/goals/).  
