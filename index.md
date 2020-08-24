@@ -1,6 +1,6 @@
 ---
 layout: welcome
-title: Bioinformatics <br> (BGGN 213, Winter 2020)
+title: Bioinformatics <br> (BGGN 213, Fall 2020)
 selected_projects:
   - _projects/welcome-screencast.md
   - _projects/using-jetstream-for-bioinformatics.md
@@ -8,6 +8,11 @@ more_projects: projects.md
 ---
 
 
+<br>
+
+<div style="background-color: #cfc ; padding: 10px; border: 1px solid green;">
+  At the time of writing we are in the middle of a major COVID-19 pandemic crisis. Whilst we are making every effort to support your learning online, nothing is going to fully compensate for what we are going to lose in the next few months.  My hope is that this online course can serve as a venue where we build a vibrant supportive community and utilize this forced distancing as a productive learning time. 
+</div>
 
 ## Overview
 Bioinformatics - the application of computational and analytical methods to biological problems - is a rapidly maturing field that is driving the collection, analysis, and interpretation of the avalanche of data in modern life sciences and medical research.  
@@ -37,27 +42,24 @@ We are committed to making this course accessible to everybody. Please contact P
 To fully participate in this course students will be expected to use their own laptop computers with specific freely available [software installed]({{ site.baseurl }}/setup/). A limited number of classroom computers are also available should the need arise.    
 
 ## Schedule:  
-Lectures are on Wednesday and Friday at 1:00 - 4:00 pm in TATA 2501 [Map](https://goo.gl/maps/Cd8z9Zexx6q){:.no-push-state} (UCSD Map [Bldg View](https://maps.ucsd.edu/map/?id=1005#!m/359878)).  These lectures will include hands-on sessions requiring both individual and small group based computational work. A detailed [lecture schedule]({{ site.baseurl }}/lectures/) with class related material is provided online.  
+**N.B.** For the Fall 2020 quarter, BIMM-143 will be offered online only.**   Video lectures, screencast hands-on sessions and supporting material will be available on a weekly basis throughout the quarter.  Hands-on sessions will require both individual and small group based computational work. A detailed [schedule]({{ site.baseurl }}/schedule/) with class related material is provided online.  
 
 ## Class announcements:  
-All announcements regarding the course will be by email to your UCSD address.  
+All announcements regarding the course will be by email to your UCSD address.  We will also be using [Piazza](https://piazza.com/ucsd/fall2020/bggn213/home){:target="_blank"} to facilitate course communication, particularly around questions and answers. If you have a question outside of class or office hours, first check if it has already been asked on Piazza and if not post there. If you have a question or concern you don’t feel comfortable posting on Piazza feel free to reach out via email.  
 
-## Office hours & location:  
-Office hours time and location will be determined by [student polling](https://doodle.com/poll/72hqd8ir3tv9ya38) during the first week of class. For other times email and we will make it happen.          
-
-From week 3 onward Barry will hold an additional informal office hour on Thursdays from 1-2pm at the Mandeville coffee cart (a.k.a. Art of Espresso) [Map](https://goo.gl/maps/ZecfgoF8qas){:.no-push-state}.  
-
-If you can't make either of these please email for a time and we will make it happen. Note that is often a good idea to email so we know to expect you.    
+## Office hours:  
+We will use [Zoom](https://ucsd.zoom.us/){:target="_blank"} on a weekly basis at a time to be determined from student polling. For now email me for a time and we will make it happen.
+    
 
 ## Textbook:  
 There is no textbook for the course. Lecture notes, homework assignments, grading criteria, pre-class screen casts and required reading material will be available from this public facing course website.  
 
 ## Syllabus:  
-A detailed [syllabus]({{ site.baseurl }}/class-material/BGGN213_W20_syllabus.pdf){:.no-push-state} with topic outlines and learning goals is available for download.
+A detailed [syllabus]({{ site.baseurl }}/class-material/BGGN213_F20_syllabus.pdf){:.no-push-state} with topic outlines and learning goals is available for download.
 
 ## Surveys:
 Please help us improve this course by completing by completing these surveys before and after the course. Thank you!
-* [Pre-course questionnaire](https://forms.gle/qeQL4BQNa71dCnLq7)  
+* [Pre-course questionnaire](https://forms.gle/EL9JjxvPRnFqGMWy5)  
 * [Post-course questionnaire]({{ site.baseurl }}/404/)  
 
 ## Acknowledgments:
