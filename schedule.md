@@ -12,7 +12,7 @@ All course delivery for Fall 2020 will be online via this public facing website.
 
 | \# | Week         | Topics for Fall 2020                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | :-: | :-----------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 0  | 10/01/20 | [**Getting Oriented**](#0) <br> Course introduction, Learning goals & expectations, Meet the instructional team. Setup your computer with required software.                                                                                                                                               |
+| 0  | 10/02/20 | [**Getting Oriented**](#0) <br> Course introduction, Learning goals & expectations, Meet the instructional team. Setup your computer with required software.                                                                                                                                               |
 | 1  | 10/05/20 | [**Welcome to Bioinformatics**](#1) <br> Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Hands on with major Bioinformatics databases and key online NCBI and EBI resources                                                                                                                                               |
 | 2  | 10/12/20 | [**Sequence alignment fundamentals, algorithms and applications**](#2) <br> Homology, Sequence similarity, Local and global alignment, classic Needleman-Wunsch, Smith-Waterman and BLAST heuristic approaches, Hands on with dot plots, Needleman-Wunsch and BLAST algorithms highlighting their utility and limitations                                                                                                                                                 |
 | *  | 10/19/20  | **Project:** [**Find a gene project assignment**](#11) <br> (Part 1) Principles of database searching, due in 3 weeks. (Part 2) Sequence analysis, structure analysis and general data analysis with R due at the end of the quarter.                                                                                                                                                                                                 |
@@ -48,7 +48,7 @@ Course introduction, Learning goals & expectations, Meet the instructional team.
 **Videos:**
 - 0.1 - [Welcome to BGGN 213 (course introduction and overview)](https://youtu.be/LI-3ViDUO6c){:target="_blank"}  
 - 0.2 - [Website overview (finding course content and installing software)](https://www.youtube.com/watch?v=zjAjU3Z_oEI){:target="_blank"}  
-- 0.3 - [Meet the team (Barry, Alena & Zhang)](https://youtu.be/UWVudbOmHnM){:target="_blank"}  
+- 0.3 - [Meet the team (Barry, Alena & Yu)](https://youtu.be/UWVudbOmHnM){:target="_blank"}  
 - 0.4 - [Signing up for Piazza](https://youtu.be/aswdH8vXiB0){:target="_blank"}  
  
 
@@ -56,8 +56,8 @@ Course introduction, Learning goals & expectations, Meet the instructional team.
 - Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BGGN213_F20_syllabus.pdf){:.no-push-state}{:target="_blank"},  
 - Pre-course [Questionnaire](https://forms.gle/EL9JjxvPRnFqGMWy5){:target="_blank"},   
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
-- Sign up for our [Piazza class Q&A site](https://piazza.com/ucsd/summer2020/bggn213){:target="_blank"}.   
-
+- Sign up for our [Piazza class Q&A site](https://piazza.com/ucsd/summer2020/bggn213){:target="_blank"},   
+- View the class [**GradeBook**](https://docs.google.com/spreadsheets/d/1drbyXl6BSYUThXWMbVafKKZoRxORRI5rJqI1Y5mHZgg/){:target="_blank"}.  
 
 
 ---
@@ -82,8 +82,8 @@ Biology is an information science, History of Bioinformatics, Types of data, App
 
 
 **Supporting Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture1-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},      
-- Handout: [Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases_BIMM143.pdf){:.no-push-state}{:target="_blank"},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-1-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-1-bggn213_small.pdf){:.no-push-state}{:target="_blank"},     
+- Handout: [Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases.pdf){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-2-BIMM143_online-form.pdf){:target="_blank"}{:.no-push-state},  
 - Lab: [Video walk-through](https://youtu.be/tv3Yt-wcXxY){:target="_blank"}{:.no-push-state} live on Thur @ 10am SD time,   
 - Office Hours: [Zoom on Thur @ 12:30pm SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
@@ -120,7 +120,7 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
   
 
 **Supporting Material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},    
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_small.pdf){:.no-push-state}{:target="_blank"},  
 - Dot Plot App Mirrors: [app-1](https://barryus.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"},  [app-2](https://bioboot.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"},     
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-3-BIMM143_online-form.pdf){:.no-push-state}{:target="_blank"}  
 - Lab: [Video walk-through](https://youtu.be/mttQRu4Fnmg){:target="_blank"}{:.no-push-state} live on Thur @ 10am SD time,   
