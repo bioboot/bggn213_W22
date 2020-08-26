@@ -58,7 +58,6 @@
   youtube:
     name: YouTube
     icon: icon-youtube
-    prepend: "https://www.youtube.com/channel/"
   twitch:
     name: Twitch
     icon: icon-twitch
@@ -202,3 +201,9 @@
   download:
     name: Download
     icon: icon-box-add
+  gradescope:
+    name: GradeScope
+    icon: icon-book
+  piazza:
+    name: Piazza
+    icon: icon-bubbles
