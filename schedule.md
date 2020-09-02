@@ -46,9 +46,9 @@ Course introduction, Learning goals & expectations, Meet the instructional team.
 
 
 **Videos:**
-- 0.1 - [Welcome to BGGN 213 (course introduction and overview)](https://youtu.be/LI-3ViDUO6c){:target="_blank"}  
-- 0.2 - [Website overview (finding course content and installing software)](https://www.youtube.com/watch?v=zjAjU3Z_oEI){:target="_blank"}  
-- 0.3 - [Meet the team (Barry, Alena & Yu)](https://youtu.be/UWVudbOmHnM){:target="_blank"}  
+- 0.1 - [Welcome to BGGN 213 (course introduction and overview)](){:target="_blank"}  
+- 0.2 - [Website overview (finding course content and installing software)](){:target="_blank"}  
+- 0.3 - [Meet the team (Barry, Alena & Yu)](){:target="_blank"}  
 - 0.4 - [Signing up for Piazza](https://youtu.be/aswdH8vXiB0){:target="_blank"}  
  
 
