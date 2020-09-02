@@ -21,8 +21,8 @@ All course delivery for Fall 2020 will be online via this public facing website.
 | 5  | 11/02/20 | [**Writing your own R functions and using packages from CRAN,  BioConductor and GitHub**](#5) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use. Extending functionality and utility with R packages from CRAN and BioConductor, Working with Bio3D for molecular data. <br> **Project: Pt 1. Q1-Q4 due\!**                                                                                                                                                                                                                                                                                      |
 | 6  | 11/09/20  | [**Machine learning for Bioinformatics**](#6) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)                                                                                                                                                                                                                                                            |
 | 7  | 11/16/20  | [**Genome informatics and high throughput sequencing**](#7) <br> Searching genes and gene functions, Genome databases, Variation in the Genome, High-throughput sequencing technologies, biological applications, bioinformatics analysis methods; The Galaxy platform along with resources from the EBI & UCSC                                                                                                                                                                                                                                                            |
-| 8  | 11/23/20  | [**Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists**](#8) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. Gene function annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment analysis.                                                                                                                                                                                                                                            |
-| 9  | 11/30/20  | [**Transcriptomics, RNA-Seq analysis II**](#9) <br> More hands-on analysis of RNA-Seq data with R. Gene function annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment analysis.                                                                                                                                                                                                                                            |
+| 8  | 11/23/20  | [**Happy Thanksgiving!**](#8) <br> **N.B.** No formal lab class live-cast this week but we do present video lectures on [**Essential UNIX for bioinformatics**](#8) and also please note that the find a gene assignment is due soon!                                                                                                                                                                                                                                            |
+| 9  | 11/30/20  | [**Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists**](#9) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. Gene function annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment analysis.                                                                                                                                                                                                                                            |
 | 10  | 12/07/20  | [**Course summary**](#10) <br> Summary of learning goals, Student course evaluation time; <br> **Project: Find a gene assignment due\!**                                                                                                                                                                                                              |
 
 
@@ -364,7 +364,42 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 
 ---
 <a name="8"></a>
-## Week 8: Transcriptomics and the analysis of RNA-Seq data
+## Week 8: Essential UNIX for bioinformatics
+
+**Topics:** 
+Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects.  
+
+
+**Goals:**  
+- Understand why we use UNIX for bioinformatics  
+- Use UNIX command-line tools for file system navigation and text file manipulation.  
+- Have a familiarity with 21 key UNIX commands that we will use ~90% of the time.  
+- Be able to connect to remote servers from the command line.  
+- Use existing programs at the UNIX command line to analyze bioinformatics data.  
+- Understand IO Redirection, Streams and pipes.  
+- Understand best practices for organizing computational projects.  
+
+**Videos:**
+- 8.1 - [Essential UNIX for bioinformatics](){:.no-push-state}{:target="_blank"},  
+- 8.2 - [Using remote UNIX machines](){:.no-push-state}{:target="_blank"},  
+- 8.3 - [Organizing your computational biology projects ](){:.no-push-state}{:target="_blank"}.  .    
+- Lab screencast - *No Live video walk-through this Thanksgiving week*.      
+
+
+**Supporting material:**
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-large-small.pdf){:.no-push-state}{:target="_blank"}.
+- Hands-on section worksheet
+  * [Using remote UNIX machines (Part I, **REQUIRED**)]({{ site.baseurl }}/class-material/17_blast-01/){:.no-push-state}{:target="_blank"},
+  * [Using remote UNIX machines (Part II, Optional)]({{ site.baseurl }}/class-material/16_blast-02/){:.no-push-state},
+  * [Using remote UNIX machines (Part III, Optional)]({{ site.baseurl }}/class-material/16_blast-03/){:.no-push-state}.  
+- Example data set [bggn213_01_unix.zip]({{ site.baseurl }}/class-material/bggn213_01_unix.zip){:.no-push-state},  
+- [Muddy point assessment](https://goo.gl/forms/W2G06LVrn2pADB2q1){:.no-push-state}.  
+
+
+
+---
+<a name="9"></a>
+## Week 9: Transcriptomics and the analysis of RNA-Seq data
 
 **Topics:** 
 Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statistics, Counts and FPKMs, Normalizing for sequencing depth, DESeq2 analysis. Gene finding and functional annotation from high throughput sequencing data, Functional databases KEGG, InterPro, GO ontologies and functional enrichment.  
@@ -378,8 +413,8 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 - Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
 
 **Videos:**
-- 8.1 - [Differential expression analysis of RNA-Seq data](http://youtu.be/vn5Fy2VVWBw){:.no-push-state}{:target="_blank"},  
-- 8.2 - [Differential expression tests and pathway analysis](http://youtu.be/EIMK4TSnQLE){:.no-push-state}{:target="_blank"}.    
+- 9.1 - [Differential expression analysis of RNA-Seq data](http://youtu.be/vn5Fy2VVWBw){:.no-push-state}{:target="_blank"},  
+- 9.2 - [Differential expression tests and pathway analysis](http://youtu.be/EIMK4TSnQLE){:.no-push-state}{:target="_blank"}.    
 - Lab screencast - [Live video walk-through](https://youtu.be/_hFjQvK2UdI){:target="_blank"}{:.no-push-state} @ 10am Thur SD time.      
 
 
@@ -408,14 +443,6 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 **R Knowledge Check**:
 [**Quiz Assessment**](https://forms.gle/FppQDHdzRnQpJudP7){:.no-push-state}{:target="_blank"}. 
 
-
-
----
-<a name="9"></a>
-## Week 9: Transcriptomics and the analysis of RNA-Seq data II
-
-**Topics:** 
-Analysis of RNA-Seq data with R, single cell data analysis and more advanced methods
 
 
 
