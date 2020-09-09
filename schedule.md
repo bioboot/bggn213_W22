@@ -46,9 +46,9 @@ Course introduction, Learning goals & expectations, Meet the instructional team.
 
 
 **Videos:**
-- 0.1 - [Welcome to BGGN 213 (course introduction and overview)](){:target="_blank"}  
-- 0.2 - [Website overview (finding course content and installing software)](){:target="_blank"}  
-- 0.3 - [Meet the team (Barry, Alena & Yu)](){:target="_blank"}  
+- 0.1 - [Welcome to BGGN 213 (course introduction and overview)](hhttps://youtu.be/MpF0sVb7zpQ){:target="_blank"}  
+- 0.2 - [Website overview (finding course content and installing software)](https://youtu.be/vSxhjyRs-lg){:target="_blank"}  
+- 0.3 - [Meet the team (Barry & Yu)](){:target="_blank"}  
 - 0.4 - [Signing up for Piazza](https://youtu.be/aswdH8vXiB0){:target="_blank"}  
  
 
@@ -413,8 +413,8 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 - Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
 
 **Videos:**
-- 9.1 - [Differential expression analysis of RNA-Seq data](http://youtu.be/vn5Fy2VVWBw){:.no-push-state}{:target="_blank"},  
-- 9.2 - [Differential expression tests and pathway analysis](http://youtu.be/EIMK4TSnQLE){:.no-push-state}{:target="_blank"}.    
+- 9.1 - [Differential expression analysis of RNA-Seq data](https://youtu.be/AGAmd51oIEg){:.no-push-state}{:target="_blank"},  
+- 9.2 - [Differential expression tests and pathway analysis](https://youtu.be/bxvZmGe3IGk){:.no-push-state}{:target="_blank"}.    
 - Lab screencast - [Live video walk-through](https://youtu.be/_hFjQvK2UdI){:target="_blank"}{:.no-push-state} @ 10am Thur SD time.      
 
 
