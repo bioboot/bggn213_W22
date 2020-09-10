@@ -91,7 +91,7 @@ Biology is an information science, History of Bioinformatics, Types of data, App
 
 
 **Homework**:  
-- [Questions](https://forms.gle/oSEoqGy9JCcc6VJy6){:.no-push-state}{:target="_blank"},  
+- [Questions](https://forms.gle/PxxPKp79H7C9fUPH7){:.no-push-state}{:target="_blank"},  
 - Readings: 
   - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/bioinformatics_review.pdf){:.no-push-state},  
   - PDF2: [Advancements and Challenges in Computational Biology]({{ site.baseurl }}/class-material/bioinformatics_challenges_2015.pdf){:.no-push-state}.  
@@ -130,7 +130,7 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 
 
 **Homework**:   
-- [Questions](https://forms.gle/z95D5XMvyYKWRrFq5){:.no-push-state}{:target="_blank"},  
+- [Questions](https://forms.gle/Na4VXwRXAqpJ5fsm9){:.no-push-state}{:target="_blank"},  
 - For next week please [install R and RStudio](https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu){:.no-push-state}{:target="_blank"},  
 - Complete the following [Alignment Problem]({{ site.baseurl }}/class-material/lecture2-BIMM134_homework.pdf){:.no-push-state}{:target="_blank"},  
 - DataCamp: Sign-up to our **BIMM143_S20 group/organization** via the link in your UCSD email (we will use this next week),   
@@ -192,7 +192,7 @@ Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major
 
 
 **Homework**:   
-- [Questions](https://forms.gle/9uBet6MmqbH2Ro4c7){:.no-push-state}{:target="_blank"},  
+- [Questions](https://forms.gle/Hxjm2usQDsL8ZHCR9){:.no-push-state}{:target="_blank"},  
 - **DataCamp**: Sign-up to our **BIMM143_F20 group/organization** via the link in your UCSD email and **complete** [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (4hrs).  
     
 
@@ -231,6 +231,7 @@ The exploratory data analysis mindset, Data visualization best practices, Simple
  
  
 **Homework**:   
+- [Questions](https://forms.gle/EP1r9769sjoeq69c6){:.no-push-state}{:target="_blank"},  
 - DataCamp: [Introduction to Data Visualization with ggplot2](https://learn.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2){:.no-push-state}{:target="_blank"} (~4hrs).    
 - SideNote: [Convincing with graphics](https://xkcd.com/833/){:.no-push-state}.  
 - Check-out the new website: [Data-to-Viz](https://www.data-to-viz.com/){:.no-push-state}{:target="_blank"} and [ggplot cheat sheat](https://rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf){:.no-push-state}{:target="_blank"}.  
@@ -268,7 +269,7 @@ The why, when and how of writing your own R functions with worked examples. Furt
 
  
 **Homework**:   
- - See **Q6** of the [hands-on lab supplement above]({{ site.baseurl }}/class-material/lecture6-BIMM143_W19.pdf){:.no-push-state}{:target="_blank"}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document. (Submission deadline: 12:00pm next **Tuesday, 11/10/20**).    
+ - **Write a function**. See **Q6** of the [hands-on lab supplement above]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}{:target="_blank"}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document.    
 - DataCamp: [Intermediate R](https://learn.datacamp.com/courses/intermediate-r){:.no-push-state}{:target="_blank"} compltete chapters 1-3 only (~4hrs).   
 
 
