@@ -85,8 +85,8 @@ Biology is an information science, History of Bioinformatics, Types of data, App
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-1-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-1-bggn213_small.pdf){:.no-push-state}{:target="_blank"},     
 - Handout: [Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases.pdf){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-2-BIMM143_online-form.pdf){:target="_blank"}{:.no-push-state},  
-- Lab: [Video walk-through](https://youtu.be/tv3Yt-wcXxY){:target="_blank"}{:.no-push-state} live on Thur @ 10am SD time,   
-- Office Hours: [Zoom on Thur @ 12:30pm SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
+- Lab: [Video walk-through](https://youtu.be/tv3Yt-wcXxY){:target="_blank"}{:.no-push-state} live on Fri @ 10am SD time,   
+- Office Hours: [Zoom on Fri @ 12:30pm SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy Point Assessment](https://forms.gle/fHMc1C5gd7hh5eog7){:.no-push-state}{:target="_blank"},    
 
 
@@ -123,8 +123,8 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_small.pdf){:.no-push-state}{:target="_blank"},  
 - Dot Plot App Mirrors: [app-1](https://barryus.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"},  [app-2](https://bioboot.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"},     
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-3-BIMM143_online-form.pdf){:.no-push-state}{:target="_blank"}  
-- Lab: [Video walk-through](https://youtu.be/mttQRu4Fnmg){:target="_blank"}{:.no-push-state} live on Thur @ 10am SD time,   
-- Office Hours: [Zoom on Thur @ 12:30pm SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
+- Lab: [Video walk-through](https://youtu.be/mttQRu4Fnmg){:target="_blank"}{:.no-push-state} live on Fri @ 10am SD time,   
+- Office Hours: [Zoom on Fri @ 12:30pm SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy Point Assessment](https://forms.gle/FEbKxnq4X7nUMhcn8){:.no-push-state}{:target="_blank"}.   
      
 
@@ -185,15 +185,15 @@ Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
 - Cheat Sheet: [Base R overview]({{ site.baseurl }}/class-material/base-r.pdf){:target="_blank"}{:.no-push-state},
 - Lab: [Hands-on section]({{ site.baseurl }}/class-material/04_rintro/){:.no-push-state},  
-- Lab: [Video walk-through](https://youtu.be/BngLbEIgQlo){:target="_blank"}{:.no-push-state} focusing on introducing [Project]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:target="_blank"}{:.no-push-state} assignment, live on Thur @ 10am SD time,   
-- Office Hours: [Zoom on Thur @ 12:30pm SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
+- Lab: [Video walk-through](https://youtu.be/BngLbEIgQlo){:target="_blank"}{:.no-push-state} focusing on introducing [Project]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:target="_blank"}{:.no-push-state} assignment, live on Fri @ 10am SD time,   
+- Office Hours: [Zoom on Fri @ 12:30pm SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/pGzaaSRGnQ1r9mrL9){:.no-push-state}{:target="_blank"},  
   
 
 
 **Homework**:   
 - [Questions](https://forms.gle/Hxjm2usQDsL8ZHCR9){:.no-push-state}{:target="_blank"},  
-- **DataCamp**: Sign-up to our **BIMM143_F20 group/organization** via the link in your UCSD email and **complete** [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (4hrs).  
+- **DataCamp**: Sign-up to our **Bioinformatics_Fall2020 group/organization** via the link in your UCSD email and **complete** [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (4hrs).  
     
 
 
@@ -225,8 +225,8 @@ The exploratory data analysis mindset, Data visualization best practices, Simple
 **Supporting Material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/ggplot_play.html){:.no-push-state}{:target="_blank"},
-- Lab: Live screencast [video walk-through](https://youtu.be/embeBPxY2HQ){:target="_blank"}{:.no-push-state} @ 10am Thur SD time.
-- Office Hours: [Zoom on Thur @ 10am SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
+- Lab: Live screencast [video walk-through](https://youtu.be/embeBPxY2HQ){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.
+- Office Hours: [Zoom on Fri @ 10am SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/FJHD9Bnrmgj32Tk69){:.no-push-state}{:target="_blank"},  
  
  
@@ -264,7 +264,7 @@ The why, when and how of writing your own R functions with worked examples. Furt
 - Lab supplement: [Hands-on section supplemental information]({{ site.baseurl }}/class-material/lecture6-BIMM143_W19.pdf){:.no-push-state}{:target="_blank"},   
 - Lab live session [zoom video](https://youtu.be/k3FKc2FXH2c){:.no-push-state}{:target="_blank"},   
 - Extra: [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state}{:target="_blank"},  
-- Office Hours: [Zoom on Thur @ 10am SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
+- Office Hours: [Zoom on Fri @ 10am SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/Y8un1ziwe99GYq1r6){:.no-push-state}.  
 
  
@@ -307,8 +307,8 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 - WebApp: [Introduction to PCA]({{ site.baseurl }}/class-material/pca/){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lab-wk7-bimm143.html){:.no-push-state}{:target="_blank"},  
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}, [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}, [new_samples.csv]({{ site.baseurl }}/class-material/new_samples.csv){:.no-push-state}.  
-- Lab: Live screencast [video walk-through](https://youtu.be/5AiK2fSoE24){:target="_blank"}{:.no-push-state} @ 10am Thur SD time.
-- Office Hours: [Zoom on Thur @ 12:30pm SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
+- Lab: Live screencast [video walk-through](https://youtu.be/5AiK2fSoE24){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.
+- Office Hours: [Zoom on Fri @ 12:30pm SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
 
 - Feedback: [Muddy point assessment](https://docs.google.com/forms/d/e/1FAIpQLSdiQn7n6XvvRGq5AfQWaRa7G22-twFCN4bYNANCWSK09DBYZg/viewform){:.no-push-state}.  
 
@@ -352,12 +352,18 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 **Supporting material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture13_BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture13_BIMM143-small.pdf){:.no-push-state}{:target="_blank"},
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"} (as PDF form),
-- Lab: Live screencast [video walk-through](https://youtu.be/jfAlMYAJNw8){:target="_blank"}{:.no-push-state} @ 10am Thur SD time.  
-- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}, [Example R script]({{ site.baseurl }}/class-material/lecture13_plot.r){:.no-push-state}, [Example Rmd](https://github.com/bioboot/test_github/blob/master/lecture13_plot.md){:.no-push-state}.
+- Lab: Live screencast [video walk-through](https://youtu.be/jfAlMYAJNw8){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.  
+- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}.  
 - [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}{:target="_blank"}.  
-- Office Hours: [Zoom on Thur @ 12:30pm SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
+- Office Hours: [Zoom on Fri @ 12:30pm SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
 
 - Feedback: [Muddy point assessment](https://forms.gle/Qx4UTSc4zkpafRvq9){:.no-push-state}{:target="_blank"}.  
+
+
+
+**Homework**:   
+- **Population analysis**: Submit to GradeScope your RMarkdown generated PDF with working code, output and narrative text answering Q13 and Q14 in this weeks [Hands-on section worksheet]({{ site.baseurl }}/class-material/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"}.  
+
 
 ## IPs     
 - nt1  IP: http://3.212.78.120/galaxy  
@@ -399,6 +405,13 @@ Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX 
 
 
 
+**Homework**:   
+- [Questions]({{ site.baseurl }}/class-material/HW8_unix_questions.pdf){:.no-push-state}{:target="_blank"},  
+- DataCamp: [Introduction to the Unix shell](https://learn.datacamp.com/courses/introduction-to-shell){:.no-push-state}{:target="_blank"} (~4hrs).   
+ 
+
+
+
 ---
 <a name="9"></a>
 ## Week 9: Transcriptomics and the analysis of RNA-Seq data
@@ -417,16 +430,16 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 **Videos:**
 - 9.1 - [Differential expression analysis of RNA-Seq data](https://youtu.be/AGAmd51oIEg){:.no-push-state}{:target="_blank"},  
 - 9.2 - [Differential expression tests and pathway analysis](https://youtu.be/bxvZmGe3IGk){:.no-push-state}{:target="_blank"}.    
-- Lab screencast - [Live video walk-through](https://youtu.be/_hFjQvK2UdI){:target="_blank"}{:.no-push-state} @ 10am Thur SD time.      
+- Lab screencast - [Live video walk-through](https://youtu.be/_hFjQvK2UdI){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.      
 
 
 **Supporting material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture14_BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture14_BIMM143-small.pdf){:.no-push-state}{:target="_blank"}.
 - Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/bioconductor_setup/){:.no-push-state}{:target="_blank"} instructions.
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/week09_lab_bimm143){:.no-push-state}{:target="_blank"},  
-- Lab: Live screencast [video walk-through](https://youtu.be/_hFjQvK2UdI){:target="_blank"}{:.no-push-state} @ 10am Thur SD time.  
+- Lab: Live screencast [video walk-through](https://youtu.be/_hFjQvK2UdI){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.  
 - Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}.  
-- Office Hours: [Zoom on Thur @ 12:30pm SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
+- Office Hours: [Zoom on Fri @ 12:30pm SD time](https://ucsd.zoom.us/s/167105503){:.no-push-state}{:target="_blank"},   
 - [Muddy point assessment](https://goo.gl/forms/CjzYyzBT0VsuOvBt2){:.no-push-state}.  
 
 
@@ -437,14 +450,9 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
  - Abstract and introduction sections of: [Himes et al. "RNA-Seq transcriptome profiling identifies CRISPLD2 as a glucocorticoid responsive gene that modulates cytokine function in airway smooth muscle cells." _PLoS ONE_ 9.6 (2014): e99625](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0099625){:.no-push-state}.  
 
 
-**Optional extension exercises:**
-- Optional extension lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/lab-15-bimm143.html){:.no-push-state}{:target="_blank"},  
+**Homework:**
+- [DESeq2 analysis mini-project]({{ site.baseurl }}/class-material/lab-15-bimm143.html){:.no-push-state}{:target="_blank"} **TO BE UPDATED!**,  
 - Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/GSE37704_featurecounts.csv){:.no-push-state}, [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/GSE37704_metadata.csv){:.no-push-state}.   
-
- 
-**R Knowledge Check**:
-[**Quiz Assessment**](https://forms.gle/FppQDHdzRnQpJudP7){:.no-push-state}{:target="_blank"}. 
-
 
 
 

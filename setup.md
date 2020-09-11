@@ -25,7 +25,7 @@ Current versions of [Chrome](https://www.google.com/chrome/), [Firefox](http://w
 ### The data analysis environment **R** and **RStudio**
 R Binaries for Windows, MacOSX and Linux can be downloaded and installed from [CRAN](http://cran.r-project.org/index.html) (Comprehensive R Archive Network). If possible download the latest binary version of R for your operating system. As of course launch (Sept 18) the latest release (2020-06-22, "Taking Off Again") is R-4.0.2.  
 
-After installing R itself we recommend installing [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download) (version 1.1.463 or above), a slick visual interface for R. **N.B.** You will want the Open Source **FREE** version.
+After installing R itself we recommend installing [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download) (version 1.3.0 or above), a slick visual interface for R. **N.B.** You will want the Open Source **FREE** version.
 
 
 
