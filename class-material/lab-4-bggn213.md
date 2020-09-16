@@ -3,7 +3,7 @@ layout: page
 title: R Language Basics (Part 1)
 ---
 
-**BGGN-213 Lecture 4:**   
+**Lab Week 3:**   
 Barry Grant &lt; <http://thegrantlab.org> &gt;
 {:.message}
 
@@ -15,7 +15,10 @@ Before delving into working with real data in R, we need to learn the basics of 
 
 ### 2. Simple Calculations
 
-Open RStudio, or a terminal R prompt, and try typing the basic arithmetic below. If you are using RStudio we will be typing directly into the *Console* that contains the live R process.
+Open RStudio, or a terminal R prompt, and try typing the basic arithmetic below. If you are using RStudio we will be typing directly into the *Console* that contains the live R process. 
+
+> **Side-note**: If you are confused about this please pause and watch the [first 3 mins of this video](https://youtu.be/3LOTxeQEHSM?t=15){:.no-push-state}{:target="_blank"} before coming back to enter the commands below in your own RStudio console window.  If you feel like skipping ahead - **DON'T** - it will make it hard for us to be friends later.
+
 
 ``` r
 5+3
@@ -41,6 +44,8 @@ Open RStudio, or a terminal R prompt, and try typing the basic arithmetic below.
 
     ## [1] 1.666667
 
+Ok, so R is a big calculator but it is also so much more than that. For example, we will see soon that R can do complicated statistical analysis on big datasets that you would never want to use a calculator for. It also allows you to do your analysis in a robust and re-usable way so you can automate things later. At the heart of this is saving your answers as you go along.
+
 
 ### 3. Saving your answers - object assignment
 
@@ -63,9 +68,13 @@ and in my head I hear, e.g., "x gets 12".
 
 You will make lots of assignments and the operator `<-` is a pain to type. Don't be lazy and use `=`, although it would work, because it will just sow confusion later. Instead, utilize RStudio's keyboard shortcut: Alt + - (the minus sign).
 
+> **Cool short cut**: Learn the `Alt` and `minus` key combo shortcut for the assignment operator (i.e. the little arrow you use all the time in R).  
+> 
+> RStudio offers many handy [keyboard shortcuts](https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts). Also, `Alt`+`Shift`+`K` brings up a keyboard shortcut reference card.  Or you can use the top most menu bar options by clicking on **Help** > **Keyboard Shortcuts Help** to bring up the same screen. Simply click off to exit. 
+
 Notice that RStudio automagically surrounds `<-` with spaces, which demonstrates a useful code formatting practice. Code is miserable to read on a good day. Give your eyes a break and use spaces.
 
-RStudio offers many handy [keyboard shortcuts](https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts). Also, Alt+Shift+K brings up a keyboard shortcut reference card.
+
 
 #### A note about object names
 
@@ -212,6 +221,9 @@ R also has functions for listing all functions in a package (e.g., `library(help
 
 Later today we will cover a special form of package documentation called **vignettes**. These are basically short task oriented introductions and tutorials for a particular set of related functions.
 
+> **Conclusion**: R has built in help accessible with the question mark or `help()` function. However, it is heavy on nerd-speak and takes some getting used to. Remember Google (and the resulting StackOverflow posts) are your friends. Google is often the quickest way to get the help you need before you are full on nerd-speak fluent.  
+
+
 ### 6. Vectors, Vectorization, and Indexing
 
 Arguably the most important feature of the R language is its vectors. A vector is a container of contiguous data. Unlike most languages, R does not have a type for a single value (known as a scalar) such as 3.1 or “AGCTACGACT.” Rather, these values are stored in a vector of length 1. We can verify that values like 3.1 are vectors of length 1 by calling the function length() (which returns the length of a vector) on them:
@@ -322,17 +334,30 @@ We can change specific vector elements by combining indexing and assignment.
 
 Our next session will cover more on **vectors**, and the other major R data structures (**matrices**, **data.frames** and **lists**).
 
-### 7. A note about RStudio projects
+### 7. An IMPORTANT note about RStudio projects
 
-Keeping all the files associated with a project organized together -- input data, R scripts, analytical results, figures -- is such a wise and common practice that RStudio has built-in support for this via its *projects*.
+Keeping all the files associated with a particular piece of work organized together -- input data, R scripts, analytical results, figures -- is such a wise and common practice that RStudio has built-in support for this via its *projects*.
 
 [Using Projects](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)
 
-Let's make one to use for the rest of this class. Do this: File &gt; New Project .... The directory name you choose here will be the project name. Call it whatever you want (or follow me for convenience *Desktop/bootcamp/R/session1*).
+> **Important:** We will be using **RStudio projects** throughout this course to keep ourselves organized and relatively sane. Take the time to learn the basics of *projects* now!
+
+Let's make one to use for the rest of this class.  
+
+Do this: **File** &gt; **New Project ....** then click through the options **New Directory** &gt; **New Project**. The directory name you choose here will be the project name. Call it whatever you want (or follow me for convenience *Desktop/bggn213/week03*). Note here I have an existing folder on my Desktop called bggn213 and I am creating a new Rstudio *project* called **week03**. This will be a new folder were all my work will be stored (see image below).
+
+![]({{ site.baseurl }}/class-material/rstudio_project.png)
+
+> **N.B.** Note that I have no spaces in my file or folder names. This will be important later when we enter the UNIX world where spaces mean something.  
+> 
+> For now just don't put spaces in any of your file or folder names as it will cause you trouble later. Remember, *"a space in a file name is like a space in your sole"*. 
+> 
+> If you use spaces in your project names we can't be friends. Seriously! 
+
 
 ### 8. Miscellaneous points
 
-It is traditional to save R scripts with a `.R` or `.r` suffix. Follow this convention unless you have some extraordinary reason not to.
+It is traditional to save R scripts with a `.R` or `.r` suffix. Follow this convention unless you have some extraordinary reason not to - like insanity.
 
 Comments start with one or more `#` symbols. Use them. RStudio helps you (de)comment selected lines with Ctrl+Shift+C (windows and linux) or Command+Shift+C (mac).
 
@@ -343,13 +368,15 @@ This work-flow will serve you well in the future:
 -   Create an RStudio project for an analytical project
 -   Keep inputs there (we'll soon talk about importing)
 -   Keep scripts there; edit them, run them in bits or as a whole from there
--   Keep outputs there (like the PDF written above)
+-   Keep outputs there (like figures and PDF reports etc like we generate next day)
 
-> Avoid using the mouse for pieces of your analytical work-flow, such as loading a dataset or saving a figure. Terribly important for reproducibility and for making it possible to retrospectively determine how a numerical table or PDF was actually produced (searching on local disk on filename, among `.R` files, will lead to the relevant script).
+> **Tip**: Avoid using the mouse for pieces of your analytical work-flow, such as loading a dataset or saving a figure. Terribly important for reproducibility and for making it possible to retrospectively determine how a numerical table or PDF was actually produced (searching on local disk on filename, among `.R` files, will lead to the relevant script).
 
 Many long-time users never save the workspace, never save `.RData` files (I'm one of them), never save or consult the history. Once/if you get to that point, there are options available in RStudio to disable the loading of .RData and permanently suppress the prompt on exit to save the workspace (go to Tools-&gt;Options-&gt;General).
 
 For the record, when loading data into R and/or writing outputs to file, you can always specify the absolute path and thereby insulate yourself from the current working directory. This is rarely necessary when using RStudio Projects properly
+
+> **Thanks for reading this far** - you are awesome and we are now f**R**iends!
 
 ### 9. Reproducibility and sessionInfo()
 
