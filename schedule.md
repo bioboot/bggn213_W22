@@ -56,7 +56,7 @@ Course introduction, Learning goals & expectations, Meet the instructional team.
 - Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BGGN213_F20_syllabus.pdf){:.no-push-state}{:target="_blank"},  
 - Pre-course [Questionnaire](https://forms.gle/EL9JjxvPRnFqGMWy5){:target="_blank"},   
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
-- Sign up for our [Piazza class Q&A site](https://piazza.com/ucsd/summer2020/bggn213){:target="_blank"},   
+- Sign up for our [Piazza class Q&A site](https://piazza.com/ucsd/fall2020/bggn213/home){:target="_blank"},   
 - View the class [**GradeBook**](https://docs.google.com/spreadsheets/d/1drbyXl6BSYUThXWMbVafKKZoRxORRI5rJqI1Y5mHZgg/){:target="_blank"}.  
 
 
@@ -468,7 +468,7 @@ Summary of learning goals, Student course evaluation time; Find a gene assignmen
 
 - Video [**live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr Ali Crawford** (Associate Director, Scientific Research, *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator, *La Jolla Institute*) and **Dr. Ana Grant** (Director of Research Informatics, *Synthetic Genomics Inc.*).
 
-- Submit [your questions here](https://piazza.com/class/k80g6xd4ijjjo?cid=68){:.no-push-state}{:target="_blank"}.
+- Submit [your questions here](https://piazza.com/class/k80g6xd4ijjjo?cid=68){:.no-push-state}{:target="_blank"} **To Update!**.
 
 
 **Side-note:**
