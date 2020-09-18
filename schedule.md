@@ -132,7 +132,7 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 **Homework**:   
 - [Questions](https://forms.gle/Na4VXwRXAqpJ5fsm9){:.no-push-state}{:target="_blank"},  
 - For next week please [install R and RStudio](https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu){:.no-push-state}{:target="_blank"},  
-- Complete the following [Alignment Problem]({{ site.baseurl }}/class-material/lecture2-BIMM134_homework.pdf){:.no-push-state}{:target="_blank"},  
+- Complete the following [Alignment Problem]({{ site.baseurl }}/class-material/wk2_homework.pdf){:.no-push-state}{:target="_blank"},  
 - DataCamp: Sign-up to our **Bioinformatics F20 group/organization** via the link in your UCSD email (we will use this next week),   
 
 
@@ -451,7 +451,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 
 **Homework:**
-- [DESeq2 analysis mini-project]({{ site.baseurl }}/class-material/lab-15-bimm143.html){:.no-push-state}{:target="_blank"} **TO BE UPDATED!**,  
+- [DESeq2 analysis mini-project]({{ site.baseurl }}/class-material/lab-15-bggn213.html){:.no-push-state}{:target="_blank"} **TO BE UPDATED!**,  
 - Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/GSE37704_featurecounts.csv){:.no-push-state}, [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/GSE37704_metadata.csv){:.no-push-state}.   
 
 
