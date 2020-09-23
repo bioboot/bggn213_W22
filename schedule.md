@@ -76,9 +76,9 @@ Biology is an information science, History of Bioinformatics, Types of data, App
 
 
 **Videos:**
-- 1.1 - [Introduction to bioinformatics (what, where and why of bioinformatics)](https://youtu.be/FNXMFXZR6HU){:.no-push-state}{:target="_blank"},  
-- 1.2 - [Major bioinformatics resource providers (NCBI and EBI)](https://youtu.be/zUK7c9J1KGU){:.no-push-state}{:target="_blank"},  
-- 1.3 - [A quick tour of major NCBI and EBI resources (GENE, UniProt, GO, OMIM, PDB, PFAM)](https://youtu.be/k77QilYmrfk){:.no-push-state}{:target="_blank"}.    
+- 1.1 - [Introduction to bioinformatics (what, where and why of bioinformatics)](https://youtu.be/75JGKKZ7oNM){:.no-push-state}{:target="_blank"},  
+- 1.2 - [Major bioinformatics resource providers (NCBI and EBI)](https://youtu.be/o_IO7dDUZPM){:.no-push-state}{:target="_blank"},  
+- 1.3 - [A quick tour of major NCBI and EBI resources (GENE, UniProt, GO, OMIM, PDB, PFAM)](https://youtu.be/afqB87ZSkXw){:.no-push-state}{:target="_blank"}.    
 
 
 **Supporting Material**:  
