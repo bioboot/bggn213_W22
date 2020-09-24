@@ -113,10 +113,10 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 
 
 **Videos:**  
-- 2.1 - [Alignment fundamentals](https://www.youtube.com/watch?v=SU22pycFrDk){:.no-push-state}{:target="_blank"},    
-- 2.2 - [Dot plots](http://youtu.be/nnPNwlzX2qg){:.no-push-state}{:target="_blank"},    
-- 2.3 - [Dynamic programing, global alignment](https://youtu.be/LkwgI2mHbik){:.no-push-state}{:target="_blank"},    
-- 2.4 - [Dynamic programing, local alignment and BLAST basics](https://youtu.be/uhD77hnxM2g){:.no-push-state}{:target="_blank"},    
+- 2.1 - [Alignment fundamentals](https://youtu.be/XBKR17eW-2c){:.no-push-state}{:target="_blank"},    
+- 2.2 - [Dot plots](https://youtu.be/S07kIY2ihq8){:.no-push-state}{:target="_blank"},    
+- 2.3 - [Dynamic programing, global alignment](https://youtu.be/dVs-bFWnRXc){:.no-push-state}{:target="_blank"},    
+- 2.4 - [Dynamic programing, local alignment and BLAST basics](https://youtu.be/GwrgRAzRAmE){:.no-push-state}{:target="_blank"},    
   
 
 **Supporting Material:**
@@ -177,8 +177,8 @@ Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major
 
 
 **Videos:**
-- 3.1 [Why R and RStudio](https://youtu.be/Asm2PHOZAcE){:.no-push-state}{:target="_blank"},    
-- 3.2 [Major R data structures, data types, and using functions](http://youtu.be/3LOTxeQEHSM){:.no-push-state}{:target="_blank"},  
+- 3.1 [Why R and RStudio](https://youtu.be/oZZaWDuKQFE){:.no-push-state}{:target="_blank"},    
+- 3.2 [Major R data structures, data types, and using functions](https://youtu.be/GRKdOPVD3-Y){:.no-push-state}{:target="_blank"},  
 - 3.3 [Working with DataCamp](https://www.youtube.com/watch?v=q_GUl2YRoVk){:.no-push-state}{:target="_blank"}  **N.B.** Use your UCSD email invite to sign up and visit our class group/organization.    
 
 **Supporting Material:**
