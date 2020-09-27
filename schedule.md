@@ -179,7 +179,7 @@ Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major
 **Videos:**
 - 3.1 [Why R and RStudio]({{ site.baseurl }}/https://youtu.be/oZZaWDuKQFE){:.no-push-state}{:target="_blank"},    
 - 3.2 [Major R data structures, data types, and using functions]({{ site.baseurl }}/https://youtu.be/GRKdOPVD3-Y){:.no-push-state}{:target="_blank"},  
-- 3.3 [Working with DataCamp](https://www.youtube.com/watch?v=q_GUl2YRoVk){:.no-push-state}{:target="_blank"}  **N.B.** Use your UCSD email invite to sign up and visit our class group/organization.    
+- 3.3 [Working with DataCamp]({{ site.baseurl }}/http://www.youtube.com/watch?v=q_GUl2YRoVk){:.no-push-state}{:target="_blank"}  **N.B.** Use your UCSD email invite to sign up and visit our class group/organization.    
 
 **Supporting Material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-4-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-4-bggn213_small.pdf){:.no-push-state}{:target="_blank"},  
@@ -347,7 +347,7 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 - 7.1 - [Introduction to genomics]({{ site.baseurl }}/http://youtu.be/WpbE1dANSDU){:.no-push-state}{:target="_blank"},   
 - 7.2 - [Sequencing methods](https://www.ibiology.org/techniques/dna-sequencing/){:.no-push-state}{:target="_blank"} from Jonathan Weissman (UCSF),    
 - 7.3 - [The basics of RNASeq work-flows]({{ site.baseurl }}/http://youtu.be/_JPAV9PBgnA){:.no-push-state}{:target="_blank"},   
-- 7.4 - Optional: [Lessons from the Human Genome Project](https://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}.   
+- 7.4 - Optional: [Lessons from the Human Genome Project]({{ site.baseurl }}/http://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}.   
 
 **Supporting material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-13-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/llecture-13-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
