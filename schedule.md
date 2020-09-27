@@ -76,16 +76,16 @@ Biology is an information science, History of Bioinformatics, Types of data, App
 
 
 **Videos:**
-- 1.1 - [Introduction to bioinformatics (what, where and why of bioinformatics)](https://youtu.be/75JGKKZ7oNM){:.no-push-state}{:target="_blank"},  
-- 1.2 - [Major bioinformatics resource providers (NCBI and EBI)](https://youtu.be/o_IO7dDUZPM){:.no-push-state}{:target="_blank"},  
-- 1.3 - [A quick tour of major NCBI and EBI resources (GENE, UniProt, GO, OMIM, PDB, PFAM)](https://youtu.be/afqB87ZSkXw){:.no-push-state}{:target="_blank"}.    
+- 1.1 - [Introduction to bioinformatics (what, where and why of bioinformatics)]({{ site.baseurl }}/https://youtu.be/75JGKKZ7oNM){:.no-push-state}{:target="_blank"},  
+- 1.2 - [Major bioinformatics resource providers (NCBI and EBI)]({{ site.baseurl }}/https://youtu.be/o_IO7dDUZPM){:.no-push-state}{:target="_blank"},  
+- 1.3 - [A quick tour of major NCBI and EBI resources (GENE, UniProt, GO, OMIM, PDB, PFAM)]({{ site.baseurl }}/https://youtu.be/afqB87ZSkXw){:.no-push-state}{:target="_blank"}.    
 
 
 **Supporting Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-1-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-1-bggn213_small.pdf){:.no-push-state}{:target="_blank"},     
 - Handout: [Major Bioinformatics Databases]({{ site.baseurl }}/class-material/Major_Databases.pdf){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-1-bggn213_online-form.pdf){:target="_blank"}{:.no-push-state},  
-- Lab: [Video walk-through](https://youtu.be/tv3Yt-wcXxY){:target="_blank"}{:.no-push-state} live on Fri @ 10am SD time,   
+- Lab: [Video walk-through]({{ site.baseurl }}/https://youtu.be/tv3Yt-wcXxY){:target="_blank"}{:.no-push-state} live on Fri @ 10am SD time,   
 - Office Hours: [Zoom on Fri @ 12:30pm SD time]({{ site.baseurl }}/class-material/zoom_link/){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy Point Assessment](https://forms.gle/fHMc1C5gd7hh5eog7){:.no-push-state}{:target="_blank"},    
 
@@ -113,17 +113,17 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 
 
 **Videos:**  
-- 2.1 - [Alignment fundamentals](https://youtu.be/XBKR17eW-2c){:.no-push-state}{:target="_blank"},    
-- 2.2 - [Dot plots](https://youtu.be/S07kIY2ihq8){:.no-push-state}{:target="_blank"},    
-- 2.3 - [Dynamic programing, global alignment](https://youtu.be/dVs-bFWnRXc){:.no-push-state}{:target="_blank"},    
-- 2.4 - [Dynamic programing, local alignment and BLAST basics](https://youtu.be/GwrgRAzRAmE){:.no-push-state}{:target="_blank"},    
+- 2.1 - [Alignment fundamentals]({{ site.baseurl }}/https://youtu.be/XBKR17eW-2c){:.no-push-state}{:target="_blank"},    
+- 2.2 - [Dot plots]({{ site.baseurl }}/https://youtu.be/S07kIY2ihq8){:.no-push-state}{:target="_blank"},    
+- 2.3 - [Dynamic programing, global alignment]({{ site.baseurl }}/https://youtu.be/dVs-bFWnRXc){:.no-push-state}{:target="_blank"},    
+- 2.4 - [Dynamic programing, local alignment and BLAST basics]({{ site.baseurl }}/https://youtu.be/GwrgRAzRAmE){:.no-push-state}{:target="_blank"},    
   
 
 **Supporting Material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_small.pdf){:.no-push-state}{:target="_blank"},  
 - Dot Plot App Mirrors: [app-1](https://barryus.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"},  [app-2](https://bioboot.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"},     
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-2-BGGN213_online-form.pdf){:.no-push-state}{:target="_blank"}  
-- Lab: [Video walk-through](https://youtu.be/mttQRu4Fnmg){:target="_blank"}{:.no-push-state} live on Fri @ 10am SD time,   
+- Lab: [Video walk-through]({{ site.baseurl }}/https://youtu.be/mttQRu4Fnmg){:target="_blank"}{:.no-push-state} live on Fri @ 10am SD time,   
 - Office Hours: [Zoom on Fri @ 12:30pm SD time]({{ site.baseurl }}/class-material/zoom_link/){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy Point Assessment](https://forms.gle/FEbKxnq4X7nUMhcn8){:.no-push-state}{:target="_blank"}.   
      
@@ -177,15 +177,15 @@ Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major
 
 
 **Videos:**
-- 3.1 [Why R and RStudio](https://youtu.be/oZZaWDuKQFE){:.no-push-state}{:target="_blank"},    
-- 3.2 [Major R data structures, data types, and using functions](https://youtu.be/GRKdOPVD3-Y){:.no-push-state}{:target="_blank"},  
+- 3.1 [Why R and RStudio]({{ site.baseurl }}/https://youtu.be/oZZaWDuKQFE){:.no-push-state}{:target="_blank"},    
+- 3.2 [Major R data structures, data types, and using functions]({{ site.baseurl }}/https://youtu.be/GRKdOPVD3-Y){:.no-push-state}{:target="_blank"},  
 - 3.3 [Working with DataCamp](https://www.youtube.com/watch?v=q_GUl2YRoVk){:.no-push-state}{:target="_blank"}  **N.B.** Use your UCSD email invite to sign up and visit our class group/organization.    
 
 **Supporting Material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-4-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-4-bggn213_small.pdf){:.no-push-state}{:target="_blank"},  
 - Cheat Sheet: [Base R overview]({{ site.baseurl }}/class-material/base-r.pdf){:target="_blank"}{:.no-push-state},
 - Lab: [Hands-on section]({{ site.baseurl }}/class-material/lab-4-bggn213/){:.no-push-state},  
-- Lab: [Video walk-through](https://youtu.be/BngLbEIgQlo){:target="_blank"}{:.no-push-state} focusing on introducing [Project]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:target="_blank"}{:.no-push-state} assignment, live on Fri @ 10am SD time,   
+- Lab: [Video walk-through]({{ site.baseurl }}/https://youtu.be/BngLbEIgQlo){:target="_blank"}{:.no-push-state} focusing on introducing [Project]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:target="_blank"}{:.no-push-state} assignment, live on Fri @ 10am SD time,   
 - Office Hours: [Zoom on Fri @ 12:30pm SD time]({{ site.baseurl }}/class-material/zoom_link/){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/pGzaaSRGnQ1r9mrL9){:.no-push-state}{:target="_blank"},  
   
@@ -216,16 +216,16 @@ The exploratory data analysis mindset, Data visualization best practices, Simple
 
 
 **Videos:**
-- 4.1 - [Why visualize data?](https://youtu.be/P71Jhy_gDT0){:.no-push-state}{:target="_blank"},   
-- 4.2 - [Data visualization best practices](http://youtu.be/WfvBhFUzTQs){:.no-push-state}{:target="_blank"},   
-- 4.3 - [Introduction to ggplot](http://youtu.be/c8wWtU3aoF4){:.no-push-state}{:target="_blank"},   
+- 4.1 - [Why visualize data?]({{ site.baseurl }}/https://youtu.be/P71Jhy_gDT0){:.no-push-state}{:target="_blank"},   
+- 4.2 - [Data visualization best practices]({{ site.baseurl }}/http://youtu.be/WfvBhFUzTQs){:.no-push-state}{:target="_blank"},   
+- 4.3 - [Introduction to ggplot]({{ site.baseurl }}/http://youtu.be/c8wWtU3aoF4){:.no-push-state}{:target="_blank"},   
 - 4.4 - Optional: [The **g**rammar of **g**raphics - the **gg** in ggplot](https://vimeo.com/332290655){:.no-push-state}{:target="_blank"},   
 
 
 **Supporting Material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BGGN213-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BGGN213-small.pdf){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/ggplot_bggn213.html){:.no-push-state}{:target="_blank"},
-- Lab: Live screencast [video walk-through](https://youtu.be/embeBPxY2HQ){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.
+- Lab: Live screencast [video walk-through]({{ site.baseurl }}/https://youtu.be/embeBPxY2HQ){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.
 - Office Hours: [Zoom on Fri @ 10am SD time]({{ site.baseurl }}/class-material/zoom_link/){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/FJHD9Bnrmgj32Tk69){:.no-push-state}{:target="_blank"},  
  
@@ -252,8 +252,8 @@ The why, when and how of writing your own R functions with worked examples. Furt
 - Understand how to find and use package vignettes, demos, documentation, tutorials and source code repository where available.    
 
 **Videos:**  
-- 5.1 - [Writing your own functions (why, when and how)](https://www.youtube.com/watch?v=Z30gU8bowPU){:.no-push-state}{:target="_blank"},
-- 5.2 - [Introduction to CRAN & BioConductor](http://youtu.be/OyOzRiu3458){:.no-push-state}{:target="_blank"},
+- 5.1 - [Writing your own functions (why, when and how)]({{ site.baseurl }}/http://youtu.be/NzIHZyywsAo){:.no-push-state}{:target="_blank"},
+- 5.2 - [Introduction to CRAN & BioConductor]({{ site.baseurl }}/http://youtu.be/OyOzRiu3458){:.no-push-state}{:target="_blank"},
 - 5.3 - [Quick introduction to RMarkdown](https://www.youtube.com/watch?v=O7GMs9V3HQk){:.no-push-state}{:target="_blank"},  
 - 5.4 - Optional longer video: [Getting started with RMarkdown](https://rstudio.com/resources/webinars/getting-started-with-r-markdown/){:.no-push-state}{:target="_blank"}.  
 
@@ -262,7 +262,7 @@ The why, when and how of writing your own R functions with worked examples. Furt
 - Lecture Slides: [Pt1. Large PDF]({{ site.baseurl }}/class-material/lecture-6-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Pt2. Large PDF]({{ site.baseurl }}/class-material/lecture-7-bggn213_large.pdf){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab_week5.pdf){:.no-push-state}{:target="_blank"},  
 - Lab supplement: [Hands-on section supplemental information]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}{:target="_blank"},   
-- Lab live session [zoom video](https://youtu.be/k3FKc2FXH2c){:.no-push-state}{:target="_blank"},   
+- Lab live session [zoom video]({{ site.baseurl }}/https://youtu.be/k3FKc2FXH2c){:.no-push-state}{:target="_blank"},   
 - Extra: [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state}{:target="_blank"},  
 - Office Hours: [Zoom on Fri @ 10am SD time]({{ site.baseurl }}/class-material/zoom_link/){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/Y8un1ziwe99GYq1r6){:.no-push-state}.  
@@ -297,9 +297,9 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 
 
 **Videos:**
-- 6.1 - [Introduction to unsupervised learning and K-means clustering](http://youtu.be/k2QPXRtTons){:.no-push-state}{:target="_blank"},  
-- 6.2 - [Hierarchical clustering](http://youtu.be/L72a2QPzlRE){:.no-push-state}{:target="_blank"},  
-- 6.3 - [Principal component analysis (PCA) Pt.1](http://youtu.be/2Ja1BGlfKQo){:.no-push-state}{:target="_blank"}.   
+- 6.1 - [Introduction to unsupervised learning and K-means clustering]({{ site.baseurl }}/http://youtu.be/k2QPXRtTons){:.no-push-state}{:target="_blank"},  
+- 6.2 - [Hierarchical clustering]({{ site.baseurl }}/http://youtu.be/L72a2QPzlRE){:.no-push-state}{:target="_blank"},  
+- 6.3 - [Principal component analysis (PCA) Pt.1]({{ site.baseurl }}/http://youtu.be/2Ja1BGlfKQo){:.no-push-state}{:target="_blank"}.   
   
 
 **Supporting material:**  
@@ -307,7 +307,7 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 - WebApp: [Introduction to PCA]({{ site.baseurl }}/class-material/pca/){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lab-wk6.html){:.no-push-state}{:target="_blank"},  
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}, [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}, [new_samples.csv]({{ site.baseurl }}/class-material/new_samples.csv){:.no-push-state}.  
-- Lab: Live screencast [video walk-through](https://youtu.be/5AiK2fSoE24){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.
+- Lab: Live screencast [video walk-through]({{ site.baseurl }}/https://youtu.be/5AiK2fSoE24){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.
 - Office Hours: [Zoom on Fri @ 12:30pm SD time]({{ site.baseurl }}/class-material/zoom_link/){:.no-push-state}{:target="_blank"},   
 
 - Feedback: [Muddy point assessment](https://docs.google.com/forms/d/e/1FAIpQLSdiQn7n6XvvRGq5AfQWaRa7G22-twFCN4bYNANCWSK09DBYZg/viewform){:.no-push-state}.  
@@ -344,15 +344,15 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 - Understand the SAM/BAM file format and the information it holds.  
 
 **Videos:**  
-- 7.1 - [Introduction to genomics](http://youtu.be/WpbE1dANSDU){:.no-push-state}{:target="_blank"},   
+- 7.1 - [Introduction to genomics]({{ site.baseurl }}/http://youtu.be/WpbE1dANSDU){:.no-push-state}{:target="_blank"},   
 - 7.2 - [Sequencing methods](https://www.ibiology.org/techniques/dna-sequencing/){:.no-push-state}{:target="_blank"} from Jonathan Weissman (UCSF),    
-- 7.3 - [The basics of RNASeq work-flows](http://youtu.be/_JPAV9PBgnA){:.no-push-state}{:target="_blank"},   
+- 7.3 - [The basics of RNASeq work-flows]({{ site.baseurl }}/http://youtu.be/_JPAV9PBgnA){:.no-push-state}{:target="_blank"},   
 - 7.4 - Optional: [Lessons from the Human Genome Project](https://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}.   
 
 **Supporting material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-13-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/llecture-13-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"} (as PDF form),
-- Lab: Live screencast [video walk-through](https://youtu.be/jfAlMYAJNw8){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.  
+- Lab: Live screencast [video walk-through]({{ site.baseurl }}/https://youtu.be/jfAlMYAJNw8){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.  
 - RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}.  
 - [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}{:target="_blank"}.  
 - Office Hours: [Zoom on Fri @ 12:30pm SD time]({{ site.baseurl }}/class-material/zoom_link/){:.no-push-state}{:target="_blank"},   
@@ -428,16 +428,16 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 - Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
 
 **Videos:**
-- 9.1 - [Differential expression analysis of RNA-Seq data](https://youtu.be/AGAmd51oIEg){:.no-push-state}{:target="_blank"},  
-- 9.2 - [Differential expression tests and pathway analysis](https://youtu.be/bxvZmGe3IGk){:.no-push-state}{:target="_blank"}.    
-- Lab screencast - [Live video walk-through](https://youtu.be/_hFjQvK2UdI){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.      
+- 9.1 - [Differential expression analysis of RNA-Seq data]({{ site.baseurl }}/https://youtu.be/AGAmd51oIEg){:.no-push-state}{:target="_blank"},  
+- 9.2 - [Differential expression tests and pathway analysis]({{ site.baseurl }}/https://youtu.be/bxvZmGe3IGk){:.no-push-state}{:target="_blank"}.    
+- Lab screencast - [Live video walk-through]({{ site.baseurl }}/https://youtu.be/_hFjQvK2UdI){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.      
 
 
 **Supporting material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-14-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-14-bggn213_small.pdf){:.no-push-state}{:target="_blank"}.
 - Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/bioconductor_setup/){:.no-push-state}{:target="_blank"} instructions.
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-14-bggn213.html){:.no-push-state}{:target="_blank"},  
-- Lab: Live screencast [video walk-through](https://youtu.be/_hFjQvK2UdI){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.  
+- Lab: Live screencast [video walk-through]({{ site.baseurl }}/https://youtu.be/_hFjQvK2UdI){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.  
 - Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}.  
 - Office Hours: [Zoom on Fri @ 12:30pm SD time]({{ site.baseurl }}/class-material/zoom_link/){:.no-push-state}{:target="_blank"},   
 - [Muddy point assessment](https://goo.gl/forms/CjzYyzBT0VsuOvBt2){:.no-push-state}.  
