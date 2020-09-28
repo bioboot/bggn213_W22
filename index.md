@@ -36,7 +36,7 @@ Students completing this course will be able to evaluate new genomic and biomole
 Bioscience graduate students and others familiar with basic molecular biology concepts. No formal programming training or high level mathematical skills are required.  
 
 ## Accessibility:  
-We are committed to making this course accessible to everybody. Please contact Prof. Grant <bigrant@ucsd.edu> if you have questions regarding room accessibility.  
+We are committed to making this course accessible to everybody. Please contact Prof. Grant <bjgrant@ucsd.edu> if you have questions regarding room accessibility.  
 
 ## Requirements: 
 To fully participate in this course students will be expected to use their own laptop computers with specific freely available [software installed]({{ site.baseurl }}/setup/). A limited number of classroom computers are also available should the need arise.    
