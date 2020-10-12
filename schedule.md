@@ -113,17 +113,17 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 
 
 **Videos:**  
-- 2.1 - [Alignment fundamentals]({{ site.baseurl }}/https://youtu.be/XBKR17eW-2c){:.no-push-state}{:target="_blank"},    
-- 2.2 - [Dot plots]({{ site.baseurl }}/https://youtu.be/S07kIY2ihq8){:.no-push-state}{:target="_blank"},    
-- 2.3 - [Dynamic programing, global alignment]({{ site.baseurl }}/https://youtu.be/dVs-bFWnRXc){:.no-push-state}{:target="_blank"},    
-- 2.4 - [Dynamic programing, local alignment and BLAST basics]({{ site.baseurl }}/https://youtu.be/GwrgRAzRAmE){:.no-push-state}{:target="_blank"},    
+- 2.1 - [Alignment fundamentals](https://youtu.be/XBKR17eW-2c){:.no-push-state}{:target="_blank"},    
+- 2.2 - [Dot plots](https://youtu.be/S07kIY2ihq8){:.no-push-state}{:target="_blank"},    
+- 2.3 - [Dynamic programing, global alignment](https://youtu.be/dVs-bFWnRXc){:.no-push-state}{:target="_blank"},    
+- 2.4 - [Dynamic programing, local alignment and BLAST basics](https://youtu.be/GwrgRAzRAmE){:.no-push-state}{:target="_blank"},    
   
 
 **Supporting Material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-2-bggn213_small.pdf){:.no-push-state}{:target="_blank"},  
 - Dot Plot App Mirrors: [app-1](https://barryus.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"},  [app-2](https://bioboot.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"},     
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-2-BGGN213_online-form.pdf){:.no-push-state}{:target="_blank"}  
-- Lab: [Video walk-through]({{ site.baseurl }}/https://youtu.be/mttQRu4Fnmg){:target="_blank"}{:.no-push-state} live on Fri @ 10am SD time,   
+- Lab: [Video walk-through](https://youtu.be/mO6L5z51O1s){:target="_blank"}{:.no-push-state} live on Fri @ 10am SD time,   
 - Student Hours: [Zoom on Fri @ 12:30pm SD time](https://ucsd.zoom.us/s/97125966822){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy Point Assessment](https://forms.gle/FEbKxnq4X7nUMhcn8){:.no-push-state}{:target="_blank"}.   
      
