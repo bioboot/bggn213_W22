@@ -177,15 +177,15 @@ Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major
 
 
 **Videos:**
-- 3.1 [Why R and RStudio]({{ site.baseurl }}/https://youtu.be/oZZaWDuKQFE){:.no-push-state}{:target="_blank"},    
-- 3.2 [Major R data structures, data types, and using functions]({{ site.baseurl }}/https://youtu.be/GRKdOPVD3-Y){:.no-push-state}{:target="_blank"},  
-- 3.3 [Working with DataCamp]({{ site.baseurl }}/http://www.youtube.com/watch?v=q_GUl2YRoVk){:.no-push-state}{:target="_blank"}  **N.B.** Use your UCSD email invite to sign up and visit our class group/organization.    
+- 3.1 [Why R and RStudio](https://youtu.be/oZZaWDuKQFE){:.no-push-state}{:target="_blank"},    
+- 3.2 [Major R data structures, data types, and using functions](https://youtu.be/GRKdOPVD3-Y){:.no-push-state}{:target="_blank"},  
+- 3.3 [Working with DataCamp](http://www.youtube.com/watch?v=q_GUl2YRoVk){:.no-push-state}{:target="_blank"}  **N.B.** Use your UCSD email invite to sign up and visit our class group/organization.    
 
 **Supporting Material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-4-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-4-bggn213_small.pdf){:.no-push-state}{:target="_blank"},  
 - Cheat Sheet: [Base R overview]({{ site.baseurl }}/class-material/base-r.pdf){:target="_blank"}{:.no-push-state},
 - Lab: [Hands-on section]({{ site.baseurl }}/class-material/lab-4-bggn213/){:.no-push-state},  
-- Lab: [Video walk-through]({{ site.baseurl }}/https://youtu.be/BngLbEIgQlo){:target="_blank"}{:.no-push-state} focusing on introducing [Project]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:target="_blank"}{:.no-push-state} assignment, live on Fri @ 10am SD time,   
+- Lab: [Video walk-through](https://youtu.be/ZKcmg1HLaAo){:target="_blank"}{:.no-push-state} focusing on introducing [Project]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:target="_blank"}{:.no-push-state} assignment, live on Fri @ 10am SD time,   
 - Student Hours: [Zoom on Fri @ 12:30pm SD time](https://ucsd.zoom.us/s/97125966822){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/pGzaaSRGnQ1r9mrL9){:.no-push-state}{:target="_blank"},  
   
