@@ -216,16 +216,16 @@ The exploratory data analysis mindset, Data visualization best practices, Simple
 
 
 **Videos:**
-- 4.1 - [Why visualize data?]({{ site.baseurl }}/https://youtu.be/P71Jhy_gDT0){:.no-push-state}{:target="_blank"},   
-- 4.2 - [Data visualization best practices]({{ site.baseurl }}/http://youtu.be/WfvBhFUzTQs){:.no-push-state}{:target="_blank"},   
-- 4.3 - [Introduction to ggplot]({{ site.baseurl }}/http://youtu.be/c8wWtU3aoF4){:.no-push-state}{:target="_blank"},   
+- 4.1 - [Why visualize data?](https://youtu.be/P71Jhy_gDT0){:.no-push-state}{:target="_blank"},   
+- 4.2 - [Data visualization best practices](http://youtu.be/WfvBhFUzTQs){:.no-push-state}{:target="_blank"},   
+- 4.3 - [Introduction to ggplot](http://youtu.be/c8wWtU3aoF4){:.no-push-state}{:target="_blank"},   
 - 4.4 - Optional: [The **g**rammar of **g**raphics - the **gg** in ggplot](https://vimeo.com/332290655){:.no-push-state}{:target="_blank"},   
 
 
 **Supporting Material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BGGN213-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BGGN213-small.pdf){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/ggplot_bggn213.html){:.no-push-state}{:target="_blank"},
-- Lab: Live screencast [video walk-through]({{ site.baseurl }}/https://youtu.be/embeBPxY2HQ){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.
+- Lab: Live screencast [video walk-through](https://youtu.be/pNXD_QYLrVU){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.
 - Student Hours: [Zoom on Fri @ 10am SD time](https://ucsd.zoom.us/s/97125966822){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/FJHD9Bnrmgj32Tk69){:.no-push-state}{:target="_blank"},  
  
