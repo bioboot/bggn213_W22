@@ -252,8 +252,8 @@ The why, when and how of writing your own R functions with worked examples. Furt
 - Understand how to find and use package vignettes, demos, documentation, tutorials and source code repository where available.    
 
 **Videos:**  
-- 5.1 - [Writing your own functions (why, when and how)]({{ site.baseurl }}/http://youtu.be/NzIHZyywsAo){:.no-push-state}{:target="_blank"},
-- 5.2 - [Introduction to CRAN & BioConductor]({{ site.baseurl }}/http://youtu.be/OyOzRiu3458){:.no-push-state}{:target="_blank"},
+- 5.1 - [Writing your own functions (why, when and how)](http://youtu.be/NzIHZyywsAo){:.no-push-state}{:target="_blank"},
+- 5.2 - [Introduction to CRAN & BioConductor](https://youtu.be/qAvJ92qCGqE){:.no-push-state}{:target="_blank"},
 - 5.3 - [Quick introduction to RMarkdown](https://www.youtube.com/watch?v=O7GMs9V3HQk){:.no-push-state}{:target="_blank"},  
 - 5.4 - Optional longer video: [Getting started with RMarkdown](https://rstudio.com/resources/webinars/getting-started-with-r-markdown/){:.no-push-state}{:target="_blank"}.  
 
@@ -268,8 +268,9 @@ The why, when and how of writing your own R functions with worked examples. Furt
 - Feedback: [Muddy point assessment](https://forms.gle/Y8un1ziwe99GYq1r6){:.no-push-state}.  
 
  
-**Homework**:   
- - **Write a function**: See **Q6** of the [hands-on lab supplement above]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}{:target="_blank"}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document.    
+**Homework**:  
+- [Questions](https://forms.gle/dFV7HiFG7tNLoJS3A){:.no-push-state}{:target="_blank"},   
+- **Write a function**: See **Q6** of the [hands-on lab supplement above]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}{:target="_blank"}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document.    
 - DataCamp: [Intermediate R](https://learn.datacamp.com/courses/intermediate-r){:.no-push-state}{:target="_blank"} compltete chapters 1-3 only (~4hrs).   
 
 
@@ -297,9 +298,9 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 
 
 **Videos:**
-- 6.1 - [Introduction to unsupervised learning and K-means clustering]({{ site.baseurl }}/http://youtu.be/k2QPXRtTons){:.no-push-state}{:target="_blank"},  
-- 6.2 - [Hierarchical clustering]({{ site.baseurl }}/http://youtu.be/L72a2QPzlRE){:.no-push-state}{:target="_blank"},  
-- 6.3 - [Principal component analysis (PCA) Pt.1]({{ site.baseurl }}/http://youtu.be/2Ja1BGlfKQo){:.no-push-state}{:target="_blank"}.   
+- 6.1 - [Introduction to unsupervised learning and K-means clustering](https://youtu.be/r0XscelDiAY){:.no-push-state}{:target="_blank"},  
+- 6.2 - [Hierarchical clustering](https://youtu.be/lU8S_Do3OPQ){:.no-push-state}{:target="_blank"},  
+- 6.3 - [Principal component analysis (PCA) Pt.1](http://youtu.be/Olm0gW6OXIg){:.no-push-state}{:target="_blank"}.   
   
 
 **Supporting material:**  
