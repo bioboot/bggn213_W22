@@ -225,7 +225,7 @@ The exploratory data analysis mindset, Data visualization best practices, Simple
 **Supporting Material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BGGN213-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BGGN213-small.pdf){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/ggplot_bggn213.html){:.no-push-state}{:target="_blank"},
-- Lab: Live screencast [video walk-through](https://youtu.be/pNXD_QYLrVU){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.
+- Lab: Live screencast [video walk-through](https://youtu.be/pNXD_QYLrVU){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.  
 - Student Hours: [Zoom on Fri @ 10am SD time](https://ucsd.zoom.us/s/97125966822){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/FJHD9Bnrmgj32Tk69){:.no-push-state}{:target="_blank"},  
  
@@ -262,7 +262,7 @@ The why, when and how of writing your own R functions with worked examples. Furt
 - Lecture Slides: [Pt1. Large PDF]({{ site.baseurl }}/class-material/lecture-6-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Pt2. Large PDF]({{ site.baseurl }}/class-material/lecture-7-bggn213_large.pdf){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab_week5.pdf){:.no-push-state}{:target="_blank"},  
 - Lab supplement: [Hands-on section supplemental information]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}{:target="_blank"},   
-- Lab live session [zoom video]({{ site.baseurl }}/https://youtu.be/k3FKc2FXH2c){:.no-push-state}{:target="_blank"},   
+- Lab: Live screencast [video walk-through](https://youtu.be/mIAMbhwxGec){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.   
 - Extra: [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state}{:target="_blank"},  
 - Student Hours: [Zoom on Fri @ 10am SD time](https://ucsd.zoom.us/s/97125966822){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/Y8un1ziwe99GYq1r6){:.no-push-state}.  
