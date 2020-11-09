@@ -308,7 +308,7 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 - WebApp: [Introduction to PCA]({{ site.baseurl }}/class-material/pca/){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lab-wk6.html){:.no-push-state}{:target="_blank"},  
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}, [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}, [new_samples.csv]({{ site.baseurl }}/class-material/new_samples.csv){:.no-push-state}.  
-- Lab: Live screencast [video walk-through]({{ site.baseurl }}/https://youtu.be/5AiK2fSoE24){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.
+- Lab: Live screencast [video walk-through](https://youtu.be/RRHT9zVcpws){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.
 - Student Hours: [Zoom on Fri @ 12:30pm SD time](https://ucsd.zoom.us/s/97125966822){:.no-push-state}{:target="_blank"},   
 
 - Feedback: [Muddy point assessment](https://docs.google.com/forms/d/e/1FAIpQLSdiQn7n6XvvRGq5AfQWaRa7G22-twFCN4bYNANCWSK09DBYZg/viewform){:.no-push-state}.  
