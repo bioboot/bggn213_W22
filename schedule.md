@@ -345,9 +345,9 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 - Understand the SAM/BAM file format and the information it holds.  
 
 **Videos:**  
-- 7.1 - [Introduction to genomics]({{ site.baseurl }}/http://youtu.be/WpbE1dANSDU){:.no-push-state}{:target="_blank"},   
+- 7.1 - [Introduction to genomics](http://youtu.be/QWOYBFfsKIE){:.no-push-state}{:target="_blank"},   
 - 7.2 - [Sequencing methods](https://www.ibiology.org/techniques/dna-sequencing/){:.no-push-state}{:target="_blank"} from Jonathan Weissman (UCSF),    
-- 7.3 - [The basics of RNASeq work-flows]({{ site.baseurl }}/http://youtu.be/_JPAV9PBgnA){:.no-push-state}{:target="_blank"},   
+- 7.3 - [The basics of RNASeq work-flows](http://youtu.be/PCn9GiD4cUI){:.no-push-state}{:target="_blank"},   
 - 7.4 - Optional: [Lessons from the Human Genome Project]({{ site.baseurl }}/http://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}.   
 
 **Supporting material:**
