@@ -391,7 +391,8 @@ Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX 
 **Videos:**
 - 8.1 - [Essential UNIX for bioinformatics I](http://youtu.be/qsDzjQm_Wp0){:.no-push-state}{:target="_blank"},  
 - 8.2 - [Essential UNIX for bioinformatics II](http://youtu.be/11t1GuZB77M){:.no-push-state}{:target="_blank"},  
-- 8.3 - [Using remote UNIX machines](){:.no-push-state}{:target="_blank"}.  .    
+- 8.3 - [Manipulating files on UNIX machines](http://youtu.be/_jVgj6UutwA){:.no-push-state}{:target="_blank"}
+- 8.4 - [UNIX superpowers: using pipes and conecting to remote machines](http://youtu.be/AKLha-_IurU){:.no-push-state}{:target="_blank"}.      
 - Lab screencast - *No Live video walk-through this Thanksgiving week*.      
 
 
