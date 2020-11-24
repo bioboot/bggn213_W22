@@ -389,9 +389,9 @@ Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX 
 - Understand best practices for organizing computational projects.  
 
 **Videos:**
-- 8.1 - [Essential UNIX for bioinformatics](){:.no-push-state}{:target="_blank"},  
-- 8.2 - [Using remote UNIX machines](){:.no-push-state}{:target="_blank"},  
-- 8.3 - [Organizing your computational biology projects ](){:.no-push-state}{:target="_blank"}.  .    
+- 8.1 - [Essential UNIX for bioinformatics I](http://youtu.be/qsDzjQm_Wp0){:.no-push-state}{:target="_blank"},  
+- 8.2 - [Essential UNIX for bioinformatics II](http://youtu.be/11t1GuZB77M){:.no-push-state}{:target="_blank"},  
+- 8.3 - [Using remote UNIX machines](){:.no-push-state}{:target="_blank"}.  .    
 - Lab screencast - *No Live video walk-through this Thanksgiving week*.      
 
 
