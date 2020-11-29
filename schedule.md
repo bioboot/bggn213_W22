@@ -430,16 +430,16 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 - Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
 
 **Videos:**
-- 9.1 - [Differential expression analysis of RNA-Seq data]({{ site.baseurl }}/https://youtu.be/AGAmd51oIEg){:.no-push-state}{:target="_blank"},  
-- 9.2 - [Differential expression tests and pathway analysis]({{ site.baseurl }}/https://youtu.be/bxvZmGe3IGk){:.no-push-state}{:target="_blank"}.    
-- Lab screencast - [Live video walk-through]({{ site.baseurl }}/https://youtu.be/_hFjQvK2UdI){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.      
+- 9.1 - [Differential expression analysis of RNA-Seq data](https://youtu.be/JxMpV6QUxS0){:.no-push-state}{:target="_blank"},  
+- 9.2 - [Differential expression tests and pathway analysis](https://youtu.be/Wjxh8Cw1n1s){:.no-push-state}{:target="_blank"}.    
+- Lab screencast - [Live video walk-through](https://youtu.be/f71LCRXBaTU){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.      
 
 
 **Supporting material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-14-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-14-bggn213_small.pdf){:.no-push-state}{:target="_blank"}.
 - Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/bioconductor_setup/){:.no-push-state}{:target="_blank"} instructions.
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-14-bggn213.html){:.no-push-state}{:target="_blank"},  
-- Lab: Live screencast [video walk-through]({{ site.baseurl }}/https://youtu.be/_hFjQvK2UdI){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.  
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/week09_lab_bggn213){:.no-push-state}{:target="_blank"},  
+- Lab: Live screencast [video walk-through](https://youtu.be/f71LCRXBaTU){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.  
 - Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}.  
 - Student Hours: [Zoom on Fri @ 12:30pm SD time](https://ucsd.zoom.us/s/97125966822){:.no-push-state}{:target="_blank"},   
 - [Muddy point assessment](https://goo.gl/forms/CjzYyzBT0VsuOvBt2){:.no-push-state}.  
