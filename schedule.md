@@ -431,7 +431,8 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 **Videos:**
 - 9.1 - [Differential expression analysis of RNA-Seq data](https://youtu.be/JxMpV6QUxS0){:.no-push-state}{:target="_blank"},  
-- 9.2 - [Differential expression tests and pathway analysis](https://youtu.be/Wjxh8Cw1n1s){:.no-push-state}{:target="_blank"}.    
+- 9.2 - [Differential expression tests and pathway analysis](https://youtu.be/Wjxh8Cw1n1s){:.no-push-state}{:target="_blank"},    
+- 9.3 - [Installing Bioconductor and DESeq2](http://youtu.be/aekKXg0U1Rg){:.no-push-state}{:target="_blank"},    
 - Lab screencast - [Live video walk-through](https://youtu.be/f71LCRXBaTU){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.      
 
 
