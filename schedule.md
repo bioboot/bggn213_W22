@@ -454,7 +454,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 
 **Homework:**
-- [DESeq2 analysis mini-project]({{ site.baseurl }}/class-material/lab-15-bggn213.html){:.no-push-state}{:target="_blank"} **TO BE UPDATED!**,  
+- [DESeq2 analysis mini-project]({{ site.baseurl }}/class-material/lab-15-bggn213.html){:.no-push-state}{:target="_blank"} **Optional: for extra credit**,  
 - Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/GSE37704_featurecounts.csv){:.no-push-state}, [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/GSE37704_metadata.csv){:.no-push-state}.   
 
 
@@ -471,7 +471,6 @@ Summary of learning goals, Student course evaluation time; Find a gene assignmen
 
 - Video [**live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr Ali Crawford** (Associate Director, Scientific Research, *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator, *La Jolla Institute*) and **Dr. Ana Grant** (Director of Research Informatics, *Synthetic Genomics Inc.*).
 
-- Submit [your questions here](https://piazza.com/class/k80g6xd4ijjjo?cid=68){:.no-push-state}{:target="_blank"} **To Update!**.
 
 
 **Side-note:**
