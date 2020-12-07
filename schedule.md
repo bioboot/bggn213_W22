@@ -466,8 +466,9 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 **Topics:** 
 Going further with your own computer in the cloud, Launching and using AWS EC2 instances (A.K.A. Virtual Machines), Summary of learning goals, Student course evaluation time; Find a gene assignment due. Discussion of Bioinformatics and genomics in industry and beyond, Open study.  
 
-- **Section 1**: [Starting your own computer in the cloud]({{ site.baseurl }}/class-material/aws_01.html){:.no-push-state}{:target="_blank"},  
-- **Section 2**: [Accessing and using your AWS instance]({{ site.baseurl }}/class-material/aws_02/){:.no-push-state}{:target="_blank"},  
+- Overview video: [Launching an AWS EC2 instance](http://youtu.be/5-Nxt85UmoA){:.no-push-state}{:target="_blank"},  
+- **Section 1** Walk through: [Starting your own computer in the cloud]({{ site.baseurl }}/class-material/aws_01.html){:.no-push-state}{:target="_blank"},  
+- **Section 2** Walk through: [Accessing and using your AWS instance]({{ site.baseurl }}/class-material/aws_02/){:.no-push-state}{:target="_blank"},  
 - AWS Console URL: [https://awsed.ucsd.edu/](https://awsed.ucsd.edu/){:.no-push-state}{:target="_blank"}.
 
 <br>
