@@ -1,14 +1,14 @@
 ---
 layout: page
-title: BGGN-213, Lecture 17
+title: BIMM-143, Week 8
 ---
 
 Using remote machines (Part I)
 =============================================================
 
 **Lecture 16:**   
-Barry Grant &lt; <http://thegrantlab.org/bggn213/> &gt;   
-2019-11-19   (23:49:31 PST on Tue, Nov 19)  
+Barry Grant &lt; <http://thegrantlab.org/bimm143/> &gt;   
+2020-11-18   (23:15:54 PST on Wed, Nov 18)  
 {:.message}
 
 
@@ -40,8 +40,7 @@ to make use of it, you'll need the private key. And so, we move on!
 
 ### Getting the Private Key
 
-The private key for our class account is available from a link we will tell you about in class. You will also need a password to actually download it and the download link will expire after one week. Be sure to select the *Direct Download* link when you visit the download page.  **UPDATE
-**
+The private key for our class account is available from a link we will tell you about on piazza. You will also need a password to actually download it and the download link will expire after one week. Be sure to select the *Direct Download* link when you visit the download page.  **UPDATE**
 
 ### Connecting to your remote instance via it's IP address
 
@@ -62,13 +61,13 @@ This **C**hanges **D**irectory to your home area and them **P**rints the **W**or
 Now, we need to set the keyfile permissions more strictly:
 
 ```bash
-chmod 600 ~/Downloads/ssh-key
+chmod 600 ~/Downloads/2020-11-18.pem
 ```
 
 Finally, we can use the IP address Barry assigns to you, along with the keyfile and common login/account name (ubuntu) to login to your very own AWS EC2 instance (i.e. brand new computer in the cloud):
 
 ```bash
-ssh -i ~/Downloads/ssh-key ubuntu@YOUR_IP_ADDRESS_HERE
+ssh -i ~/Downloads/2020-11-18.pem ubuntu@YOUR_IP_ADDRESS_HERE
 ```
 
 You should now have access to your AWS instance within your local terminal (see steps 1 to 3 in the figure below that illustrate the above sequence of commands and what success looks like. **N.B.** Your IP address will be different than the one in the figure!).
@@ -83,11 +82,11 @@ You should now have access to your AWS instance within your local terminal (see 
 
 As this is effectively a brand new machine (with a fresh Ubuntu Linux OS just installed) we need to update the software to make sure we are using the latest and greatest versions of the various software we will need later.
 
-Copy and paste the following two commands into your AWS instance command line to updates the software list and then install the Python programming language and NCBI BLAST+:
+Copy and paste the following two commands into your AWS instance command line to updates the software list and then install NCBI BLAST+:
 
 ```
 sudo apt-get update  
-sudo apt-get -y install python ncbi-blast+
+sudo apt-get -y install ncbi-blast+
 ```
 
 > Please make sure to hit enter after the paste -- sometimes the last line doesn't
@@ -276,7 +275,7 @@ cd ~/Desktop/class17
 Now still on your local machine use **scp** to transfer the file or files you want copied across (N.B. You will need to substitute the IP address for the remote machine you are using for the *YOUR_IP_ADDRESS* in the command here just as we did with our initial login):
 
 ```
-scp -i ~/Downloads/ssh-key ubuntu@YOUR_IP_ADDRESS:~/work/mm-second.x.zebrafish.tsv .
+scp -i ~/Downloads/2020-11-18.pem ubuntu@YOUR_IP_ADDRESS:~/work/mm-second.x.zebrafish.tsv .
 ```
 
 Note. Like **cp** and similar tools, the source is always the first argument, and the destination is always the second argument.
@@ -298,8 +297,8 @@ sudo apt-get update && sudo apt-get -y install gdebi-core r-base
 After that finishes, download and install RStudio:
 
 ```
-wget https://download2.rstudio.org/rstudio-server-1.1.453-amd64.deb  
-sudo gdebi rstudio-server-1.1.453-amd64.deb
+wget https://s3.amazonaws.com/rstudio-ide-build/server/bionic/amd64/rstudio-server-1.4.1043-amd64.deb
+sudo gdebi rstudio-server-1.4.1043-amd64.deb
 ```
 
 After answering `yes` when prompted you should see a final line indicating that an RStudio server has started:
@@ -321,13 +320,13 @@ computer that they're running RStudio on.  We will use YOUR specific machines IP
 If you have forgotten your IP address you can use find it out like so:
 
 ```
-ifconfig | grep ' broadcast ' | awk '{ print $2}'
+curl ifconfig.me
 ```
 
 This should print-out your IP address that will look something like `172.31.18.114`. Lets assign this to a variable (called `myip` in this case) and use that to print out the web address you will use to access YOUR server:
 
 ```
-myip=`ifconfig | grep ' broadcast ' | awk '{ print $2}'`
+myip=`curl ifconfig.me`
 echo My RStudio Web server is running at: http://$myip:8787/
 ```
 
@@ -403,7 +402,7 @@ Now Knit your Rmarkdown document and transfer everything back to **YOUR LOCAL** 
 
 ```
 # On your local machine
-scp -i ~/ssh-key-01 -r ubuntu@YOUR_IP_ADDRESS:~/work/* .
+scp -i ~/2020-11-18.pem-01 -r ubuntu@YOUR_IP_ADDRESS:~/work/* .
 ```
 
 **Q**. Note the addition of the `-r` option here: What is it's purpose? Also what about the `*`, what is it's purpose here?
@@ -431,7 +430,7 @@ Again, like **cp**, **scp** and similar tools, the source is always the first ar
 Because we have to supply the keyfile for security reasons our actual command is bit more convoluted for this example. Note that normally for machines you access you wont need this type of keyfile approach:
 
 ```
-rsync -az -e "ssh -i ~/Downloads/ssh-key" ubuntu@149.165.170.49:~/work/* .
+rsync -az -e "ssh -i ~/Downloads/2020-11-18.pem" ubuntu@149.165.170.49:~/work/* .
 ```
 
 There are lots of very useful options that you can supply to **rsync** including the -P and -z and --exclude options. Can you determine what they do? A useful resource here is the man page and of course on-line guides [like this one](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps)

@@ -461,11 +461,18 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 ---
 <a name="10"></a>
-## Week 10: Course wrap up, project completion
+## Week 10: Cloud computing and course wrap up
 
 **Topics:** 
-Summary of learning goals, Student course evaluation time; Find a gene assignment due. Open study. Student selected topic:
+Going further with your own computer in the cloud, Launching and using AWS EC2 instances (A.K.A. Virtual Machines), Summary of learning goals, Student course evaluation time; Find a gene assignment due. Discussion of Bioinformatics and genomics in industry and beyond, Open study.  
 
+- **Section 1**: [Starting your own computer in the cloud]({{ site.baseurl }}/class-material/aws_01.html){:.no-push-state}{:target="_blank"},  
+- **Section 2**: [Accessing and using your AWS instance]({{ site.baseurl }}/class-material/aws_02/){:.no-push-state}{:target="_blank"},  
+- AWS Console URL: [https://awsed.ucsd.edu/](https://awsed.ucsd.edu/){:.no-push-state}{:target="_blank"}.
+
+<br>
+
+*Student selected topic:*
 
 **Bioinformatics and genomics in industry and beyond**  
 
