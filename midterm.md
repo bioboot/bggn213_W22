@@ -21,7 +21,7 @@ A total of 35% of the course grade will be assigned based on the“find-a-gene p
 
 
 ## Final Exam:  
-There will be NO final exam for the Spring 2020 quarter.   
+There will be NO final exam for the Winter 2021 quarter.   
 
 
 
@@ -32,7 +32,7 @@ Course Director
 : [Prof. Barry J. Grant](http://thegrantlab.org/) (Email: [bjgrant@ucsd.edu](mailto:bjgrant@ucsd.edu))
 
 Course Syllabus
-: [Fall 2020 (PDF)](https://bioboot.github.io/bggn213_F20/class-material/BGGN213_F20_syllabus.pdf){:.no-push-state}
+: [Winter 2021 (PDF)](https://bioboot.github.io/bggn213_W21/class-material/BGGN213_W21_syllabus.pdf){:.no-push-state}
 {:.message}
 
  
