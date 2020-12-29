@@ -57,7 +57,7 @@ Course introduction, Learning goals & expectations, Meet the instructional team.
 - Pre-course [Questionnaire](https://forms.gle/CC8f9C2oAa7C6D2dA){:target="_blank"},   
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
 - Sign up for our [Piazza class Q&A site](https://piazza.com/ucsd/winter2021/bggn213/home){:target="_blank"},   
-- View the class [**GradeBook**](https://docs.google.com/spreadsheets/d/1drbyXl6BSYUThXWMbVafKKZoRxORRI5rJqI1Y5mHZgg/){:target="_blank"}.  
+- View the class [**GradeBook**](https://docs.google.com/spreadsheets/d/1StA0HpyycQZBDdSC7RbYFEb4tO7e1ChpOF4Yc_cO5o4/edit?usp=sharing){:target="_blank"}.  
 
 
 ---
