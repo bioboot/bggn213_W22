@@ -48,15 +48,14 @@ Course introduction, Learning goals & expectations, Meet the instructional team.
 **Videos:**
 - 0.1 - [Welcome to BGGN 213 (course introduction and overview)](https://youtu.be/MpF0sVb7zpQ){:target="_blank"}  
 - 0.2 - [Website overview (finding course content and installing software)](https://youtu.be/vSxhjyRs-lg){:target="_blank"}  
-- 0.3 - [Meet the team (Barry & Yu)](https://youtu.be/1eFw94GPRoY){:target="_blank"}  
-- 0.4 - [Signing up for Piazza](https://youtu.be/aswdH8vXiB0){:target="_blank"}  
+
  
 
 **Supporting material:**  
 - Handout: [Class Syllabus]({{ site.baseurl }}/class-material/BGGN213_W21_syllabus.pdf){:.no-push-state}{:target="_blank"},  
 - Pre-course [Questionnaire](https://forms.gle/CC8f9C2oAa7C6D2dA){:target="_blank"},   
 - Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
-- Sign up for our [Piazza class Q&A site](https://piazza.com/ucsd/winter2021/bggn213/home){:target="_blank"},   
+- Sign up for our [**Piazza** class Q&A site](https://piazza.com/ucsd/winter2021/bggn213/home){:target="_blank"},   
 - View the class [**GradeBook**](https://docs.google.com/spreadsheets/d/1StA0HpyycQZBDdSC7RbYFEb4tO7e1ChpOF4Yc_cO5o4/edit?usp=sharing){:target="_blank"}.  
 
 
@@ -154,9 +153,9 @@ The [**find-a-gene project**]({{ site.baseurl }}/class-material/Find_A_Gene_Proj
  
 You may wish to consult the scoring rubric at the end of the above linked project description and the [**example report**]({{ site.baseurl }}/class-material/Find_A_Gene_Project_Example.pdf){:.no-push-state} for format and content guidance.  
  
-Your responses to questions Q1-Q4 are due **Tuesday Nov 3rd** (11/03/20) at 12pm San Diego time.   
+Your responses to questions Q1-Q4 are due **Monday Feb 1st** (02/01/21) at 12pm San Diego time.   
  
-The complete assignment, including responses to all questions, is due **Friday Dec 11th** (12/11/20) at 12pm San Diego time.  
+The complete assignment, including responses to all questions, is due **Monday Marh 8th** (03/08/21) at 12pm San Diego time.  
  
 In both instances your PDF format report should be submitted to GradeScope. Late responses will not be accepted under any circumstances.    
 
