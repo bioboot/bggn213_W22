@@ -155,7 +155,7 @@ You may wish to consult the scoring rubric at the end of the above linked projec
  
 Your responses to questions Q1-Q4 are due **Monday Feb 1st** (02/01/21) at 12pm San Diego time.   
  
-The complete assignment, including responses to all questions, is due **Monday Marh 8th** (03/08/21) at 12pm San Diego time.  
+The complete assignment, including responses to all questions, is due **Monday March 8th** (03/08/21) at 12pm San Diego time.  
  
 In both instances your PDF format report should be submitted to GradeScope. Late responses will not be accepted under any circumstances.    
 
