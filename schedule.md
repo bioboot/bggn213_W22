@@ -123,7 +123,7 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 - Dot Plot App Mirrors: [app-1](https://barryus.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"},  [app-2](https://bioboot.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"},     
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-2-BGGN213_online-form.pdf){:.no-push-state}{:target="_blank"}  
 - Lab: [Video walk-through](https://youtu.be/mO6L5z51O1s){:target="_blank"}{:.no-push-state},   
-- Student Hours: [Zoom on Fri @ 10:00am SD time](https://ucsd.zoom.us/j/97809893626){:.no-push-state}{:target="_blank"},   
+- Student Hours: [Zoom on Fri @ **2:00pm** SD time](https://ucsd.zoom.us/j/97809893626){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy Point Assessment](https://forms.gle/FEbKxnq4X7nUMhcn8){:.no-push-state}{:target="_blank"}.   
      
 
@@ -185,7 +185,7 @@ Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major
 - Cheat Sheet: [Base R overview]({{ site.baseurl }}/class-material/base-r.pdf){:target="_blank"}{:.no-push-state},
 - Lab: [Hands-on section]({{ site.baseurl }}/class-material/lab-4-bggn213/){:.no-push-state},  
 - Lab: [Video walk-through](https://youtu.be/ZKcmg1HLaAo){:target="_blank"}{:.no-push-state} focusing on introducing [Project]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:target="_blank"}{:.no-push-state} assignment,     
-- Student Hours: [Zoom on Fri @ 10:00am SD time](https://ucsd.zoom.us/j/97809893626){:.no-push-state}{:target="_blank"},   
+- Student Hours: [Zoom on Fri @ 2:00pm SD time](https://ucsd.zoom.us/j/97809893626){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/pGzaaSRGnQ1r9mrL9){:.no-push-state}{:target="_blank"},  
   
 
@@ -225,7 +225,7 @@ The exploratory data analysis mindset, Data visualization best practices, Simple
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BGGN213-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BGGN213-small.pdf){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/ggplot_bggn213.html){:.no-push-state}{:target="_blank"},
 - Lab: Live screencast [video walk-through](https://youtu.be/pNXD_QYLrVU){:target="_blank"}{:.no-push-state},   
-- Student Hours: [Zoom on Fri @ 10am SD time](https://ucsd.zoom.us/j/97809893626){:.no-push-state}{:target="_blank"},   
+- Student Hours: [Zoom on Fri @ 2pm SD time](https://ucsd.zoom.us/j/97809893626){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/FJHD9Bnrmgj32Tk69){:.no-push-state}{:target="_blank"},  
  
  
@@ -263,7 +263,7 @@ The why, when and how of writing your own R functions with worked examples. Furt
 - Lab supplement: [Hands-on section supplemental information]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}{:target="_blank"},   
 - Lab: Live screencast [video walk-through](https://youtu.be/mIAMbhwxGec){:target="_blank"}{:.no-push-state},   
 - Extra: [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state}{:target="_blank"},  
-- Student Hours: [Zoom on Fri @ 10am SD time](https://ucsd.zoom.us/j/97809893626){:.no-push-state}{:target="_blank"},   
+- Student Hours: [Zoom on Fri @ 2pm SD time](https://ucsd.zoom.us/j/97809893626){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/Y8un1ziwe99GYq1r6){:.no-push-state}.  
 
  
@@ -308,7 +308,7 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 - Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lab-wk6.html){:.no-push-state}{:target="_blank"},  
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}, [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}, [new_samples.csv]({{ site.baseurl }}/class-material/new_samples.csv){:.no-push-state}.  
 - Lab: Live screencast [video walk-through](https://youtu.be/RRHT9zVcpws){:target="_blank"}{:.no-push-state}, 
-- Student Hours: [Zoom on Fri @ 10:00am SD time](https://ucsd.zoom.us/j/97809893626){:.no-push-state}{:target="_blank"},   
+- Student Hours: [Zoom on Fri @ 2:00pm SD time](https://ucsd.zoom.us/j/97809893626){:.no-push-state}{:target="_blank"},   
 
 - Feedback: [Muddy point assessment](https://docs.google.com/forms/d/e/1FAIpQLSdiQn7n6XvvRGq5AfQWaRa7G22-twFCN4bYNANCWSK09DBYZg/viewform){:.no-push-state}.  
 
@@ -355,7 +355,7 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 - Lab: Live screencast [video walk-through](https://youtu.be/2wf0TvT5MMw){:target="_blank"}{:.no-push-state},  
 - RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}.  
 - [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}{:target="_blank"}.  
-- Student Hours: [Zoom on Fri @ 10:00am SD time](https://ucsd.zoom.us/j/97809893626){:.no-push-state}{:target="_blank"},   
+- Student Hours: [Zoom on Fri @ 2:00pm SD time](https://ucsd.zoom.us/j/97809893626){:.no-push-state}{:target="_blank"},   
 
 - Feedback: [Muddy point assessment](https://forms.gle/Qx4UTSc4zkpafRvq9){:.no-push-state}{:target="_blank"}.  
 
@@ -441,7 +441,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/week09_lab_bggn213){:.no-push-state}{:target="_blank"},  
 - Lab: Live screencast [video walk-through](https://youtu.be/f71LCRXBaTU){:target="_blank"}{:.no-push-state},   
 - Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}.  
-- Student Hours: [Zoom on Fri @ 10:00am SD time](https://ucsd.zoom.us/j/97809893626){:.no-push-state}{:target="_blank"},   
+- Student Hours: [Zoom on Fri @ 2:00pm SD time](https://ucsd.zoom.us/j/97809893626){:.no-push-state}{:target="_blank"},   
 - [Muddy point assessment](https://goo.gl/forms/CjzYyzBT0VsuOvBt2){:.no-push-state}.  
 
 
