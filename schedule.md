@@ -268,9 +268,9 @@ The why, when and how of writing your own R functions with worked examples. Furt
 
  
 **Homework**:  
-- **TO UPDATE**: [Questions](https://forms.gle/dFV7HiFG7tNLoJS3A){:.no-push-state}{:target="_blank"},   
+- [Questions](https://forms.gle/q8yps6pAFM2vquhH9){:.no-push-state}{:target="_blank"},   
 - **Write a function**: See **Q6** of the [hands-on lab supplement above]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}{:target="_blank"}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document.    
-- DataCamp: [Intermediate R](https://learn.datacamp.com/courses/intermediate-r){:.no-push-state}{:target="_blank"} compltete chapters 1-3 only (~4hrs).   
+- DataCamp: [Intermediate R](https://learn.datacamp.com/courses/intermediate-r){:.no-push-state}{:target="_blank"} compltete **chapters 1-3** only (~4hrs).   
 
 
 **Other**:  
@@ -392,15 +392,17 @@ Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX 
 - 8.2 - [Essential UNIX for bioinformatics II](http://youtu.be/11t1GuZB77M){:.no-push-state}{:target="_blank"},  
 - 8.3 - [Manipulating files on UNIX machines](http://youtu.be/_jVgj6UutwA){:.no-push-state}{:target="_blank"}
 - 8.4 - [UNIX superpowers: using pipes and conecting to remote machines](http://youtu.be/AKLha-_IurU){:.no-push-state}{:target="_blank"}.      
-- Lab screencast - *No Live video walk-through this Thanksgiving week*.      
 
 
 **Supporting material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-large-small.pdf){:.no-push-state}{:target="_blank"}.
+- Lab screencast [Launching an AWS EC2 instance](http://youtu.be/5-Nxt85UmoA){:.no-push-state}{:target="_blank"},  
 - Hands-on section worksheet
-  * [Using remote UNIX machines (Part I, **REQUIRED**)]({{ site.baseurl }}/class-material/17_blast-01/){:.no-push-state}{:target="_blank"},
-  * [Using remote UNIX machines (Part II, Optional)]({{ site.baseurl }}/class-material/16_blast-02/){:.no-push-state},
-  * [Using remote UNIX machines (Part III, Optional)]({{ site.baseurl }}/class-material/16_blast-03/){:.no-push-state}.  
+  * (Part I, **REQUIRED**) [Starting your own computer in the cloud]({{ site.baseurl }}/class-material/aws_01.html){:.no-push-state}{:target="_blank"},
+  * (Part II, **REQUIRED**) [Accessing and using your AWS instance]({{ site.baseurl }}/class-material/aws_02/){:.no-push-state}{:target="_blank"},  
+  * (Part III, Skip) [Using remote UNIX machines III]({{ site.baseurl }}/class-material/16_blast-02/){:.no-push-state},
+  * (Part IV, Skip) [Using remote UNIX machines IV]({{ site.baseurl }}/class-material/16_blast-03/){:.no-push-state}.  
+- AWS Console URL: [https://awsed.ucsd.edu/](https://awsed.ucsd.edu/){:.no-push-state}{:target="_blank"}.
 - Example data set [bggn213_01_unix.zip]({{ site.baseurl }}/class-material/bggn213_01_unix.zip){:.no-push-state},  
 - [Muddy point assessment](https://goo.gl/forms/W2G06LVrn2pADB2q1){:.no-push-state}.  
 

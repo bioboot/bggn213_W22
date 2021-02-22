@@ -1,14 +1,13 @@
 ---
 layout: page
-title: Week 10: Using computers in the cloud
 ---
 
 Using your remote AWS instance (Part II)
 =============================================================
 
-**Week 10, Cloud computing part 2:**   
+**Week 8, Cloud computing part 2:**   
 Barry Grant &lt; <http://thegrantlab.org/> &gt;   
-2020-12-06   (22:20:09 PST on Sun, Dec 06)  
+2021-02-21   (21:43:01 PST on Sun, Feb 21)  
 {:.message}
 
 
@@ -17,78 +16,24 @@ The goal of this hands-on session is to run you through a demonstration of using
 command line on an Amazon Web Service (AWS) instance to do some familiar bioinformatics analysis. Our previous [Section 1](aws_01.html){:.no-push-state}{:target="_blank"} of this lab covered how to launch your own AWS instance.
 
 
-### 1. Logging in to an AWS instance from your local terminal with a key file
+### 1. Logging in to an AWS instance from your local terminal  
 
-Here we describe the process of connecting to an [AWS](https://aws.amazon.com/ec2/) Elastic Compute Cloud (a.k.a. EC2) virtual machine *instance* (a.k.a a computer in the cloud).
+In [Section 1](aws_01.html){:.no-push-state}{:target="_blank"} we also described the process of connecting to an [AWS](https://aws.amazon.com/ec2/) Elastic Compute Cloud (a.k.a. EC2) virtual machine *instance* (a.k.a computer in the cloud) through **SSH**. This is the same mechanism we would use to connect to any remote UNIX based computer. 
 
-> **Note:** AWS is a cloud-based on-demand virtual machine system that is used by scientists and industry from Netflix and airbnb to Celgene and BP. It will provide us with computers (what we call "virtual machine instances") that look and feel just like a regular Linux workstation but with thousands of times the computing power!
-{:.message}
+However, due to the extra security protocols in place on AWS we needed to use a so-called *keyfile* along with our **ssh** command when we logged in. Note that normally when you access another UNIX based computer you will typically just provide a user-specific password to login. 
+.
 
-We will connect through **SSH**, the same mechanism we would use to connect to any remote UNIX based computer. Due to the extra security protocols in place on AWS we will need to use a so-called *keyfile* along with our **ssh** command when we login. Note that normally when you access another UNIX based computer you will typically just provide a user-specific password to login. 
-
-
-### What are Cryptographic Keys?
-
-Cryptographic keys are a secure way to authenticate (i.e. login) without having to use
-passwords. They consist of a pair of files called the **public key** and **private key**: the public part can
-be shared with whoever you'd like to authenticate with (in our case, AWS!), and the private
-part is kept "secret" on your machine. In our particular case AWS stores the public part of the key pair which can be thought of as *just like a house lock*. You will download and use the private part of the key pair which can be thought of as *just like a house key*. You can read more about
-key cryptography [here](https://en.wikipedia.org/wiki/Public-key_cryptography).
-
-The good news is that there is already a registered public key for our AWS instance. However,
-to make use of it, you'll need the private key. And so, we move on!
-
-### Getting the Private Key
-
-The private key for your instance was created and (hopefully) downloaded by you towared the end of [Section 1](aws_01.html#Getting_your_private_key_file){:.no-push-state}{:target="_blank"} of this lab. You will need this private file file together with the address of your instance that you copied from the [AWS console](https://awsed.ucsd.edu/) in Section 1.  
+> **Side-Note:** Cryptographic keys are a secure way to authenticate (i.e. login) without having to use passwords. They consist of a pair of files called the **public key** and **private key**: the public part can be shared with whoever you'd like to authenticate with (in our case, AWS!), and the private part is kept "secret" on your machine. In our particular case AWS stores the public part of the key pair which can be thought of as *just like a house lock*. You will download and use the private part of the key pair which can be thought of as *just like a house key*. You can read more about key cryptography [here](https://en.wikipedia.org/wiki/Public-key_cryptography).
 
 
-### Connecting to your remote instance via it's IP address
 
-Find and open your terminal application. On MacOS, you can
-search for Terminal in finder. Typically it is located in `/Applications/Utilities` and you may want to keep Terminal in your dock for this class. On Window open `Git Bash`. Ask Barry if you are unsure here.
-
-We're going to assume that the key file ended up in your `Downloads` folder. In your terminal,
-run the following command (remember to push return after each command):
-
-``` bash
-cd ~/Downloads
-pwd
-```
-
-This **C**hanges **D**irectory to your Downloads directory/folder and them **P**rints the **W**orking **D**irectory to tell us where we are in our file system. On my laptop this returns `/Users/barry/Downloads`. Yours will be different.  
-
-
-Now, we need to set the keyfile permissions more strictly, note that the `ls` command lists the names of all files in your current directory that end with `.pem`. Use the name of YOUR keyfile in the second command below as your file will likely have a different name:
-
-```bash
-ls *.pem
-chmod 400 barry_bioinf.pem
-```
-
-Finally, we can use the instance address assigned to you from the AWS console, along with the keyfile and common login/account name (ubuntu) to login to your very own AWS EC2 instance (i.e. brand new computer in the cloud):
-
-```bash
-ssh -i barry_bioinf.pem ubuntu@YOUR_INSTANCE_ADDRESS_HERE
-```
-
-For example my address from Section 1 looked like:
-
-```bash
-ssh -i bioinf_barry.pem ubuntu@ec2-44-234-27-254.us-west-2.compute.amazonaws.com
-```
-
-You should now have access to your AWS instance within your local terminal (see steps 1 to 3 in the figure below that illustrate the above sequence of commands and what success looks like. **N.B.** Your IP address will be different than the one in the figure!).
-
-[![ssh]({{ site.baseurl }}/jetstream/images/terminal_aws.png)]({{ site.baseurl }}/jetstream/images/terminal_aws.png){:.no-push-state}  
-
-
+The private key for your instance was created and (hopefully) downloaded by you toward the end of [Section 1](aws_01.html#Getting_your_private_key_file){:.no-push-state}{:target="_blank"} of this lab. You will need this private file together with the address of your instance that you copied from the [AWS console](https://awsed.ucsd.edu/) in Section 1 to login again to your instance should you become disconected.  
 
 
 
 ## 2. Update the software on the machine
 
-As this is effectively a brand new machine (with a fresh Ubuntu Linux OS just installed) we need to update the software to make sure we are using the latest and greatest versions of the various software we will need later.
+At this point what you have connected to is effectively a brand new machine (with a fresh Ubuntu Linux OS just installed). Like any new machine it is a good idea to first update the software to make sure we are using the latest and greatest versions of the various software we will need later.
 
 Copy and paste the following two commands into your AWS instance command line to updates the software list and then install NCBI BLAST+:
 
@@ -445,6 +390,8 @@ There are lots of very useful options that you can supply to **rsync** including
 
 
 ## Notes:
+
+* if you are done you can **Stop** your AWS instance so we are not charged for it any longer. Go to the AWS console page and select your instance then click “Instance State” > “Stop Instance”.
 
 * you can execute multiple commands at a time;
 

@@ -3,7 +3,7 @@ layout: page
 title: BGGN-213, Lecture 16
 ---
 
-Using remote machines (Part II)
+Using remote machines (Part III)
 =============================================================
 
 **BGGN-213 Lecture 16:**   
@@ -18,8 +18,8 @@ The goal of this second hands-on session is for you become more familiar with ru
 > **N.B.** If we are running short on time you can skip this part and move on to [Part III]({{ site.baseurl }}/class-material/16_blast-03/).
 
 
-## 1. Make sure you are connected to Jetstream  
-Make sure you are connected in your Terminal application to your assigned Jetstream computer instance. If you are not sure what this means then (re)visit the section of our previous hands on session [Using remote machines (Part I)]({{ site.baseurl }}/class-material/16_blast-01/).
+## 1. Make sure you are connected to Jetstream or AWS 
+Make sure you are connected in your Terminal application to your assigned Jetstream computer instance or your own AWS instance. If you are not sure what this means then (re)visit the eariler sections of our previous hands on session [Using remote machines (Part I)]({{ site.baseurl }}/class-material/16_blast-01/).
 
 
 ### 2. Install shmlast
