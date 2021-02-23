@@ -189,7 +189,7 @@ Now run BLAST with this file as a query and the zebrafish database
 blastp -query mm-second.fa -db zebrafish.1.protein.faa -out mm-second.x.zebrafish.txt
 ```
 
-This will compare the first 81 sequences.  You can look at the output file with:
+This will compare the first 80 sequences.  You can look at the output file with:
 
 ```
 less mm-second.x.zebrafish.txt
