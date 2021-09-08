@@ -39,8 +39,8 @@ barry:
   # Icons appear in order, can be rearranged:
   social:
     #twitter:         barryjgrant
-    piazza:          &piazza https://piazza.com/ucsd/winter2021/bggn213/home
-    gradescope:      &gradescope https://www.gradescope.com/courses/218998    
+    piazza:          &piazza https://piazza.com/ucsd/fall2021/bggn213/home
+    gradescope:      &gradescope https://www.gradescope.com/courses/305330    
     youtube:         &youtube https://www.youtube.com/playlist?list=PLtYfizZe9rnqfCkeChDDoYTbcTSkGwWoh
     email:           mailto:<bjgrant@ucsd.edu>
     # google:          <number>
