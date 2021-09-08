@@ -12,10 +12,10 @@ barry:
     : [Prof. Barry J. Grant](http://thegrantlab.org/) (Email: <bjgrant@ucsd.edu>)
 
     Instructional Assistant
-    : Tiffany Chu (Email: <t2chu@ucsd.edu>)  
+    : Pin-Chung Cheng (Email: <picheng@ucsd.edu>)  
 
     Course Syllabus
-    : [Winter 2021 (PDF)](https://bioboot.github.io/bggn213_W21/class-material/BGGN213_W21_syllabus.pdf){:.no-push-state}
+    : [Fall 2021 (PDF)](https://bioboot.github.io/bggn213_F21/class-material/BGGN213_F21_syllabus.pdf){:.no-push-state}
     {:.message}
 
 #    : [Ileena Mitra](https://bioboot.github.io/bggn213_f17/ileenamitra@eng.ucsd.edu) (Email: <ileenamitra@eng.ucsd.edu>)
@@ -26,7 +26,7 @@ barry:
 
   # This photo will be used in the about section
   picture:
-    src:             /bggn213_W21/assets/img/logo.png
+    src:             /bggn213_F21/assets/img/logo.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     #srcset:
     #  1x:            https://placehold.it/128x128
@@ -39,9 +39,9 @@ barry:
   # Icons appear in order, can be rearranged:
   social:
     #twitter:         barryjgrant
-    piazza:          https://piazza.com/ucsd/winter2021/bggn213/home
-    gradescope:      https://www.gradescope.com/courses/218998    
-    youtube:         https://www.youtube.com/playlist?list=PLtYfizZe9rnqfCkeChDDoYTbcTSkGwWoh
+    piazza:          &piazza https://piazza.com/ucsd/winter2021/bggn213/home
+    gradescope:      &gradescope https://www.gradescope.com/courses/218998    
+    youtube:         &youtube https://www.youtube.com/playlist?list=PLtYfizZe9rnqfCkeChDDoYTbcTSkGwWoh
     email:           mailto:<bjgrant@ucsd.edu>
     # google:          <number>
     # vk:              <username>
@@ -89,3 +89,16 @@ ileena:
     twitter:         <username>
   image: 'data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' # http://jsfiddle.net/LPxrT/
   color: '#268bd2'
+
+# - Corelinks
+#   Links to class resources that are linked to frequently such as piazza etc.
+#   These should be updated for each new quarter/class.
+#   The ampsand &piazza here is a varable asignment that can be access with 
+#   a *piazza later in this ymal data file.
+corelinks:
+  syllabus:       &syllabus /class-material/BGGN213_F21_syllabus.pdf
+  piazza:         *piazza 
+  gradescope:     *gradescope 
+  youtube:        *youtube 
+  questionnaire:  https://forms.gle/eZEBPHc8Ro1mFQHh7
+  gradebook:      https://docs.google.com/spreadsheets/d/1StA0HpyycQZBDdSC7RbYFEb4tO7e1ChpOF4Yc_cO5o4/edit?usp=sharing
