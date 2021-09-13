@@ -6,7 +6,7 @@ order: 2
 ---
 
 
-Course delivery for Fall 2021 will be a mix of in-person and online (a.k.a. hybrid). In-person *hands-on sessions* are Wed/Fri 1:00-4:00 pm in TATA 2501 ([Map](https://goo.gl/maps/Cd8z9Zexx6q){:target="_blank"}). All online course components will be made available on a weekly basis via this public facing website.  Clicking on the topics below will take you to corresponding video lectures, hands-on "lab session" supporting walk-through screencasts, required reading material and homework assignments.
+Course delivery for Fall 2021 will be a mix of in-person and online (a.k.a. blended/hybrid). In-person *hands-on sessions* are Wed/Fri 1:00-4:00 pm in TATA 2501 ([Map](https://goo.gl/maps/Cd8z9Zexx6q){:target="_blank"}). All online course components will be made available on a weekly basis via this public facing website.  Clicking on the topics below will take you to corresponding video lectures, hands-on "lab session" supporting walk-through screencasts, required reading material and homework assignments.
 
 <br>
 
