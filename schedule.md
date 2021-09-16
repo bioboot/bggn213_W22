@@ -270,7 +270,7 @@ The why, when and how of writing your own R functions with worked examples. Furt
 
  
 **Homework**:  
-- [Questions](https://forms.gle/q8yps6pAFM2vquhH9){:.no-push-state}{:target="_blank"},   
+- [Questions](https://forms.gle/G8ay9rxStebrHgSm7){:.no-push-state}{:target="_blank"},   
 - **Write a function**: See **Q6** of the [hands-on lab supplement above]({{ site.baseurl }}/class-material/lab-6-bggn213.pdf){:.no-push-state}{:target="_blank"}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document.    
 - DataCamp: [Intermediate R](https://learn.datacamp.com/courses/intermediate-r){:.no-push-state}{:target="_blank"} compltete **chapters 1-3** only (~4hrs).   
 
