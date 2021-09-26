@@ -1,0 +1,108 @@
+---
+title: "Globin conservation analysis"
+output: 
+  html_document:
+    toc: true
+    highlight: pygments
+    code_download: true
+---
+
+## The Globin family revisited
+
+Last lab class we used HBB (beta globin) as a search query of the RefSeq database using PSI-BLAST. This allowed us to find distant human globin sequences such as neuroglobin, cytoglobin and of course myoglobin. Critically we could not find these more distant (i.e. diverged in sequence) globins with a regular BLAST search.
+
+We also examined and compared the atomic resolution structures of beta globin and myoglobin and found them to be remarkably similar. A key findings here was that the traces of common ancestry are very much apparent at the structural level even when the sequences of these homologues have diverged beyond the detection limits of conventional methods like protein BLAST. Recall that we had to do quite a bit of extra work with PSI-BLAST to find these homologues sequences. If this does not sound familiar please go back to the lab section for class 3.
+
+Here we use the results from PSI-BLAST (last lab session end of section 3) together with some R code to dig deeper into these results for mechanistic insight into important functional features of all globins.
+
+### Step 1. Read our globin alignment
+
+We will use the bio3d R package to read the FASTA formatted alignment we generated last day. Note that you will need to have the bio3d package installed (via the R command `install.packages("bio3d")` for this to work on your computer). We will talk more about R packages in a couple of classes time.
+
+```{r}
+library(bio3d)
+
+# Feel free to use your own alignment input here
+inputfile <- "https://bioboot.github.io/bimm143_F21/class-material/globin_alignment.fa"
+
+aln <- read.fasta( inputfile )
+
+```
+
+Examine a print out of this alignment, note visually any conserved positions.
+
+```{r}
+aln
+```
+
+Doing things visually and manually counting characters in an alignment such as this is not much fun and very susceptible to making mistakes. Let's use some code to help.
+
+### Step 2. Identifying conserved positions
+
+First we will score positional conservation in the alignment with the `conserv()` function.
+
+```{r}
+sim <- conserv(aln)
+```
+
+Make a quick plot of alignment position vs conservation score.
+
+```{r}
+plot(sim, typ="h", xlab="Alignment position", ylab="Conservation score")
+```
+
+Here the high bars represent the most conserved amino-acid positions.
+
+Let's order our `sim` vector of conservation scores to put the most conserved (highest scoring) first. What positions are the most conserved?
+
+```{r}
+inds <- order(sim, decreasing=TRUE)
+head(sim[inds])
+```
+
+The top three positions are absolutely invariant here. Let's use the ordering indices determened with the `order()` function above to find out more about the positions.
+
+To help we can make a dataframe that has all the information we might want, such as *position number in the alignment*, the *amino acid* in our first beta globin sequence and *conservation score*.
+
+```{r}
+positions <- data.frame(pos=1:length(sim),
+                        aa=aln$ali[1,],
+                        score=sim)
+
+head(positions)
+```
+
+Note the first 6 positions of the alignment are gap characters in the beta globin sequence and have very low (close to zero) conservation scores.
+
+Let's use the ordering vector from above to look at the most conserved positions:
+
+```{r}
+head( positions[inds,] )
+```
+
+Nice, this shows us that positions 83, 115 and 145 are indeed very conserved.
+
+Let's convert the one-letter code for these amino acids to 3 letter code.
+
+```{r}
+aa123(positions[inds,]$aa)[1:3]
+```
+
+In the figure below I mapped these top two Histidne amino acids to atomic structure (we will see how to do this in R later in the course). Note that these conserved positions are responsible for coordinating the all important iron containing heam group (a.k.a. Porphyrin ring).
+
+![Beta globin structure with two conserved Histidine resides (blue spheres) and Porphyrin ring (cyan) shown.](hbb_conservation.png "Conserved amino acids in globins mapped to beta globin"){width="12cm"}
+
+### Step 3. Relationship between sequences
+
+Here we calculate the sequence identity between all pairs of sequences (with the `seqidentity()` function) and use the resulting matrix of identity scores to generate a heatmap visualization of the relationship between sequences. This is a common visualization in bioinformatcs and we will revisit it several times in the course (especially with NGS data analysis).
+
+Note here we use the `pheatmap` package, which again needs to be installed on your computer with the R code `install.packages("pheatmap")`.
+
+```{r}
+library(pheatmap)
+
+ide <- seqidentity(aln)
+pheatmap((1-ide))
+```
+
+Take some time to discuss this plot with your neighbor, IA's and Barry to make sure you understand what is being displayed.
