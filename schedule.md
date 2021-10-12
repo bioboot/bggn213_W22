@@ -271,7 +271,7 @@ The exploratory data analysis mindset, Data visualization best practices, Simple
 
 **Supporting Material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BGGN213-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BGGN213-small.pdf){:.no-push-state}{:target="_blank"},  
-- Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/ggplot_bggn213.html){:.no-push-state}{:target="_blank"},
+- Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/ggplot_play.html){:.no-push-state}{:target="_blank"},
 - Lab: Live screencast [video walk-through](https://youtu.be/pNXD_QYLrVU){:target="_blank"}{:.no-push-state},   
 - Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/FJHD9Bnrmgj32Tk69){:.no-push-state}{:target="_blank"},  
@@ -282,7 +282,7 @@ The exploratory data analysis mindset, Data visualization best practices, Simple
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
 - DataCamp: [Introduction to Data Visualization with ggplot2](https://learn.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2){:.no-push-state}{:target="_blank"} (~4hrs).    
 - SideNote: [Convincing with graphics](https://xkcd.com/833/){:.no-push-state}.  
-- Check-out the new website: [Data-to-Viz](https://www.data-to-viz.com/){:.no-push-state}{:target="_blank"} and [ggplot cheat sheat](https://rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf){:.no-push-state}{:target="_blank"}.  
+- Check-out the new website: [Data-to-Viz](https://www.data-to-viz.com/){:.no-push-state}{:target="_blank"} and [ggplot cheat sheat](https://www.rstudio.com/resources/cheatsheets/){:.no-push-state}{:target="_blank"}.  
 
  
 
