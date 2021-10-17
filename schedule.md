@@ -345,6 +345,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 **Homework**:   
 - There is no specific homework for today's class beyond getting git setup on your computer and getting your class content to date on GitHub. **For bonus points post a link to your GitHub account homepage on Piazza**. 
+- Complete the DataCamp [Intermediate R](https://app.datacamp.com/learn/courses/intermediate-r){:.no-push-state}{:target="_blank"} course.  
 - Please note that your **project: Pt 1. Q1-Q4 is due today\!**
 
 
