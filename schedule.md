@@ -332,9 +332,11 @@ The why, when and how of writing your own R functions with worked examples. Furt
 <a name="7"></a>
 ## 7: Hands-on with Git & GitHub 
 Today’s lecture and hands-on sessions introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  
+
 **Videos:**  
-- 7.1 - Introduction to Git (to be recorded)
-- 7.2 - Introduction to GitHub (to be recorded) 
+- 7.1 - OPTIONAL: [Git for humans](https://youtu.be/eWxxfttcMts){:.no-push-state}{:target="_blank"}, 
+- 7.2 - Introduction to GitHub (in-person class session). 
+
 
 **Supporting material:** 
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213small.pdf){:.no-push-state}{:target="_blank"},  
