@@ -466,7 +466,7 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 
 
 ---
-<a name="11"></a>
+<a name="30"></a>
 
 
 ## 11: Bioinformatics in drug discovery and design 
