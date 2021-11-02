@@ -448,12 +448,12 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 - Be able to use the Bio3D package for exploratory analysis of protein  sequence-structure-function-dynamics relationships.    
 
 **Videos:**
-- 10.1 - To be recorded. 
+- 11.1 - [The story of AlphaFold](https://www.youtube.com/watch?v=gg7WjuFs8F4){:.no-push-state}{:target="_blank"},  
+
 
 **Material**:  
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-11-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-11-bggn213_small.pdf){:.no-push-state}{:target="_blank"},  
-- Lab: [Hands-on section worksheet for VMD and Bio3D pt. 1]({{ site.baseurl }}/class-material/lab-11-bggn213.pdf){:.no-push-state}{:target="_blank"},  
-- Lab: [Hands-on section Bio3D pt. 2]({{ site.baseurl }}/class-material/pdb_pca_labclass.html){:.no-push-state}{:target="_blank"},  
+- Lab: [Hands-on structural bioinformatics analysis (pt. 1)]({{ site.baseurl }}/class-material/pdb_pca_labclass.html){:.no-push-state}{:target="_blank"},  
 
 - Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state}{:target="_blank"},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}{:target="_blank"}, 
 - Alternate Windows install and setup cmd: `curl -o "muscle.exe" "https://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86win32.exe"`   
