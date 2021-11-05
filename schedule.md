@@ -457,7 +457,8 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 
 - Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state}{:target="_blank"},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}{:target="_blank"}, 
 - Alternate Windows install and setup cmd: `curl -o "muscle.exe" "https://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86win32.exe"`   
-- Alternative Mac install and setup cmd: `sudo curl -o "/usr/local/bin/muscle" "http://thegrantlab.org/misc/muscle"; sudo chmod +x /usr/local/bin/muscle`  
+- Alternative Intel Mac install and setup cmd: `sudo curl -o "/usr/local/bin/muscle" "http://thegrantlab.org/misc/muscle"; sudo chmod +x /usr/local/bin/muscle`  
+- Alternative M1 Mac install and setup cmd: `sudo curl -o "/usr/local/bin/muscle" "http://thegrantlab.org/misc/m1/muscle"; sudo chmod +x /usr/local/bin/muscle`  
 - Feedback: [Muddy point assessment](https://forms.gle/3eDPRMCZt23rGNaH8){:.no-push-state}.   
 
 
