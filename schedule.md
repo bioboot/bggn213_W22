@@ -23,14 +23,14 @@ Course delivery for Fall 2021 will be a mix of in-person and online (a.k.a. blen
 | 7  | Wed 10/20/21 | [**Hands-on with Git and GitHub**](#7) <br> Why you should use a version control system, How to perform common operations with the Git. Creating and working with your own GitHub repos and navagating and using those of others. <br> **Project: Pt 1. Q1-Q4 due today\!**                                                                                                                                                                                                                                                         |
 | 8  | Fri 10/22/21 | [**Introduction to machine learning for Bioinformatics 1**](#8) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)                                                                                                                                                                                                                                            |
 | 9  | Wed 10/27/21 | [**Unsupervised learning mini-project**](#9) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets                                                                                                                                                                                                            |
-| 10 | Fri 10/29/21 | [**Structural Bioinformatics (Part 1)**](#10) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure, Structure prediction.                                                                                                                                                                                                                                                                                    |
-| 11 | Wed 11/03/21 | [**Bioinformatics in drug discovery and design**](#11) <br> Target identification, Lead identification, Small molecule docking methods, Protein motion and conformational variants, Molecular simulation and drug optimization                                                                                                                                                                                                                                            |
-| 12  | Fri 11/05/21  | [**Genome informatics and high throughput sequencing**](#12) <br> Searching genes and gene functions, Genome databases, Variation in the Genome, High-throughput sequencing technologies, biological applications, bioinformatics analysis methods; The Galaxy platform along with resources from the EBI & UCSC                                                                                                                                                                                                                                                            |
+| 10 | Fri 10/29/21 | [**Halloween Candy Mini-Project**](#10) <br> A fun and topical mini-project with unsupervised learning analysis of halloween_candy, Practical considerations and best practices for the exploratory analysis and visualization of high dimensional datasets.                                                                                                                                                                                                                                                                              |
+| 11 | Wed 11/03/21  | [**Structural Bioinformatics (Part 1)**](#11) <br> Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure, Working with sequence and structure data in R.                                                                                                                                                                                                                                                                                    |
+| 12 | Fri 11/05/21 | [**Structural Bioinformatics (Part 2)**](#12) <br> Comparative structure and sequence analysis. The importance of Multiple Sequence Alignments (MSAs). Structure prediction with AlphaFold2 and the new age of structural biology. (If time allows) Protein motion and conformational variants, Molecular simulation and small molecule docking and drug optimization.                                                                                                                                                                                                                                           |
 | 13  | Wed 11/10/21 | [**Essential UNIX for bioinformatics (Part 1)**](#13) <br> Bioinformatics on the command line, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Launching and using AWS EC2 instances (A.K.A. Virtual Machines).                                                                                                                                                                                                                                              |
 | 14  | Fri 11/12/21 | **Veterans Day** <br> No class today.                                                                                                                                                                                                                                              |
 | 15  | Wed 11/17/21 | [**Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists**](#15) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. Gene functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment.                                                                                                                                                                                                                                               |
 | 16  | Fri 11/19/21 | [**RNA-Seq mini project**](#16) <br> Differential expression analysis project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.                                                                                                                                                                                                                                                                                  |
-| 17 | Wed 11/24/21 | [**Student selected topic**](#17) <br> Topic selected on piazza by students. |
+| 17 | Wed 11/24/21 | [**Genome informatics and high throughput sequencing**](#17) <br> Searching genes and gene functions, Genome databases, Variation in the Genome, High-throughput sequencing technologies, biological applications, bioinformatics analysis methods; The Galaxy platform along with resources from the EBI & UCSC                                                                                                                                                                                                                                                            |
 | 18 | Fri 11/26/21 | **Thanksgiving Day** <br> No class today.                                   |
 | 19 | Wed 12/01/21 | [**Bioinformatics and genomics in industry**](#19) <br> Livestream interview with leading bioinformatics and genomics scientists from industry. Come ask your questions, make conections and get career advice. Note this is an online session. <br> **N.B.** This is an online session\!                                                                             |
 | 20  | Fri 12/03/21 | [**Course summary, online portfolio completion and project completion time**](#20) <br> Summary of learning goals, Student course evaluation time, Making a public facing GitHub pages portfolio of your bioinformatics work; <br> **Project: Find a gene assignment due\!**                                                                                                                                                                                                              |
@@ -459,6 +459,7 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 - Alternate Windows install and setup cmd: `curl -o "muscle.exe" "https://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86win32.exe"`   
 - Alternative Intel Mac install and setup cmd: `sudo curl -o "/usr/local/bin/muscle" "http://thegrantlab.org/misc/muscle"; sudo chmod +x /usr/local/bin/muscle`  
 - Alternative M1 Mac install and setup cmd: `sudo curl -o "/usr/local/bin/muscle" "http://thegrantlab.org/misc/m1/muscle"; sudo chmod +x /usr/local/bin/muscle`  
+- Side-note: Check your Mac cpu type with cmd: `sysctl -a | grep cpu.brand`  
 - Feedback: [Muddy point assessment](https://forms.gle/3eDPRMCZt23rGNaH8){:.no-push-state}.   
 
 
@@ -467,10 +468,10 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 
 
 ---
-<a name="30"></a>
+<a name="12"></a>
 
 
-## 11: Bioinformatics in drug discovery and design 
+## 12: Bioinformatics in structure prediction and design (Focus on new AlphaFold2) 
 **Topics**: The traditional path to drug discovery; High throughput screening  approaches; Computational receptor/target-based bioinformatics approaches; Computational ligand/drug-based bioinformatics approaches; Small molecule docking methods; Prediction and analysis of biomolecular dynamics, conformational variants and functional dynamics; Molecular simulation and drug optimization.
 
 **Goals**:    
@@ -481,7 +482,7 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 - Understand the increasing role of bioinformatics in pharma and the drug discovery process in particular.  
 
 **Videos:**
-- 11.1 - To be recorded. 
+- 12.1 - No videos for this class. 
 
 
 **Material**:   
@@ -496,48 +497,6 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 
 **Homework**:   
 - Questions.  
-
-
----
-<a name="12"></a>
-## 12: Genome informatics
-
-**Topics:** 
-Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Variation in the genome, RNA-Sequencing for gene expression analysis; Major genomic databases, tools and visualization resources from the EBI & UCSC, The Galaxy platform for quality control and analysis; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2
-
-**Goals:**
-- Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible.  
-- Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation.  
-- For a genomic region of interest (e.g. the neighborhood of a particular SNP), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.  
-- Be able to use the Galaxy platform for basic RNA-Seq analysis from raw reads to expression value determination.  
-- Understand the FASTQ file format and the information it holds.  
-- Understand the SAM/BAM file format and the information it holds.  
-
-**Videos:**  
-- 12.1 - [Introduction to genomics](http://youtu.be/QWOYBFfsKIE){:.no-push-state}{:target="_blank"},   
-- 12.2 - [Sequencing methods](https://www.ibiology.org/techniques/dna-sequencing/){:.no-push-state}{:target="_blank"} from Jonathan Weissman (UCSF),    
-- 12.3 - [The basics of RNASeq work-flows](http://youtu.be/PCn9GiD4cUI){:.no-push-state}{:target="_blank"},   
-- 12.4 - Optional: [Lessons from the Human Genome Project](https://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}.   
-
-**Supporting material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-13-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/llecture-13-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"} (as PDF form),
-- Lab: Live screencast [video walk-through](https://youtu.be/2wf0TvT5MMw){:target="_blank"}{:.no-push-state},  
-- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}.  
-- [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}{:target="_blank"}.  
-- Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
-
-- Feedback: [Muddy point assessment](https://forms.gle/Qx4UTSc4zkpafRvq9){:.no-push-state}{:target="_blank"}.  
-
-
-
-**Homework**:   
-- **Population analysis**: Submit to GradeScope your RMarkdown generated PDF with working code, output and narrative text answering Q13 and Q14 in this weeks [Hands-on section worksheet]({{ site.baseurl }}/class-material/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"}.  
-
-
-## IPs     
-- nt1  IP: http://3.212.78.120/galaxy  
-- nt2  IP: http://3.231.195.172/galaxy  
 
 
 ---
@@ -591,14 +550,6 @@ Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX 
 ## 14: Veterans Day - no class today.
 
 
-**Extra Credit Opportunity**:  
-- [Data wrangling in R the tidy way]({{ site.baseurl }}/class-material/extracredit/Tidy_mini_project_part_1.html){:.no-push-state}{:target="_blank"},  
-- [Introduction to Nanopore direct RNA sequencing (PPT format)]({{ site.baseurl }}/class-material/extracredit/Nanopore_sequencing.pptx){:.no-push-state}{:target="_blank"},  
-- Data files: [dictionary.tsv]({{ site.baseurl }}/class-material/extracredit/dictionary.tsv){:.no-push-state}{:target="_blank"}, [polya_results_with_ERCC.tsv]({{ site.baseurl }}/class-material/extracredit/polya_results_with_ERCC.tsv){:.no-push-state}{:target="_blank"}.   
-- [**Extra credit assignment**]({{ site.baseurl }}/class-material/extracredit/Extra_credit_part1.pdf){:.no-push-state}{:target="_blank"} and required [coveragebyzip_od.csv]({{ site.baseurl }}/class-material/extracredit/coveragebyzip_od.csv){:.no-push-state}{:target="_blank"}.  
-
-
-
 ---
 <a name="15"></a>
 ## 15: Transcriptomics and the analysis of RNA-Seq data
@@ -615,9 +566,9 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 - Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
 
 **Videos:**
-- 9.1 - [Differential expression analysis of RNA-Seq data](https://youtu.be/JxMpV6QUxS0){:.no-push-state}{:target="_blank"},  
-- 9.2 - [Differential expression tests and pathway analysis](https://youtu.be/Wjxh8Cw1n1s){:.no-push-state}{:target="_blank"},    
-- 9.3 - [Installing Bioconductor and DESeq2](http://youtu.be/aekKXg0U1Rg){:.no-push-state}{:target="_blank"},    
+- 15.1 - [Differential expression analysis of RNA-Seq data](https://youtu.be/JxMpV6QUxS0){:.no-push-state}{:target="_blank"},  
+- 15.2 - [Differential expression tests and pathway analysis](https://youtu.be/Wjxh8Cw1n1s){:.no-push-state}{:target="_blank"},    
+- 15.3 - [Installing Bioconductor and DESeq2](http://youtu.be/aekKXg0U1Rg){:.no-push-state}{:target="_blank"},    
 - Lab screencast - [Live video walk-through](https://youtu.be/f71LCRXBaTU){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.      
 
 
@@ -655,19 +606,45 @@ Differential expression analysis project with DESeq2 followed by gene enrichment
 
 ---
 <a name="17"></a>
-## 17: Student selected topic
+## 17: Genome informatics
 
 **Topics:** 
-Student topic of choice to be selected from those below:
+Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Variation in the genome, RNA-Sequencing for gene expression analysis; Major genomic databases, tools and visualization resources from the EBI & UCSC, The Galaxy platform for quality control and analysis; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2
 
-- Biological network analysis
-- Cancer genomics
-- Unix tips and tricks for Bioinformatics
-- Structural Bioinformatics and computational drug design
-- Introduction to the tidyverse 
-- Writing R packages
-- Advanced RMarkdown 
-- Creating online work portfolios with GitHub-pages    
+**Goals:**
+- Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible.  
+- Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation.  
+- For a genomic region of interest (e.g. the neighborhood of a particular SNP), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.  
+- Be able to use the Galaxy platform for basic RNA-Seq analysis from raw reads to expression value determination.  
+- Understand the FASTQ file format and the information it holds.  
+- Understand the SAM/BAM file format and the information it holds.  
+
+**Videos:**  
+- 17.1 - [Introduction to genomics](http://youtu.be/QWOYBFfsKIE){:.no-push-state}{:target="_blank"},   
+- 17.2 - [Sequencing methods](https://www.ibiology.org/techniques/dna-sequencing/){:.no-push-state}{:target="_blank"} from Jonathan Weissman (UCSF),    
+- 17.3 - [The basics of RNASeq work-flows](http://youtu.be/PCn9GiD4cUI){:.no-push-state}{:target="_blank"},   
+- 17.4 - Optional: [Lessons from the Human Genome Project](https://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}.   
+
+**Supporting material:**
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-13-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/llecture-13-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"} (as PDF form),
+- Lab: Live screencast [video walk-through](https://youtu.be/2wf0TvT5MMw){:target="_blank"}{:.no-push-state},  
+- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}.  
+- [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}{:target="_blank"}.  
+- Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
+
+- Feedback: [Muddy point assessment](https://forms.gle/Qx4UTSc4zkpafRvq9){:.no-push-state}{:target="_blank"}.  
+
+
+
+**Homework**:   
+- **Population analysis**: Submit to GradeScope your RMarkdown generated PDF with working code, output and narrative text answering Q13 and Q14 in this weeks [Hands-on section worksheet]({{ site.baseurl }}/class-material/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"}.  
+
+
+## IPs     
+- nt1  IP: http://3.212.78.120/galaxy  
+- nt2  IP: http://3.231.195.172/galaxy  
+
 
 
 
@@ -686,6 +663,16 @@ Student topic of choice to be selected from those below:
 - Submit [your questions here](https://piazza.com/class/k80g6xd4ijjjo?cid=68){:.no-push-state}{:target="_blank"}.
 
 
+Or student topic of choice to be selected from those below:
+
+- Biological network analysis
+- Cancer genomics
+- Unix tips and tricks for Bioinformatics
+- Structural Bioinformatics and computational drug design
+- Introduction to the tidyverse 
+- Writing R packages
+- Advanced RMarkdown 
+- Creating online work portfolios with GitHub-pages    
 
 
 
