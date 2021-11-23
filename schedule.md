@@ -30,10 +30,11 @@ Course delivery for Fall 2021 will be a mix of in-person and online (a.k.a. blen
 | 14  | Fri 11/12/21 | **Veterans Day** <br> No class today.                                                                                                                                                                                                                                              |
 | 15  | Wed 11/17/21 | [**Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists**](#15) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. Gene functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment.                                                                                                                                                                                                                                               |
 | 16  | Fri 11/19/21 | [**RNA-Seq mini project**](#16) <br> Differential expression analysis project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.                                                                                                                                                                                                                                                                                  |
-| 17 | Wed 11/24/21 | [**Genome informatics and high throughput sequencing**](#17) <br> Searching genes and gene functions, Genome databases, Variation in the Genome, High-throughput sequencing technologies, biological applications, bioinformatics analysis methods; The Galaxy platform along with resources from the EBI & UCSC                                                                                                                                                                                                                                                            |
+| 17 | Wed 11/24/21 | [**Vaccination rate mini project**](#17) <br> A topical mini-project using ggplot and dplyr on with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for the exploratory analysis.                                                                                                                                                                                                                                                           |
 | 18 | Fri 11/26/21 | **Thanksgiving Day** <br> No class today.                                   |
-| 19 | Wed 12/01/21 | [**Bioinformatics and genomics in industry**](#19) <br> Livestream interview with leading bioinformatics and genomics scientists from industry. Come ask your questions, make conections and get career advice. Note this is an online session. <br> **N.B.** This is an online session\!                                                                             |
-| 20  | Fri 12/03/21 | [**Course summary, online portfolio completion and project completion time**](#20) <br> Summary of learning goals, Student course evaluation time, Making a public facing GitHub pages portfolio of your bioinformatics work; <br> **Project: Find a gene assignment due\!**                                                                                                                                                                                                              |
+| 19 | Wed 12/01/21 | [**Genome informatics and high throughput sequencing**](#19) <br> Searching genes and gene functions, Genome databases, Variation in the Genome, High-throughput sequencing technologies, biological applications, bioinformatics analysis methods; The Galaxy platform along with resources from the EBI & UCSC                                                                                                                                                                                                                                                            |
+| 20 | Fri 12/03/21 | [**Bioinformatics and genomics in industry**](#20) <br> Livestream interview with leading bioinformatics and genomics scientists from industry. Come ask your questions, make conections and get career advice. Note this is an online session. <br> **N.B.** This is an online session\!                                                                             |
+|   | Exam week | [**Online portfolio and project completion time**](#21) <br> Making a public facing GitHub pages portfolio of your bioinformatics work; <br> **Project: Find a gene assignment due\!**                                                                                                                                                                                                              |
 
 
 
@@ -606,7 +607,25 @@ Differential expression analysis project with DESeq2 followed by gene enrichment
 
 ---
 <a name="17"></a>
-## 17: Genome informatics
+## 17: Vaccination rate mini project
+
+**Topics:** 
+A topical mini-project using ggplot and dplyr on with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for exploratory data analysis.  
+
+- Lab: [COVID-19 vaccination rates mini-project]({{ site.baseurl }}/class-material/vaccines.html){:.no-push-state}{:target="_blank"} **submit your lab report to gradescope**,  
+- Data files: [Statewide COVID-19 Vaccines Administered by ZIP Code](https://data.ca.gov/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code){:.no-push-state}{:target="_blank"}, 
+
+
+---
+<a name="18"></a>
+## 18: Thanksgiving Day - no class today.
+
+
+
+---
+<a name="19"></a>
+## 19: Genome informatics
+
 
 **Topics:** 
 Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Variation in the genome, RNA-Sequencing for gene expression analysis; Major genomic databases, tools and visualization resources from the EBI & UCSC, The Galaxy platform for quality control and analysis; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2
@@ -620,10 +639,10 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 - Understand the SAM/BAM file format and the information it holds.  
 
 **Videos:**  
-- 17.1 - [Introduction to genomics](http://youtu.be/QWOYBFfsKIE){:.no-push-state}{:target="_blank"},   
-- 17.2 - [Sequencing methods](https://www.ibiology.org/techniques/dna-sequencing/){:.no-push-state}{:target="_blank"} from Jonathan Weissman (UCSF),    
-- 17.3 - [The basics of RNASeq work-flows](http://youtu.be/PCn9GiD4cUI){:.no-push-state}{:target="_blank"},   
-- 17.4 - Optional: [Lessons from the Human Genome Project](https://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}.   
+- 19.1 - [Introduction to genomics](http://youtu.be/QWOYBFfsKIE){:.no-push-state}{:target="_blank"},   
+- 19.2 - [Sequencing methods](https://www.ibiology.org/techniques/dna-sequencing/){:.no-push-state}{:target="_blank"} from Jonathan Weissman (UCSF),    
+- 19.3 - [The basics of RNASeq work-flows](http://youtu.be/PCn9GiD4cUI){:.no-push-state}{:target="_blank"},   
+- 19.4 - Optional: [Lessons from the Human Genome Project](https://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}.   
 
 **Supporting material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-13-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/llecture-13-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
@@ -649,14 +668,8 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 
 
 ---
-<a name="18"></a>
-## 18: Thanksgiving Day - no class today.
-
-
-
----
-<a name="19"></a>
-## 19: Bioinformatics and genomics in industry and beyond
+<a name="20"></a>
+## 20: Bioinformatics and genomics in industry and beyond
 
 - Video [**live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr Ali Crawford** (Associate Director, Scientific Research, *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator, *La Jolla Institute*) and **Dr. Ana Grant** (Director of Research Informatics, *Synthetic Genomics Inc.*).
 
@@ -678,10 +691,11 @@ Or student topic of choice to be selected from those below:
 
 
 ---
-<a name="20"></a>
-## 20: Course wrap up and online portfolio completion
+<a name="21"></a>
+## 21: Course wrap up and online portfolio completion
 
 **Topics:** 
-Summary of learning goals, Student course evaluation time; Find a gene assignment due. Discussion of Bioinformatics and genomics career opportunities, Open study/project troubleshooting. Making a public facing GitHub pages portfolio of your bioinformatics work. 
+Summary of learning goals, Find a gene assignment due. Discussion of Bioinformatics and genomics career opportunities, Open study/project troubleshooting. Making a public facing GitHub pages portfolio of your bioinformatics work. 
+
 
 
