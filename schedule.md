@@ -33,8 +33,7 @@ Course delivery for Fall 2021 will be a mix of in-person and online (a.k.a. blen
 | 17 | Wed 11/24/21 | [**Vaccination rate mini project**](#17) <br> A topical mini-project using ggplot and dplyr on with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for the exploratory analysis.                                                                                                                                                                                                                                                           |
 | 18 | Fri 11/26/21 | **Thanksgiving Day** <br> No class today.                                   |
 | 19 | Wed 12/01/21 | [**Genome informatics and high throughput sequencing**](#19) <br> Searching genes and gene functions, Genome databases, Variation in the Genome, High-throughput sequencing technologies, biological applications, bioinformatics analysis methods; The Galaxy platform along with resources from the EBI & UCSC                                                                                                                                                                                                                                                            |
-| 20 | Fri 12/03/21 | [**Bioinformatics and genomics in industry**](#20) <br> Livestream interview with leading bioinformatics and genomics scientists from industry. Come ask your questions, make conections and get career advice. Note this is an online session. <br> **N.B.** This is an online session\!                                                                             |
-|   | Exam week | [**Online portfolio and project completion time**](#21) <br> Making a public facing GitHub pages portfolio of your bioinformatics work; <br> **Project: Find a gene assignment due\!**                                                                                                                                                                                                              |
+| 20 | Fri 12/03/21 | [**Portfolio building and discussion of bioinformatics in industry**](#20) <br> Making a public facing GitHub pages portfolio of your bioinformatics work; <br> Livestream interview with leading bioinformatics and genomics scientists from industry. <br> **Project: Find a gene assignment due\!**                                                                                                                                                                                                                                      |
 
 
 
@@ -669,11 +668,21 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 
 ---
 <a name="20"></a>
-## 20: Bioinformatics and genomics in industry and beyond
+## 20: Online portfolio completion and Bioinformatics in industry session
 
-- Video [**live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr Ali Crawford** (Associate Director, Scientific Research, *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator, *La Jolla Institute*) and **Dr. Ana Grant** (Director of Research Informatics, *Synthetic Genomics Inc.*).
+**Topics:** 
+Making a public facing GitHub pages portfolio of your bioinformatics work. Project assignment troubleshooting. Discussion of Bioinformatics and genomics career opportunities.     
 
-- Submit [your questions here](https://piazza.com/class/k80g6xd4ijjjo?cid=68){:.no-push-state}{:target="_blank"}.
+**Videos:**  
+- 20.1 [Introduction to GitHub Pages](https://youtu.be/2MsN8gpT6jY){:.no-push-state}{:target="_blank"} that we will use for building your portfolio website.
+- 20.2 [**Live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr Ali Crawford** (Associate Director, Scientific Research, *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator, *La Jolla Institute*) and **Dr. Ana Grant** (Director of Research Informatics, *Synthetic Genomics Inc.*).
+
+
+**Supporting material:**
+
+- Slides: [Large PDF]({{ site.baseurl }}/class-material/class20.pdf){:.no-push-state}{:target="_blank"},  
+- Ether-pad: [**Feedback**](https://board.net/p/bggn213_f21){:.no-push-state}{:target="_blank"} 
+- DataCamp: [Bioinformatics Extension Track](https://bioboot.github.io/bimm143_W20/class-material/datacamp_extras.pdf){:.no-push-state}{:target="_blank"} 
 
 
 Or student topic of choice to be selected from those below:
@@ -686,16 +695,5 @@ Or student topic of choice to be selected from those below:
 - Writing R packages
 - Advanced RMarkdown 
 - Creating online work portfolios with GitHub-pages    
-
-
-
-
----
-<a name="21"></a>
-## 21: Course wrap up and online portfolio completion
-
-**Topics:** 
-Summary of learning goals, Find a gene assignment due. Discussion of Bioinformatics and genomics career opportunities, Open study/project troubleshooting. Making a public facing GitHub pages portfolio of your bioinformatics work. 
-
 
 
