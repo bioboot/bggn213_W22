@@ -347,7 +347,7 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 
 **Homework**:   
-- There is no specific homework for today's class beyond getting git setup on your computer and getting your class content to date on GitHub. **For bonus points post a link to your GitHub account homepage on Piazza**. 
+- There is no specific homework "Questions" for today's class beyond getting git setup on your computer and getting your class content to date on GitHub. **For bonus points post a link to your GitHub account homepage (i.e. the complete URL) on GradeScope** (Under assignment *07. Class 7 (GitHub Repo)*.  
 - Complete the DataCamp [Intermediate R](https://app.datacamp.com/learn/courses/intermediate-r){:.no-push-state}{:target="_blank"} course.  
 - Please note that your **project: Pt 1. Q1-Q4 is due today\!**
 
@@ -502,7 +502,7 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 
 ---
 <a name="13"></a>
-## Week 13: Essential UNIX for bioinformatics
+## 13: Essential UNIX for bioinformatics
 
 **Topics:** 
 Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects,  Going further with your own computer in the cloud, Launching and using AWS EC2 instances (A.K.A. Virtual Machines). 
@@ -540,7 +540,7 @@ Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX 
 
 
 **Homework**:   
-- [Questions]({{ site.baseurl }}/class-material/HW8_unix_questions.pdf){:.no-push-state}{:target="_blank"},  
+- [Questions]({{ site.baseurl }}/class-material/HW8_unix_questions.pdf){:.no-push-state}{:target="_blank"} (complete PDF form with your answers, save, and submit to GradeScope),  
 - No lab report due this week,  
 - DataCamp: [Introduction to the Unix shell](https://learn.datacamp.com/courses/introduction-to-shell){:.no-push-state}{:target="_blank"} (~4hrs).   
  
