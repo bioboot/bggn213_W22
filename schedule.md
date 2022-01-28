@@ -239,7 +239,7 @@ Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major
 
 **Homework**:   
 - [Questions](https://forms.gle/CZB19o74X8oGqGjX8){:.no-push-state}{:target="_blank"},  
-- **DataCamp**: Sign-up to our **F21_Bioinformatics group/organization** via the link in your UCSD email and **complete** [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (4hrs).  
+- **DataCamp**: Complete the [Intermediate R](https://learn.datacamp.com/courses/intermediate-r){:.no-push-state}{:target="_blank"} course (4hrs).  
     
 
 
