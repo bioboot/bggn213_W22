@@ -23,16 +23,16 @@ Clicking on the topics below will take you to corresponding video lectures, hand
 | 4  | Week4 01/26/22 | [**Bioinformatics data analysis with R**](#4) <br> Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major R data structures and functions, Using R interactively from the RStudio console. Introducing Rmarkdown documents.                                                                                                                                                                                                                                          |
 | 5  | Wed 02/02/22  | **In-Person** [**Data exploration and visualization in R**](#5) <br> The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (including scatterplots, histograms, bar graphs, dot chats, boxplots and heatmaps), Building more complex charts with ggplot. **N.B. This is a 1pm TATA 2501 in-person class session**.                                                                                                                                                                                                                                                       |
 | 6  | Fri 02/04/22 | [**Why, when and how of writing your own R functions**](#6) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use. Extending functionality and utility with R packages from CRAN and BioConductor, Working with Bio3D for molecular data.                                                                                                                                                                                                                                                                                       |
-| 7  | Wed 02/09/22 | [**Hands-on with Git and GitHub**](#7) <br> Why you should use a version control system, How to perform common operations with the Git. Creating and working with your own GitHub repos and navagating and using those of others. <br> **Project: Pt 1. Q1-Q4 due today\!**                                                                                                                                                                                                                                                         |
-| 8  |  Fri 02/11/22| [**Introduction to machine learning for Bioinformatics 1**](#8) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)                                                                                                                                                                                                                                            |
-| 9  | Wed 02/16/22 | [**Unsupervised learning mini-project**](#9) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets                                                                                                                                                                                                            |
-| 10 | Fri 02/18/22  | [**Structural Bioinformatics**](#11) <br> Protein structure function relationships, Protein visualization resources, Modeling energy as a function of structure, Working with sequence and structure data in R. Structure prediction with AlphaFold2 and the new age of structural biology. (If time allows) Protein motion and conformational variants, Molecular simulation and small molecule docking and drug optimization.                                                                                                                                                                                                                                           |
-| 11 | Wed 02/23/22 | [**Essential UNIX for bioinformatics (Part 1)**](#13) <br> Bioinformatics on the command line, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Launching and using AWS EC2 instances (A.K.A. Virtual Machines).                                                                                                                                                                                                                                              |
-| 12 | Fri 02/25/22 | [**Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists**](#14) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. Gene functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment.                                                                                                                                                                                                                                               |
-| 13 | Wed 03/02/22 | [**RNA-Seq mini project**](#15) <br> Differential expression analysis project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.                                                                                                                                                                                                                                                                                  |
-| 14 | Fri 03/04/22 | [**Vaccination rate mini project**](#16) <br> *To Update.* A topical mini-project using ggplot and dplyr on with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for the exploratory analysis.                                                                                                                                                                                                                                                           |
-| 15* | Wed 03/09/22 | [**Genome informatics and high throughput sequencing**](#17) <br> Searching genes and gene functions, Genome databases, Variation in the Genome, High-throughput sequencing technologies, biological applications, bioinformatics analysis methods; The Galaxy platform along with resources from the EBI & UCSC                                                                                                                                                                                                                                                            |
-| 16 | Fri 03/11/22 | [**Portfolio building and discussion of bioinformatics in industry**](#18) <br> Making a public facing GitHub pages portfolio of your bioinformatics work; <br> Livestream interview with leading bioinformatics and genomics scientists from industry. <br> **Project: Find a gene assignment due\!**                                                                                                                                                                                                                                      |
+| 7  |  Wed 02/09/22 | [**Introduction to machine learning for Bioinformatics 1**](#7) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)                                                                                                                                                                                                                                            |
+| 8  | Fri 02/11/22  | [**Unsupervised learning mini-project**](#8) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets                                                                                                                                                                                                            |
+| 9 | Wed 02/16/22   | [**Structural Bioinformatics**](#9) <br> Protein structure function relationships, Protein visualization resources, Modeling energy as a function of structure, Working with sequence and structure data in R. Structure prediction with AlphaFold2 and the new age of structural biology. (If time allows) Protein motion and conformational variants, Molecular simulation and small molecule docking and drug optimization.                                                                                                                                                                                                                                           |
+| 10 | Fri 02/18/22 | [**Genome informatics and high throughput sequencing**](#10) <br> Searching genes and gene functions, Genome databases, Variation in the Genome, High-throughput sequencing technologies, biological applications, bioinformatics analysis methods; The Galaxy platform along with resources from the EBI & UCSC                                                                                                                                                                                                                                         |
+| 11 | Wed 02/23/22 | [**Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists**](#11) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. Gene functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment.                                                                                                                                                                                                                                               |
+| 12 | Fri 02/25/22 | [**RNA-Seq mini project**](#12) <br> Differential expression analysis project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.                                                                                                                                                                                                                                                                                  |
+| 13  | Wed 03/02/22 | [**Hands-on with Git and GitHub**](#13) <br> Why you should use a version control system, How to perform common operations with the Git. Creating and working with your own GitHub repos and navagating and using those of others. <br> **Project: Pt 1. Q1-Q4 due today\!**                                                                                                                                                                                                                                                         |
+| 14 | Fri 03/04/22 | [**Vaccination rate mini project**](#14) <br> *To Update.* A topical mini-project using ggplot and dplyr on with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for the exploratory analysis.                                                                                                                                                                                                                                                           |
+| 15 | Wed 03/09/22 | [**Essential UNIX for bioinformatics (Part 1)**](#15) <br> Bioinformatics on the command line, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Launching and using AWS EC2 instances (A.K.A. Virtual Machines).                                                                                                                                                                                                                                              |
+| 16 | Fri 03/11/22 | [**Portfolio building and discussion of bioinformatics in industry**](#16) <br> Making a public facing GitHub pages portfolio of your bioinformatics work; <br> Livestream interview with leading bioinformatics and genomics scientists from industry. <br> **Project: Find a gene assignment due\!**                                                                                                                                                                                                                                      |
 
 
 
@@ -329,30 +329,7 @@ The why, when and how of writing your own R functions with worked examples. Furt
 
 ---
 <a name="7"></a>
-## 7: Hands-on with Git & GitHub 
-Today’s lecture and hands-on sessions introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  
-
-**Videos:**  
-- 7.1 - OPTIONAL: [Git for humans](https://youtu.be/eWxxfttcMts){:.no-push-state}{:target="_blank"}, 
-- 7.2 - Introduction to GitHub (in-person class session). 
-
-
-**Supporting material:** 
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213small.pdf){:.no-push-state}{:target="_blank"},  
-- Lab: [Hands-on with Gitand GitHub]({{ site.baseurl }}/class-material/github_lab.html){:.no-push-state}{:target="_blank"},  
-- Resource for going further: [Happy Git with R](https://happygitwithr.com/){:.no-push-state}{:target="_blank"},  
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/gMxIBT5jLbjXHQPE2){:.no-push-state}.
-
-
-**Homework**:   
-- There is no specific homework "Questions" for today's class beyond getting git setup on your computer and getting your class content to date on GitHub. **For bonus points post a link to your GitHub account homepage (i.e. the complete URL) on GradeScope** (Under assignment *07. Class 7 (GitHub Repo)*.  
-- Complete the DataCamp [Intermediate R](https://app.datacamp.com/learn/courses/intermediate-r){:.no-push-state}{:target="_blank"} course.  
-- Please note that your **project: Pt 1. Q1-Q4 is due today\!**
-
-
----
-<a name="8"></a>
-## 8: Introduction to machine learning for Bioinformatics
+## 7: Introduction to machine learning for Bioinformatics
 
 **Topics:** 
 Unsupervised learning, supervised learning and reinforcement learning; Focus on unsupervised learning, K-means clustering, Hierarchical clustering, Dimensionality reduction, visualization and analysis, Principal Component Analysis (PCA) Practical considerations and best practices for the analysis of high dimensional datasets.
@@ -369,9 +346,9 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 
 
 **Videos:**
-- 8.1 - [Introduction to unsupervised learning and K-means clustering](https://youtu.be/r0XscelDiAY){:.no-push-state}{:target="_blank"},  
-- 8.2 - [Hierarchical clustering](https://youtu.be/lU8S_Do3OPQ){:.no-push-state}{:target="_blank"},  
-- 8.3 - [Principal component analysis (PCA) Pt.1](http://youtu.be/Olm0gW6OXIg){:.no-push-state}{:target="_blank"}.   
+- 7.1 - [Introduction to unsupervised learning and K-means clustering](https://youtu.be/r0XscelDiAY){:.no-push-state}{:target="_blank"},  
+- 7.2 - [Hierarchical clustering](https://youtu.be/lU8S_Do3OPQ){:.no-push-state}{:target="_blank"},  
+- 7.3 - [Principal component analysis (PCA) Pt.1](http://youtu.be/Olm0gW6OXIg){:.no-push-state}{:target="_blank"}.   
   
 
 **Supporting material:**  
@@ -398,10 +375,10 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 
 
 ---
-<a name="9"></a>
+<a name="8"></a>
 
 
-## 9: Unsupervised Learning Mini-Project  
+## 8: Unsupervised Learning Mini-Project  
 **Topics**: Hands-on project session with unsupervised learning analysis of cancer cells, Practical considerations and best practices for the analysis and visualization of high dimensional datasets.  
 
 **Goals**:   
@@ -423,9 +400,9 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 
 
 ---
-<a name="10"></a> 
+<a name="9"></a> 
 
-## 10: Structural Bioinformatics (Focus on new AlphaFold2)   
+## 9: Structural Bioinformatics (Focus on new AlphaFold2)   
 **Topics**: Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure, Homology modeling, AlphaFold, Predicting functional dynamics, Inferring protein function from structure.
 
 **Goal**: 
@@ -436,7 +413,7 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 - Be able to use the Bio3D package for exploratory analysis of protein  sequence-structure-function-dynamics relationships.    
 
 **Videos:**
-- 10.1 - [The story of AlphaFold](https://www.youtube.com/watch?v=gg7WjuFs8F4){:.no-push-state}{:target="_blank"},  
+- 9.1 - [The story of AlphaFold](https://www.youtube.com/watch?v=gg7WjuFs8F4){:.no-push-state}{:target="_blank"},  
 
 
 **Material**:  
@@ -456,10 +433,53 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 
 
 ---
-<a name="12"></a>
+<a name="10"></a>
+## 10: Genome informatics
 
 
-## 12: Bioinformatics in structure prediction and design (Focus on new AlphaFold2) 
+**Topics:** 
+Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Variation in the genome, RNA-Sequencing for gene expression analysis; Major genomic databases, tools and visualization resources from the EBI & UCSC, The Galaxy platform for quality control and analysis; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2
+
+**Goals:**
+- Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible.  
+- Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation.  
+- For a genomic region of interest (e.g. the neighborhood of a particular SNP), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.  
+- Be able to use the Galaxy platform for basic RNA-Seq analysis from raw reads to expression value determination.  
+- Understand the FASTQ file format and the information it holds.  
+- Understand the SAM/BAM file format and the information it holds.  
+
+**Videos:**  
+- 10.1 - [Introduction to genomics](http://youtu.be/QWOYBFfsKIE){:.no-push-state}{:target="_blank"},   
+- 10.2 - [Sequencing methods](https://www.ibiology.org/techniques/dna-sequencing/){:.no-push-state}{:target="_blank"} from Jonathan Weissman (UCSF),    
+- 10.3 - [The basics of RNASeq work-flows](http://youtu.be/PCn9GiD4cUI){:.no-push-state}{:target="_blank"},   
+- 10.4 - Optional: [Lessons from the Human Genome Project](https://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}.   
+
+**Supporting material:**
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-13-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/llecture-13-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"} (as PDF form),
+- Lab: Live screencast [video walk-through](https://youtu.be/2wf0TvT5MMw){:target="_blank"}{:.no-push-state},  
+- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}.  
+- [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}{:target="_blank"}.  
+- Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
+
+- Feedback: [Muddy point assessment](https://forms.gle/Qx4UTSc4zkpafRvq9){:.no-push-state}{:target="_blank"}.  
+
+
+
+**Homework**:   
+- **Population analysis**: Submit to GradeScope your RMarkdown generated PDF with working code, output and narrative text answering Q13 and Q14 in this weeks [Hands-on section worksheet]({{ site.baseurl }}/class-material/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"}.  
+
+
+## IPs     
+- nt1  IP: http://3.212.78.120/galaxy  
+- nt2  IP: http://3.231.195.172/galaxy  
+
+
+---
+<a name="22"></a>
+
+
+## OPTIONAL: Bioinformatics in structure prediction and design (Focus on new AlphaFold2) 
 **Topics**: The traditional path to drug discovery; High throughput screening  approaches; Computational receptor/target-based bioinformatics approaches; Computational ligand/drug-based bioinformatics approaches; Small molecule docking methods; Prediction and analysis of biomolecular dynamics, conformational variants and functional dynamics; Molecular simulation and drug optimization.
 
 **Goals**:    
@@ -470,7 +490,7 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 - Understand the increasing role of bioinformatics in pharma and the drug discovery process in particular.  
 
 **Videos:**
-- 12.1 - No videos for this class. 
+- X.1 - No videos for this class. 
 
 
 **Material**:   
@@ -487,55 +507,10 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 - Questions.  
 
 
----
-<a name="13"></a>
-## 13: Essential UNIX for bioinformatics
-
-**Topics:** 
-Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects,  Going further with your own computer in the cloud, Launching and using AWS EC2 instances (A.K.A. Virtual Machines). 
-
-
-**Goals:**  
-- Understand why we use UNIX for bioinformatics  
-- Use UNIX command-line tools for file system navigation and text file manipulation.  
-- Have a familiarity with 21 key UNIX commands that we will use ~90% of the time.  
-- Be able to connect to remote servers from the command line.  
-- Use existing programs at the UNIX command line to analyze bioinformatics data.  
-- Understand IO Redirection, Streams and pipes.  
-- Understand best practices for organizing computational projects.  
-
-**Videos:**
-- 13.1 - [Essential UNIX for bioinformatics I](http://youtu.be/qsDzjQm_Wp0){:.no-push-state}{:target="_blank"},  
-- 13.2 - [Essential UNIX for bioinformatics II](http://youtu.be/11t1GuZB77M){:.no-push-state}{:target="_blank"},  
-- 13.3 - [Manipulating files on UNIX machines](http://youtu.be/_jVgj6UutwA){:.no-push-state}{:target="_blank"}
-- 13.4 - [UNIX superpowers: using pipes and conecting to remote machines](http://youtu.be/AKLha-_IurU){:.no-push-state}{:target="_blank"}.            
-
-
-**Supporting material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-large-small.pdf){:.no-push-state}{:target="_blank"}.
-- Lab screencast [Launching an AWS EC2 instance](http://youtu.be/5-Nxt85UmoA){:.no-push-state}{:target="_blank"},  
-- Hands-on section worksheet
-  * (Part I, **REQUIRED**) [Starting your own computer in the cloud]({{ site.baseurl }}/class-material/aws_01.html){:.no-push-state}{:target="_blank"},
-  * (Part II, **REQUIRED**) [Accessing and using your AWS instance]({{ site.baseurl }}/class-material/aws_02/){:.no-push-state}{:target="_blank"},  
-  * (Part III, Skip) [Using remote UNIX machines III]({{ site.baseurl }}/class-material/16_blast-02/){:.no-push-state},
-  * (Part IV, Skip) [Using remote UNIX machines IV]({{ site.baseurl }}/class-material/16_blast-03/){:.no-push-state}.  
-- AWS Console URL: [https://awsed.ucsd.edu/](https://awsed.ucsd.edu/){:.no-push-state}{:target="_blank"}.  
-- Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
-- [Muddy point assessment](https://goo.gl/forms/W2G06LVrn2pADB2q1){:.no-push-state}.  
- 
-
-
-
-**Homework**:   
-- [Questions]({{ site.baseurl }}/class-material/HW8_unix_questions.pdf){:.no-push-state}{:target="_blank"} (complete PDF form with your answers, save, and submit to GradeScope),  
-- No lab report due this week,  
-- DataCamp: [Introduction to the Unix shell](https://learn.datacamp.com/courses/introduction-to-shell){:.no-push-state}{:target="_blank"} (~4hrs).   
- 
-
 
 ---
-<a name="14"></a>
-## 14: Transcriptomics and the analysis of RNA-Seq data
+<a name="11"></a>
+## 11: Transcriptomics and the analysis of RNA-Seq data
 
 **Topics:** 
 Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statistics, Counts and FPKMs, Normalizing for sequencing depth, DESeq2 analysis. Gene finding and functional annotation from high throughput sequencing data, Functional databases KEGG, InterPro, GO ontologies and functional enrichment.  
@@ -549,9 +524,9 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 - Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
 
 **Videos:**
-- 14.1 - [Differential expression analysis of RNA-Seq data](https://youtu.be/JxMpV6QUxS0){:.no-push-state}{:target="_blank"},  
-- 14.2 - [Differential expression tests and pathway analysis](https://youtu.be/Wjxh8Cw1n1s){:.no-push-state}{:target="_blank"},    
-- 14.3 - [Installing Bioconductor and DESeq2](http://youtu.be/aekKXg0U1Rg){:.no-push-state}{:target="_blank"},    
+- 11.1 - [Differential expression analysis of RNA-Seq data](https://youtu.be/JxMpV6QUxS0){:.no-push-state}{:target="_blank"},  
+- 11.2 - [Differential expression tests and pathway analysis](https://youtu.be/Wjxh8Cw1n1s){:.no-push-state}{:target="_blank"},    
+- 11.3 - [Installing Bioconductor and DESeq2](http://youtu.be/aekKXg0U1Rg){:.no-push-state}{:target="_blank"},    
 - Lab screencast - [Live video walk-through](https://youtu.be/f71LCRXBaTU){:target="_blank"}{:.no-push-state} @ 10am Fri SD time.      
 
 
@@ -577,8 +552,8 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 
 
 --- 
-<a name="15"></a>
-## 15: RNA-Seq analysis mini-project
+<a name="12"></a>
+## 12: RNA-Seq analysis mini-project
 
 **Topics:** 
 Differential expression analysis project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.  
@@ -587,9 +562,34 @@ Differential expression analysis project with DESeq2 followed by gene enrichment
 - Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/GSE37704_featurecounts.csv){:.no-push-state}, [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/GSE37704_metadata.csv){:.no-push-state}.   
 
 
+
 ---
-<a name="16"></a>
-## 16: Vaccination rate mini project
+<a name="13"></a>
+## 13: Hands-on with Git & GitHub 
+Today’s lecture and hands-on sessions introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  
+
+**Videos:**  
+- 13.1 - OPTIONAL: [Git for humans](https://youtu.be/eWxxfttcMts){:.no-push-state}{:target="_blank"}, 
+- 13.2 - Introduction to GitHub (in-person class session). 
+
+
+**Supporting material:** 
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213small.pdf){:.no-push-state}{:target="_blank"},  
+- Lab: [Hands-on with Gitand GitHub]({{ site.baseurl }}/class-material/github_lab.html){:.no-push-state}{:target="_blank"},  
+- Resource for going further: [Happy Git with R](https://happygitwithr.com/){:.no-push-state}{:target="_blank"},  
+- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/gMxIBT5jLbjXHQPE2){:.no-push-state}.
+
+
+**Homework**:   
+- There is no specific homework "Questions" for today's class beyond getting git setup on your computer and getting your class content to date on GitHub. **For bonus points post a link to your GitHub account homepage (i.e. the complete URL) on GradeScope** (Under assignment *07. Class 7 (GitHub Repo)*.  
+- Complete the DataCamp [Intermediate R](https://app.datacamp.com/learn/courses/intermediate-r){:.no-push-state}{:target="_blank"} course.  
+- Please note that your **project: Pt 1. Q1-Q4 is due today\!**
+
+
+
+---
+<a name="14"></a>
+## 14: Vaccination rate mini project
 
 **Topics:** 
 A topical mini-project using ggplot and dplyr on with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for exploratory data analysis.  
@@ -598,61 +598,63 @@ A topical mini-project using ggplot and dplyr on with the latest state wide COVI
 - Data files: [Statewide COVID-19 Vaccines Administered by ZIP Code](https://data.ca.gov/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code){:.no-push-state}{:target="_blank"}, 
 
 
----
-<a name="17"></a>
-## 17: Genome informatics
 
+---
+<a name="15"></a>
+## 15: Essential UNIX for bioinformatics
 
 **Topics:** 
-Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Variation in the genome, RNA-Sequencing for gene expression analysis; Major genomic databases, tools and visualization resources from the EBI & UCSC, The Galaxy platform for quality control and analysis; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2
+Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects,  Going further with your own computer in the cloud, Launching and using AWS EC2 instances (A.K.A. Virtual Machines). 
 
-**Goals:**
-- Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible.  
-- Understand the process by which genomes are currently sequenced and the bioinformatics processing and analysis required for their interpretation.  
-- For a genomic region of interest (e.g. the neighborhood of a particular SNP), use a genome browser to view nearby genes, transcription factor binding regions, epigenetic information, etc.  
-- Be able to use the Galaxy platform for basic RNA-Seq analysis from raw reads to expression value determination.  
-- Understand the FASTQ file format and the information it holds.  
-- Understand the SAM/BAM file format and the information it holds.  
 
-**Videos:**  
-- 17.1 - [Introduction to genomics](http://youtu.be/QWOYBFfsKIE){:.no-push-state}{:target="_blank"},   
-- 17.2 - [Sequencing methods](https://www.ibiology.org/techniques/dna-sequencing/){:.no-push-state}{:target="_blank"} from Jonathan Weissman (UCSF),    
-- 17.3 - [The basics of RNASeq work-flows](http://youtu.be/PCn9GiD4cUI){:.no-push-state}{:target="_blank"},   
-- 17.4 - Optional: [Lessons from the Human Genome Project](https://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}.   
+**Goals:**  
+- Understand why we use UNIX for bioinformatics  
+- Use UNIX command-line tools for file system navigation and text file manipulation.  
+- Have a familiarity with 21 key UNIX commands that we will use ~90% of the time.  
+- Be able to connect to remote servers from the command line.  
+- Use existing programs at the UNIX command line to analyze bioinformatics data.  
+- Understand IO Redirection, Streams and pipes.  
+- Understand best practices for organizing computational projects.  
+
+**Videos:**
+- 15.1 - [Essential UNIX for bioinformatics I](http://youtu.be/qsDzjQm_Wp0){:.no-push-state}{:target="_blank"},  
+- 15.2 - [Essential UNIX for bioinformatics II](http://youtu.be/11t1GuZB77M){:.no-push-state}{:target="_blank"},  
+- 15.3 - [Manipulating files on UNIX machines](http://youtu.be/_jVgj6UutwA){:.no-push-state}{:target="_blank"}
+- 15.4 - [UNIX superpowers: using pipes and conecting to remote machines](http://youtu.be/AKLha-_IurU){:.no-push-state}{:target="_blank"}.            
+
 
 **Supporting material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-13-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/llecture-13-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"} (as PDF form),
-- Lab: Live screencast [video walk-through](https://youtu.be/2wf0TvT5MMw){:target="_blank"}{:.no-push-state},  
-- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}.  
-- [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}{:target="_blank"}.  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-large-small.pdf){:.no-push-state}{:target="_blank"}.
+- Lab screencast [Launching an AWS EC2 instance](http://youtu.be/5-Nxt85UmoA){:.no-push-state}{:target="_blank"},  
+- Hands-on section worksheet
+  * (Part I, **REQUIRED**) [Starting your own computer in the cloud]({{ site.baseurl }}/class-material/aws_01.html){:.no-push-state}{:target="_blank"},
+  * (Part II, **REQUIRED**) [Accessing and using your AWS instance]({{ site.baseurl }}/class-material/aws_02/){:.no-push-state}{:target="_blank"},  
+  * (Part III, Skip) [Using remote UNIX machines III]({{ site.baseurl }}/class-material/16_blast-02/){:.no-push-state},
+  * (Part IV, Skip) [Using remote UNIX machines IV]({{ site.baseurl }}/class-material/16_blast-03/){:.no-push-state}.  
+- AWS Console URL: [https://awsed.ucsd.edu/](https://awsed.ucsd.edu/){:.no-push-state}{:target="_blank"}.  
 - Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
-
-- Feedback: [Muddy point assessment](https://forms.gle/Qx4UTSc4zkpafRvq9){:.no-push-state}{:target="_blank"}.  
+- [Muddy point assessment](https://goo.gl/forms/W2G06LVrn2pADB2q1){:.no-push-state}.  
+ 
 
 
 
 **Homework**:   
-- **Population analysis**: Submit to GradeScope your RMarkdown generated PDF with working code, output and narrative text answering Q13 and Q14 in this weeks [Hands-on section worksheet]({{ site.baseurl }}/class-material/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"}.  
-
-
-## IPs     
-- nt1  IP: http://3.212.78.120/galaxy  
-- nt2  IP: http://3.231.195.172/galaxy  
-
-
+- [Questions]({{ site.baseurl }}/class-material/HW8_unix_questions.pdf){:.no-push-state}{:target="_blank"} (complete PDF form with your answers, save, and submit to GradeScope),  
+- No lab report due this week,  
+- DataCamp: [Introduction to the Unix shell](https://learn.datacamp.com/courses/introduction-to-shell){:.no-push-state}{:target="_blank"} (~4hrs).   
+ 
 
 
 ---
-<a name="18"></a>
-## 18: Online portfolio completion and Bioinformatics in industry session
+<a name="16"></a>
+## 16: Online portfolio completion and Bioinformatics in industry session
 
 **Topics:** 
 Making a public facing GitHub pages portfolio of your bioinformatics work. Project assignment troubleshooting. Discussion of Bioinformatics and genomics career opportunities.     
 
 **Videos:**  
-- 18.1 [Introduction to GitHub Pages](https://youtu.be/2MsN8gpT6jY){:.no-push-state}{:target="_blank"} that we will use for building your portfolio website.
-- 18.2 [**Live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr Ali Crawford** (Associate Director, Scientific Research, *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator, *La Jolla Institute*) and **Dr. Ana Grant** (Director of Research Informatics, *Synthetic Genomics Inc.*).
+- 16.1 [Introduction to GitHub Pages](https://youtu.be/2MsN8gpT6jY){:.no-push-state}{:target="_blank"} that we will use for building your portfolio website.
+- 16.2 [**Live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr Ali Crawford** (Associate Director, Scientific Research, *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator, *La Jolla Institute*) and **Dr. Ana Grant** (Director of Research Informatics, *Synthetic Genomics Inc.*).
 
 
 **Supporting material:**
