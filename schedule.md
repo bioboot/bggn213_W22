@@ -412,8 +412,11 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 - Appreciate the role of AlphaFold in advancing structural bioinformatics,  
 - Be able to use the Bio3D package for exploratory analysis of protein  sequence-structure-function-dynamics relationships.    
 
-**Videos:**
-- 9.1 - [The story of AlphaFold](https://www.youtube.com/watch?v=gg7WjuFs8F4){:.no-push-state}{:target="_blank"},  
+**Videos:**  
+- 9.1 - [Introduction to structural bioinformatics](https://www.youtube.com/watch?v=lLLXkdTl8aQ){:.no-push-state}{:target="_blank"},
+- 9.2 - [Visualization, interpretation and modeling of protein structure](https://www.youtube.com/watch?v=8GO9kUOPfMQ){:.no-push-state}{:target="_blank"},
+
+- 9.3 - [The story of AlphaFold](https://www.youtube.com/watch?v=gg7WjuFs8F4){:.no-push-state}{:target="_blank"},  
 
 
 **Material**:  
