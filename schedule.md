@@ -29,9 +29,9 @@ Clicking on the topics below will take you to corresponding video lectures, hand
 | 10 | Fri 02/18/22 | [**Genome informatics and high throughput sequencing**](#10) <br> Searching genes and gene functions, Genome databases, Variation in the Genome, High-throughput sequencing technologies, biological applications, bioinformatics analysis methods; The Galaxy platform along with resources from the EBI & UCSC                                                                                                                                                                                                                                         |
 | 11 | Wed 02/23/22 | [**Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists**](#11) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. Gene functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment.                                                                                                                                                                                                                                               |
 | 12 | Fri 02/25/22 | [**RNA-Seq mini project**](#12) <br> Differential expression analysis project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.                                                                                                                                                                                                                                                                                  |
-| 13  | Wed 03/02/22 | [**Hands-on with Git and GitHub**](#13) <br> Why you should use a version control system, How to perform common operations with the Git. Creating and working with your own GitHub repos and navagating and using those of others. <br> **Project: Pt 1. Q1-Q4 due today\!**                                                                                                                                                                                                                                                         |
+| 13  | Wed 03/02/22 | [**Essential UNIX for bioinformatics**](#13) <br> Bioinformatics on the command line, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Launching and using AWS EC2 instances (A.K.A. Virtual Machines).                                                                                                                                                                                                                                              |
 | 14 | Fri 03/04/22 | [**Vaccination rate mini project**](#14) <br> *To Update.* A topical mini-project using ggplot and dplyr on with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for the exploratory analysis.                                                                                                                                                                                                                                                           |
-| 15 | Wed 03/09/22 | [**Essential UNIX for bioinformatics (Part 1)**](#15) <br> Bioinformatics on the command line, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Launching and using AWS EC2 instances (A.K.A. Virtual Machines).                                                                                                                                                                                                                                              |
+| 15 | Wed 03/09/22 | [**Hands-on with Git and GitHub**](#15) <br> Why you should use a version control system, How to perform common operations with the Git. Creating and working with your own GitHub repos and navagating and using those of others. <br> **Project: Pt 1. Q1-Q4 due today\!**                                                                                                                                                                                                                                                         |
 | 16 | Fri 03/11/22 | [**Portfolio building and discussion of bioinformatics in industry**](#16) <br> Making a public facing GitHub pages portfolio of your bioinformatics work; <br> Livestream interview with leading bioinformatics and genomics scientists from industry. <br> **Project: Find a gene assignment due\!**                                                                                                                                                                                                                                      |
 
 
@@ -568,25 +568,71 @@ Differential expression analysis project with DESeq2 followed by gene enrichment
 
 ---
 <a name="13"></a>
-## 13: Hands-on with Git & GitHub 
-Today’s lecture and hands-on sessions introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  
+## 13: Essential UNIX for bioinformatics
 
-**Videos:**  
-- 13.1 - OPTIONAL: [Git for humans](https://youtu.be/eWxxfttcMts){:.no-push-state}{:target="_blank"}, 
-- 13.2 - Introduction to GitHub (in-person class session). 
+**Topics:** 
+Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects,  Going further with your own computer in the cloud, Launching and using AWS EC2 instances (A.K.A. Virtual Machines). 
 
 
-**Supporting material:** 
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213small.pdf){:.no-push-state}{:target="_blank"},  
-- Lab: [Hands-on with Gitand GitHub]({{ site.baseurl }}/class-material/github_lab.html){:.no-push-state}{:target="_blank"},  
-- Resource for going further: [Happy Git with R](https://happygitwithr.com/){:.no-push-state}{:target="_blank"},  
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/gMxIBT5jLbjXHQPE2){:.no-push-state}.
+**Goals:**  
+- Understand why we use UNIX for bioinformatics  
+- Use UNIX command-line tools for file system navigation and text file manipulation.  
+- Have a familiarity with 21 key UNIX commands that we will use ~90% of the time.  
+- Be able to connect to remote servers from the command line.  
+- Use existing programs at the UNIX command line to analyze bioinformatics data.  
+- Understand IO Redirection, Streams and pipes.  
+- Understand best practices for organizing computational projects.  
+
+**Videos:**
+- 13.1 - [Essential UNIX for bioinformatics I](http://youtu.be/qsDzjQm_Wp0){:.no-push-state}{:target="_blank"},  
+- 13.2 - [Essential UNIX for bioinformatics II](http://youtu.be/11t1GuZB77M){:.no-push-state}{:target="_blank"},  
+- 13.3 - [Manipulating files on UNIX machines](http://youtu.be/_jVgj6UutwA){:.no-push-state}{:target="_blank"}
+- 13.4 - [UNIX superpowers: using pipes and conecting to remote machines](http://youtu.be/AKLha-_IurU){:.no-push-state}{:target="_blank"}.            
+
+
+**Supporting material:**
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-large-small.pdf){:.no-push-state}{:target="_blank"}.
+- Lab screencast [Launching an AWS EC2 instance](http://youtu.be/5-Nxt85UmoA){:.no-push-state}{:target="_blank"},  
+- Hands-on section worksheet
+  * (Part I) [Starting your own computer in the cloud]({{ site.baseurl }}/class-material/aws_01.html){:.no-push-state}{:target="_blank"},
+  * (Part II) [Accessing and using your AWS instance]({{ site.baseurl }}/class-material/aws_02/){:.no-push-state}{:target="_blank"},  
+- AWS Console URL: [https://awsed.ucsd.edu/](https://awsed.ucsd.edu/){:.no-push-state}{:target="_blank"}.  
+- Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
+- [Muddy point assessment](https://goo.gl/forms/W2G06LVrn2pADB2q1){:.no-push-state}.  
+ 
+
 
 
 **Homework**:   
-- There is no specific homework "Questions" for today's class beyond getting git setup on your computer and getting your class content to date on GitHub. **For bonus points post a link to your GitHub account homepage (i.e. the complete URL) on GradeScope** (Under assignment *07. Class 7 (GitHub Repo)*.  
-- Complete the DataCamp [Intermediate R](https://app.datacamp.com/learn/courses/intermediate-r){:.no-push-state}{:target="_blank"} course.  
-- Please note that your **project: Pt 1. Q1-Q4 is due today\!**
+- [Questions]({{ site.baseurl }}/class-material/HW8_unix_questions.pdf){:.no-push-state}{:target="_blank"} (complete PDF form with your answers, save, and submit to GradeScope),  
+- No lab report due this week,  
+- DataCamp: [Introduction to the Unix shell](https://learn.datacamp.com/courses/introduction-to-shell){:.no-push-state}{:target="_blank"} (~4hrs).   
+ 
+
+
+
+---
+<a name="18"></a>  
+## 18: Cancer genomics
+
+
+**Topics**: Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Large scale cancer sequencing projects; NCI Genomic Data Commons; What has been learned from genome sequencing of cancer? **Immunoinformatics, immunotherapy and cancer**; Using genomics and bioinformatics to harness a patient’s own immune system to fight cancer. Implications for the development of personalized medicine.  
+
+
+**Material**:
+- Lecture Slides: [Pt1 PDF]({{ site.baseurl }}/class-material/Lecture18_BGGN213_W19_Barry-large.pdf){:.no-push-state}, [Pt2 PDF]({{ site.baseurl }}/class-material/Lecture18_BGGN213_W19_Bjoern-large.pdf){:.no-push-state}
+- Lab: [Hands-on Worksheet Part 1.]({{ site.baseurl }}/class-material/lecture18_part1_BGGN213_W19.html){:.no-push-state}  
+- Lab: [Hands-on Worksheet Part 2.]({{ site.baseurl }}/class-material/lecture18_part2_BGGN213_W19/){:.no-push-state}  
+- Data files:  
+  - [lecture18_sequences.fa]({{ site.baseurl }}/class-material/lecture18_sequences.fa){:.no-push-state},  
+- Solutions:  
+  - Example [mutant identification and subsequence extraction with R]({{ site.baseurl }}/class-material/lecture18_part2_example/){:.no-push-state} walk through.    
+  - [subsequences.fa]({{ site.baseurl }}/class-material/subsequences.fa){:.no-push-state},  
+  - [Solutions.pdf]({{ site.baseurl }}/class-material/Solutions.pdf){:.no-push-state}.  
+- IEDB HLA binding prediction website [http://tools.iedb.org/mhci/](http://tools.iedb.org/mhci/){:.no-push-state}.  
+
+- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/jfrqJHVq0SzCF4JC3){:.no-push-state}
+
 
 
 
@@ -604,48 +650,26 @@ A topical mini-project using ggplot and dplyr on with the latest state wide COVI
 
 ---
 <a name="15"></a>
-## 15: Essential UNIX for bioinformatics
+## 15: Hands-on with Git & GitHub 
+Today’s lecture and hands-on sessions introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  
 
-**Topics:** 
-Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects,  Going further with your own computer in the cloud, Launching and using AWS EC2 instances (A.K.A. Virtual Machines). 
-
-
-**Goals:**  
-- Understand why we use UNIX for bioinformatics  
-- Use UNIX command-line tools for file system navigation and text file manipulation.  
-- Have a familiarity with 21 key UNIX commands that we will use ~90% of the time.  
-- Be able to connect to remote servers from the command line.  
-- Use existing programs at the UNIX command line to analyze bioinformatics data.  
-- Understand IO Redirection, Streams and pipes.  
-- Understand best practices for organizing computational projects.  
-
-**Videos:**
-- 15.1 - [Essential UNIX for bioinformatics I](http://youtu.be/qsDzjQm_Wp0){:.no-push-state}{:target="_blank"},  
-- 15.2 - [Essential UNIX for bioinformatics II](http://youtu.be/11t1GuZB77M){:.no-push-state}{:target="_blank"},  
-- 15.3 - [Manipulating files on UNIX machines](http://youtu.be/_jVgj6UutwA){:.no-push-state}{:target="_blank"}
-- 15.4 - [UNIX superpowers: using pipes and conecting to remote machines](http://youtu.be/AKLha-_IurU){:.no-push-state}{:target="_blank"}.            
+**Videos:**  
+- 15.1 - OPTIONAL: [Git for humans](https://youtu.be/eWxxfttcMts){:.no-push-state}{:target="_blank"}, 
+- 15.2 - Introduction to GitHub (in-person class session). 
 
 
-**Supporting material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture17_bggn213-large-small.pdf){:.no-push-state}{:target="_blank"}.
-- Lab screencast [Launching an AWS EC2 instance](http://youtu.be/5-Nxt85UmoA){:.no-push-state}{:target="_blank"},  
-- Hands-on section worksheet
-  * (Part I, **REQUIRED**) [Starting your own computer in the cloud]({{ site.baseurl }}/class-material/aws_01.html){:.no-push-state}{:target="_blank"},
-  * (Part II, **REQUIRED**) [Accessing and using your AWS instance]({{ site.baseurl }}/class-material/aws_02/){:.no-push-state}{:target="_blank"},  
-  * (Part III, Skip) [Using remote UNIX machines III]({{ site.baseurl }}/class-material/16_blast-02/){:.no-push-state},
-  * (Part IV, Skip) [Using remote UNIX machines IV]({{ site.baseurl }}/class-material/16_blast-03/){:.no-push-state}.  
-- AWS Console URL: [https://awsed.ucsd.edu/](https://awsed.ucsd.edu/){:.no-push-state}{:target="_blank"}.  
-- Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
-- [Muddy point assessment](https://goo.gl/forms/W2G06LVrn2pADB2q1){:.no-push-state}.  
- 
-
+**Supporting material:** 
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213small.pdf){:.no-push-state}{:target="_blank"},  
+- Lab: [Hands-on with Gitand GitHub]({{ site.baseurl }}/class-material/github_lab.html){:.no-push-state}{:target="_blank"},  
+- Resource for going further: [Happy Git with R](https://happygitwithr.com/){:.no-push-state}{:target="_blank"},  
+- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/gMxIBT5jLbjXHQPE2){:.no-push-state}.
 
 
 **Homework**:   
-- [Questions]({{ site.baseurl }}/class-material/HW8_unix_questions.pdf){:.no-push-state}{:target="_blank"} (complete PDF form with your answers, save, and submit to GradeScope),  
-- No lab report due this week,  
-- DataCamp: [Introduction to the Unix shell](https://learn.datacamp.com/courses/introduction-to-shell){:.no-push-state}{:target="_blank"} (~4hrs).   
- 
+- There is no specific homework "Questions" for today's class beyond getting git setup on your computer and getting your class content to date on GitHub. **For bonus points post a link to your GitHub account homepage (i.e. the complete URL) on GradeScope** (Under assignment *07. Class 7 (GitHub Repo)*.  
+- Complete the DataCamp [Intermediate R](https://app.datacamp.com/learn/courses/intermediate-r){:.no-push-state}{:target="_blank"} course.  
+- Please note that your **project: Pt 1. Q1-Q4 is due today\!**
+
 
 
 ---
