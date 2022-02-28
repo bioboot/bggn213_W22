@@ -613,7 +613,7 @@ Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX 
 
 ---
 <a name="18"></a>  
-## 18: Cancer genomics
+## 18: Guest lecture: Immunoinformatics, immunotherapy and cancer
 
 
 **Topics**: Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Large scale cancer sequencing projects; NCI Genomic Data Commons; What has been learned from genome sequencing of cancer? **Immunoinformatics, immunotherapy and cancer**; Using genomics and bioinformatics to harness a patient’s own immune system to fight cancer. Implications for the development of personalized medicine.  
@@ -650,7 +650,8 @@ A topical mini-project using ggplot and dplyr on with the latest state wide COVI
 
 ---
 <a name="15"></a>
-## 15: Hands-on with Git & GitHub 
+## 15: Hands-on with Git & GitHub  
+
 Today’s lecture and hands-on sessions introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  
 
 **Videos:**  
@@ -666,9 +667,10 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 
 **Homework**:   
-- There is no specific homework "Questions" for today's class beyond getting git setup on your computer and getting your class content to date on GitHub. **For bonus points post a link to your GitHub account homepage (i.e. the complete URL) on GradeScope** (Under assignment *07. Class 7 (GitHub Repo)*.  
-- Complete the DataCamp [Intermediate R](https://app.datacamp.com/learn/courses/intermediate-r){:.no-push-state}{:target="_blank"} course.  
-- Please note that your **project: Pt 1. Q1-Q4 is due today\!**
+- Post a link to your GitHub account homepage (i.e. the complete repo URL) on GradeScope (Under assignment *15. Class 15 (GitHub Repo)*.  
+- There is no specific homework "Questions" for today's class as I want to you to focus on getting git setup on your computer and getting your class content to date on GitHub (we will need this for the next class).
+- OPTIONAL: DataCamp has a complete [git course](https://app.datacamp.com/learn/courses/introduction-to-git){:.no-push-state}{:target="_blank"} that focuses on command line git use.  
+
 
 
 
