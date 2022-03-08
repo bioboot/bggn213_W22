@@ -31,8 +31,8 @@ Clicking on the topics below will take you to corresponding video lectures, hand
 | 12 | Fri 02/25/22 | [**RNA-Seq mini project**](#12) <br> Differential expression analysis project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.                                                                                                                                                                                                                                                                                  |
 | 13  | Wed 03/02/22 | [**Essential UNIX for bioinformatics**](#13) <br> Bioinformatics on the command line, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Launching and using AWS EC2 instances (A.K.A. Virtual Machines).                                                                                                                                                                                                                                              |
 | 14 | Fri 03/04/22 | [**Vaccination rate mini project**](#14) <br> A topical mini-project using ggplot and dplyr on with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for the exploratory analysis.                                                                                                                                                                                                                                                           |
-| 15 | Wed 03/09/22 | [**Hands-on with Git and GitHub**](#15) <br> Why you should use a version control system, How to perform common operations with the Git. Creating and working with your own GitHub repos and navagating and using those of others. <br> **Project: Pt 1. Q1-Q4 due today\!**                                                                                                                                                                                                                                                         |
-| 16 | Fri 03/11/22 | [**Portfolio building and discussion of bioinformatics in industry**](#16) <br> Making a public facing GitHub pages portfolio of your bioinformatics work; <br> Livestream interview with leading bioinformatics and genomics scientists from industry. <br> **Project: Find a gene assignment due\!**                                                                                                                                                                                                                                      |
+| 15 | Wed 03/09/22 | [**Investigating pertussis resurgence mini project**](#15) <br> A topical mini-project using web-scraping,JSON based APIs and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination.                                                                                                                                                                                                                             |
+| 16 | Fri 03/11/22 | [**Portfolio building and discussion of bioinformatics in industry**](#16) <br> Hands-on with Git and GitHub, Why you should use a version control system, Making a public facing GitHub pages portfolio of your bioinformatics work; <br> Livestream interview with leading bioinformatics and genomics scientists from industry. <br> **Project: Find a gene assignment due\!**                                                                                                                                                                                                                                      |
 
 
 
@@ -650,45 +650,40 @@ A topical mini-project using ggplot and dplyr on with the latest state wide COVI
 
 ---
 <a name="15"></a>
-## 15: Hands-on with Git & GitHub  
+## 15: Mini Project: Investigating Pertussis Resurgence 
 
-Today’s lecture and hands-on sessions introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover the popular social code-hosting platforms GitHub and BitBucket.  
+**Topics:** 
+A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to distinct vaccination strategies.  
 
-**Videos:**  
-- 15.1 - OPTIONAL: [Git for humans](https://youtu.be/eWxxfttcMts){:.no-push-state}{:target="_blank"}, 
-- 15.2 - Introduction to GitHub (in-person class session). 
-
-
-**Supporting material:** 
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213small.pdf){:.no-push-state}{:target="_blank"},  
-- Lab: [Hands-on with Gitand GitHub]({{ site.baseurl }}/class-material/github_lab.html){:.no-push-state}{:target="_blank"},  
-- Resource for going further: [Happy Git with R](https://happygitwithr.com/){:.no-push-state}{:target="_blank"},  
-- Feedback: [Muddy-Point-Assesment](https://goo.gl/forms/gMxIBT5jLbjXHQPE2){:.no-push-state}.
+- Lab: [Investigating pertussis resurgence mini-project]({{ site.baseurl }}/class-material/lab_sheet.html){:.no-push-state}{:target="_blank"} **submit your lab report to gradescope**,  
+- Additional resources: [CDC pertussis tracking data](https://www.cdc.gov/pertussis/surv-reporting/cases-by-year.html){:.no-push-state}{:target="_blank"}, The [CMI-PB resource]( https://www.cmi-pb.org/){:.no-push-state}{:target="_blank"}, 
+- Feedback: [Muddy-Point-Assessment](https://goo.gl/forms/gMxIBT5jLbjXHQPE2){:.no-push-state}.
 
 
 **Homework**:   
-- Post a link to your GitHub account homepage (i.e. the complete repo URL) on GradeScope (Under assignment *15. Class 15 (GitHub Repo)*.  
-- There is no specific homework "Questions" for today's class as I want to you to focus on getting git setup on your computer and getting your class content to date on GitHub (we will need this for the next class).
-- OPTIONAL: DataCamp has a complete [git course](https://app.datacamp.com/learn/courses/introduction-to-git){:.no-push-state}{:target="_blank"} that focuses on command line git use.  
-
-
+-  Generate a complete lab report with all sections and question responses for submission to gradescope.  
+- There are no homework quiz questions this week.
 
 
 ---
 <a name="16"></a>
-## 16: Online portfolio completion and Bioinformatics in industry session
+## 16: Hands-on with Git & online portfolio completion plus bonus Bioinformatics in industry session
 
 **Topics:** 
-Making a public facing GitHub pages portfolio of your bioinformatics work. Project assignment troubleshooting. Discussion of Bioinformatics and genomics career opportunities.     
+Today’s lecture and hands-on sessions introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover making a public facing GitHub pages portfolio of your bioinformatics work. Project assignment troubleshooting. Discussion of Bioinformatics and genomics career opportunities.     
 
 **Videos:**  
-- 16.1 [Introduction to GitHub Pages](https://youtu.be/2MsN8gpT6jY){:.no-push-state}{:target="_blank"} that we will use for building your portfolio website.
-- 16.2 [**Live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr Ali Crawford** (Associate Director, Scientific Research, *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator, *La Jolla Institute*) and **Dr. Ana Grant** (Director of Research Informatics, *Synthetic Genomics Inc.*).
+- 16.1 - OPTIONAL: [Git for humans](https://youtu.be/eWxxfttcMts){:.no-push-state}{:target="_blank"}, 
+- 16.2 [Introduction to GitHub Pages](https://youtu.be/2MsN8gpT6jY){:.no-push-state}{:target="_blank"} that we will use for building your portfolio website.
+- 16.3 [**Live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr Ali Crawford** (Associate Director, Scientific Research, *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator, *La Jolla Institute*) and **Dr. Ana Grant** (Director of Research Informatics, *Synthetic Genomics Inc.*).
 
 
 **Supporting material:**
 
-- Slides: [Large PDF]({{ site.baseurl }}/class-material/class20.pdf){:.no-push-state}{:target="_blank"},  
+- Lecture Slides 1: [Large PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213small.pdf){:.no-push-state}{:target="_blank"},  
+- Slides 2: [Large PDF]({{ site.baseurl }}/class-material/class20.pdf){:.no-push-state}{:target="_blank"},  
+- Lab: [Hands-on with Gitand GitHub]({{ site.baseurl }}/class-material/github_lab.html){:.no-push-state}{:target="_blank"},  
+- Resource for going further: [Happy Git with R](https://happygitwithr.com/){:.no-push-state}{:target="_blank"},  
 - Ether-pad: [**Feedback**](https://board.net/p/bggn213_f21){:.no-push-state}{:target="_blank"} 
 - DataCamp: [Bioinformatics Extension Track](https://bioboot.github.io/bimm143_W20/class-material/datacamp_extras.pdf){:.no-push-state}{:target="_blank"} 
 
