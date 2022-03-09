@@ -653,11 +653,11 @@ A topical mini-project using ggplot and dplyr on with the latest state wide COVI
 ## 15: Mini Project: Investigating Pertussis Resurgence 
 
 **Topics:** 
-A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to distinct vaccination strategies.  
+A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to distinct vaccination strategies. This class will be co-taught with **Dr. Bjoern Peters** from the La Jolla Institute for Immunology.  
 
 - Lab: [Investigating pertussis resurgence mini-project]({{ site.baseurl }}/class-material/lab_sheet.html){:.no-push-state}{:target="_blank"} **submit your lab report to gradescope**,  
 - Additional resources: [CDC pertussis tracking data](https://www.cdc.gov/pertussis/surv-reporting/cases-by-year.html){:.no-push-state}{:target="_blank"}, The [CMI-PB resource]( https://www.cmi-pb.org/){:.no-push-state}{:target="_blank"}, 
-- Feedback: [Muddy-Point-Assessment](https://goo.gl/forms/gMxIBT5jLbjXHQPE2){:.no-push-state}.
+- Feedback: [**Feedback for Bjoern**](https://forms.gle/SAVof9Hev7V6Ym7k7){:.no-push-state}.
 
 
 **Homework**:   
