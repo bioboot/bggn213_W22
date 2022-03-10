@@ -680,11 +680,12 @@ Today’s lecture and hands-on sessions introduce Git, currently the most popula
 
 **Supporting material:**
 
-- Lecture Slides 1: [Large PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-10-bggn213small.pdf){:.no-push-state}{:target="_blank"},  
-- Slides 2: [Large PDF]({{ site.baseurl }}/class-material/class20.pdf){:.no-push-state}{:target="_blank"},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/slide_class16.pdf){:.no-push-state}{:target="_blank"}, 
 - Lab: [Hands-on with Gitand GitHub]({{ site.baseurl }}/class-material/github_lab.html){:.no-push-state}{:target="_blank"},  
+- Ether-pad: [**Feedback**](https://etherpad.wikimedia.org/p/bggn213_W22){:.no-push-state}{:target="_blank"}. 
+  
+
 - Resource for going further: [Happy Git with R](https://happygitwithr.com/){:.no-push-state}{:target="_blank"},  
-- Ether-pad: [**Feedback**](https://board.net/p/bggn213_f21){:.no-push-state}{:target="_blank"} 
 - DataCamp: [Bioinformatics Extension Track](https://bioboot.github.io/bimm143_W20/class-material/datacamp_extras.pdf){:.no-push-state}{:target="_blank"} 
 
 
